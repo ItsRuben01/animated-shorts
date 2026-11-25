@@ -7,6 +7,7 @@ import { EpisodeEN, EpisodeES, ShotStillEN, ShotStillES, totalFrames as ep6Frame
 import { LongEN, LongES, LongShotStillEN, LongShotStillES, longFrames as ep6LongFrames } from "./ep6/Long";
 import { Ep7EN, Ep7ES, Ep7ShotEN, Ep7ShotES, totalFrames as ep7Frames } from "./ep7/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
+import { CastSheet } from "./engine/CastSheet";
 
 export const Root: React.FC = () => (
   <>
@@ -34,6 +35,9 @@ export const Root: React.FC = () => (
     <Composition id="Ep7Short-EN" component={Ep7EN} width={1080} height={1920} fps={30} durationInFrames={ep7Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
     <Composition id="Ep7Shot-ES" component={Ep7ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
     <Composition id="Ep7Shot-EN" component={Ep7ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
+    <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />
 
     {/* Miniaturas y paneles comparativos (10 portadas en shot.png + exportación individual) */}
     <Composition id="ThumbnailSheet" component={ThumbnailSheet} width={5616} height={3948} fps={30} durationInFrames={1} defaultProps={{ hooks: [], cardWidth: 1080, cardHeight: 1920 }} />
