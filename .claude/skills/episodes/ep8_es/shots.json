@@ -1,0 +1,23 @@
+[
+  {"id": 1, "voice": "em_alex", "gap": 0.4, "emotion": "intriguing", "text": "¿Sabías que a la salchicha que te comes la desnudan justo antes de llegar a tu boca?"},
+  {"id": 2, "voice": "em_alex", "gap": 0.14, "emotion": "analytical", "text": "No te preocupes: hoy te enseño por qué."},
+  {"id": 3, "voice": "em_alex", "gap": 0.14, "emotion": "curious", "text": "Hielo picado, una piel que no es carne, un horno a 68 grados… y un cuarto paso secreto.", "say": "Hielo picado, una piel que no es carne, un horno a sesenta y ocho grados… y un cuarto paso secreto."},
+  {"id": 4, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Una salchicha es carne picadísima, larga y tierna, perfecta para el pan."},
+  {"id": 5, "voice": "em_alex", "gap": 0.14, "emotion": "curious", "text": "Pero, ¿qué pasa hasta llegar a tu casa?"},
+  {"id": 6, "voice": "em_alex", "gap": 0.14, "emotion": "serious", "text": "Paso uno: carne triturada con hielo, hasta hacerse pasta."},
+  {"id": 7, "voice": "em_alex", "gap": 0.14, "emotion": "analytical", "text": "La grasa entra la última y bien fría: si se calienta, la salchicha suda grasa."},
+  {"id": 8, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Paso dos: la pasta entra a presión en una funda de celulosa."},
+  {"id": 9, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Y aquí el tamaño sí importa: el grosor lo decide la funda."},
+  {"id": 10, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Una máquina la retuerce, y salen los eslabones."},
+  {"id": 11, "voice": "em_alex", "gap": 0.14, "emotion": "serious", "text": "Paso tres: horno hasta 68 grados por dentro, y ducha fría.", "say": "Paso tres: horno hasta sesenta y ocho grados por dentro, y ducha fría."},
+  {"id": 12, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Mira lo que me escribió alguien:", "comment": {"username": "frank_furt", "avatarStyle": "person", "seed": 4, "question": "¿Y esa piel se come o qué?"}},
+  {"id": 13, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "¿Y esa piel se come o qué?", "comment": {"username": "frank_furt", "avatarStyle": "person", "seed": 4, "question": "¿Y esa piel se come o qué?"}},
+  {"id": 14, "voice": "em_alex", "gap": 0.14, "emotion": "analytical", "text": "Pues no: la celulosa no se digiere. Por eso, el cuarto paso."},
+  {"id": 15, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Vapor, una cuchilla la abre, y un chorro de aire se la arranca."},
+  {"id": 16, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Como quitarle el plástico a un móvil nuevo."},
+  {"id": 17, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Al cocerse, la carne de fuera cuaja y hace su propia piel."},
+  {"id": 18, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Lo descubrió Erwin Freund en los años veinte… por accidente.", "say": "Lo descubrió Ervin Froind en los años veinte… por accidente."},
+  {"id": 19, "voice": "em_alex", "gap": 0.14, "emotion": "enthusiastic", "text": "Antes, pasta con hielo; ahora, una salchicha desnuda con el nombre de tu amigo."},
+  {"id": 20, "voice": "em_alex", "gap": 0.14, "emotion": "enthusiastic", "text": "Etiqueta o pasa este vídeo a tu amigo obsesionado con las salchichas."},
+  {"id": 21, "voice": "em_alex", "gap": 0.14, "emotion": "warm", "text": "¡Hasta luego! Si te ha gustado, dale a me gusta y síguenos."}
+]
