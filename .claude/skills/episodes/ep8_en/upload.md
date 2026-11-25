@@ -11,6 +11,6 @@ Sources: https://patents.google.com/patent/US1631723 · https://patents.google.c
 Tags: #hotdog #howitsmade #factory #engineering #foodscience
 
 Recommended thumbnail: `episodes/ep8_en/out/thumbnail_short_1.png` (1080x1920, "THEY STRIP IT BEFORE YOUR MOUTH"). Alternative: #3 ("THAT SKIN ISN'T MEAT", dark theme, CELLULOSE stamp). All 10: `out/shot_short.png`.
-Video: `episodes/ep8_en/out/episode_8_en.mp4` (9:16, ~66 s, Kokoro voice `am_michael`).
+Video: `episodes/ep8_en/out/episode_8_en.mp4` (9:16, ~74 s, ElevenLabs Brian).
 
 Long video (4X): pending. When it exists, switch shot 21 to the Case A outro.

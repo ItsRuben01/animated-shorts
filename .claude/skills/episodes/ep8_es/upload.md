@@ -11,6 +11,6 @@ Fuentes: https://patents.google.com/patent/US1631723 · https://patents.google.c
 Tags: #salchichas #comosehace #fabrica #ingenieria #curiosidades
 
 Miniatura recomendada: `episodes/ep8_es/out/thumbnail_short_1.png` (1080x1920, «LA DESNUDAN ANTES DE TU BOCA»). Alternativa: la n.º 3 («ESA PIEL NO ES CARNE», tema oscuro con sello CELULOSA). Las 10 opciones: `out/shot_short.png`.
-Vídeo: `episodes/ep8_es/out/episode_8_es.mp4` (9:16, ~65 s, voz Kokoro `em_alex`).
+Vídeo: `episodes/ep8_es/out/episode_8_es.mp4` (9:16, ~75 s, ElevenLabs David Martin).
 
 Vídeo largo (4X): pendiente. Cuando exista, cambiar el plano 21 al Caso A del cierre.
