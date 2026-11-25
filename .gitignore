@@ -1,0 +1,17 @@
+# Dependencias (se reinstalan con npm install)
+node_modules/
+
+# Renders y vídeos pesados (GitHub bloquea archivos > 100 MB)
+*.mp4
+*.mov
+*.mkv
+out/
+episodes/*/out/
+ref/
+
+# Cachés y archivos temporales
+.remotion/
+.DS_Store
+Thumbs.db
+*.log
+.env

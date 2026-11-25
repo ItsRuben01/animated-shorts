@@ -1,0 +1,1772 @@
+{
+ "voice": "em_alex",
+ "speed": 1.06,
+ "total": 101.58,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "em_alex",
+   "start": 0,
+   "end": 4.51,
+   "words": [
+    {
+     "w": "Para",
+     "start": 0,
+     "end": 0.191
+    },
+    {
+     "w": "que",
+     "start": 0.191,
+     "end": 0.251
+    },
+    {
+     "w": "este",
+     "start": 0.251,
+     "end": 0.541
+    },
+    {
+     "w": "rascacielos",
+     "start": 0.541,
+     "end": 1.451
+    },
+    {
+     "w": "no",
+     "start": 1.451,
+     "end": 1.691
+    },
+    {
+     "w": "se",
+     "start": 1.691,
+     "end": 1.871
+    },
+    {
+     "w": "parta",
+     "start": 1.871,
+     "end": 2.061
+    },
+    {
+     "w": "en",
+     "start": 2.061,
+     "end": 2.191
+    },
+    {
+     "w": "un",
+     "start": 2.191,
+     "end": 2.361
+    },
+    {
+     "w": "terremoto",
+     "start": 2.361,
+     "end": 2.981
+    },
+    {
+     "w": "hacen",
+     "start": 2.981,
+     "end": 3.321
+    },
+    {
+     "w": "falta",
+     "start": 3.321,
+     "end": 3.751
+    },
+    {
+     "w": "cuatro",
+     "start": 3.751,
+     "end": 4.081
+    },
+    {
+     "w": "cosas:",
+     "start": 4.081,
+     "end": 4.51
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "em_alex",
+   "start": 4.65,
+   "end": 6.91,
+   "words": [
+    {
+     "w": "seiscientas",
+     "start": 4.65,
+     "end": 5.281
+    },
+    {
+     "w": "sesenta",
+     "start": 5.281,
+     "end": 5.851
+    },
+    {
+     "w": "toneladas",
+     "start": 5.851,
+     "end": 6.381
+    },
+    {
+     "w": "de",
+     "start": 6.381,
+     "end": 6.511
+    },
+    {
+     "w": "acero,",
+     "start": 6.511,
+     "end": 6.91
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "em_alex",
+   "start": 7.05,
+   "end": 9.09,
+   "words": [
+    {
+     "w": "cables",
+     "start": 7.05,
+     "end": 7.431
+    },
+    {
+     "w": "de",
+     "start": 7.431,
+     "end": 7.551
+    },
+    {
+     "w": "nueve",
+     "start": 7.551,
+     "end": 7.941
+    },
+    {
+     "w": "centímetros",
+     "start": 7.941,
+     "end": 8.581
+    },
+    {
+     "w": "de",
+     "start": 8.581,
+     "end": 8.671
+    },
+    {
+     "w": "grosor,",
+     "start": 8.671,
+     "end": 9.09
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "em_alex",
+   "start": 9.23,
+   "end": 12.66,
+   "words": [
+    {
+     "w": "y",
+     "start": 9.23,
+     "end": 9.431
+    },
+    {
+     "w": "ocho",
+     "start": 9.431,
+     "end": 9.721
+    },
+    {
+     "w": "pistones",
+     "start": 9.721,
+     "end": 10.251
+    },
+    {
+     "w": "hidráulicos...",
+     "start": 10.251,
+     "end": 11.081
+    },
+    {
+     "w": "pero",
+     "start": 11.081,
+     "end": 11.371
+    },
+    {
+     "w": "falta",
+     "start": 11.371,
+     "end": 11.601
+    },
+    {
+     "w": "el",
+     "start": 11.601,
+     "end": 11.821
+    },
+    {
+     "w": "cuarto",
+     "start": 11.821,
+     "end": 12.181
+    },
+    {
+     "w": "elemento,",
+     "start": 12.181,
+     "end": 12.66
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "em_alex",
+   "start": 12.8,
+   "end": 15,
+   "words": [
+    {
+     "w": "y",
+     "start": 12.8,
+     "end": 12.861
+    },
+    {
+     "w": "sin",
+     "start": 12.861,
+     "end": 13.081
+    },
+    {
+     "w": "él,",
+     "start": 13.081,
+     "end": 13.381
+    },
+    {
+     "w": "todo",
+     "start": 13.381,
+     "end": 13.691
+    },
+    {
+     "w": "el",
+     "start": 13.691,
+     "end": 13.811
+    },
+    {
+     "w": "edificio",
+     "start": 13.811,
+     "end": 14.291
+    },
+    {
+     "w": "colapsaría.",
+     "start": 14.291,
+     "end": 15
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "em_alex",
+   "start": 15.14,
+   "end": 17.85,
+   "words": [
+    {
+     "w": "¿Pero",
+     "start": 15.14,
+     "end": 15.371
+    },
+    {
+     "w": "por",
+     "start": 15.371,
+     "end": 15.561
+    },
+    {
+     "w": "qué",
+     "start": 15.561,
+     "end": 15.771
+    },
+    {
+     "w": "pasa",
+     "start": 15.771,
+     "end": 15.991
+    },
+    {
+     "w": "esto",
+     "start": 15.991,
+     "end": 16.351
+    },
+    {
+     "w": "en",
+     "start": 16.351,
+     "end": 16.491
+    },
+    {
+     "w": "los",
+     "start": 16.491,
+     "end": 16.631
+    },
+    {
+     "w": "edificios",
+     "start": 16.631,
+     "end": 17.201
+    },
+    {
+     "w": "tan",
+     "start": 17.201,
+     "end": 17.411
+    },
+    {
+     "w": "altos?",
+     "start": 17.411,
+     "end": 17.85
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "em_alex",
+   "start": 17.99,
+   "end": 20.91,
+   "words": [
+    {
+     "w": "El",
+     "start": 17.99,
+     "end": 18.101
+    },
+    {
+     "w": "problema",
+     "start": 18.101,
+     "end": 18.611
+    },
+    {
+     "w": "es",
+     "start": 18.611,
+     "end": 18.791
+    },
+    {
+     "w": "que,",
+     "start": 18.791,
+     "end": 19.041
+    },
+    {
+     "w": "a",
+     "start": 19.041,
+     "end": 19.161
+    },
+    {
+     "w": "más",
+     "start": 19.161,
+     "end": 19.391
+    },
+    {
+     "w": "de",
+     "start": 19.391,
+     "end": 19.491
+    },
+    {
+     "w": "quinientos",
+     "start": 19.491,
+     "end": 19.991
+    },
+    {
+     "w": "metros",
+     "start": 19.991,
+     "end": 20.371
+    },
+    {
+     "w": "de",
+     "start": 20.371,
+     "end": 20.471
+    },
+    {
+     "w": "altura,",
+     "start": 20.471,
+     "end": 20.91
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "em_alex",
+   "start": 21.05,
+   "end": 23.71,
+   "words": [
+    {
+     "w": "el",
+     "start": 21.05,
+     "end": 21.161
+    },
+    {
+     "w": "viento",
+     "start": 21.161,
+     "end": 21.431
+    },
+    {
+     "w": "y",
+     "start": 21.431,
+     "end": 21.581
+    },
+    {
+     "w": "los",
+     "start": 21.581,
+     "end": 21.781
+    },
+    {
+     "w": "terremotos",
+     "start": 21.781,
+     "end": 22.441
+    },
+    {
+     "w": "empujan",
+     "start": 22.441,
+     "end": 22.991
+    },
+    {
+     "w": "la",
+     "start": 22.991,
+     "end": 23.081
+    },
+    {
+     "w": "estructura",
+     "start": 23.081,
+     "end": 23.71
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "em_alex",
+   "start": 23.85,
+   "end": 27.81,
+   "words": [
+    {
+     "w": "como",
+     "start": 23.85,
+     "end": 24.021
+    },
+    {
+     "w": "si",
+     "start": 24.021,
+     "end": 24.231
+    },
+    {
+     "w": "fuera",
+     "start": 24.231,
+     "end": 24.511
+    },
+    {
+     "w": "una",
+     "start": 24.511,
+     "end": 24.661
+    },
+    {
+     "w": "caña",
+     "start": 24.661,
+     "end": 25.041
+    },
+    {
+     "w": "de",
+     "start": 25.041,
+     "end": 25.101
+    },
+    {
+     "w": "pescar,",
+     "start": 25.101,
+     "end": 25.541
+    },
+    {
+     "w": "doblándola",
+     "start": 25.541,
+     "end": 26.381
+    },
+    {
+     "w": "varios",
+     "start": 26.381,
+     "end": 26.751
+    },
+    {
+     "w": "metros",
+     "start": 26.751,
+     "end": 27.121
+    },
+    {
+     "w": "de",
+     "start": 27.121,
+     "end": 27.211
+    },
+    {
+     "w": "lado",
+     "start": 27.211,
+     "end": 27.371
+    },
+    {
+     "w": "a",
+     "start": 27.371,
+     "end": 27.541
+    },
+    {
+     "w": "lado.",
+     "start": 27.541,
+     "end": 27.81
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "em_alex",
+   "start": 27.95,
+   "end": 29.82,
+   "words": [
+    {
+     "w": "Ahora,",
+     "start": 27.95,
+     "end": 28.341
+    },
+    {
+     "w": "aquí",
+     "start": 28.341,
+     "end": 28.651
+    },
+    {
+     "w": "viene",
+     "start": 28.651,
+     "end": 28.971
+    },
+    {
+     "w": "lo",
+     "start": 28.971,
+     "end": 29.061
+    },
+    {
+     "w": "interesante:",
+     "start": 29.061,
+     "end": 29.82
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "em_alex",
+   "start": 29.96,
+   "end": 34.09,
+   "words": [
+    {
+     "w": "la",
+     "start": 29.96,
+     "end": 30.081
+    },
+    {
+     "w": "solución",
+     "start": 30.081,
+     "end": 30.641
+    },
+    {
+     "w": "no",
+     "start": 30.641,
+     "end": 30.781
+    },
+    {
+     "w": "fue",
+     "start": 30.781,
+     "end": 31.001
+    },
+    {
+     "w": "hacer",
+     "start": 31.001,
+     "end": 31.291
+    },
+    {
+     "w": "las",
+     "start": 31.291,
+     "end": 31.551
+    },
+    {
+     "w": "paredes",
+     "start": 31.551,
+     "end": 31.931
+    },
+    {
+     "w": "más",
+     "start": 31.931,
+     "end": 32.181
+    },
+    {
+     "w": "gruesas",
+     "start": 32.181,
+     "end": 32.871
+    },
+    {
+     "w": "ni",
+     "start": 32.871,
+     "end": 33.031
+    },
+    {
+     "w": "meter",
+     "start": 33.031,
+     "end": 33.361
+    },
+    {
+     "w": "más",
+     "start": 33.361,
+     "end": 33.611
+    },
+    {
+     "w": "hormigón,",
+     "start": 33.611,
+     "end": 34.09
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "em_alex",
+   "start": 34.23,
+   "end": 36.5,
+   "words": [
+    {
+     "w": "sino",
+     "start": 34.23,
+     "end": 34.511
+    },
+    {
+     "w": "colgar",
+     "start": 34.511,
+     "end": 34.971
+    },
+    {
+     "w": "una",
+     "start": 34.971,
+     "end": 35.221
+    },
+    {
+     "w": "bola",
+     "start": 35.221,
+     "end": 35.511
+    },
+    {
+     "w": "gigante",
+     "start": 35.511,
+     "end": 36.031
+    },
+    {
+     "w": "en",
+     "start": 36.031,
+     "end": 36.151
+    },
+    {
+     "w": "el",
+     "start": 36.151,
+     "end": 36.221
+    },
+    {
+     "w": "aire.",
+     "start": 36.221,
+     "end": 36.5
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "em_alex",
+   "start": 36.64,
+   "end": 38.87,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 36.64,
+     "end": 36.881
+    },
+    {
+     "w": "lo",
+     "start": 36.881,
+     "end": 37.001
+    },
+    {
+     "w": "que",
+     "start": 37.001,
+     "end": 37.221
+    },
+    {
+     "w": "pasa",
+     "start": 37.221,
+     "end": 37.661
+    },
+    {
+     "w": "cuando",
+     "start": 37.661,
+     "end": 37.961
+    },
+    {
+     "w": "llega",
+     "start": 37.961,
+     "end": 38.151
+    },
+    {
+     "w": "el",
+     "start": 38.151,
+     "end": 38.391
+    },
+    {
+     "w": "temblor:",
+     "start": 38.391,
+     "end": 38.87
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "em_alex",
+   "start": 39.01,
+   "end": 41.13,
+   "words": [
+    {
+     "w": "el",
+     "start": 39.01,
+     "end": 39.071
+    },
+    {
+     "w": "edificio",
+     "start": 39.071,
+     "end": 39.631
+    },
+    {
+     "w": "se",
+     "start": 39.631,
+     "end": 39.811
+    },
+    {
+     "w": "inclina",
+     "start": 39.811,
+     "end": 40.371
+    },
+    {
+     "w": "hacia",
+     "start": 40.371,
+     "end": 40.761
+    },
+    {
+     "w": "un",
+     "start": 40.761,
+     "end": 40.841
+    },
+    {
+     "w": "lado",
+     "start": 40.841,
+     "end": 41.13
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "em_alex",
+   "start": 41.27,
+   "end": 45.54,
+   "words": [
+    {
+     "w": "y",
+     "start": 41.27,
+     "end": 41.33
+    },
+    {
+     "w": "la",
+     "start": 41.33,
+     "end": 41.441
+    },
+    {
+     "w": "esfera",
+     "start": 41.441,
+     "end": 41.801
+    },
+    {
+     "w": "se",
+     "start": 41.801,
+     "end": 41.951
+    },
+    {
+     "w": "balancea",
+     "start": 41.951,
+     "end": 42.571
+    },
+    {
+     "w": "justo",
+     "start": 42.571,
+     "end": 42.941
+    },
+    {
+     "w": "al",
+     "start": 42.941,
+     "end": 43.001
+    },
+    {
+     "w": "revés,",
+     "start": 43.001,
+     "end": 43.561
+    },
+    {
+     "w": "frenando",
+     "start": 43.561,
+     "end": 44.031
+    },
+    {
+     "w": "la",
+     "start": 44.031,
+     "end": 44.161
+    },
+    {
+     "w": "sacudida",
+     "start": 44.161,
+     "end": 44.701
+    },
+    {
+     "w": "casi",
+     "start": 44.701,
+     "end": 45.011
+    },
+    {
+     "w": "a",
+     "start": 45.011,
+     "end": 45.111
+    },
+    {
+     "w": "la",
+     "start": 45.111,
+     "end": 45.191
+    },
+    {
+     "w": "mitad.",
+     "start": 45.191,
+     "end": 45.54
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "voice": "em_alex",
+   "start": 45.68,
+   "end": 47.94,
+   "words": [
+    {
+     "w": "Pero",
+     "start": 45.68,
+     "end": 45.881
+    },
+    {
+     "w": "aquí",
+     "start": 45.881,
+     "end": 46.111
+    },
+    {
+     "w": "viene",
+     "start": 46.111,
+     "end": 46.321
+    },
+    {
+     "w": "un",
+     "start": 46.321,
+     "end": 46.531
+    },
+    {
+     "w": "giro",
+     "start": 46.531,
+     "end": 46.931
+    },
+    {
+     "w": "que",
+     "start": 46.931,
+     "end": 47.071
+    },
+    {
+     "w": "nadie",
+     "start": 47.071,
+     "end": 47.381
+    },
+    {
+     "w": "esperaba:",
+     "start": 47.381,
+     "end": 47.94
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "voice": "em_alex",
+   "start": 48.08,
+   "end": 50.31,
+   "words": [
+    {
+     "w": "si",
+     "start": 48.08,
+     "end": 48.14
+    },
+    {
+     "w": "esa",
+     "start": 48.14,
+     "end": 48.421
+    },
+    {
+     "w": "masa",
+     "start": 48.421,
+     "end": 48.791
+    },
+    {
+     "w": "sigue",
+     "start": 48.791,
+     "end": 49.151
+    },
+    {
+     "w": "oscilando",
+     "start": 49.151,
+     "end": 49.681
+    },
+    {
+     "w": "sin",
+     "start": 49.681,
+     "end": 49.911
+    },
+    {
+     "w": "freno,",
+     "start": 49.911,
+     "end": 50.31
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "voice": "em_alex",
+   "start": 50.45,
+   "end": 54.14,
+   "words": [
+    {
+     "w": "acabaría",
+     "start": 50.45,
+     "end": 50.961
+    },
+    {
+     "w": "golpeando",
+     "start": 50.961,
+     "end": 51.821
+    },
+    {
+     "w": "y",
+     "start": 51.821,
+     "end": 51.931
+    },
+    {
+     "w": "destruyendo",
+     "start": 51.931,
+     "end": 52.471
+    },
+    {
+     "w": "el",
+     "start": 52.471,
+     "end": 52.661
+    },
+    {
+     "w": "propio",
+     "start": 52.661,
+     "end": 53.011
+    },
+    {
+     "w": "edificio",
+     "start": 53.011,
+     "end": 53.501
+    },
+    {
+     "w": "desde",
+     "start": 53.501,
+     "end": 53.781
+    },
+    {
+     "w": "dentro.",
+     "start": 53.781,
+     "end": 54.14
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "voice": "em_alex",
+   "start": 54.28,
+   "end": 56.65,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 54.28,
+     "end": 54.571
+    },
+    {
+     "w": "lo",
+     "start": 54.571,
+     "end": 54.681
+    },
+    {
+     "w": "que",
+     "start": 54.681,
+     "end": 54.801
+    },
+    {
+     "w": "me",
+     "start": 54.801,
+     "end": 54.941
+    },
+    {
+     "w": "escribió",
+     "start": 54.941,
+     "end": 55.541
+    },
+    {
+     "w": "alguien",
+     "start": 55.541,
+     "end": 55.881
+    },
+    {
+     "w": "el",
+     "start": 55.881,
+     "end": 56.011
+    },
+    {
+     "w": "otro",
+     "start": 56.011,
+     "end": 56.321
+    },
+    {
+     "w": "día:",
+     "start": 56.321,
+     "end": 56.65
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "voice": "em_alex",
+   "start": 56.79,
+   "end": 60.64,
+   "words": [
+    {
+     "w": "¿Pero",
+     "start": 56.79,
+     "end": 56.991
+    },
+    {
+     "w": "qué",
+     "start": 56.991,
+     "end": 57.201
+    },
+    {
+     "w": "tiene",
+     "start": 57.201,
+     "end": 57.531
+    },
+    {
+     "w": "que",
+     "start": 57.531,
+     "end": 57.691
+    },
+    {
+     "w": "ver",
+     "start": 57.691,
+     "end": 57.821
+    },
+    {
+     "w": "una",
+     "start": 57.821,
+     "end": 58.071
+    },
+    {
+     "w": "bola",
+     "start": 58.071,
+     "end": 58.351
+    },
+    {
+     "w": "colgando",
+     "start": 58.351,
+     "end": 58.961
+    },
+    {
+     "w": "con",
+     "start": 58.961,
+     "end": 59.171
+    },
+    {
+     "w": "que",
+     "start": 59.171,
+     "end": 59.301
+    },
+    {
+     "w": "no",
+     "start": 59.301,
+     "end": 59.451
+    },
+    {
+     "w": "se",
+     "start": 59.451,
+     "end": 59.671
+    },
+    {
+     "w": "caiga",
+     "start": 59.671,
+     "end": 60.061
+    },
+    {
+     "w": "un",
+     "start": 60.061,
+     "end": 60.171
+    },
+    {
+     "w": "edificio?",
+     "start": 60.171,
+     "end": 60.64
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "voice": "em_alex",
+   "start": 60.78,
+   "end": 64.46,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 60.78,
+     "end": 60.911
+    },
+    {
+     "w": "la",
+     "start": 60.911,
+     "end": 61.141
+    },
+    {
+     "w": "diferencia",
+     "start": 61.141,
+     "end": 61.801
+    },
+    {
+     "w": "entre",
+     "start": 61.801,
+     "end": 62.051
+    },
+    {
+     "w": "quedarte",
+     "start": 62.051,
+     "end": 62.511
+    },
+    {
+     "w": "rígido",
+     "start": 62.511,
+     "end": 63.121
+    },
+    {
+     "w": "o",
+     "start": 63.121,
+     "end": 63.381
+    },
+    {
+     "w": "moverte",
+     "start": 63.381,
+     "end": 63.771
+    },
+    {
+     "w": "con",
+     "start": 63.771,
+     "end": 64.021
+    },
+    {
+     "w": "inercia:",
+     "start": 64.021,
+     "end": 64.46
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "voice": "em_alex",
+   "start": 64.6,
+   "end": 68.6,
+   "words": [
+    {
+     "w": "es",
+     "start": 64.6,
+     "end": 64.781
+    },
+    {
+     "w": "exactamente",
+     "start": 64.781,
+     "end": 65.481
+    },
+    {
+     "w": "igual",
+     "start": 65.481,
+     "end": 65.981
+    },
+    {
+     "w": "que",
+     "start": 65.981,
+     "end": 66.131
+    },
+    {
+     "w": "cuando",
+     "start": 66.131,
+     "end": 66.411
+    },
+    {
+     "w": "vas",
+     "start": 66.411,
+     "end": 66.631
+    },
+    {
+     "w": "de",
+     "start": 66.631,
+     "end": 66.791
+    },
+    {
+     "w": "pie",
+     "start": 66.791,
+     "end": 67.021
+    },
+    {
+     "w": "en",
+     "start": 67.021,
+     "end": 67.081
+    },
+    {
+     "w": "el",
+     "start": 67.081,
+     "end": 67.151
+    },
+    {
+     "w": "autobús",
+     "start": 67.151,
+     "end": 67.791
+    },
+    {
+     "w": "y",
+     "start": 67.791,
+     "end": 67.901
+    },
+    {
+     "w": "frena",
+     "start": 67.901,
+     "end": 68.151
+    },
+    {
+     "w": "de",
+     "start": 68.151,
+     "end": 68.231
+    },
+    {
+     "w": "golpe;",
+     "start": 68.231,
+     "end": 68.6
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "voice": "em_alex",
+   "start": 68.74,
+   "end": 72.68,
+   "words": [
+    {
+     "w": "si",
+     "start": 68.74,
+     "end": 68.891
+    },
+    {
+     "w": "inclinas",
+     "start": 68.891,
+     "end": 69.321
+    },
+    {
+     "w": "tu",
+     "start": 69.321,
+     "end": 69.461
+    },
+    {
+     "w": "cuerpo",
+     "start": 69.461,
+     "end": 69.861
+    },
+    {
+     "w": "justo",
+     "start": 69.861,
+     "end": 70.301
+    },
+    {
+     "w": "al",
+     "start": 70.301,
+     "end": 70.361
+    },
+    {
+     "w": "revés",
+     "start": 70.361,
+     "end": 70.641
+    },
+    {
+     "w": "del",
+     "start": 70.641,
+     "end": 70.821
+    },
+    {
+     "w": "tirón,",
+     "start": 70.821,
+     "end": 71.371
+    },
+    {
+     "w": "mantienes",
+     "start": 71.371,
+     "end": 72.001
+    },
+    {
+     "w": "el",
+     "start": 72.001,
+     "end": 72.101
+    },
+    {
+     "w": "equilibrio.",
+     "start": 72.101,
+     "end": 72.68
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "voice": "em_alex",
+   "start": 72.82,
+   "end": 77.31,
+   "words": [
+    {
+     "w": "Y",
+     "start": 72.82,
+     "end": 72.961
+    },
+    {
+     "w": "aquí",
+     "start": 72.961,
+     "end": 73.131
+    },
+    {
+     "w": "está",
+     "start": 73.131,
+     "end": 73.491
+    },
+    {
+     "w": "el",
+     "start": 73.491,
+     "end": 73.561
+    },
+    {
+     "w": "cuarto",
+     "start": 73.561,
+     "end": 73.941
+    },
+    {
+     "w": "dato",
+     "start": 73.941,
+     "end": 74.231
+    },
+    {
+     "w": "que",
+     "start": 74.231,
+     "end": 74.361
+    },
+    {
+     "w": "faltaba",
+     "start": 74.361,
+     "end": 74.681
+    },
+    {
+     "w": "al",
+     "start": 74.681,
+     "end": 74.911
+    },
+    {
+     "w": "principio:",
+     "start": 74.911,
+     "end": 75.781
+    },
+    {
+     "w": "la",
+     "start": 75.781,
+     "end": 75.961
+    },
+    {
+     "w": "sincronización",
+     "start": 75.961,
+     "end": 76.861
+    },
+    {
+     "w": "exacta.",
+     "start": 76.861,
+     "end": 77.31
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "voice": "em_alex",
+   "start": 77.45,
+   "end": 79,
+   "words": [
+    {
+     "w": "No",
+     "start": 77.45,
+     "end": 77.691
+    },
+    {
+     "w": "sirve",
+     "start": 77.691,
+     "end": 78.081
+    },
+    {
+     "w": "cualquier",
+     "start": 78.081,
+     "end": 78.561
+    },
+    {
+     "w": "peso;",
+     "start": 78.561,
+     "end": 79
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "voice": "em_alex",
+   "start": 79.14,
+   "end": 85.85,
+   "words": [
+    {
+     "w": "la",
+     "start": 79.14,
+     "end": 79.231
+    },
+    {
+     "w": "bola",
+     "start": 79.231,
+     "end": 79.461
+    },
+    {
+     "w": "está",
+     "start": 79.461,
+     "end": 79.721
+    },
+    {
+     "w": "calibrada",
+     "start": 79.721,
+     "end": 80.111
+    },
+    {
+     "w": "al",
+     "start": 80.111,
+     "end": 80.341
+    },
+    {
+     "w": "milímetro",
+     "start": 80.341,
+     "end": 80.921
+    },
+    {
+     "w": "para",
+     "start": 80.921,
+     "end": 81.111
+    },
+    {
+     "w": "oscilar",
+     "start": 81.111,
+     "end": 81.461
+    },
+    {
+     "w": "exactamente",
+     "start": 81.461,
+     "end": 82.331
+    },
+    {
+     "w": "al",
+     "start": 82.331,
+     "end": 82.471
+    },
+    {
+     "w": "mismo",
+     "start": 82.471,
+     "end": 82.811
+    },
+    {
+     "w": "ritmo",
+     "start": 82.811,
+     "end": 83.171
+    },
+    {
+     "w": "natural",
+     "start": 83.171,
+     "end": 83.591
+    },
+    {
+     "w": "del",
+     "start": 83.591,
+     "end": 83.741
+    },
+    {
+     "w": "rascacielos,",
+     "start": 83.741,
+     "end": 84.741
+    },
+    {
+     "w": "pero",
+     "start": 84.741,
+     "end": 84.881
+    },
+    {
+     "w": "en",
+     "start": 84.881,
+     "end": 85.011
+    },
+    {
+     "w": "sentido",
+     "start": 85.011,
+     "end": 85.491
+    },
+    {
+     "w": "opuesto.",
+     "start": 85.491,
+     "end": 85.85
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "voice": "em_alex",
+   "start": 85.99,
+   "end": 89.19,
+   "words": [
+    {
+     "w": "Antes",
+     "start": 85.99,
+     "end": 86.381
+    },
+    {
+     "w": "era",
+     "start": 86.381,
+     "end": 86.571
+    },
+    {
+     "w": "una",
+     "start": 86.571,
+     "end": 86.771
+    },
+    {
+     "w": "torre",
+     "start": 86.771,
+     "end": 87.061
+    },
+    {
+     "w": "peligrosa",
+     "start": 87.061,
+     "end": 87.501
+    },
+    {
+     "w": "al",
+     "start": 87.501,
+     "end": 87.671
+    },
+    {
+     "w": "viento;",
+     "start": 87.671,
+     "end": 88.201
+    },
+    {
+     "w": "ahora",
+     "start": 88.201,
+     "end": 88.601
+    },
+    {
+     "w": "mira",
+     "start": 88.601,
+     "end": 88.901
+    },
+    {
+     "w": "esto:",
+     "start": 88.901,
+     "end": 89.19
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "voice": "em_alex",
+   "start": 89.33,
+   "end": 92.57,
+   "words": [
+    {
+     "w": "el",
+     "start": 89.33,
+     "end": 89.401
+    },
+    {
+     "w": "movimiento",
+     "start": 89.401,
+     "end": 90.041
+    },
+    {
+     "w": "se",
+     "start": 90.041,
+     "end": 90.231
+    },
+    {
+     "w": "reduce",
+     "start": 90.231,
+     "end": 90.681
+    },
+    {
+     "w": "un",
+     "start": 90.681,
+     "end": 90.841
+    },
+    {
+     "w": "cuarenta",
+     "start": 90.841,
+     "end": 91.361
+    },
+    {
+     "w": "por",
+     "start": 91.361,
+     "end": 91.531
+    },
+    {
+     "w": "ciento",
+     "start": 91.531,
+     "end": 91.861
+    },
+    {
+     "w": "al",
+     "start": 91.861,
+     "end": 92.091
+    },
+    {
+     "w": "instante.",
+     "start": 92.091,
+     "end": 92.57
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "voice": "em_alex",
+   "start": 92.71,
+   "end": 97.48,
+   "words": [
+    {
+     "w": "Porque",
+     "start": 92.71,
+     "end": 93.001
+    },
+    {
+     "w": "en",
+     "start": 93.001,
+     "end": 93.121
+    },
+    {
+     "w": "ingeniería,",
+     "start": 93.121,
+     "end": 93.951
+    },
+    {
+     "w": "a",
+     "start": 93.951,
+     "end": 94.091
+    },
+    {
+     "w": "veces",
+     "start": 94.091,
+     "end": 94.471
+    },
+    {
+     "w": "para",
+     "start": 94.471,
+     "end": 94.631
+    },
+    {
+     "w": "mantener",
+     "start": 94.631,
+     "end": 95.151
+    },
+    {
+     "w": "algo",
+     "start": 95.151,
+     "end": 95.471
+    },
+    {
+     "w": "quieto",
+     "start": 95.471,
+     "end": 95.741
+    },
+    {
+     "w": "necesitas",
+     "start": 95.741,
+     "end": 96.431
+    },
+    {
+     "w": "ponerlo",
+     "start": 96.431,
+     "end": 96.761
+    },
+    {
+     "w": "en",
+     "start": 96.761,
+     "end": 96.951
+    },
+    {
+     "w": "movimiento.",
+     "start": 96.951,
+     "end": 97.48
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "voice": "em_alex",
+   "start": 97.62,
+   "end": 101.44,
+   "words": [
+    {
+     "w": "Síguenos",
+     "start": 97.62,
+     "end": 98.021
+    },
+    {
+     "w": "si",
+     "start": 98.021,
+     "end": 98.201
+    },
+    {
+     "w": "quieres",
+     "start": 98.201,
+     "end": 98.491
+    },
+    {
+     "w": "seguir",
+     "start": 98.491,
+     "end": 98.961
+    },
+    {
+     "w": "descubriendo",
+     "start": 98.961,
+     "end": 99.621
+    },
+    {
+     "w": "cómo",
+     "start": 99.621,
+     "end": 99.881
+    },
+    {
+     "w": "funciona",
+     "start": 99.881,
+     "end": 100.301
+    },
+    {
+     "w": "el",
+     "start": 100.301,
+     "end": 100.541
+    },
+    {
+     "w": "mundo",
+     "start": 100.541,
+     "end": 100.921
+    },
+    {
+     "w": "por",
+     "start": 100.921,
+     "end": 101.071
+    },
+    {
+     "w": "dentro.",
+     "start": 101.071,
+     "end": 101.44
+    }
+   ]
+  }
+ ]
+}

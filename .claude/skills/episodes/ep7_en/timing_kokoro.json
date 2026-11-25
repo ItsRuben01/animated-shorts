@@ -1,0 +1,1262 @@
+{
+ "voice": "am_michael",
+ "speed": 1.31,
+ "total": 61.99,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "am_michael",
+   "start": 0,
+   "end": 2.18,
+   "words": [
+    {
+     "w": "Do",
+     "start": 0,
+     "end": 0.141
+    },
+    {
+     "w": "you",
+     "start": 0.141,
+     "end": 0.201
+    },
+    {
+     "w": "love",
+     "start": 0.201,
+     "end": 0.461
+    },
+    {
+     "w": "putting",
+     "start": 0.461,
+     "end": 0.771
+    },
+    {
+     "w": "strangers'",
+     "start": 0.771,
+     "end": 1.341
+    },
+    {
+     "w": "cucumbers",
+     "start": 1.341,
+     "end": 1.821
+    },
+    {
+     "w": "in",
+     "start": 1.821,
+     "end": 1.881
+    },
+    {
+     "w": "your",
+     "start": 1.881,
+     "end": 1.981
+    },
+    {
+     "w": "mouth?",
+     "start": 1.981,
+     "end": 2.18
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "am_michael",
+   "start": 2.58,
+   "end": 5.74,
+   "words": [
+    {
+     "w": "Don't",
+     "start": 2.58,
+     "end": 2.721
+    },
+    {
+     "w": "worry:",
+     "start": 2.721,
+     "end": 3.281
+    },
+    {
+     "w": "today",
+     "start": 3.281,
+     "end": 3.711
+    },
+    {
+     "w": "I've",
+     "start": 3.711,
+     "end": 3.841
+    },
+    {
+     "w": "got",
+     "start": 3.841,
+     "end": 3.951
+    },
+    {
+     "w": "the",
+     "start": 3.951,
+     "end": 4.011
+    },
+    {
+     "w": "solution",
+     "start": 4.011,
+     "end": 4.541
+    },
+    {
+     "w": "to",
+     "start": 4.541,
+     "end": 4.721
+    },
+    {
+     "w": "enjoy",
+     "start": 4.721,
+     "end": 5.051
+    },
+    {
+     "w": "them",
+     "start": 5.051,
+     "end": 5.231
+    },
+    {
+     "w": "even",
+     "start": 5.231,
+     "end": 5.491
+    },
+    {
+     "w": "more.",
+     "start": 5.491,
+     "end": 5.74
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "am_michael",
+   "start": 5.88,
+   "end": 11.37,
+   "words": [
+    {
+     "w": "High-pressure",
+     "start": 5.88,
+     "end": 6.361
+    },
+    {
+     "w": "water,",
+     "start": 6.361,
+     "end": 6.871
+    },
+    {
+     "w": "6",
+     "start": 6.871,
+     "end": 7.181
+    },
+    {
+     "w": "%",
+     "start": 7.181,
+     "end": 7.491
+    },
+    {
+     "w": "salt,",
+     "start": 7.491,
+     "end": 7.961
+    },
+    {
+     "w": "weeks",
+     "start": 7.961,
+     "end": 8.261
+    },
+    {
+     "w": "in",
+     "start": 8.261,
+     "end": 8.321
+    },
+    {
+     "w": "a",
+     "start": 8.321,
+     "end": 8.411
+    },
+    {
+     "w": "tank…",
+     "start": 8.411,
+     "end": 9.071
+    },
+    {
+     "w": "and",
+     "start": 9.071,
+     "end": 9.161
+    },
+    {
+     "w": "a",
+     "start": 9.161,
+     "end": 9.291
+    },
+    {
+     "w": "fourth",
+     "start": 9.291,
+     "end": 9.521
+    },
+    {
+     "w": "step",
+     "start": 9.521,
+     "end": 9.821
+    },
+    {
+     "w": "that",
+     "start": 9.821,
+     "end": 9.971
+    },
+    {
+     "w": "keeps",
+     "start": 9.971,
+     "end": 10.271
+    },
+    {
+     "w": "it",
+     "start": 10.271,
+     "end": 10.331
+    },
+    {
+     "w": "from",
+     "start": 10.331,
+     "end": 10.481
+    },
+    {
+     "w": "being",
+     "start": 10.481,
+     "end": 10.731
+    },
+    {
+     "w": "dangerous.",
+     "start": 10.731,
+     "end": 11.37
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "am_michael",
+   "start": 11.51,
+   "end": 16.05,
+   "words": [
+    {
+     "w": "A",
+     "start": 11.51,
+     "end": 11.601
+    },
+    {
+     "w": "cucumber",
+     "start": 11.601,
+     "end": 12.101
+    },
+    {
+     "w": "is",
+     "start": 12.101,
+     "end": 12.241
+    },
+    {
+     "w": "a",
+     "start": 12.241,
+     "end": 12.351
+    },
+    {
+     "w": "veeery",
+     "start": 12.351,
+     "end": 12.821
+    },
+    {
+     "w": "long,",
+     "start": 12.821,
+     "end": 13.211
+    },
+    {
+     "w": "green",
+     "start": 13.211,
+     "end": 13.511
+    },
+    {
+     "w": "vegetable",
+     "start": 13.511,
+     "end": 14.351
+    },
+    {
+     "w": "that",
+     "start": 14.351,
+     "end": 14.521
+    },
+    {
+     "w": "people",
+     "start": 14.521,
+     "end": 14.871
+    },
+    {
+     "w": "love",
+     "start": 14.871,
+     "end": 15.121
+    },
+    {
+     "w": "putting",
+     "start": 15.121,
+     "end": 15.381
+    },
+    {
+     "w": "whole",
+     "start": 15.381,
+     "end": 15.621
+    },
+    {
+     "w": "in",
+     "start": 15.621,
+     "end": 15.721
+    },
+    {
+     "w": "their",
+     "start": 15.721,
+     "end": 15.821
+    },
+    {
+     "w": "mouth.",
+     "start": 15.821,
+     "end": 16.05
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "am_michael",
+   "start": 16.19,
+   "end": 18.19,
+   "words": [
+    {
+     "w": "But",
+     "start": 16.19,
+     "end": 16.281
+    },
+    {
+     "w": "what",
+     "start": 16.281,
+     "end": 16.491
+    },
+    {
+     "w": "really",
+     "start": 16.491,
+     "end": 16.811
+    },
+    {
+     "w": "happens",
+     "start": 16.811,
+     "end": 17.201
+    },
+    {
+     "w": "before",
+     "start": 17.201,
+     "end": 17.451
+    },
+    {
+     "w": "it",
+     "start": 17.451,
+     "end": 17.531
+    },
+    {
+     "w": "reaches",
+     "start": 17.531,
+     "end": 17.871
+    },
+    {
+     "w": "your",
+     "start": 17.871,
+     "end": 17.941
+    },
+    {
+     "w": "home?",
+     "start": 17.941,
+     "end": 18.19
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "am_michael",
+   "start": 18.33,
+   "end": 20.61,
+   "words": [
+    {
+     "w": "Step",
+     "start": 18.33,
+     "end": 18.571
+    },
+    {
+     "w": "one:",
+     "start": 18.571,
+     "end": 18.991
+    },
+    {
+     "w": "high-pressure",
+     "start": 18.991,
+     "end": 19.501
+    },
+    {
+     "w": "water",
+     "start": 19.501,
+     "end": 19.771
+    },
+    {
+     "w": "jets",
+     "start": 19.771,
+     "end": 20.061
+    },
+    {
+     "w": "and",
+     "start": 20.061,
+     "end": 20.191
+    },
+    {
+     "w": "brushes.",
+     "start": 20.191,
+     "end": 20.61
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "am_michael",
+   "start": 20.75,
+   "end": 25.86,
+   "words": [
+    {
+     "w": "Then",
+     "start": 20.75,
+     "end": 20.841
+    },
+    {
+     "w": "they're",
+     "start": 20.841,
+     "end": 21.041
+    },
+    {
+     "w": "sorted",
+     "start": 21.041,
+     "end": 21.431
+    },
+    {
+     "w": "by",
+     "start": 21.431,
+     "end": 21.651
+    },
+    {
+     "w": "thickness.",
+     "start": 21.651,
+     "end": 22.091
+    },
+    {
+     "w": "They",
+     "start": 22.091,
+     "end": 22.521
+    },
+    {
+     "w": "say",
+     "start": 22.521,
+     "end": 22.771
+    },
+    {
+     "w": "size",
+     "start": 22.771,
+     "end": 23.171
+    },
+    {
+     "w": "doesn't",
+     "start": 23.171,
+     "end": 23.441
+    },
+    {
+     "w": "matter…",
+     "start": 23.441,
+     "end": 23.771
+    },
+    {
+     "w": "here",
+     "start": 23.771,
+     "end": 24.021
+    },
+    {
+     "w": "it",
+     "start": 24.021,
+     "end": 24.551
+    },
+    {
+     "w": "does:",
+     "start": 24.551,
+     "end": 24.751
+    },
+    {
+     "w": "the",
+     "start": 24.751,
+     "end": 24.811
+    },
+    {
+     "w": "small",
+     "start": 24.811,
+     "end": 25.061
+    },
+    {
+     "w": "ones",
+     "start": 25.061,
+     "end": 25.261
+    },
+    {
+     "w": "are",
+     "start": 25.261,
+     "end": 25.411
+    },
+    {
+     "w": "worth",
+     "start": 25.411,
+     "end": 25.661
+    },
+    {
+     "w": "more.",
+     "start": 25.661,
+     "end": 25.86
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "am_michael",
+   "start": 26,
+   "end": 28.78,
+   "words": [
+    {
+     "w": "Step",
+     "start": 26,
+     "end": 26.201
+    },
+    {
+     "w": "two:",
+     "start": 26.201,
+     "end": 26.711
+    },
+    {
+     "w": "brine",
+     "start": 26.711,
+     "end": 26.951
+    },
+    {
+     "w": "with",
+     "start": 26.951,
+     "end": 27.031
+    },
+    {
+     "w": "6",
+     "start": 27.031,
+     "end": 27.301
+    },
+    {
+     "w": "%",
+     "start": 27.301,
+     "end": 27.591
+    },
+    {
+     "w": "salt,",
+     "start": 27.591,
+     "end": 27.891
+    },
+    {
+     "w": "in",
+     "start": 27.891,
+     "end": 28.031
+    },
+    {
+     "w": "giant",
+     "start": 28.031,
+     "end": 28.391
+    },
+    {
+     "w": "tanks.",
+     "start": 28.391,
+     "end": 28.78
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "am_michael",
+   "start": 28.92,
+   "end": 32.47,
+   "words": [
+    {
+     "w": "For",
+     "start": 28.92,
+     "end": 29.021
+    },
+    {
+     "w": "weeks,",
+     "start": 29.021,
+     "end": 29.381
+    },
+    {
+     "w": "bacteria",
+     "start": 29.381,
+     "end": 29.911
+    },
+    {
+     "w": "turn",
+     "start": 29.911,
+     "end": 30.111
+    },
+    {
+     "w": "their",
+     "start": 30.111,
+     "end": 30.221
+    },
+    {
+     "w": "sugar",
+     "start": 30.221,
+     "end": 30.661
+    },
+    {
+     "w": "into",
+     "start": 30.661,
+     "end": 30.761
+    },
+    {
+     "w": "acid,",
+     "start": 30.761,
+     "end": 31.161
+    },
+    {
+     "w": "all",
+     "start": 31.161,
+     "end": 31.431
+    },
+    {
+     "w": "the",
+     "start": 31.431,
+     "end": 31.761
+    },
+    {
+     "w": "way",
+     "start": 31.761,
+     "end": 31.961
+    },
+    {
+     "w": "to",
+     "start": 31.961,
+     "end": 32.051
+    },
+    {
+     "w": "the",
+     "start": 32.051,
+     "end": 32.121
+    },
+    {
+     "w": "center.",
+     "start": 32.121,
+     "end": 32.47
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "am_michael",
+   "start": 32.61,
+   "end": 35.69,
+   "words": [
+    {
+     "w": "But",
+     "start": 32.61,
+     "end": 32.701
+    },
+    {
+     "w": "they",
+     "start": 32.701,
+     "end": 32.851
+    },
+    {
+     "w": "also",
+     "start": 32.851,
+     "end": 33.191
+    },
+    {
+     "w": "release",
+     "start": 33.191,
+     "end": 33.511
+    },
+    {
+     "w": "gas,",
+     "start": 33.511,
+     "end": 33.971
+    },
+    {
+     "w": "and",
+     "start": 33.971,
+     "end": 34.271
+    },
+    {
+     "w": "the",
+     "start": 34.271,
+     "end": 34.381
+    },
+    {
+     "w": "pickle",
+     "start": 34.381,
+     "end": 34.671
+    },
+    {
+     "w": "can",
+     "start": 34.671,
+     "end": 34.811
+    },
+    {
+     "w": "go",
+     "start": 34.811,
+     "end": 34.951
+    },
+    {
+     "w": "hollow",
+     "start": 34.951,
+     "end": 35.281
+    },
+    {
+     "w": "inside.",
+     "start": 35.281,
+     "end": 35.69
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "am_michael",
+   "start": 35.83,
+   "end": 38.08,
+   "words": [
+    {
+     "w": "So",
+     "start": 35.83,
+     "end": 35.901
+    },
+    {
+     "w": "they",
+     "start": 35.901,
+     "end": 36.041
+    },
+    {
+     "w": "bubble",
+     "start": 36.041,
+     "end": 36.331
+    },
+    {
+     "w": "nitrogen",
+     "start": 36.331,
+     "end": 36.951
+    },
+    {
+     "w": "through",
+     "start": 36.951,
+     "end": 37.181
+    },
+    {
+     "w": "to",
+     "start": 37.181,
+     "end": 37.251
+    },
+    {
+     "w": "sweep",
+     "start": 37.251,
+     "end": 37.521
+    },
+    {
+     "w": "the",
+     "start": 37.521,
+     "end": 37.631
+    },
+    {
+     "w": "gas",
+     "start": 37.631,
+     "end": 37.921
+    },
+    {
+     "w": "out.",
+     "start": 37.921,
+     "end": 38.08
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "am_michael",
+   "start": 38.22,
+   "end": 39.48,
+   "words": [
+    {
+     "w": "Look",
+     "start": 38.22,
+     "end": 38.371
+    },
+    {
+     "w": "at",
+     "start": 38.371,
+     "end": 38.471
+    },
+    {
+     "w": "what",
+     "start": 38.471,
+     "end": 38.621
+    },
+    {
+     "w": "someone",
+     "start": 38.621,
+     "end": 38.991
+    },
+    {
+     "w": "commented:",
+     "start": 38.991,
+     "end": 39.48
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "am_michael",
+   "start": 39.62,
+   "end": 40.7,
+   "words": [
+    {
+     "w": "So",
+     "start": 39.62,
+     "end": 39.751
+    },
+    {
+     "w": "the",
+     "start": 39.751,
+     "end": 39.831
+    },
+    {
+     "w": "small",
+     "start": 39.831,
+     "end": 40.171
+    },
+    {
+     "w": "ones",
+     "start": 40.171,
+     "end": 40.441
+    },
+    {
+     "w": "win?",
+     "start": 40.441,
+     "end": 40.7
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "am_michael",
+   "start": 40.84,
+   "end": 43.36,
+   "words": [
+    {
+     "w": "Yep:",
+     "start": 40.84,
+     "end": 41.061
+    },
+    {
+     "w": "the",
+     "start": 41.061,
+     "end": 41.171
+    },
+    {
+     "w": "big",
+     "start": 41.171,
+     "end": 41.301
+    },
+    {
+     "w": "ones",
+     "start": 41.301,
+     "end": 41.541
+    },
+    {
+     "w": "bloat",
+     "start": 41.541,
+     "end": 41.841
+    },
+    {
+     "w": "more.",
+     "start": 41.841,
+     "end": 42.361
+    },
+    {
+     "w": "Like",
+     "start": 42.361,
+     "end": 42.521
+    },
+    {
+     "w": "a",
+     "start": 42.521,
+     "end": 42.591
+    },
+    {
+     "w": "shaken",
+     "start": 42.591,
+     "end": 42.971
+    },
+    {
+     "w": "soda.",
+     "start": 42.971,
+     "end": 43.36
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "am_michael",
+   "start": 43.5,
+   "end": 45.48,
+   "words": [
+    {
+     "w": "Step",
+     "start": 43.5,
+     "end": 43.711
+    },
+    {
+     "w": "three:",
+     "start": 43.711,
+     "end": 44.031
+    },
+    {
+     "w": "slices,",
+     "start": 44.031,
+     "end": 44.581
+    },
+    {
+     "w": "a",
+     "start": 44.581,
+     "end": 44.721
+    },
+    {
+     "w": "jar",
+     "start": 44.721,
+     "end": 45.041
+    },
+    {
+     "w": "and",
+     "start": 45.041,
+     "end": 45.161
+    },
+    {
+     "w": "vinegar.",
+     "start": 45.161,
+     "end": 45.48
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "voice": "am_michael",
+   "start": 45.62,
+   "end": 49.2,
+   "words": [
+    {
+     "w": "And",
+     "start": 45.62,
+     "end": 45.711
+    },
+    {
+     "w": "the",
+     "start": 45.711,
+     "end": 45.831
+    },
+    {
+     "w": "fourth:",
+     "start": 45.831,
+     "end": 46.161
+    },
+    {
+     "w": "the",
+     "start": 46.161,
+     "end": 46.501
+    },
+    {
+     "w": "sealed",
+     "start": 46.501,
+     "end": 46.861
+    },
+    {
+     "w": "jar,",
+     "start": 46.861,
+     "end": 47.311
+    },
+    {
+     "w": "at",
+     "start": 47.311,
+     "end": 47.421
+    },
+    {
+     "w": "74",
+     "start": 47.421,
+     "end": 48.001
+    },
+    {
+     "w": "°C",
+     "start": 48.001,
+     "end": 48.431
+    },
+    {
+     "w": "for",
+     "start": 48.431,
+     "end": 48.551
+    },
+    {
+     "w": "15",
+     "start": 48.551,
+     "end": 48.841
+    },
+    {
+     "w": "minutes.",
+     "start": 48.841,
+     "end": 49.2
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "voice": "am_michael",
+   "start": 49.34,
+   "end": 52.31,
+   "words": [
+    {
+     "w": "Below",
+     "start": 49.34,
+     "end": 49.631
+    },
+    {
+     "w": "pH",
+     "start": 49.631,
+     "end": 50.001
+    },
+    {
+     "w": "4.6,",
+     "start": 50.001,
+     "end": 50.571
+    },
+    {
+     "w": "botulism",
+     "start": 50.571,
+     "end": 51.191
+    },
+    {
+     "w": "can't",
+     "start": 51.191,
+     "end": 51.821
+    },
+    {
+     "w": "grow.",
+     "start": 51.821,
+     "end": 52.31
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "voice": "am_michael",
+   "start": 52.45,
+   "end": 56.71,
+   "words": [
+    {
+     "w": "Before,",
+     "start": 52.45,
+     "end": 52.831
+    },
+    {
+     "w": "a",
+     "start": 52.831,
+     "end": 52.901
+    },
+    {
+     "w": "cucumber",
+     "start": 52.901,
+     "end": 53.351
+    },
+    {
+     "w": "from",
+     "start": 53.351,
+     "end": 53.501
+    },
+    {
+     "w": "the",
+     "start": 53.501,
+     "end": 53.591
+    },
+    {
+     "w": "field;",
+     "start": 53.591,
+     "end": 54.281
+    },
+    {
+     "w": "now,",
+     "start": 54.281,
+     "end": 54.891
+    },
+    {
+     "w": "a",
+     "start": 54.891,
+     "end": 55.001
+    },
+    {
+     "w": "sealed",
+     "start": 55.001,
+     "end": 55.361
+    },
+    {
+     "w": "jar",
+     "start": 55.361,
+     "end": 55.691
+    },
+    {
+     "w": "with",
+     "start": 55.691,
+     "end": 55.771
+    },
+    {
+     "w": "your",
+     "start": 55.771,
+     "end": 55.931
+    },
+    {
+     "w": "friend's",
+     "start": 55.931,
+     "end": 56.211
+    },
+    {
+     "w": "name",
+     "start": 56.211,
+     "end": 56.441
+    },
+    {
+     "w": "on",
+     "start": 56.441,
+     "end": 56.631
+    },
+    {
+     "w": "it.",
+     "start": 56.631,
+     "end": 56.71
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "voice": "am_michael",
+   "start": 56.85,
+   "end": 59.43,
+   "words": [
+    {
+     "w": "Tag",
+     "start": 56.85,
+     "end": 57.101
+    },
+    {
+     "w": "or",
+     "start": 57.101,
+     "end": 57.251
+    },
+    {
+     "w": "send",
+     "start": 57.251,
+     "end": 57.481
+    },
+    {
+     "w": "this",
+     "start": 57.481,
+     "end": 57.631
+    },
+    {
+     "w": "to",
+     "start": 57.631,
+     "end": 57.701
+    },
+    {
+     "w": "your",
+     "start": 57.701,
+     "end": 57.841
+    },
+    {
+     "w": "friend",
+     "start": 57.841,
+     "end": 58.251
+    },
+    {
+     "w": "who's",
+     "start": 58.251,
+     "end": 58.631
+    },
+    {
+     "w": "obsessed",
+     "start": 58.631,
+     "end": 58.981
+    },
+    {
+     "w": "with",
+     "start": 58.981,
+     "end": 59.121
+    },
+    {
+     "w": "pickles.",
+     "start": 59.121,
+     "end": 59.43
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "voice": "am_michael",
+   "start": 59.57,
+   "end": 61.85,
+   "words": [
+    {
+     "w": "See",
+     "start": 59.57,
+     "end": 59.721
+    },
+    {
+     "w": "you",
+     "start": 59.721,
+     "end": 59.831
+    },
+    {
+     "w": "next",
+     "start": 59.831,
+     "end": 60.061
+    },
+    {
+     "w": "time!",
+     "start": 60.061,
+     "end": 60.321
+    },
+    {
+     "w": "Hit",
+     "start": 60.321,
+     "end": 60.651
+    },
+    {
+     "w": "like",
+     "start": 60.651,
+     "end": 60.981
+    },
+    {
+     "w": "and",
+     "start": 60.981,
+     "end": 61.131
+    },
+    {
+     "w": "follow",
+     "start": 61.131,
+     "end": 61.431
+    },
+    {
+     "w": "for",
+     "start": 61.431,
+     "end": 61.581
+    },
+    {
+     "w": "more.",
+     "start": 61.581,
+     "end": 61.85
+    }
+   ]
+  }
+ ]
+}

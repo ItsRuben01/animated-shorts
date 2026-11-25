@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "voice": "em_alex",
+    "speed": 1,
+    "text": "¡Mamá, mira! ¿Cómo hace esta cinta del MercaChonda"
+  },
+  {
+    "id": 2,
+    "voice": "em_alex",
+    "speed": 1,
+    "text": "para moverse sola"
+  },
+  {
+    "id": 24,
+    "voice": "em_alex",
+    "speed": 1,
+    "text": "y saber justo dónde tiene que frenar?"
+  },
+  {
+    "id": 3,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Qué buena pregunta, cariño. Aquí dentro trabajan tres inventos en equipo."
+  },
+  {
+    "id": 4,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Primero está la cinta, que es como una alfombra sin fin que gira sobre unos rodillos."
+  },
+  {
+    "id": 5,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Debajo se esconde un motor eléctrico que la empuja."
+  },
+  {
+    "id": 6,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Y justo al final hay un pequeño sensor con una luz invisible."
+  },
+  {
+    "id": 7,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Mientras el sensor no ve nada delante, le dice al motor que siga girando."
+  },
+  {
+    "id": 8,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Pero en cuanto colocas un producto y corta esa luz invisible…"
+  },
+  {
+    "id": 9,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "¡clic!"
+  },
+  {
+    "id": 10,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "El sensor manda parar la cinta al instante"
+  },
+  {
+    "id": 11,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "para que no se caiga nada al suelo."
+  },
+  {
+    "id": 12,
+    "voice": "em_alex",
+    "speed": 1,
+    "text": "¡Guau! ¿Y de dónde saca fuerza el motor para mover tanto peso?"
+  },
+  {
+    "id": 13,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "El motor toma la electricidad del enchufe"
+  },
+  {
+    "id": 14,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "y la transforma en energía mecánica, es decir, en movimiento."
+  },
+  {
+    "id": 15,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Es la misma idea que usábamos antiguamente con las grandes ruedas en los ríos:"
+  },
+  {
+    "id": 16,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "la fuerza del agua hacía girar la rueda"
+  },
+  {
+    "id": 17,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "para mover piedras pesadísimas"
+  },
+  {
+    "id": 18,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "y moler aceitunas o granos de trigo."
+  },
+  {
+    "id": 19,
+    "voice": "em_alex",
+    "speed": 1,
+    "text": "¡La ingeniería está en todas partes!"
+  },
+  {
+    "id": 20,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Así es."
+  },
+  {
+    "id": 21,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "Si tú también quieres descubrir"
+  },
+  {
+    "id": 22,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "cómo funcionan las cosas de tu día a día,"
+  },
+  {
+    "id": 23,
+    "voice": "ef_dora",
+    "speed": 1,
+    "text": "síguenos y aprenderás muchísimas cosas nuevas con nosotros. ¡Nos vemos en el próximo vídeo!"
+  }
+]

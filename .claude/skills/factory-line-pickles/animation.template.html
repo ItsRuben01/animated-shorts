@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Factory Line · Pepinillos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { color-scheme: dark; --bg:#0d0f13; --panel:#171a20; --line:#2d323c; --ink:#f4f1e9; --muted:#a9afbc; --amber:#ffb637; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; min-height:100%; background:var(--bg); color:var(--ink); font-family:"Inter",system-ui,sans-serif; }
+  body { display:flex; align-items:center; justify-content:center; padding:24px; }
+  .wrap { width:min(100%,1920px); }
+  .frame { position:relative; width:100%; aspect-ratio:16/9; background:#000; border:1px solid var(--line); border-radius:14px; overflow:hidden; box-shadow:0 24px 80px rgba(0,0,0,.55); }
+  canvas { display:block; width:100%; height:100%; }
+  .controls { display:flex; align-items:center; gap:12px; margin-top:12px; padding:12px 14px; background:var(--panel); border:1px solid var(--line); border-radius:12px; }
+  button { appearance:none; border:1px solid var(--line); border-radius:9px; background:#242933; color:var(--ink); font:600 14px "Inter",sans-serif; padding:8px 14px; cursor:pointer; min-width:74px; }
+  button:hover { border-color:#596172; background:#2c323e; }
+  button:focus-visible,input:focus-visible { outline:2px solid var(--amber); outline-offset:2px; }
+  input[type=range] { flex:1; accent-color:var(--amber); cursor:pointer; }
+  .time { font:600 14px/1 "Inter",sans-serif; font-variant-numeric:tabular-nums; color:var(--muted); min-width:108px; text-align:right; }
+  .status { margin-top:8px; color:var(--muted); font-size:12px; min-height:18px; }
+  .status.error { color:#ff8f8f; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="frame"><canvas id="stage" width="1920" height="1080"></canvas></div>
+  <div class="controls">
+    <button id="play" type="button">Play</button>
+    <button id="sound" type="button">Sound: on</button>
+    <button id="loop" type="button">Loop: on</button>
+    <input id="scrub" type="range" min="0" max="11" step="0.001" value="0" aria-label="Tiempo">
+    <span class="time" id="time">0.00 / 11.00</span>
+  </div>
+  <div class="status" id="status">Preparando escena…</div>
+</div>
+
+<script id="stage-kit" type="text/plain">
+<!--STAGE_KIT-->
+</script>
+<script id="sound-kit" type="text/plain">
+<!--SOUND_KIT-->
+</script>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js"}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+window.THREE = THREE;
+window.eval(document.getElementById('stage-kit').textContent);
+window.eval(document.getElementById('sound-kit').textContent);
+const { K, registerStyle, SOUND } = window;
+const statusEl = document.getElementById('status');
+
+const DUR = 11;
+const SP = 4.6, STATION_X = [0, SP, 2*SP, 3*SP], OUT_X = 3*SP + 3.9, START_X = -2.5;
+const BEATS = [
+  { n:1, a:0.0, b:2.2, still:1.52,
+    text:'LAVADO  ·  «Agua a presión: el pepino sale limpio.»',
+    change:'La cinta indexa la bandeja hasta la primera cabecera; el pepino entero gira bajo los chorros y las motas de tierra caen. Lámpara ámbar → verde.',
+    camera:'Dolly junto a la línea, mirando abajo ~35°, desde justo detrás de la bandeja.',
+    sounds:'Cinta: roller + tock de parada; agua: hiss filtrado; verde: ding agudo.' },
+  { n:2, a:2.2, b:4.6, still:3.42,
+    text:'SALMUERA  ·  «Sal y vinagre: el pepino cambia a pepinillo.»',
+    change:'Misma bandeja, ahora bajo el tanque; el pepino baja, suben burbujas y su verde pasa a oliva. Lámpara verde.',
+    camera:'El dolly avanza con la bandeja y se coloca un poco por delante; el tanque queda abierto a la cámara.',
+    sounds:'Splash de entrada, burbujeo suave, tock de parada y ding más alto.' },
+  { n:3, a:4.6, b:7.0, still:5.62,
+    text:'CORTE  ·  «Un disco giratorio lo convierte en rodajas.»',
+    change:'El disco naranja baja y gira; el pepino se sustituye por siete rodajas separadas que quedan alineadas.',
+    camera:'Dolly paralelo, levemente más alto; encuadre cerrado sobre el disco y la tabla de corte.',
+    sounds:'Motor de sierra, pop seco por rodaja, tock y ding.' },
+  { n:4, a:7.0, b:9.4, still:8.42,
+    text:'ENVASE  ·  «Rodajas y salmuera entran al frasco; la tapa se sella.»',
+    change:'Aparece el frasco de vidrio sobre la bandeja; las rodajas caen dentro, sube el nivel de salmuera y la tapa prensa hasta cerrar.',
+    camera:'El dolly acompaña sin perder el frasco; ángulo algo más bajo para ver el interior del vidrio.',
+    sounds:'Clink de vidrio, chorro líquido, press de la tapa, ding de cierre.' },
+  { n:5, a:9.4, b:11.0, still:10.52,
+    text:'PEPINILLOS  ·  «Listo para etiquetar y distribuir.»',
+    change:'La bandeja llega a la mesa final; la mesa se inclina y presenta el frasco terminado. La cámara se detiene y mantiene el resultado.',
+    camera:'Dolly baja delante del frasco, mirando casi de frente; el último segundo queda quieto.',
+    sounds:'Servo de la mesa, thud de asiento y success final.' },
+];
+
+const T = {
+  wash:  { arrive:1.05, spray:[1.24,1.78], green:1.86 },
+  brine: { arrive:2.95, dip:[3.10,3.62], green:3.76 },
+  cut:   { arrive:4.95, cut:[5.24,5.82], green:5.94 },
+  fill:  { arrive:7.35, feed:[7.62,8.74], seal:8.66, green:8.88 },
+  done:  { arrive:9.88, tilt:[9.82,10.42] },
+};
+const GREENS = [T.wash.green, T.brine.green, T.cut.green, T.fill.green, T.done.tilt[1] - 0.04];
+const RIDE = K.track([
+  [-1,START_X],[0.30,START_X],[T.wash.arrive,STATION_X[0]],[1.86,STATION_X[0]],
+  [T.brine.arrive,STATION_X[1]],[3.78,STATION_X[1]],
+  [T.cut.arrive,STATION_X[2]],[5.90,STATION_X[2]],
+  [T.fill.arrive,STATION_X[3]],[8.94,STATION_X[3]],
+  [T.done.arrive,OUT_X],[DUR,OUT_X],
+]);
+const dollyX = (t) => { let s=0,w=0; for(let j=-9;j<=9;j++){ const g=Math.exp(-j*j/18); s+=g*RIDE(t+j*0.05); w+=g; } return s/w; };
+
+const BELT_Y=0.9, BELT_HALF=1.25, TRAY=[2.0,0.12,2.3];
+const ITEM_Y = BELT_Y + TRAY[1];
+const HEAD_W=2.7, HEAD_Y0=2.5, HEAD_H=0.85, HEAD_FRONT=1.0, TOWER_H=3.75, TOWER_FRONT=-1.6;
+const GREEN_C = new THREE.Color('#4fa43a'), OLIVE_C = new THREE.Color('#6e7b32');
+
+registerStyle({
+  id:'factory-line-pepinillos',
+  name:'Factory Line · pepinillos',
+  family:'Machines that explain',
+  duration:DUR,
+  fonts:['700 200px "Fredoka"','800 84px "Inter"'],
+  render:{ samples:16, shutter:0.5, tone:'neutral', exposure:1.0, bloom:0.34, bloomThreshold:1.15, vignette:0.30, grain:0.012, fov:30, background:'#d9d1c4' },
+  beats:BEATS,
+  build(S) {
+    const { THREE, K, scene, camera } = S;
+    const envTex = K.env(S, { top:'#e6e0d5', horizon:'#b9b1a4', bottom:'#5f5a52', intensity:0.38, panels:[
+      { pos:[-9,12,11], size:[16,9], color:'#fff3e0', power:5 },
+      { pos:[14,7,-6], size:[10,6], color:'#dce8ff', power:2.5 },
+      { pos:[2,14,2], size:[10,4], color:'#ffffff', power:3 },
+      { pos:[0,2.5,16], size:[26,5], color:'#fff6ea', power:1.6 },
+    ]});
+    const key = K.sun(S, { color:'#ffeed6', power:3.6, size:9.5, soft:0.8 });
+    const sky = K.skyLight(S, { color:'#dfe8ff', power:0.65, size:9.5 });
+
+    const paint = (color,o={}) => new THREE.MeshPhysicalMaterial(Object.assign({ color, roughness:0.4, clearcoat:0.6, clearcoatRoughness:0.25 },o));
+    const cobalt=paint('#1a45d2'), orange=paint('#ff641a'), cream=paint('#f1eada'), graphite=paint('#2c3038',{roughness:0.6,clearcoat:0.15});
+    const steel=new THREE.MeshStandardMaterial({color:'#c4c8cf',metalness:1,roughness:0.3,envMap:envTex,envMapIntensity:1.25});
+    const rubber=new THREE.MeshStandardMaterial({color:'#1e2024',roughness:0.88});
+    const dark=new THREE.MeshStandardMaterial({color:'#0d0e10',roughness:0.9});
+    const glass=new THREE.MeshPhysicalMaterial({color:'#dbe9ee',transparent:true,opacity:0.42,roughness:0.09,metalness:0,clearcoat:1,side:THREE.DoubleSide,depthWrite:false});
+    const brineMat=new THREE.MeshPhysicalMaterial({color:'#9fc98f',transparent:true,opacity:0.62,roughness:0.18,depthWrite:false});
+    const waterMat=new THREE.MeshPhysicalMaterial({color:'#c9ecff',transparent:true,opacity:0.78,roughness:0.12,clearcoat:1,depthWrite:false});
+    const pickleMat=paint('#4fa43a',{roughness:0.48,clearcoat:0.35});
+    const cutMat=paint('#658137',{roughness:0.48,clearcoat:0.3});
+
+    const add=(parent,geo,mat,x=0,y=0,z=0)=>{ const m=new THREE.Mesh(geo,mat); m.position.set(x,y,z); m.castShadow=true; m.receiveShadow=true; parent.add(m); return m; };
+    const rod=(parent,r,len,mat,x,y,z,axis='y')=>{ const g=new THREE.CylinderGeometry(r,r,len,32); if(axis==='z')g.rotateX(Math.PI/2); if(axis==='x')g.rotateZ(Math.PI/2); return add(parent,g,mat,x,y,z); };
+    const boltGeo=new THREE.CylinderGeometry(0.045,0.045,0.03,6);
+    const bolt=(parent,x,y,z,front)=>{ const m=add(parent,boltGeo,steel,x,y,z); if(front)m.rotation.x=Math.PI/2; return m; };
+    const lampMat=()=>new THREE.MeshStandardMaterial({color:'#7a4d14',emissive:'#ffffff',emissiveIntensity:0,roughness:0.3});
+    const AMBER=new THREE.Color('#ff9a1a'), GREENC=new THREE.Color('#25f070'), tmpCol=new THREE.Color();
+    const setLamp=(mat,t,work0,green)=>{
+      if(t>=green){ mat.emissive.copy(GREENC); mat.emissiveIntensity=2.4+4*Math.exp(-(t-green)*6); }
+      else if(t>=work0){ mat.emissive.copy(AMBER); mat.emissiveIntensity=1.2+1.8*(0.5+0.5*Math.sin((t-work0)*34)); }
+      else { mat.emissive.copy(AMBER); mat.emissiveIntensity=0.05; }
+    };
+
+    const mottle=K.canvasTex(512,512,(ctx,w,h)=>{ const n=K.noise(5), img=ctx.createImageData(w,h);
+      for(let y=0;y<h;y++)for(let x=0;x<w;x++){ const a=x/w*6.283,b=y/h*6.283,v=240+9*n.fbm(Math.cos(a)*1.4,Math.sin(a)*1.4+Math.cos(b)*1.4,Math.sin(b)*1.4,4)+4*K.hash(x,y),i=(y*w+x)*4; img.data[i]=v;img.data[i+1]=v;img.data[i+2]=v;img.data[i+3]=255; }
+      ctx.putImageData(img,0,0); },{repeat:[14,5]});
+    const roomMat=new THREE.MeshStandardMaterial({color:'#dcd4c7',roughness:0.8,map:mottle,vertexColors:true});
+    const WALL_Z=-5.2,COVE=1.6, room=new THREE.Shape();
+    room.moveTo(14,0); room.lineTo(WALL_Z+COVE,0); room.absarc(WALL_Z+COVE,COVE,COVE,-Math.PI/2,-Math.PI,true); room.lineTo(WALL_Z,14);
+    const roomGeo=new THREE.BufferGeometry(), rp=room.getPoints(24), pos=[],uv=[],col=[],idx=[]; let len=0;
+    rp.forEach((q,i)=>{ if(i)len+=q.distanceTo(rp[i-1]); pos.push(-50,q.y,q.x,70,q.y,q.x); uv.push(0,len/28,1,len/28);
+      const shade=K.lerp(1,0.5,K.smooth(-1.5,WALL_Z-4,q.x-q.y)); col.push(shade,shade,shade,shade,shade,shade);
+      if(i)idx.push(i*2-2,i*2-1,i*2,i*2-1,i*2+1,i*2); });
+    roomGeo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3)); roomGeo.setAttribute('uv',new THREE.Float32BufferAttribute(uv,2)); roomGeo.setAttribute('color',new THREE.Float32BufferAttribute(col,3)); roomGeo.setIndex(idx); roomGeo.computeVertexNormals();
+    add(scene,roomGeo,roomMat).castShadow=false;
+    const FX0=-14,FX1=30,FP=80;
+    const line=add(scene,new THREE.PlaneGeometry(FX1-FX0,0.12),new THREE.MeshStandardMaterial({transparent:true,roughness:0.7,map:K.canvasTex((FX1-FX0)*FP,16,(ctx,w,h)=>{ ctx.fillStyle='#f2b90f';ctx.fillRect(0,0,w,h);ctx.globalCompositeOperation='destination-out';const r=K.rng(3);for(let i=0;i<500;i++){ctx.fillStyle=`rgba(0,0,0,${r.range(0.2,0.7)})`;ctx.fillRect(r.range(0,w),r.range(0,h),r.range(3,30),r.range(1,3));} })}),(FX0+FX1)/2,0.004,2.15);
+    line.rotation.x=-Math.PI/2; line.castShadow=false;
+
+    const BX0=-16,BX1=OUT_X-1.62,BL=BX1-BX0,RAIL_Z=BELT_HALF+0.09;
+    const beltTex=K.canvasTex(256,256,(ctx,w,h)=>{ ctx.fillStyle='#25272c';ctx.fillRect(0,0,w,h); const r=K.rng(2);
+      for(let i=0;i<900;i++){ctx.fillStyle=`rgba(255,255,255,${r.range(0.01,0.05)})`;ctx.fillRect(r.range(0,w),r.range(0,h),r.range(1,5),1);}
+      for(let x=0;x<w;x+=64){ctx.fillStyle='rgba(0,0,0,0.55)';ctx.fillRect(x,0,5,h);ctx.fillStyle='rgba(255,255,255,0.12)';ctx.fillRect(x+5,0,3,h);} },{repeat:[BL/1.6,1]});
+    const beltMat=new THREE.MeshStandardMaterial({map:beltTex,roughness:0.82});
+    add(scene,new THREE.BoxGeometry(BL,0.1,BELT_HALF*2),beltMat,(BX0+BX1)/2,BELT_Y-0.05,0);
+    add(scene,new THREE.BoxGeometry(BL-0.4,0.3,BELT_HALF*2-0.1),dark,(BX0+BX1)/2,BELT_Y-0.26,0);
+    const drum=rod(scene,0.21,BELT_HALF*2,beltMat,BX1,BELT_Y-0.21,0,'z');
+    for(const s of [-1,1]){
+      add(scene,K.roundedBox(BL+0.5,0.34,0.18,0.06,4),graphite,(BX0+BX1)/2,BELT_Y-0.1,s*RAIL_Z);
+      for(let x=-SP*2.5;x<BX1-1;x+=SP){ add(scene,K.roundedBox(0.2,BELT_Y-0.3,0.2,0.04,3),graphite,x,(BELT_Y-0.3)/2,s*(RAIL_Z-0.05)); rod(scene,0.2,0.05,steel,x,0.025,s*(RAIL_Z-0.05)); }
+    }
+    const CAP_N=Math.floor((BL-1)/0.46),capGeo=new THREE.CylinderGeometry(0.055,0.055,0.04,6); capGeo.rotateX(Math.PI/2);
+    const caps=new THREE.InstancedMesh(capGeo,steel,CAP_N); caps.castShadow=true;caps.receiveShadow=true;caps.frustumCulled=false;scene.add(caps);
+
+    function housing(X,label,i){
+      const g=new THREE.Group(); g.position.x=X; scene.add(g);
+      add(g,K.roundedBox(HEAD_W,TOWER_H,1.3,0.18,6),cobalt,0,TOWER_H/2,TOWER_FRONT-0.65);
+      add(g,K.roundedBox(HEAD_W+0.12,0.12,1.42,0.05,3),cream,0,0.06,TOWER_FRONT-0.65);
+      for(let v=0;v<5;v++) add(g,K.roundedBox(1.3,0.07,0.04,0.02,2),dark,0,1.4+v*0.16,TOWER_FRONT+0.005).castShadow=false;
+      const head=new THREE.Group(); g.add(head);
+      const hz=(HEAD_FRONT+TOWER_FRONT-0.1)/2,hd=HEAD_FRONT-TOWER_FRONT+0.1,hy=HEAD_Y0+HEAD_H/2,top=HEAD_Y0+HEAD_H;
+      add(head,K.roundedBox(HEAD_W,HEAD_H,hd,0.18,6),cobalt,0,hy,hz);
+      add(head,K.roundedBox(1.3,0.05,1.15,0.03,3),cream,-0.35,top+0.02,hz-0.15);
+      for(const [bx,bz] of [[-0.88,-0.6],[0.18,-0.6],[-0.88,0.3],[0.18,0.3]]) bolt(head,bx,top+0.05,hz+bz);
+      const text=K.textPlane(label,{font:'700 200px "Fredoka"',height:0.62,color:'#ffffff',lit:true,roughness:0.5,letterSpacing:6});
+      text.scale.setScalar(Math.min(1,(HEAD_W-0.45)/text.userData.size[0]));
+      text.position.set(0,hy-0.02,HEAD_FRONT+0.004); text.receiveShadow=true; head.add(text);
+      for(const sx of [-1,1])for(const sy of [-1,1]) bolt(head,sx*(HEAD_W/2-0.2),hy+sy*(HEAD_H/2-0.19),HEAD_FRONT+0.004,true);
+      const lamp=lampMat();
+      rod(head,0.15,0.07,steel,HEAD_W/2-0.36,top+0.03,HEAD_FRONT-0.36);
+      add(head,new THREE.SphereGeometry(0.125,28,14,0,Math.PI*2,0,Math.PI/2),lamp,HEAD_W/2-0.36,top+0.06,HEAD_FRONT-0.36).castShadow=false;
+      rod(g,0.17,0.12,steel,0,TOWER_H+0.1,TOWER_FRONT-0.65,'x');
+      add(g,K.roundedBox(0.66,0.3,0.05,0.012,2),cream,0,BELT_Y-0.1,RAIL_Z+0.11);
+      const num=K.textPlane('0'+(i+1),{font:'700 200px "Fredoka"',height:0.25,color:'#1a2f7a',lit:true,roughness:0.6});
+      num.position.set(0,BELT_Y-0.105,RAIL_Z+0.137); g.add(num);
+      return {g,head,lamp};
+    }
+    const st=['LAVADO','SALMUERA','CORTE','ENVASE'].map((n,i)=>housing(STATION_X[i],n,i));
+    rod(scene,0.1,70,cream,8,TOWER_H+0.1,TOWER_FRONT-0.65,'x');
+
+    const wash=new THREE.Group(); st[0].head.add(wash);
+    add(wash,K.roundedBox(2.35,0.14,0.3,0.05,4),orange,0,HEAD_Y0-0.28,0);
+    const jets=[];
+    for(let i=0;i<9;i++){
+      const j=add(wash,new THREE.CylinderGeometry(0.022,0.022,0.82,10),waterMat,-1.0+i*0.25,HEAD_Y0-0.72,0);
+      j.castShadow=false; jets.push(j);
+      rod(wash,0.05,0.09,steel,-1.0+i*0.25,HEAD_Y0-0.36,0);
+    }
+    const dropGeo=new THREE.SphereGeometry(0.035,8,6), DROP_N=54;
+    const drops=new THREE.InstancedMesh(dropGeo,waterMat,DROP_N); drops.castShadow=false;drops.frustumCulled=false;scene.add(drops);
+    const rd=K.rng(11), dropSeed=Array.from({length:DROP_N},()=>({x:rd.range(-1.05,1.05),z:rd.range(-0.92,0.92),ph:rd(),sp:rd.range(1.3,2.4)}));
+
+    const tank=new THREE.Group(); tank.position.set(STATION_X[1],0,0); scene.add(tank);
+    add(tank,new THREE.CylinderGeometry(0.78,0.78,1.1,48),glass,0,1.34,0).castShadow=false;
+    const fluid=add(tank,new THREE.CylinderGeometry(0.68,0.68,0.88,48),brineMat,0,1.26,0); fluid.castShadow=false;
+    const rim=add(tank,new THREE.TorusGeometry(0.78,0.055,12,48),cobalt,0,1.89,0); rim.rotation.x=Math.PI/2;
+    rod(tank,0.08,0.5,steel,0,0.35,0);
+    const bubGeo=new THREE.SphereGeometry(0.045,8,6), BUB_N=36;
+    const bubbles=new THREE.InstancedMesh(bubGeo,new THREE.MeshPhysicalMaterial({color:'#e9fff0',transparent:true,opacity:0.7,roughness:0.1,depthWrite:false}),BUB_N);
+    bubbles.castShadow=false;bubbles.frustumCulled=false;scene.add(bubbles);
+    const rb=K.rng(12), bubSeed=Array.from({length:BUB_N},()=>({x:rb.range(-0.45,0.45),z:rb.range(-0.45,0.45),ph:rb(),sp:rb.range(0.35,0.8),r:rb.range(0.55,1.2)}));
+
+    const blade=new THREE.Group(); st[2].head.add(blade);
+    const discGeo=new THREE.CylinderGeometry(0.45,0.45,0.045,48); discGeo.rotateX(Math.PI/2);
+    const disc=add(blade,discGeo,steel,0,0,0); disc.castShadow=true;
+    rod(blade,0.075,0.11,orange,0,0,0.06,'z');
+    add(blade,K.roundedBox(2.4,0.14,0.5,0.05,4),orange,0,0.38,-0.2);
+    const bladeUp=HEAD_Y0-0.12, bladeDown=ITEM_Y+0.16;
+
+    const jar=new THREE.Group(); scene.add(jar);
+    const body=add(jar,new THREE.CylinderGeometry(0.42,0.42,1.2,48,1,true),glass,0,0.6,0); body.castShadow=false;
+    add(jar,new THREE.CylinderGeometry(0.42,0.42,0.05,48),glass,0,0.03,0).castShadow=false;
+    const level=add(jar,new THREE.CylinderGeometry(0.37,0.37,1,48),brineMat,0,0.05,0); level.castShadow=false;
+    const band=add(jar,new THREE.CylinderGeometry(0.425,0.425,0.36,48,1,true),cream,0,0.62,0); band.castShadow=false;
+    const jarText=K.textPlane('PEPINILLOS',{font:'700 200px "Fredoka"',height:0.20,color:'#1a2f7a',lit:true,roughness:0.6,letterSpacing:3});
+    jarText.scale.setScalar(Math.min(1,0.72/jarText.userData.size[0])); jarText.position.set(0,0.63,0.43); jar.add(jarText);
+    const lid=new THREE.Group(); st[3].head.add(lid);
+    add(lid,new THREE.CylinderGeometry(0.46,0.46,0.09,48),orange,0,0,0);
+    add(lid,new THREE.CylinderGeometry(0.41,0.41,0.02,48),steel,0,0.055,0);
+    const lidUp=HEAD_Y0-0.18, lidDown=ITEM_Y+1.26;
+    const nozzle=rod(st[3].head,0.07,0.5,steel,-0.55,HEAD_Y0-0.3,0.25);
+    const brineJet=add(st[3].head,new THREE.CylinderGeometry(0.03,0.03,0.7,12),waterMat,-0.55,HEAD_Y0-0.68,0.25); brineJet.castShadow=false;
+
+    const PIVOT=[OUT_X,BELT_Y,TRAY[2]/2+0.16];
+    add(scene,K.roundedBox(3.0,0.72,2.8,0.16,6),cobalt,OUT_X,0.44,0);
+    add(scene,K.roundedBox(3.1,0.1,2.9,0.04,3),cream,OUT_X,0.05,0);
+    const table=new THREE.Group(); table.position.set(...PIVOT); scene.add(table);
+    add(table,K.roundedBox(2.5,0.07,PIVOT[2]*2,0.03,3),cream,0,-0.035,-PIVOT[2]);
+    add(table,K.roundedBox(2.5,0.16,0.1,0.03,3),orange,0,0.045,-0.05);
+    for(const sx of [-1,1]) add(table,K.roundedBox(0.1,0.12,PIVOT[2]*2,0.03,3),orange,sx*1.2,0.025,-PIVOT[2]);
+    rod(scene,0.07,2.7,steel,OUT_X,BELT_Y-0.06,PIVOT[2],'x');
+    const endLamp=lampMat();
+    rod(scene,0.16,0.05,steel,OUT_X+1.0,0.44,1.41,'z');
+    const endDome=add(scene,new THREE.SphereGeometry(0.13,28,14,0,Math.PI*2,0,Math.PI/2),endLamp,OUT_X+1.0,0.44,1.42); endDome.rotation.x=Math.PI/2; endDome.castShadow=false;
+
+    const item=new THREE.Group(); scene.add(item);
+    add(item,K.roundedBox(TRAY[0],TRAY[1],TRAY[2],0.05,4),paint('#ff5a12',{clearcoat:0.15,roughness:0.5}),0,TRAY[1]/2,0);
+    const whole=new THREE.Group(); item.add(whole);
+    const cukeGeo=new THREE.CapsuleGeometry(0.26,1.1,8,20); cukeGeo.rotateX(Math.PI/2);
+    add(whole,cukeGeo,pickleMat,0,0.29,0);
+    rod(whole,0.045,0.14,paint('#3a7a2b',{roughness:0.7}),0,0.29,0.77,'z');
+    const slices=new THREE.Group(); item.add(slices);
+    const sliceGeo=new THREE.CylinderGeometry(0.26,0.26,0.09,32); sliceGeo.rotateX(Math.PI/2);
+    const sliceMeshes=Array.from({length:7},(_,i)=>add(slices,sliceGeo,cutMat,0,0.29,-0.54+i*0.18));
+    item.add(jar); jar.position.set(0,0,0);
+
+    const rig={
+      pos:K.track([[0,[0.9,5.7,6.2]],[1.75,[-0.5,5.9,6.5],'inOut'],[4.6,[0.8,5.9,6.5],'inOut'],[6.9,[0.8,5.9,6.5]],[8.5,[0.75,5.6,6.35],'inOut'],[9.6,[0.6,5.0,6.5]],[10.52,[0.35,3.25,6.2],'inOut']]),
+      aim:K.track([[0,[1.05,1.5,0]],[1.75,[0.2,1.65,0],'inOut'],[4.6,[-0.1,1.65,0],'inOut'],[6.9,[-0.1,1.65,0]],[8.5,[0.0,1.8,0.15],'inOut'],[9.6,[0.0,1.9,0.35]],[10.52,[0.0,2.32,0.48],'inOut']]),
+    };
+
+    return {
+      update(t){
+        const x=RIDE(t), dx=dollyX(t);
+        beltTex.offset.x=-x/1.6; drum.rotation.z=-x/0.21;
+        for(let i=0;i<CAP_N;i++){ const cx=BX0+0.8+i*0.46; K.place(caps,i,[cx,BELT_Y-0.1,RAIL_Z+0.1],[0,0,-x/0.3+i],STATION_X.some(sx=>Math.abs(cx-sx)<0.45)?0:1); }
+        caps.instanceMatrix.needsUpdate=true;
+
+        const w=T.wash, spray=K.seg(t,w.spray[0],w.spray[1]);
+        const washOn=K.smooth(w.spray[0]-0.08,w.spray[0],t)*(1-K.smooth(w.spray[1],w.spray[1]+0.09,t));
+        jets.forEach(j=>{ j.visible=washOn>0.001; j.scale.set(1,0.4+0.6*spray,1); j.material.opacity=0.22+0.5*washOn; });
+        for(let i=0;i<DROP_N;i++){ const s=dropSeed[i], ph=(t*s.sp+s.ph)%1;
+          K.place(drops,i,[STATION_X[0]+s.x,2.32-ph*0.92,s.z],[0,0,0],washOn>0.001?(0.6+0.5*(1-ph))*washOn:1e-4); }
+        drops.instanceMatrix.needsUpdate=true;
+        whole.rotation.z=0.16*Math.sin(t*7.5);
+
+        const b=T.brine, dip=K.seg(t,b.dip[0],b.dip[1],K.ease.inOut);
+        const back=K.seg(t,b.dip[1]+0.22,b.dip[1]+0.55,K.ease.inOut);
+        const sub=dip-back;
+        const brineOn=K.smooth(b.dip[0]-0.08,b.dip[0],t)*(1-K.smooth(b.dip[1]+0.25,b.dip[1]+0.55,t));
+        pickleMat.color.copy(GREEN_C).lerp(OLIVE_C,K.seg(t,b.dip[0],b.dip[1]+0.12));
+        for(let i=0;i<BUB_N;i++){ const s=bubSeed[i], ph=(t*s.sp+s.ph)%1;
+          K.place(bubbles,i,[STATION_X[1]+s.x,0.92+ph*0.9,s.z],[0,0,0],brineOn>0.001?s.r*(0.4+0.6*ph)*brineOn:1e-4); }
+        bubbles.instanceMatrix.needsUpdate=true;
+        fluid.material.opacity=0.52+0.12*brineOn;
+        whole.position.y=-0.30*sub;
+
+        const c=T.cut, cut=K.seg(t,c.cut[0],c.cut[1],K.ease.inOut);
+        const cutUp=K.seg(t,c.cut[1]+0.14,c.cut[1]+0.52,K.ease.inOut);
+        blade.position.y=K.lerp(bladeUp,bladeDown,cut>0&&cut<1?cut:K.clamp(cut-cutUp,0,1));
+        disc.rotation.z=t*13.5;
+        whole.scale.setScalar(1-K.seg(t,c.cut[0]+0.16,c.cut[1]));
+        whole.visible=t<c.cut[1]+0.02;
+        slices.position.y=0;
+        sliceMeshes.forEach((m,i)=>{ const u=K.spring(t-c.cut[0]-i*0.075,7,0.55); m.scale.setScalar(Math.max(u,1e-4)); m.visible=t>=c.cut[0]+i*0.075; });
+
+        const f=T.fill, feed=K.seg(t,f.feed[0],f.feed[1],K.ease.inOut);
+        jar.visible=t>=f.arrive-0.06;
+        jar.rotation.x=0;
+        slices.visible=t<f.feed[1]+0.12;
+        slices.position.y=0.45*feed;
+        slices.scale.setScalar(Math.max(1-0.95*feed,0.02));
+        level.scale.y=Math.max(0.02,0.82*feed); level.position.y=0.09+0.41*feed;
+        brineJet.visible=feed>0.001&&feed<0.999; brineJet.scale.y=0.5+0.5*Math.sin(t*30)**2;
+        const punch=t<f.seal?Math.pow(K.seg(t,f.seal-0.16,f.seal),2):1-K.seg(t,f.seal+0.05,f.seal+0.32,K.ease.out);
+        lid.position.y=K.lerp(lidUp,lidDown,punch);
+        lid.visible=t>=f.arrive-0.1;
+        nozzle.visible=brineJet.visible;
+
+        setLamp(st[0].lamp,t,w.arrive-0.05,GREENS[0]);
+        setLamp(st[1].lamp,t,b.dip[0],GREENS[1]);
+        setLamp(st[2].lamp,t,c.cut[0]-0.12,GREENS[2]);
+        setLamp(st[3].lamp,t,f.arrive,GREENS[3]);
+        setLamp(endLamp,t,99,GREENS[4]);
+
+        const d=T.done, tilt=1.02*K.seg(t,d.tilt[0],d.tilt[1],u=>K.ease.outBack(K.ease.inOut(u),0.9));
+        table.rotation.x=tilt;
+        const oz=-PIVOT[2]+0.06*K.seg(t,d.tilt[0]+0.1,d.tilt[0]+0.4,K.ease.in);
+        item.position.set(x,PIVOT[1]-oz*Math.sin(tilt),PIVOT[2]+oz*Math.cos(tilt));
+        item.rotation.x=tilt;
+        jar.rotation.x=-tilt;
+        if(t<d.tilt[0]-0.05){ item.position.set(x,ITEM_Y,0); item.rotation.x=0; }
+
+        key.position.set(dx-7,7.5,9); key.target.position.set(dx,1,0); sky.target.position.set(dx,1,0);
+        key.intensity=3.6-1.1*K.seg(t,d.tilt[0],d.tilt[1]+0.1,K.ease.inOut);
+        const cp=rig.pos(t), ca=rig.aim(t);
+        K.look(camera,[dx+cp[0],cp[1],cp[2]],[dx+ca[0],ca[1],ca[2]]);
+        K.focus(camera,[item.position.x,item.position.y+0.42,item.position.z],0.022);
+      },
+      overlay(ctx,t,W,H){
+        const beat=BEATS.find(x=>t>=x.a&&t<x.b)||BEATS[BEATS.length-1];
+        const a=K.smooth(beat.a,beat.a+0.16,t)*(1-K.smooth(beat.b-0.18,beat.b,t));
+        if(a<=0.01)return;
+        const parts=beat.text.split('  ·  '), label=parts[0], words=parts[1].replace(/[«»]/g,'');
+        ctx.save(); ctx.globalAlpha=a;
+        ctx.font='700 30px "Fredoka"'; ctx.textAlign='left'; ctx.textBaseline='middle';
+        const lw=ctx.measureText(label).width+46;
+        ctx.fillStyle='#1a45d2'; ctx.beginPath(); ctx.roundRect(54,52,lw,64,18); ctx.fill();
+        ctx.fillStyle='#ffffff'; ctx.fillText(label,77,85);
+        ctx.font='800 72px "Inter"'; ctx.textAlign='center';
+        const w=Math.min(W-120,ctx.measureText(words).width+96), h=108, y=H-142;
+        ctx.fillStyle='rgba(13,16,23,0.74)'; ctx.beginPath(); ctx.roundRect((W-w)/2,y,w,h,30); ctx.fill();
+        ctx.fillStyle='#ffffff'; ctx.fillText(words,W/2,y+h/2+3);
+        ctx.restore();
+      },
+    };
+  },
+  sound(k){
+    k.bed('room',0,DUR,{gain:0.75}); k.bed('hum',0,DUR,{gain:0.35});
+    k.play('click',0.27,{gain:0.5});
+    [[0.30,1.86],[1.86,3.78],[3.78,5.90],[5.90,8.94],[8.94,9.88]].forEach(([a,b])=>{ k.play('roller',a,{dur:b-a,gain:0.45}); k.play('tock',b-0.02,{gain:0.3,f:240}); });
+    const w=T.wash; k.noise(w.spray[0],{dur:w.spray[1]-w.spray[0]+0.1,filter:'highpass',f:[[0,1600],[0.3,5200]],gain:0.16,a:0.04});
+    k.play('ding',w.green,{gain:0.5,f:'C6'});
+    const b=T.brine; k.play('swish',b.dip[0],{gain:0.75}); k.noise(b.dip[0]+0.04,{dur:0.55,filter:'bandpass',f:900,q:1.2,gain:0.12,a:0.04});
+    k.play('ding',b.green,{gain:0.52,f:'D6'});
+    const c=T.cut; k.play('buzz',c.cut[0]-0.08,{dur:c.cut[1]-c.cut[0]+0.16,gain:0.55,f:180});
+    for(let i=0;i<7;i++) k.play('pop',c.cut[0]+i*0.075,{gain:0.5,f:620+i*35});
+    k.play('ding',c.green,{gain:0.54,f:'E6'});
+    const f=T.fill; k.play('tock',f.arrive,{gain:0.5,f:1400}); k.noise(f.feed[0],{dur:f.feed[1]-f.feed[0],filter:'bandpass',f:[[0,700],[0.7,1900]],q:0.8,gain:0.14,a:0.05});
+    k.play('press',f.seal,{gain:0.8}); k.play('ding',f.green,{gain:0.56,f:'G6'});
+    const d=T.done; k.tone(d.tilt[0],{f:[[0,180],[d.tilt[1]-d.tilt[0]-0.1,420]],type:'sawtooth',dur:d.tilt[1]-d.tilt[0],gain:0.05,a:0.05,hold:d.tilt[1]-d.tilt[0]-0.2,filter:'lowpass',f2:1400});
+    k.play('thud',d.tilt[1]-0.08,{gain:0.4}); k.play('success',GREENS[4],{gain:0.8,f:'C6'});
+  },
+});
+
+const style = STYLES[0];
+const canvas = document.getElementById('stage');
+const playBtn = document.getElementById('play');
+const soundBtn = document.getElementById('sound');
+const loopBtn = document.getElementById('loop');
+const scrub = document.getElementById('scrub');
+const timeEl = document.getElementById('time');
+let current = 0, playing = false, muted = false, looping = true, raf = 0, last = 0, stopSound = null, liveSamples = 3;
+
+function fmt(t){ return t.toFixed(2); }
+function refresh(){
+  scrub.value = String(current);
+  timeEl.textContent = `${fmt(current)} / ${fmt(DUR)}`;
+  playBtn.textContent = playing ? 'Pause' : 'Play';
+  soundBtn.textContent = muted ? 'Sound: off' : 'Sound: on';
+  loopBtn.textContent = looping ? 'Loop: on' : 'Loop: off';
+}
+function stopAudio(){ if(stopSound){ stopSound(); stopSound = null; } }
+function startAudio(){
+  stopAudio();
+  if(muted || !playing) return;
+  stopSound = SOUND.live((k) => style.sound(k), current, { voiceover:false });
+}
+function setTime(t, samples, restartAudio = false){
+  stopAudio();
+  current = K.clamp(t, 0, DUR);
+  S.seek(current, samples || liveSamples);
+  refresh();
+  if(restartAudio && playing && !muted) startAudio();
+}
+function tick(now){
+  if(!playing) return;
+  if(!last) last = now;
+  current += Math.min(0.1, (now - last) / 1000);
+  last = now;
+  if(current >= DUR){
+    if(looping){ current = 0; startAudio(); }
+    else { current = DUR; pause(); }
+  }
+  S.seek(current, liveSamples);
+  refresh();
+  raf = requestAnimationFrame(tick);
+}
+function play(){
+  if(playing) return;
+  playing = true; last = 0;
+  startAudio();
+  refresh();
+  raf = requestAnimationFrame(tick);
+}
+function pause(){
+  if(!playing) return;
+  playing = false;
+  cancelAnimationFrame(raf);
+  stopAudio();
+  refresh();
+}
+playBtn.addEventListener('click', () => playing ? pause() : play());
+soundBtn.addEventListener('click', () => { muted = !muted; if(playing) startAudio(); else stopAudio(); refresh(); });
+loopBtn.addEventListener('click', () => { looping = !looping; refresh(); });
+scrub.addEventListener('input', () => setTime(Number(scrub.value), undefined, true));
+window.addEventListener('keydown', (e) => {
+  if(e.code === 'Space'){ e.preventDefault(); playing ? pause() : play(); }
+  if(e.code === 'ArrowRight'){ e.preventDefault(); setTime(current + 0.1, undefined, true); }
+  if(e.code === 'ArrowLeft'){ e.preventDefault(); setTime(current - 0.1, undefined, true); }
+});
+
+function wavBase64(inter, sr){
+  const bytes = new ArrayBuffer(44 + inter.length * 2), view = new DataView(bytes);
+  const str = (o,s) => { for(let i=0;i<s.length;i++) view.setUint8(o+i, s.charCodeAt(i)); };
+  str(0,'RIFF'); view.setUint32(4, 36 + inter.length*2, true); str(8,'WAVE'); str(12,'fmt ');
+  view.setUint32(16,16,true); view.setUint16(20,1,true); view.setUint16(22,2,true);
+  view.setUint32(24,sr,true); view.setUint32(28,sr*4,true); view.setUint16(32,4,true); view.setUint16(34,16,true);
+  str(36,'data'); view.setUint32(40, inter.length*2, true);
+  for(let i=0;i<inter.length;i++) view.setInt16(44+i*2, Math.max(-1, Math.min(1, inter[i])) * 32767, true);
+  const u8 = new Uint8Array(bytes); let bin = '';
+  for(let i=0;i<u8.length;i+=32768) bin += String.fromCharCode.apply(null, u8.subarray(i, i+32768));
+  return btoa(bin);
+}
+
+let S;
+try {
+  S = await K.run(canvas, style, { samples: liveSamples });
+  window.seek = (t, samples) => setTime(t, samples, true);
+  window.DURATION = DUR;
+  window.__samples = (n) => { liveSamples = Math.max(1, Math.round(n)); };
+  window.__audio = async () => { const out = await SOUND.renderOffline((k) => style.sound(k), DUR, 48000, { voiceover:false }); return wavBase64(out.inter, out.sr); };
+  scrub.max = String(DUR);
+  setTime(0);
+  window.__ready = true;
+  statusEl.textContent = 'Listo · 11.00 s · 1920×1080 · samples en vivo ' + liveSamples;
+} catch(e) {
+  statusEl.textContent = 'Error: ' + e.message;
+  statusEl.classList.add('error');
+  window.__error = e.message;
+  console.error(e);
+}
+</script>
+</body>
+</html>

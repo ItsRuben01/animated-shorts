@@ -1,0 +1,1229 @@
+{
+ "voice": "external-voice2",
+ "speed": 1,
+ "total": 76.826,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "em_alex",
+   "start": 0.12,
+   "end": 3.01,
+   "words": [
+    {
+     "w": "¡Mamá,",
+     "start": 0.12,
+     "end": 0.12
+    },
+    {
+     "w": "mira!",
+     "start": 0.12,
+     "end": 0.41
+    },
+    {
+     "w": "¿Cómo",
+     "start": 0.41,
+     "end": 1.23
+    },
+    {
+     "w": "hace",
+     "start": 1.23,
+     "end": 1.62
+    },
+    {
+     "w": "esta",
+     "start": 1.62,
+     "end": 1.98
+    },
+    {
+     "w": "cinta",
+     "start": 1.98,
+     "end": 2.33
+    },
+    {
+     "w": "del",
+     "start": 2.33,
+     "end": 2.71
+    },
+    {
+     "w": "MercaChonda",
+     "start": 2.71,
+     "end": 3.01
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "em_alex",
+   "start": 3.01,
+   "end": 4.13,
+   "words": [
+    {
+     "w": "para",
+     "start": 3.01,
+     "end": 3.37
+    },
+    {
+     "w": "moverse",
+     "start": 3.37,
+     "end": 3.76
+    },
+    {
+     "w": "sola",
+     "start": 3.76,
+     "end": 4.13
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "voice": "em_alex",
+   "start": 4.13,
+   "end": 6.62,
+   "words": [
+    {
+     "w": "y",
+     "start": 4.13,
+     "end": 4.44
+    },
+    {
+     "w": "saber",
+     "start": 4.44,
+     "end": 4.96
+    },
+    {
+     "w": "justo",
+     "start": 4.96,
+     "end": 5.28
+    },
+    {
+     "w": "dónde",
+     "start": 5.28,
+     "end": 5.74
+    },
+    {
+     "w": "tiene",
+     "start": 5.74,
+     "end": 6.18
+    },
+    {
+     "w": "que",
+     "start": 6.18,
+     "end": 6.56
+    },
+    {
+     "w": "frenar?",
+     "start": 6.56,
+     "end": 6.62
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "ef_dora",
+   "start": 7.18,
+   "end": 11.24,
+   "words": [
+    {
+     "w": "Qué",
+     "start": 7.18,
+     "end": 7.18
+    },
+    {
+     "w": "buena",
+     "start": 7.18,
+     "end": 7.62
+    },
+    {
+     "w": "pregunta,",
+     "start": 7.62,
+     "end": 7.8
+    },
+    {
+     "w": "cariño.",
+     "start": 7.8,
+     "end": 8.19
+    },
+    {
+     "w": "Aquí",
+     "start": 8.19,
+     "end": 8.88
+    },
+    {
+     "w": "dentro",
+     "start": 8.88,
+     "end": 9.24
+    },
+    {
+     "w": "trabajan",
+     "start": 9.24,
+     "end": 9.81
+    },
+    {
+     "w": "tres",
+     "start": 9.81,
+     "end": 10.32
+    },
+    {
+     "w": "inventos",
+     "start": 10.32,
+     "end": 10.76
+    },
+    {
+     "w": "en",
+     "start": 10.76,
+     "end": 11.18
+    },
+    {
+     "w": "equipo.",
+     "start": 11.18,
+     "end": 11.24
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "ef_dora",
+   "start": 11.97,
+   "end": 18.06,
+   "words": [
+    {
+     "w": "Primero",
+     "start": 11.97,
+     "end": 11.97
+    },
+    {
+     "w": "está",
+     "start": 11.97,
+     "end": 12.29
+    },
+    {
+     "w": "la",
+     "start": 12.29,
+     "end": 12.68
+    },
+    {
+     "w": "cinta,",
+     "start": 12.68,
+     "end": 13.08
+    },
+    {
+     "w": "que",
+     "start": 13.08,
+     "end": 13.64
+    },
+    {
+     "w": "es",
+     "start": 13.64,
+     "end": 13.95
+    },
+    {
+     "w": "como",
+     "start": 13.95,
+     "end": 14.32
+    },
+    {
+     "w": "una",
+     "start": 14.32,
+     "end": 14.7
+    },
+    {
+     "w": "alfombra",
+     "start": 14.7,
+     "end": 15.34
+    },
+    {
+     "w": "sin",
+     "start": 15.34,
+     "end": 15.74
+    },
+    {
+     "w": "fin",
+     "start": 15.74,
+     "end": 15.97
+    },
+    {
+     "w": "que",
+     "start": 15.97,
+     "end": 16.31
+    },
+    {
+     "w": "gira",
+     "start": 16.31,
+     "end": 16.68
+    },
+    {
+     "w": "sobre",
+     "start": 16.68,
+     "end": 17.05
+    },
+    {
+     "w": "unos",
+     "start": 17.05,
+     "end": 17.6
+    },
+    {
+     "w": "rodillos.",
+     "start": 17.6,
+     "end": 18.06
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "ef_dora",
+   "start": 18.06,
+   "end": 21.28,
+   "words": [
+    {
+     "w": "Debajo",
+     "start": 18.06,
+     "end": 18.48
+    },
+    {
+     "w": "se",
+     "start": 18.48,
+     "end": 18.86
+    },
+    {
+     "w": "esconde",
+     "start": 18.86,
+     "end": 19.35
+    },
+    {
+     "w": "un",
+     "start": 19.35,
+     "end": 19.7
+    },
+    {
+     "w": "motor",
+     "start": 19.7,
+     "end": 20.06
+    },
+    {
+     "w": "eléctrico",
+     "start": 20.06,
+     "end": 20.8
+    },
+    {
+     "w": "que",
+     "start": 20.8,
+     "end": 20.98
+    },
+    {
+     "w": "la",
+     "start": 20.98,
+     "end": 21.13
+    },
+    {
+     "w": "empuja.",
+     "start": 21.13,
+     "end": 21.28
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "ef_dora",
+   "start": 21.28,
+   "end": 24.44,
+   "words": [
+    {
+     "w": "Y",
+     "start": 21.28,
+     "end": 21.47
+    },
+    {
+     "w": "justo",
+     "start": 21.47,
+     "end": 21.99
+    },
+    {
+     "w": "al",
+     "start": 21.99,
+     "end": 22.13
+    },
+    {
+     "w": "final",
+     "start": 22.13,
+     "end": 22.56
+    },
+    {
+     "w": "hay",
+     "start": 22.56,
+     "end": 22.71
+    },
+    {
+     "w": "un",
+     "start": 22.71,
+     "end": 22.9
+    },
+    {
+     "w": "pequeño",
+     "start": 22.9,
+     "end": 23.25
+    },
+    {
+     "w": "sensor",
+     "start": 23.25,
+     "end": 23.69
+    },
+    {
+     "w": "con",
+     "start": 23.69,
+     "end": 23.84
+    },
+    {
+     "w": "una",
+     "start": 23.84,
+     "end": 24.16
+    },
+    {
+     "w": "luz",
+     "start": 24.16,
+     "end": 24.38
+    },
+    {
+     "w": "invisible.",
+     "start": 24.38,
+     "end": 24.44
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "ef_dora",
+   "start": 24.9,
+   "end": 29.76,
+   "words": [
+    {
+     "w": "Mientras",
+     "start": 24.9,
+     "end": 24.94
+    },
+    {
+     "w": "el",
+     "start": 24.94,
+     "end": 25.1
+    },
+    {
+     "w": "sensor",
+     "start": 25.1,
+     "end": 25.56
+    },
+    {
+     "w": "no",
+     "start": 25.56,
+     "end": 25.71
+    },
+    {
+     "w": "ve",
+     "start": 25.71,
+     "end": 25.86
+    },
+    {
+     "w": "nada",
+     "start": 25.86,
+     "end": 26.28
+    },
+    {
+     "w": "delante,",
+     "start": 26.28,
+     "end": 26.57
+    },
+    {
+     "w": "le",
+     "start": 26.57,
+     "end": 26.96
+    },
+    {
+     "w": "dice",
+     "start": 26.96,
+     "end": 27.33
+    },
+    {
+     "w": "al",
+     "start": 27.33,
+     "end": 27.7
+    },
+    {
+     "w": "motor",
+     "start": 27.7,
+     "end": 28.21
+    },
+    {
+     "w": "que",
+     "start": 28.21,
+     "end": 28.51
+    },
+    {
+     "w": "siga",
+     "start": 28.51,
+     "end": 28.89
+    },
+    {
+     "w": "girando.",
+     "start": 28.89,
+     "end": 29.76
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "ef_dora",
+   "start": 29.76,
+   "end": 34.11,
+   "words": [
+    {
+     "w": "Pero",
+     "start": 29.76,
+     "end": 30.13
+    },
+    {
+     "w": "en",
+     "start": 30.13,
+     "end": 30.47
+    },
+    {
+     "w": "cuanto",
+     "start": 30.47,
+     "end": 30.92
+    },
+    {
+     "w": "colocas",
+     "start": 30.92,
+     "end": 31.42
+    },
+    {
+     "w": "un",
+     "start": 31.42,
+     "end": 31.66
+    },
+    {
+     "w": "producto",
+     "start": 31.66,
+     "end": 31.82
+    },
+    {
+     "w": "y",
+     "start": 31.82,
+     "end": 31.99
+    },
+    {
+     "w": "corta",
+     "start": 31.99,
+     "end": 32.33
+    },
+    {
+     "w": "esa",
+     "start": 32.33,
+     "end": 32.7
+    },
+    {
+     "w": "luz",
+     "start": 32.7,
+     "end": 32.97
+    },
+    {
+     "w": "invisible…",
+     "start": 32.97,
+     "end": 34.11
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "ef_dora",
+   "start": 34.11,
+   "end": 34.62,
+   "words": [
+    {
+     "w": "¡clic!",
+     "start": 34.11,
+     "end": 34.62
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "ef_dora",
+   "start": 34.62,
+   "end": 36.98,
+   "words": [
+    {
+     "w": "El",
+     "start": 34.62,
+     "end": 34.77
+    },
+    {
+     "w": "sensor",
+     "start": 34.77,
+     "end": 35.12
+    },
+    {
+     "w": "manda",
+     "start": 35.12,
+     "end": 35.49
+    },
+    {
+     "w": "parar",
+     "start": 35.49,
+     "end": 35.96
+    },
+    {
+     "w": "la",
+     "start": 35.96,
+     "end": 36.11
+    },
+    {
+     "w": "cinta",
+     "start": 36.11,
+     "end": 36.48
+    },
+    {
+     "w": "al",
+     "start": 36.48,
+     "end": 36.62
+    },
+    {
+     "w": "instante",
+     "start": 36.62,
+     "end": 36.98
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "ef_dora",
+   "start": 36.98,
+   "end": 39.22,
+   "words": [
+    {
+     "w": "para",
+     "start": 36.98,
+     "end": 37.41
+    },
+    {
+     "w": "que",
+     "start": 37.41,
+     "end": 37.64
+    },
+    {
+     "w": "no",
+     "start": 37.64,
+     "end": 37.79
+    },
+    {
+     "w": "se",
+     "start": 37.79,
+     "end": 38.01
+    },
+    {
+     "w": "caiga",
+     "start": 38.01,
+     "end": 38.43
+    },
+    {
+     "w": "nada",
+     "start": 38.43,
+     "end": 38.82
+    },
+    {
+     "w": "al",
+     "start": 38.82,
+     "end": 39.16
+    },
+    {
+     "w": "suelo.",
+     "start": 39.16,
+     "end": 39.22
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "em_alex",
+   "start": 39.66,
+   "end": 43.03,
+   "words": [
+    {
+     "w": "¡Guau!",
+     "start": 39.66,
+     "end": 39.68
+    },
+    {
+     "w": "¿Y",
+     "start": 39.68,
+     "end": 39.83
+    },
+    {
+     "w": "de",
+     "start": 39.83,
+     "end": 40.39
+    },
+    {
+     "w": "dónde",
+     "start": 40.39,
+     "end": 40.7
+    },
+    {
+     "w": "saca",
+     "start": 40.7,
+     "end": 41.41
+    },
+    {
+     "w": "fuerza",
+     "start": 41.41,
+     "end": 41.55
+    },
+    {
+     "w": "el",
+     "start": 41.55,
+     "end": 41.69
+    },
+    {
+     "w": "motor",
+     "start": 41.69,
+     "end": 42.11
+    },
+    {
+     "w": "para",
+     "start": 42.11,
+     "end": 42.27
+    },
+    {
+     "w": "mover",
+     "start": 42.27,
+     "end": 42.6
+    },
+    {
+     "w": "tanto",
+     "start": 42.6,
+     "end": 42.97
+    },
+    {
+     "w": "peso?",
+     "start": 42.97,
+     "end": 43.03
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "ef_dora",
+   "start": 43.48,
+   "end": 46.24,
+   "words": [
+    {
+     "w": "El",
+     "start": 43.48,
+     "end": 43.48
+    },
+    {
+     "w": "motor",
+     "start": 43.48,
+     "end": 43.88
+    },
+    {
+     "w": "toma",
+     "start": 43.88,
+     "end": 44.58
+    },
+    {
+     "w": "la",
+     "start": 44.58,
+     "end": 44.92
+    },
+    {
+     "w": "electricidad",
+     "start": 44.92,
+     "end": 45.39
+    },
+    {
+     "w": "del",
+     "start": 45.39,
+     "end": 45.76
+    },
+    {
+     "w": "enchufe",
+     "start": 45.76,
+     "end": 46.24
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "ef_dora",
+   "start": 46.24,
+   "end": 50.07,
+   "words": [
+    {
+     "w": "y",
+     "start": 46.24,
+     "end": 46.59
+    },
+    {
+     "w": "la",
+     "start": 46.59,
+     "end": 47.05
+    },
+    {
+     "w": "transforma",
+     "start": 47.05,
+     "end": 47.44
+    },
+    {
+     "w": "en",
+     "start": 47.44,
+     "end": 47.78
+    },
+    {
+     "w": "energía",
+     "start": 47.78,
+     "end": 48.14
+    },
+    {
+     "w": "mecánica,",
+     "start": 48.14,
+     "end": 48.53
+    },
+    {
+     "w": "es",
+     "start": 48.53,
+     "end": 48.99
+    },
+    {
+     "w": "decir,",
+     "start": 48.99,
+     "end": 49.54
+    },
+    {
+     "w": "en",
+     "start": 49.54,
+     "end": 49.86
+    },
+    {
+     "w": "movimiento.",
+     "start": 49.86,
+     "end": 50.07
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "ef_dora",
+   "start": 50.07,
+   "end": 55.44,
+   "words": [
+    {
+     "w": "Es",
+     "start": 50.07,
+     "end": 50.29
+    },
+    {
+     "w": "la",
+     "start": 50.29,
+     "end": 50.72
+    },
+    {
+     "w": "misma",
+     "start": 50.72,
+     "end": 51.36
+    },
+    {
+     "w": "idea",
+     "start": 51.36,
+     "end": 51.78
+    },
+    {
+     "w": "que",
+     "start": 51.78,
+     "end": 52.32
+    },
+    {
+     "w": "usábamos",
+     "start": 52.32,
+     "end": 52.72
+    },
+    {
+     "w": "antiguamente",
+     "start": 52.72,
+     "end": 53.34
+    },
+    {
+     "w": "con",
+     "start": 53.34,
+     "end": 53.7
+    },
+    {
+     "w": "las",
+     "start": 53.7,
+     "end": 54.0
+    },
+    {
+     "w": "grandes",
+     "start": 54.0,
+     "end": 54.31
+    },
+    {
+     "w": "ruedas",
+     "start": 54.31,
+     "end": 54.64
+    },
+    {
+     "w": "en",
+     "start": 54.64,
+     "end": 54.99
+    },
+    {
+     "w": "los",
+     "start": 54.99,
+     "end": 55.14
+    },
+    {
+     "w": "ríos:",
+     "start": 55.14,
+     "end": 55.44
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "voice": "ef_dora",
+   "start": 55.44,
+   "end": 58.86,
+   "words": [
+    {
+     "w": "la",
+     "start": 55.44,
+     "end": 55.94
+    },
+    {
+     "w": "fuerza",
+     "start": 55.94,
+     "end": 56.47
+    },
+    {
+     "w": "del",
+     "start": 56.47,
+     "end": 56.93
+    },
+    {
+     "w": "agua",
+     "start": 56.93,
+     "end": 57.27
+    },
+    {
+     "w": "hacía",
+     "start": 57.27,
+     "end": 57.7
+    },
+    {
+     "w": "girar",
+     "start": 57.7,
+     "end": 58.13
+    },
+    {
+     "w": "la",
+     "start": 58.13,
+     "end": 58.52
+    },
+    {
+     "w": "rueda",
+     "start": 58.52,
+     "end": 58.86
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "voice": "ef_dora",
+   "start": 58.86,
+   "end": 60.5,
+   "words": [
+    {
+     "w": "para",
+     "start": 58.86,
+     "end": 59.29
+    },
+    {
+     "w": "mover",
+     "start": 59.29,
+     "end": 59.78
+    },
+    {
+     "w": "piedras",
+     "start": 59.78,
+     "end": 60.12
+    },
+    {
+     "w": "pesadísimas",
+     "start": 60.12,
+     "end": 60.5
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "voice": "ef_dora",
+   "start": 60.5,
+   "end": 62.51,
+   "words": [
+    {
+     "w": "y",
+     "start": 60.5,
+     "end": 60.83
+    },
+    {
+     "w": "moler",
+     "start": 60.83,
+     "end": 61.16
+    },
+    {
+     "w": "aceitunas",
+     "start": 61.16,
+     "end": 61.37
+    },
+    {
+     "w": "o",
+     "start": 61.37,
+     "end": 61.69
+    },
+    {
+     "w": "granos",
+     "start": 61.69,
+     "end": 62.13
+    },
+    {
+     "w": "de",
+     "start": 62.13,
+     "end": 62.45
+    },
+    {
+     "w": "trigo.",
+     "start": 62.45,
+     "end": 62.51
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "voice": "em_alex",
+   "start": 62.99,
+   "end": 65.34,
+   "words": [
+    {
+     "w": "¡La",
+     "start": 62.99,
+     "end": 62.99
+    },
+    {
+     "w": "ingeniería",
+     "start": 62.99,
+     "end": 63.94
+    },
+    {
+     "w": "está",
+     "start": 63.94,
+     "end": 64.3
+    },
+    {
+     "w": "en",
+     "start": 64.3,
+     "end": 64.88
+    },
+    {
+     "w": "todas",
+     "start": 64.88,
+     "end": 65.28
+    },
+    {
+     "w": "partes!",
+     "start": 65.28,
+     "end": 65.34
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "voice": "ef_dora",
+   "start": 66.06,
+   "end": 66.45,
+   "words": [
+    {
+     "w": "Así",
+     "start": 66.06,
+     "end": 66.06
+    },
+    {
+     "w": "es.",
+     "start": 66.06,
+     "end": 66.45
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "voice": "ef_dora",
+   "start": 66.45,
+   "end": 68.52,
+   "words": [
+    {
+     "w": "Si",
+     "start": 66.45,
+     "end": 67.11
+    },
+    {
+     "w": "tú",
+     "start": 67.11,
+     "end": 67.48
+    },
+    {
+     "w": "también",
+     "start": 67.48,
+     "end": 67.92
+    },
+    {
+     "w": "quieres",
+     "start": 67.92,
+     "end": 68.38
+    },
+    {
+     "w": "descubrir",
+     "start": 68.38,
+     "end": 68.52
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "voice": "ef_dora",
+   "start": 68.52,
+   "end": 70.93,
+   "words": [
+    {
+     "w": "cómo",
+     "start": 68.52,
+     "end": 68.99
+    },
+    {
+     "w": "funcionan",
+     "start": 68.99,
+     "end": 69.13
+    },
+    {
+     "w": "las",
+     "start": 69.13,
+     "end": 69.45
+    },
+    {
+     "w": "cosas",
+     "start": 69.45,
+     "end": 69.97
+    },
+    {
+     "w": "de",
+     "start": 69.97,
+     "end": 70.13
+    },
+    {
+     "w": "tu",
+     "start": 70.13,
+     "end": 70.46
+    },
+    {
+     "w": "día",
+     "start": 70.46,
+     "end": 70.61
+    },
+    {
+     "w": "a",
+     "start": 70.61,
+     "end": 70.76
+    },
+    {
+     "w": "día,",
+     "start": 70.76,
+     "end": 70.93
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "voice": "ef_dora",
+   "start": 70.93,
+   "end": 76.27,
+   "words": [
+    {
+     "w": "síguenos",
+     "start": 70.93,
+     "end": 71.67
+    },
+    {
+     "w": "y",
+     "start": 71.67,
+     "end": 72.1
+    },
+    {
+     "w": "aprenderás",
+     "start": 72.1,
+     "end": 72.34
+    },
+    {
+     "w": "muchísimas",
+     "start": 72.34,
+     "end": 72.87
+    },
+    {
+     "w": "cosas",
+     "start": 72.87,
+     "end": 73.22
+    },
+    {
+     "w": "nuevas",
+     "start": 73.22,
+     "end": 73.59
+    },
+    {
+     "w": "con",
+     "start": 73.59,
+     "end": 74.01
+    },
+    {
+     "w": "nosotros.",
+     "start": 74.01,
+     "end": 74.43
+    },
+    {
+     "w": "¡Nos",
+     "start": 74.43,
+     "end": 74.74
+    },
+    {
+     "w": "vemos",
+     "start": 74.74,
+     "end": 75.28
+    },
+    {
+     "w": "en",
+     "start": 75.28,
+     "end": 75.43
+    },
+    {
+     "w": "el",
+     "start": 75.43,
+     "end": 75.8
+    },
+    {
+     "w": "próximo",
+     "start": 75.8,
+     "end": 76.21
+    },
+    {
+     "w": "vídeo!",
+     "start": 76.21,
+     "end": 76.27
+    }
+   ]
+  }
+ ]
+}

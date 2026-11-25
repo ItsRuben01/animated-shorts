@@ -1,0 +1,1492 @@
+{
+ "voice": "Brian",
+ "speed": 1.2,
+ "total": 72.374,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "Brian",
+   "start": 0,
+   "end": 2.601,
+   "words": [
+    {
+     "w": "Lithium",
+     "start": 0,
+     "end": 0.337
+    },
+    {
+     "w": "metal,",
+     "start": 0.36,
+     "end": 0.627
+    },
+    {
+     "w": "a",
+     "start": 0.65,
+     "end": 0.697
+    },
+    {
+     "w": "ceramic",
+     "start": 0.743,
+     "end": 1.022
+    },
+    {
+     "w": "wall,",
+     "start": 1.068,
+     "end": 1.405
+    },
+    {
+     "w": "no",
+     "start": 1.544,
+     "end": 1.66
+    },
+    {
+     "w": "flammable",
+     "start": 1.718,
+     "end": 2.055
+    },
+    {
+     "w": "liquid:",
+     "start": 2.078,
+     "end": 2.601
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "Brian",
+   "start": 2.741,
+   "end": 5.016,
+   "words": [
+    {
+     "w": "three",
+     "start": 2.741,
+     "end": 3.043
+    },
+    {
+     "w": "facts",
+     "start": 3.101,
+     "end": 3.368
+    },
+    {
+     "w": "that",
+     "start": 3.391,
+     "end": 3.484
+    },
+    {
+     "w": "make",
+     "start": 3.519,
+     "end": 3.623
+    },
+    {
+     "w": "this",
+     "start": 3.647,
+     "end": 3.751
+    },
+    {
+     "w": "battery",
+     "start": 3.798,
+     "end": 4.041
+    },
+    {
+     "w": "sound",
+     "start": 4.088,
+     "end": 4.25
+    },
+    {
+     "w": "unbeatable.",
+     "start": 4.297,
+     "end": 5.016
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "Brian",
+   "start": 5.156,
+   "end": 8.175,
+   "words": [
+    {
+     "w": "The",
+     "start": 5.156,
+     "end": 5.284
+    },
+    {
+     "w": "anode",
+     "start": 5.307,
+     "end": 5.574
+    },
+    {
+     "w": "holds",
+     "start": 5.597,
+     "end": 5.806
+    },
+    {
+     "w": "three",
+     "start": 5.853,
+     "end": 6.015
+    },
+    {
+     "w": "thousand",
+     "start": 6.05,
+     "end": 6.387
+    },
+    {
+     "w": "eight",
+     "start": 6.468,
+     "end": 6.607
+    },
+    {
+     "w": "hundred",
+     "start": 6.642,
+     "end": 6.816
+    },
+    {
+     "w": "sixty",
+     "start": 6.851,
+     "end": 7.06
+    },
+    {
+     "w": "milliamp",
+     "start": 7.095,
+     "end": 7.315
+    },
+    {
+     "w": "hours",
+     "start": 7.339,
+     "end": 7.513
+    },
+    {
+     "w": "per",
+     "start": 7.548,
+     "end": 7.617
+    },
+    {
+     "w": "gram,",
+     "start": 7.641,
+     "end": 8.175
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "Brian",
+   "start": 8.315,
+   "end": 11.148,
+   "words": [
+    {
+     "w": "ten",
+     "start": 8.315,
+     "end": 8.547
+    },
+    {
+     "w": "times",
+     "start": 8.582,
+     "end": 8.768
+    },
+    {
+     "w": "graphite.",
+     "start": 8.803,
+     "end": 9.186
+    },
+    {
+     "w": "But",
+     "start": 9.418,
+     "end": 9.557
+    },
+    {
+     "w": "one",
+     "start": 9.615,
+     "end": 9.789
+    },
+    {
+     "w": "fourth",
+     "start": 9.836,
+     "end": 10.022
+    },
+    {
+     "w": "element",
+     "start": 10.068,
+     "end": 10.347
+    },
+    {
+     "w": "is",
+     "start": 10.393,
+     "end": 10.486
+    },
+    {
+     "w": "missing,",
+     "start": 10.544,
+     "end": 11.148
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "Brian",
+   "start": 11.288,
+   "end": 13.424,
+   "words": [
+    {
+     "w": "and",
+     "start": 11.288,
+     "end": 11.404
+    },
+    {
+     "w": "without",
+     "start": 11.439,
+     "end": 11.671
+    },
+    {
+     "w": "it",
+     "start": 11.694,
+     "end": 11.752
+    },
+    {
+     "w": "the",
+     "start": 11.776,
+     "end": 11.845
+    },
+    {
+     "w": "cell",
+     "start": 11.892,
+     "end": 12.054
+    },
+    {
+     "w": "short-circuits",
+     "start": 12.124,
+     "end": 12.6
+    },
+    {
+     "w": "from",
+     "start": 12.623,
+     "end": 12.716
+    },
+    {
+     "w": "inside.",
+     "start": 12.762,
+     "end": 13.424
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "Brian",
+   "start": 13.564,
+   "end": 15.329,
+   "words": [
+    {
+     "w": "But",
+     "start": 13.564,
+     "end": 13.703
+    },
+    {
+     "w": "why",
+     "start": 13.727,
+     "end": 13.843
+    },
+    {
+     "w": "would",
+     "start": 13.877,
+     "end": 13.994
+    },
+    {
+     "w": "hard",
+     "start": 14.028,
+     "end": 14.168
+    },
+    {
+     "w": "ceramic",
+     "start": 14.203,
+     "end": 14.551
+    },
+    {
+     "w": "ever",
+     "start": 14.609,
+     "end": 14.76
+    },
+    {
+     "w": "fail?",
+     "start": 14.818,
+     "end": 15.329
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "Brian",
+   "start": 15.469,
+   "end": 18.394,
+   "words": [
+    {
+     "w": "Here",
+     "start": 15.469,
+     "end": 15.643
+    },
+    {
+     "w": "is",
+     "start": 15.666,
+     "end": 15.713
+    },
+    {
+     "w": "the",
+     "start": 15.736,
+     "end": 15.806
+    },
+    {
+     "w": "problem:",
+     "start": 15.829,
+     "end": 16.189
+    },
+    {
+     "w": "lithium",
+     "start": 16.618,
+     "end": 16.932
+    },
+    {
+     "w": "does",
+     "start": 16.978,
+     "end": 17.083
+    },
+    {
+     "w": "not",
+     "start": 17.118,
+     "end": 17.21
+    },
+    {
+     "w": "return",
+     "start": 17.257,
+     "end": 17.478
+    },
+    {
+     "w": "as",
+     "start": 17.512,
+     "end": 17.559
+    },
+    {
+     "w": "a",
+     "start": 17.594,
+     "end": 17.624
+    },
+    {
+     "w": "smooth",
+     "start": 17.652,
+     "end": 17.849
+    },
+    {
+     "w": "coat.",
+     "start": 17.895,
+     "end": 18.394
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "Brian",
+   "start": 18.534,
+   "end": 20.113,
+   "words": [
+    {
+     "w": "It",
+     "start": 18.534,
+     "end": 18.65
+    },
+    {
+     "w": "plates",
+     "start": 18.685,
+     "end": 18.94
+    },
+    {
+     "w": "back",
+     "start": 18.987,
+     "end": 19.149
+    },
+    {
+     "w": "as",
+     "start": 19.196,
+     "end": 19.254
+    },
+    {
+     "w": "tiny",
+     "start": 19.3,
+     "end": 19.532
+    },
+    {
+     "w": "points.",
+     "start": 19.579,
+     "end": 20.113
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "Brian",
+   "start": 20.253,
+   "end": 23.225,
+   "words": [
+    {
+     "w": "Each",
+     "start": 20.253,
+     "end": 20.474
+    },
+    {
+     "w": "point",
+     "start": 20.532,
+     "end": 20.729
+    },
+    {
+     "w": "focuses",
+     "start": 20.799,
+     "end": 21.251
+    },
+    {
+     "w": "current",
+     "start": 21.31,
+     "end": 21.553
+    },
+    {
+     "w": "like",
+     "start": 21.588,
+     "end": 21.716
+    },
+    {
+     "w": "water",
+     "start": 21.751,
+     "end": 21.948
+    },
+    {
+     "w": "through",
+     "start": 21.971,
+     "end": 22.134
+    },
+    {
+     "w": "one",
+     "start": 22.18,
+     "end": 22.32
+    },
+    {
+     "w": "hole",
+     "start": 22.343,
+     "end": 22.471
+    },
+    {
+     "w": "in",
+     "start": 22.494,
+     "end": 22.54
+    },
+    {
+     "w": "a",
+     "start": 22.575,
+     "end": 22.605
+    },
+    {
+     "w": "dam.",
+     "start": 22.633,
+     "end": 23.225
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "Brian",
+   "start": 23.365,
+   "end": 24.805,
+   "words": [
+    {
+     "w": "Now",
+     "start": 23.365,
+     "end": 23.516
+    },
+    {
+     "w": "here",
+     "start": 23.574,
+     "end": 23.702
+    },
+    {
+     "w": "is",
+     "start": 23.725,
+     "end": 23.783
+    },
+    {
+     "w": "the",
+     "start": 23.806,
+     "end": 23.876
+    },
+    {
+     "w": "interesting",
+     "start": 23.922,
+     "end": 24.247
+    },
+    {
+     "w": "part:",
+     "start": 24.305,
+     "end": 24.805
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "Brian",
+   "start": 24.945,
+   "end": 27.314,
+   "words": [
+    {
+     "w": "in",
+     "start": 24.945,
+     "end": 25.061
+    },
+    {
+     "w": "garnet",
+     "start": 25.131,
+     "end": 25.351
+    },
+    {
+     "w": "ceramic,",
+     "start": 25.386,
+     "end": 25.723
+    },
+    {
+     "w": "this",
+     "start": 25.746,
+     "end": 25.862
+    },
+    {
+     "w": "is",
+     "start": 25.909,
+     "end": 25.967
+    },
+    {
+     "w": "not",
+     "start": 26.025,
+     "end": 26.176
+    },
+    {
+     "w": "chemical",
+     "start": 26.222,
+     "end": 26.536
+    },
+    {
+     "w": "corrosion.",
+     "start": 26.582,
+     "end": 27.313
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "Brian",
+   "start": 27.454,
+   "end": 29.45,
+   "words": [
+    {
+     "w": "It",
+     "start": 27.454,
+     "end": 27.57
+    },
+    {
+     "w": "is",
+     "start": 27.605,
+     "end": 27.675
+    },
+    {
+     "w": "soft",
+     "start": 27.721,
+     "end": 27.976
+    },
+    {
+     "w": "lithium",
+     "start": 28.011,
+     "end": 28.325
+    },
+    {
+     "w": "splitting",
+     "start": 28.371,
+     "end": 28.638
+    },
+    {
+     "w": "hard",
+     "start": 28.673,
+     "end": 28.801
+    },
+    {
+     "w": "ceramic.",
+     "start": 28.836,
+     "end": 29.45
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "Brian",
+   "start": 29.59,
+   "end": 31.727,
+   "words": [
+    {
+     "w": "Look",
+     "start": 29.59,
+     "end": 29.787
+    },
+    {
+     "w": "inside",
+     "start": 29.822,
+     "end": 30.089
+    },
+    {
+     "w": "a",
+     "start": 30.112,
+     "end": 30.142
+    },
+    {
+     "w": "cell",
+     "start": 30.17,
+     "end": 30.368
+    },
+    {
+     "w": "under",
+     "start": 30.438,
+     "end": 30.565
+    },
+    {
+     "w": "an",
+     "start": 30.588,
+     "end": 30.635
+    },
+    {
+     "w": "electron",
+     "start": 30.67,
+     "end": 30.96
+    },
+    {
+     "w": "microscope:",
+     "start": 30.995,
+     "end": 31.726
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "Brian",
+   "start": 31.867,
+   "end": 33.956,
+   "words": [
+    {
+     "w": "lithium",
+     "start": 31.867,
+     "end": 32.215
+    },
+    {
+     "w": "enters",
+     "start": 32.262,
+     "end": 32.424
+    },
+    {
+     "w": "a",
+     "start": 32.459,
+     "end": 32.489
+    },
+    {
+     "w": "pore",
+     "start": 32.54,
+     "end": 32.831
+    },
+    {
+     "w": "just",
+     "start": 32.877,
+     "end": 33.028
+    },
+    {
+     "w": "beneath",
+     "start": 33.051,
+     "end": 33.225
+    },
+    {
+     "w": "the",
+     "start": 33.249,
+     "end": 33.318
+    },
+    {
+     "w": "surface.",
+     "start": 33.341,
+     "end": 33.956
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "Brian",
+   "start": 34.096,
+   "end": 36.883,
+   "words": [
+    {
+     "w": "More",
+     "start": 34.096,
+     "end": 34.305
+    },
+    {
+     "w": "charging",
+     "start": 34.34,
+     "end": 34.676
+    },
+    {
+     "w": "builds",
+     "start": 34.735,
+     "end": 34.92
+    },
+    {
+     "w": "pressure",
+     "start": 34.967,
+     "end": 35.257
+    },
+    {
+     "w": "toward",
+     "start": 35.28,
+     "end": 35.454
+    },
+    {
+     "w": "six",
+     "start": 35.501,
+     "end": 35.675
+    },
+    {
+     "w": "hundred",
+     "start": 35.71,
+     "end": 35.896
+    },
+    {
+     "w": "megapascals.",
+     "start": 35.93,
+     "end": 36.882
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "voice": "Brian",
+   "start": 37.023,
+   "end": 40.088,
+   "words": [
+    {
+     "w": "The",
+     "start": 37.023,
+     "end": 37.139
+    },
+    {
+     "w": "ceramic",
+     "start": 37.174,
+     "end": 37.499
+    },
+    {
+     "w": "cracks,",
+     "start": 37.545,
+     "end": 37.871
+    },
+    {
+     "w": "lithium",
+     "start": 37.917,
+     "end": 38.254
+    },
+    {
+     "w": "fills",
+     "start": 38.3,
+     "end": 38.521
+    },
+    {
+     "w": "it,",
+     "start": 38.567,
+     "end": 38.695
+    },
+    {
+     "w": "and",
+     "start": 38.776,
+     "end": 38.881
+    },
+    {
+     "w": "the",
+     "start": 38.904,
+     "end": 38.973
+    },
+    {
+     "w": "crack",
+     "start": 39.008,
+     "end": 39.206
+    },
+    {
+     "w": "runs",
+     "start": 39.264,
+     "end": 39.449
+    },
+    {
+     "w": "onward.",
+     "start": 39.508,
+     "end": 40.088
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "voice": "Brian",
+   "start": 40.228,
+   "end": 41.668,
+   "words": [
+    {
+     "w": "But",
+     "start": 40.228,
+     "end": 40.379
+    },
+    {
+     "w": "something",
+     "start": 40.414,
+     "end": 40.658
+    },
+    {
+     "w": "unexpected",
+     "start": 40.692,
+     "end": 41.087
+    },
+    {
+     "w": "happened:",
+     "start": 41.11,
+     "end": 41.668
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "voice": "Brian",
+   "start": 41.808,
+   "end": 43.758,
+   "words": [
+    {
+     "w": "the",
+     "start": 41.808,
+     "end": 41.936
+    },
+    {
+     "w": "hardest",
+     "start": 41.994,
+     "end": 42.214
+    },
+    {
+     "w": "ceramic",
+     "start": 42.238,
+     "end": 42.656
+    },
+    {
+     "w": "was",
+     "start": 42.702,
+     "end": 42.795
+    },
+    {
+     "w": "not",
+     "start": 42.853,
+     "end": 42.992
+    },
+    {
+     "w": "the",
+     "start": 43.015,
+     "end": 43.085
+    },
+    {
+     "w": "safest.",
+     "start": 43.12,
+     "end": 43.758
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "voice": "Brian",
+   "start": 43.898,
+   "end": 45.895,
+   "words": [
+    {
+     "w": "The",
+     "start": 43.898,
+     "end": 44.026
+    },
+    {
+     "w": "filament",
+     "start": 44.072,
+     "end": 44.339
+    },
+    {
+     "w": "wins",
+     "start": 44.374,
+     "end": 44.548
+    },
+    {
+     "w": "by",
+     "start": 44.583,
+     "end": 44.664
+    },
+    {
+     "w": "pushing,",
+     "start": 44.734,
+     "end": 45.082
+    },
+    {
+     "w": "not",
+     "start": 45.105,
+     "end": 45.245
+    },
+    {
+     "w": "cutting.",
+     "start": 45.291,
+     "end": 45.895
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "voice": "Brian",
+   "start": 46.035,
+   "end": 47.382,
+   "words": [
+    {
+     "w": "Look",
+     "start": 46.035,
+     "end": 46.198
+    },
+    {
+     "w": "at",
+     "start": 46.221,
+     "end": 46.267
+    },
+    {
+     "w": "what",
+     "start": 46.29,
+     "end": 46.395
+    },
+    {
+     "w": "someone",
+     "start": 46.441,
+     "end": 46.662
+    },
+    {
+     "w": "commented:",
+     "start": 46.697,
+     "end": 47.382
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "voice": "Brian",
+   "start": 47.522,
+   "end": 49.983,
+   "words": [
+    {
+     "w": "\"If",
+     "start": 47.522,
+     "end": 47.638
+    },
+    {
+     "w": "ceramic",
+     "start": 47.673,
+     "end": 47.952
+    },
+    {
+     "w": "is",
+     "start": 47.986,
+     "end": 48.033
+    },
+    {
+     "w": "harder,",
+     "start": 48.079,
+     "end": 48.416
+    },
+    {
+     "w": "how",
+     "start": 48.59,
+     "end": 48.706
+    },
+    {
+     "w": "does",
+     "start": 48.764,
+     "end": 48.869
+    },
+    {
+     "w": "lithium",
+     "start": 48.927,
+     "end": 49.217
+    },
+    {
+     "w": "pass",
+     "start": 49.252,
+     "end": 49.438
+    },
+    {
+     "w": "through?\"",
+     "start": 49.472,
+     "end": 49.983
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "voice": "Brian",
+   "start": 50.123,
+   "end": 52.213,
+   "words": [
+    {
+     "w": "Look",
+     "start": 50.123,
+     "end": 50.309
+    },
+    {
+     "w": "at",
+     "start": 50.344,
+     "end": 50.39
+    },
+    {
+     "w": "the",
+     "start": 50.413,
+     "end": 50.483
+    },
+    {
+     "w": "difference",
+     "start": 50.518,
+     "end": 50.762
+    },
+    {
+     "w": "between",
+     "start": 50.785,
+     "end": 51.063
+    },
+    {
+     "w": "this",
+     "start": 51.11,
+     "end": 51.342
+    },
+    {
+     "w": "and",
+     "start": 51.435,
+     "end": 51.586
+    },
+    {
+     "w": "this:",
+     "start": 51.644,
+     "end": 52.213
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "voice": "Brian",
+   "start": 52.353,
+   "end": 55.371,
+   "words": [
+    {
+     "w": "a",
+     "start": 52.353,
+     "end": 52.434
+    },
+    {
+     "w": "knife",
+     "start": 52.492,
+     "end": 52.643
+    },
+    {
+     "w": "cuts",
+     "start": 52.666,
+     "end": 52.829
+    },
+    {
+     "w": "with",
+     "start": 52.852,
+     "end": 52.945
+    },
+    {
+     "w": "an",
+     "start": 52.98,
+     "end": 53.026
+    },
+    {
+     "w": "edge;",
+     "start": 53.084,
+     "end": 53.351
+    },
+    {
+     "w": "this",
+     "start": 53.723,
+     "end": 53.851
+    },
+    {
+     "w": "pushes",
+     "start": 53.897,
+     "end": 54.153
+    },
+    {
+     "w": "like",
+     "start": 54.187,
+     "end": 54.28
+    },
+    {
+     "w": "a",
+     "start": 54.303,
+     "end": 54.333
+    },
+    {
+     "w": "hydraulic",
+     "start": 54.373,
+     "end": 54.733
+    },
+    {
+     "w": "jack.",
+     "start": 54.768,
+     "end": 55.371
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "voice": "Brian",
+   "start": 55.511,
+   "end": 57.601,
+   "words": [
+    {
+     "w": "And",
+     "start": 55.511,
+     "end": 55.615
+    },
+    {
+     "w": "the",
+     "start": 55.65,
+     "end": 55.72
+    },
+    {
+     "w": "missing",
+     "start": 55.743,
+     "end": 55.941
+    },
+    {
+     "w": "fourth",
+     "start": 55.975,
+     "end": 56.15
+    },
+    {
+     "w": "element:",
+     "start": 56.184,
+     "end": 56.486
+    },
+    {
+     "w": "stack",
+     "start": 56.626,
+     "end": 56.939
+    },
+    {
+     "w": "pressure.",
+     "start": 56.997,
+     "end": 57.601
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "voice": "Brian",
+   "start": 57.741,
+   "end": 60.156,
+   "words": [
+    {
+     "w": "Too",
+     "start": 57.741,
+     "end": 57.927
+    },
+    {
+     "w": "little",
+     "start": 57.985,
+     "end": 58.147
+    },
+    {
+     "w": "leaves",
+     "start": 58.171,
+     "end": 58.345
+    },
+    {
+     "w": "voids;",
+     "start": 58.391,
+     "end": 58.774
+    },
+    {
+     "w": "too",
+     "start": 58.844,
+     "end": 58.972
+    },
+    {
+     "w": "much",
+     "start": 59.006,
+     "end": 59.134
+    },
+    {
+     "w": "drives",
+     "start": 59.169,
+     "end": 59.424
+    },
+    {
+     "w": "the",
+     "start": 59.448,
+     "end": 59.517
+    },
+    {
+     "w": "crack.",
+     "start": 59.541,
+     "end": 60.156
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "voice": "Brian",
+   "start": 60.296,
+   "end": 62.618,
+   "words": [
+    {
+     "w": "Engineers",
+     "start": 60.296,
+     "end": 60.749
+    },
+    {
+     "w": "must",
+     "start": 60.795,
+     "end": 60.923
+    },
+    {
+     "w": "hit",
+     "start": 60.946,
+     "end": 61.051
+    },
+    {
+     "w": "a",
+     "start": 61.074,
+     "end": 61.104
+    },
+    {
+     "w": "narrow",
+     "start": 61.132,
+     "end": 61.318
+    },
+    {
+     "w": "window,",
+     "start": 61.353,
+     "end": 61.608
+    },
+    {
+     "w": "not",
+     "start": 61.631,
+     "end": 61.759
+    },
+    {
+     "w": "squeeze",
+     "start": 61.817,
+     "end": 62.037
+    },
+    {
+     "w": "harder.",
+     "start": 62.061,
+     "end": 62.618
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "voice": "Brian",
+   "start": 62.758,
+   "end": 64.894,
+   "words": [
+    {
+     "w": "Before:",
+     "start": 62.758,
+     "end": 63.118
+    },
+    {
+     "w": "a",
+     "start": 63.141,
+     "end": 63.171
+    },
+    {
+     "w": "pore,",
+     "start": 63.211,
+     "end": 63.443
+    },
+    {
+     "w": "a",
+     "start": 63.478,
+     "end": 63.513
+    },
+    {
+     "w": "point,",
+     "start": 63.571,
+     "end": 63.791
+    },
+    {
+     "w": "a",
+     "start": 63.815,
+     "end": 63.861
+    },
+    {
+     "w": "crack,",
+     "start": 63.907,
+     "end": 64.221
+    },
+    {
+     "w": "a",
+     "start": 64.244,
+     "end": 64.291
+    },
+    {
+     "w": "short.",
+     "start": 64.349,
+     "end": 64.894
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "voice": "Brian",
+   "start": 65.034,
+   "end": 67.356,
+   "words": [
+    {
+     "w": "Now:",
+     "start": 65.034,
+     "end": 65.301
+    },
+    {
+     "w": "a",
+     "start": 65.347,
+     "end": 65.406
+    },
+    {
+     "w": "clean",
+     "start": 65.475,
+     "end": 65.684
+    },
+    {
+     "w": "interface",
+     "start": 65.731,
+     "end": 66.067
+    },
+    {
+     "w": "plates",
+     "start": 66.102,
+     "end": 66.323
+    },
+    {
+     "w": "lithium",
+     "start": 66.381,
+     "end": 66.671
+    },
+    {
+     "w": "back",
+     "start": 66.706,
+     "end": 66.834
+    },
+    {
+     "w": "flat.",
+     "start": 66.868,
+     "end": 67.356
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "voice": "Brian",
+   "start": 67.496,
+   "end": 70.143,
+   "words": [
+    {
+     "w": "Solid",
+     "start": 67.496,
+     "end": 67.856
+    },
+    {
+     "w": "does",
+     "start": 67.879,
+     "end": 67.995
+    },
+    {
+     "w": "not",
+     "start": 68.042,
+     "end": 68.169
+    },
+    {
+     "w": "mean",
+     "start": 68.204,
+     "end": 68.332
+    },
+    {
+     "w": "safe.",
+     "start": 68.413,
+     "end": 68.761
+    },
+    {
+     "w": "It",
+     "start": 68.831,
+     "end": 68.936
+    },
+    {
+     "w": "means",
+     "start": 68.97,
+     "end": 69.121
+    },
+    {
+     "w": "the",
+     "start": 69.145,
+     "end": 69.214
+    },
+    {
+     "w": "failure",
+     "start": 69.261,
+     "end": 69.551
+    },
+    {
+     "w": "hides.",
+     "start": 69.574,
+     "end": 70.143
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "voice": "Brian",
+   "start": 70.283,
+   "end": 72.234,
+   "words": [
+    {
+     "w": "Follow",
+     "start": 70.283,
+     "end": 70.562
+    },
+    {
+     "w": "for",
+     "start": 70.62,
+     "end": 70.689
+    },
+    {
+     "w": "more",
+     "start": 70.736,
+     "end": 70.863
+    },
+    {
+     "w": "engineering",
+     "start": 70.91,
+     "end": 71.34
+    },
+    {
+     "w": "in",
+     "start": 71.374,
+     "end": 71.421
+    },
+    {
+     "w": "plain",
+     "start": 71.467,
+     "end": 71.653
+    },
+    {
+     "w": "sight.",
+     "start": 71.723,
+     "end": 72.233
+    }
+   ]
+  }
+ ]
+}

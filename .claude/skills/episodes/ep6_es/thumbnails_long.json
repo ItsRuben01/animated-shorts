@@ -1,0 +1,123 @@
+{
+  "cardWidth": 1280,
+  "cardHeight": 720,
+  "hooks": [
+    {
+      "index": 1,
+      "archetype": "The Impossible Paradox",
+      "theme": "cream",
+      "topPill": "BATER?AS DE ESTADO S?LIDO",
+      "headlineTop": "LITIO BLANDO",
+      "headlineSerif": "ROMPE",
+      "headlineBottom": "CER?MICA DURA",
+      "highlightBox": true,
+      "slashDiagonal": true,
+      "bottomPill": "3860 mAh/g",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_1.png"
+    },
+    {
+      "index": 2,
+      "archetype": "Big Number Centerpiece",
+      "theme": "cream",
+      "topPill": "EL SALTO DEL ?NODO",
+      "bigMetric": "10?",
+      "headlineTop": "M?S ENERG?A",
+      "headlineSerif": "QUE EL GRAFITO",
+      "highlightBox": true,
+      "bottomPill": "372 vs 3860",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_2.png"
+    },
+    {
+      "index": 3,
+      "archetype": "CAD Selection Box Mystery",
+      "theme": "dark",
+      "topPill": "MEC?NICA DE FALLA",
+      "headlineTop": "LA GRIETA EMPIEZA",
+      "headlineSerif": "EN UN PORO",
+      "highlightBox": true,
+      "stampText": "600 MPa",
+      "bottomPill": "GRANATE LLZTO",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_1.png"
+    },
+    {
+      "index": 4,
+      "archetype": "Stop Paying / Stop Doing X",
+      "theme": "cream",
+      "topPill": "ERROR COM?N",
+      "headlineTop": "NO APRIETES",
+      "headlineSerif": "M?S LA BATER?A",
+      "highlightBox": true,
+      "stampText": "EMPEORA",
+      "bottomPill": "PRESI?N DE APILADO",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_3.png"
+    },
+    {
+      "index": 5,
+      "archetype": "Before vs. After / Myth vs. Reality",
+      "theme": "dark",
+      "topPill": "MITO VS REALIDAD",
+      "headlineTop": "S?LIDO NO",
+      "headlineSerif": "SIGNIFICA SEGURO",
+      "highlightBox": true,
+      "bottomPill": "CORTO INTERNO",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_3.png"
+    },
+    {
+      "index": 6,
+      "archetype": "1-Line / 1-Piece Secret",
+      "theme": "cream",
+      "topPill": "LA VARIABLE OCULTA",
+      "bigMetric": "1",
+      "headlineTop": "FACTOR DECIDE",
+      "headlineSerif": "LA PRESI?N",
+      "highlightBox": true,
+      "bottomPill": "VENTANA ESTRECHA",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_2.png"
+    },
+    {
+      "index": 7,
+      "archetype": "The Price / Scale Shock",
+      "theme": "dark",
+      "topPill": "PRESI?N EN LA GRIETA",
+      "bigMetric": "600 MPa",
+      "headlineTop": "EL LITIO",
+      "headlineSerif": "EMPUJA COMO GATO",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep6_es_long/long_ref_1.png"
+    },
+    {
+      "index": 8,
+      "archetype": "Time-Limit Challenge",
+      "theme": "dark",
+      "topPill": "AL CARGAR",
+      "headlineTop": "UN MICRO-PORO",
+      "headlineSerif": "DISPARA EL FALLO",
+      "highlightBox": true,
+      "bottomPill": "PORO ? GRIETA ? CORTO",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_2.png"
+    },
+    {
+      "index": 9,
+      "archetype": "Hidden Error / What Went Wrong",
+      "theme": "cream",
+      "topPill": "LO QUE VIO EL MICROSCOPIO",
+      "headlineTop": "LA CER?MICA",
+      "headlineSerif": "FALLA DESDE DENTRO",
+      "highlightBox": true,
+      "stampText": "CORTO",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_1.png"
+    },
+    {
+      "index": 10,
+      "archetype": "The 4th Missing Piece",
+      "theme": "dark",
+      "topPill": "EL 4? FACTOR",
+      "headlineTop": "3 DATOS IMBATIBLES",
+      "headlineSerif": "FALTA UNO",
+      "highlightBox": true,
+      "bigMetric": "?",
+      "bottomPill": "PRESI?N DE APILADO",
+      "refImage": "thumb_refs/ep6_es_long/long_ref_3.png"
+    }
+  ]
+}

@@ -1,0 +1,1492 @@
+{
+ "voice": "em_alex",
+ "speed": 1.336,
+ "total": 64.13,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "em_alex",
+   "start": 0,
+   "end": 2.6,
+   "words": [
+    {
+     "w": "Ánodo",
+     "start": 0,
+     "end": 0.151
+    },
+    {
+     "w": "de",
+     "start": 0.151,
+     "end": 0.231
+    },
+    {
+     "w": "litio",
+     "start": 0.231,
+     "end": 0.401
+    },
+    {
+     "w": "metálico,",
+     "start": 0.401,
+     "end": 0.951
+    },
+    {
+     "w": "pared",
+     "start": 0.951,
+     "end": 1.161
+    },
+    {
+     "w": "cerámica,",
+     "start": 1.161,
+     "end": 1.631
+    },
+    {
+     "w": "cero",
+     "start": 1.631,
+     "end": 1.871
+    },
+    {
+     "w": "líquido",
+     "start": 1.871,
+     "end": 2.161
+    },
+    {
+     "w": "inflamable:",
+     "start": 2.161,
+     "end": 2.6
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "em_alex",
+   "start": 2.74,
+   "end": 4.74,
+   "words": [
+    {
+     "w": "tres",
+     "start": 2.74,
+     "end": 2.921
+    },
+    {
+     "w": "datos",
+     "start": 2.921,
+     "end": 3.271
+    },
+    {
+     "w": "que",
+     "start": 3.271,
+     "end": 3.411
+    },
+    {
+     "w": "hacen",
+     "start": 3.411,
+     "end": 3.561
+    },
+    {
+     "w": "imbatible",
+     "start": 3.561,
+     "end": 4.091
+    },
+    {
+     "w": "esta",
+     "start": 4.091,
+     "end": 4.321
+    },
+    {
+     "w": "batería.",
+     "start": 4.321,
+     "end": 4.74
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "em_alex",
+   "start": 4.88,
+   "end": 7.75,
+   "words": [
+    {
+     "w": "El",
+     "start": 4.88,
+     "end": 4.94
+    },
+    {
+     "w": "ánodo",
+     "start": 4.94,
+     "end": 5.191
+    },
+    {
+     "w": "guarda",
+     "start": 5.191,
+     "end": 5.481
+    },
+    {
+     "w": "tres",
+     "start": 5.481,
+     "end": 5.701
+    },
+    {
+     "w": "mil",
+     "start": 5.701,
+     "end": 5.891
+    },
+    {
+     "w": "ochocientos",
+     "start": 5.891,
+     "end": 6.441
+    },
+    {
+     "w": "sesenta",
+     "start": 6.441,
+     "end": 6.781
+    },
+    {
+     "w": "miliamperios",
+     "start": 6.781,
+     "end": 7.271
+    },
+    {
+     "w": "hora",
+     "start": 7.271,
+     "end": 7.411
+    },
+    {
+     "w": "por",
+     "start": 7.411,
+     "end": 7.541
+    },
+    {
+     "w": "gramo,",
+     "start": 7.541,
+     "end": 7.75
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "em_alex",
+   "start": 7.89,
+   "end": 10.14,
+   "words": [
+    {
+     "w": "diez",
+     "start": 7.89,
+     "end": 8.071
+    },
+    {
+     "w": "veces",
+     "start": 8.071,
+     "end": 8.331
+    },
+    {
+     "w": "el",
+     "start": 8.331,
+     "end": 8.411
+    },
+    {
+     "w": "grafito.",
+     "start": 8.411,
+     "end": 8.941
+    },
+    {
+     "w": "Pero",
+     "start": 8.941,
+     "end": 9.131
+    },
+    {
+     "w": "falta",
+     "start": 9.131,
+     "end": 9.391
+    },
+    {
+     "w": "un",
+     "start": 9.391,
+     "end": 9.491
+    },
+    {
+     "w": "cuarto",
+     "start": 9.491,
+     "end": 9.691
+    },
+    {
+     "w": "elemento,",
+     "start": 9.691,
+     "end": 10.14
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "em_alex",
+   "start": 10.28,
+   "end": 12.26,
+   "words": [
+    {
+     "w": "y",
+     "start": 10.28,
+     "end": 10.34
+    },
+    {
+     "w": "sin",
+     "start": 10.34,
+     "end": 10.461
+    },
+    {
+     "w": "él",
+     "start": 10.461,
+     "end": 10.561
+    },
+    {
+     "w": "la",
+     "start": 10.561,
+     "end": 10.701
+    },
+    {
+     "w": "celda",
+     "start": 10.701,
+     "end": 11.071
+    },
+    {
+     "w": "se",
+     "start": 11.071,
+     "end": 11.161
+    },
+    {
+     "w": "cortocircuita",
+     "start": 11.161,
+     "end": 11.791
+    },
+    {
+     "w": "por",
+     "start": 11.791,
+     "end": 11.891
+    },
+    {
+     "w": "dentro.",
+     "start": 11.891,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "em_alex",
+   "start": 12.4,
+   "end": 13.94,
+   "words": [
+    {
+     "w": "¿Por",
+     "start": 12.4,
+     "end": 12.491
+    },
+    {
+     "w": "qué",
+     "start": 12.491,
+     "end": 12.651
+    },
+    {
+     "w": "falla",
+     "start": 12.651,
+     "end": 12.941
+    },
+    {
+     "w": "una",
+     "start": 12.941,
+     "end": 13.061
+    },
+    {
+     "w": "cerámica",
+     "start": 13.061,
+     "end": 13.471
+    },
+    {
+     "w": "tan",
+     "start": 13.471,
+     "end": 13.671
+    },
+    {
+     "w": "dura?",
+     "start": 13.671,
+     "end": 13.94
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "em_alex",
+   "start": 14.08,
+   "end": 16.18,
+   "words": [
+    {
+     "w": "Aquí",
+     "start": 14.08,
+     "end": 14.161
+    },
+    {
+     "w": "hay",
+     "start": 14.161,
+     "end": 14.391
+    },
+    {
+     "w": "un",
+     "start": 14.391,
+     "end": 14.451
+    },
+    {
+     "w": "problema:",
+     "start": 14.451,
+     "end": 14.921
+    },
+    {
+     "w": "el",
+     "start": 14.921,
+     "end": 15.021
+    },
+    {
+     "w": "litio",
+     "start": 15.021,
+     "end": 15.271
+    },
+    {
+     "w": "no",
+     "start": 15.271,
+     "end": 15.381
+    },
+    {
+     "w": "vuelve",
+     "start": 15.381,
+     "end": 15.591
+    },
+    {
+     "w": "en",
+     "start": 15.591,
+     "end": 15.671
+    },
+    {
+     "w": "capa",
+     "start": 15.671,
+     "end": 15.891
+    },
+    {
+     "w": "lisa.",
+     "start": 15.891,
+     "end": 16.18
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "em_alex",
+   "start": 16.32,
+   "end": 17.48,
+   "words": [
+    {
+     "w": "Se",
+     "start": 16.32,
+     "end": 16.501
+    },
+    {
+     "w": "deposita",
+     "start": 16.501,
+     "end": 16.991
+    },
+    {
+     "w": "en",
+     "start": 16.991,
+     "end": 17.051
+    },
+    {
+     "w": "puntitos.",
+     "start": 17.051,
+     "end": 17.48
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "em_alex",
+   "start": 17.62,
+   "end": 20.74,
+   "words": [
+    {
+     "w": "Cada",
+     "start": 17.62,
+     "end": 17.801
+    },
+    {
+     "w": "punto",
+     "start": 17.801,
+     "end": 18.071
+    },
+    {
+     "w": "concentra",
+     "start": 18.071,
+     "end": 18.581
+    },
+    {
+     "w": "la",
+     "start": 18.581,
+     "end": 18.681
+    },
+    {
+     "w": "corriente",
+     "start": 18.681,
+     "end": 19.091
+    },
+    {
+     "w": "como",
+     "start": 19.091,
+     "end": 19.181
+    },
+    {
+     "w": "el",
+     "start": 19.181,
+     "end": 19.281
+    },
+    {
+     "w": "agua",
+     "start": 19.281,
+     "end": 19.601
+    },
+    {
+     "w": "por",
+     "start": 19.601,
+     "end": 19.671
+    },
+    {
+     "w": "un",
+     "start": 19.671,
+     "end": 19.831
+    },
+    {
+     "w": "agujero",
+     "start": 19.831,
+     "end": 20.211
+    },
+    {
+     "w": "en",
+     "start": 20.211,
+     "end": 20.281
+    },
+    {
+     "w": "una",
+     "start": 20.281,
+     "end": 20.441
+    },
+    {
+     "w": "presa.",
+     "start": 20.441,
+     "end": 20.74
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "em_alex",
+   "start": 20.88,
+   "end": 22.31,
+   "words": [
+    {
+     "w": "Ahora,",
+     "start": 20.88,
+     "end": 21.171
+    },
+    {
+     "w": "aquí",
+     "start": 21.171,
+     "end": 21.381
+    },
+    {
+     "w": "viene",
+     "start": 21.381,
+     "end": 21.751
+    },
+    {
+     "w": "lo",
+     "start": 21.751,
+     "end": 21.841
+    },
+    {
+     "w": "interesante:",
+     "start": 21.841,
+     "end": 22.31
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "em_alex",
+   "start": 22.45,
+   "end": 24.4,
+   "words": [
+    {
+     "w": "en",
+     "start": 22.45,
+     "end": 22.51
+    },
+    {
+     "w": "cerámica",
+     "start": 22.51,
+     "end": 22.871
+    },
+    {
+     "w": "de",
+     "start": 22.871,
+     "end": 22.951
+    },
+    {
+     "w": "granate",
+     "start": 22.951,
+     "end": 23.401
+    },
+    {
+     "w": "no",
+     "start": 23.401,
+     "end": 23.531
+    },
+    {
+     "w": "hay",
+     "start": 23.531,
+     "end": 23.671
+    },
+    {
+     "w": "corrosión",
+     "start": 23.671,
+     "end": 24.041
+    },
+    {
+     "w": "química.",
+     "start": 24.041,
+     "end": 24.4
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "em_alex",
+   "start": 24.54,
+   "end": 26.39,
+   "words": [
+    {
+     "w": "Es",
+     "start": 24.54,
+     "end": 24.621
+    },
+    {
+     "w": "litio",
+     "start": 24.621,
+     "end": 24.861
+    },
+    {
+     "w": "blando",
+     "start": 24.861,
+     "end": 25.261
+    },
+    {
+     "w": "abriendo",
+     "start": 25.261,
+     "end": 25.711
+    },
+    {
+     "w": "cerámica",
+     "start": 25.711,
+     "end": 26.111
+    },
+    {
+     "w": "dura.",
+     "start": 26.111,
+     "end": 26.39
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "em_alex",
+   "start": 26.53,
+   "end": 28.33,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 26.53,
+     "end": 26.711
+    },
+    {
+     "w": "dentro",
+     "start": 26.711,
+     "end": 27.011
+    },
+    {
+     "w": "de",
+     "start": 27.011,
+     "end": 27.091
+    },
+    {
+     "w": "una",
+     "start": 27.091,
+     "end": 27.291
+    },
+    {
+     "w": "celda",
+     "start": 27.291,
+     "end": 27.671
+    },
+    {
+     "w": "al",
+     "start": 27.671,
+     "end": 27.751
+    },
+    {
+     "w": "microscopio:",
+     "start": 27.751,
+     "end": 28.33
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "em_alex",
+   "start": 28.47,
+   "end": 30.34,
+   "words": [
+    {
+     "w": "el",
+     "start": 28.47,
+     "end": 28.53
+    },
+    {
+     "w": "litio",
+     "start": 28.53,
+     "end": 28.821
+    },
+    {
+     "w": "entra",
+     "start": 28.821,
+     "end": 29.071
+    },
+    {
+     "w": "en",
+     "start": 29.071,
+     "end": 29.131
+    },
+    {
+     "w": "un",
+     "start": 29.131,
+     "end": 29.301
+    },
+    {
+     "w": "poro",
+     "start": 29.301,
+     "end": 29.541
+    },
+    {
+     "w": "bajo",
+     "start": 29.541,
+     "end": 29.691
+    },
+    {
+     "w": "la",
+     "start": 29.691,
+     "end": 29.831
+    },
+    {
+     "w": "superficie.",
+     "start": 29.831,
+     "end": 30.34
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "em_alex",
+   "start": 30.48,
+   "end": 33.03,
+   "words": [
+    {
+     "w": "Al",
+     "start": 30.48,
+     "end": 30.631
+    },
+    {
+     "w": "cargar",
+     "start": 30.631,
+     "end": 30.731
+    },
+    {
+     "w": "más,",
+     "start": 30.731,
+     "end": 31.091
+    },
+    {
+     "w": "la",
+     "start": 31.091,
+     "end": 31.221
+    },
+    {
+     "w": "presión",
+     "start": 31.221,
+     "end": 31.561
+    },
+    {
+     "w": "llega",
+     "start": 31.561,
+     "end": 31.751
+    },
+    {
+     "w": "a",
+     "start": 31.751,
+     "end": 31.871
+    },
+    {
+     "w": "seiscientos",
+     "start": 31.871,
+     "end": 32.291
+    },
+    {
+     "w": "megapascascales.",
+     "start": 32.291,
+     "end": 33.03
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "voice": "em_alex",
+   "start": 33.17,
+   "end": 35.54,
+   "words": [
+    {
+     "w": "La",
+     "start": 33.17,
+     "end": 33.281
+    },
+    {
+     "w": "cerámica",
+     "start": 33.281,
+     "end": 33.531
+    },
+    {
+     "w": "se",
+     "start": 33.531,
+     "end": 33.731
+    },
+    {
+     "w": "abre,",
+     "start": 33.731,
+     "end": 34.041
+    },
+    {
+     "w": "el",
+     "start": 34.041,
+     "end": 34.151
+    },
+    {
+     "w": "litio",
+     "start": 34.151,
+     "end": 34.361
+    },
+    {
+     "w": "la",
+     "start": 34.361,
+     "end": 34.451
+    },
+    {
+     "w": "rellena",
+     "start": 34.451,
+     "end": 34.721
+    },
+    {
+     "w": "y",
+     "start": 34.721,
+     "end": 34.901
+    },
+    {
+     "w": "la",
+     "start": 34.901,
+     "end": 35.021
+    },
+    {
+     "w": "grieta",
+     "start": 35.021,
+     "end": 35.251
+    },
+    {
+     "w": "sigue.",
+     "start": 35.251,
+     "end": 35.54
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "voice": "em_alex",
+   "start": 35.68,
+   "end": 36.94,
+   "words": [
+    {
+     "w": "Pero",
+     "start": 35.68,
+     "end": 35.811
+    },
+    {
+     "w": "pasó",
+     "start": 35.811,
+     "end": 36.121
+    },
+    {
+     "w": "algo",
+     "start": 36.121,
+     "end": 36.421
+    },
+    {
+     "w": "inesperado:",
+     "start": 36.421,
+     "end": 36.94
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "voice": "em_alex",
+   "start": 37.08,
+   "end": 38.88,
+   "words": [
+    {
+     "w": "la",
+     "start": 37.08,
+     "end": 37.211
+    },
+    {
+     "w": "cerámica",
+     "start": 37.211,
+     "end": 37.501
+    },
+    {
+     "w": "más",
+     "start": 37.501,
+     "end": 37.741
+    },
+    {
+     "w": "dura",
+     "start": 37.741,
+     "end": 38.061
+    },
+    {
+     "w": "no",
+     "start": 38.061,
+     "end": 38.281
+    },
+    {
+     "w": "era",
+     "start": 38.281,
+     "end": 38.341
+    },
+    {
+     "w": "la",
+     "start": 38.341,
+     "end": 38.431
+    },
+    {
+     "w": "más",
+     "start": 38.431,
+     "end": 38.531
+    },
+    {
+     "w": "segura.",
+     "start": 38.531,
+     "end": 38.88
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "voice": "em_alex",
+   "start": 39.02,
+   "end": 40.84,
+   "words": [
+    {
+     "w": "El",
+     "start": 39.02,
+     "end": 39.141
+    },
+    {
+     "w": "filamento",
+     "start": 39.141,
+     "end": 39.511
+    },
+    {
+     "w": "gana",
+     "start": 39.511,
+     "end": 39.781
+    },
+    {
+     "w": "empujando,",
+     "start": 39.781,
+     "end": 40.261
+    },
+    {
+     "w": "no",
+     "start": 40.261,
+     "end": 40.391
+    },
+    {
+     "w": "cortando.",
+     "start": 40.391,
+     "end": 40.84
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "voice": "em_alex",
+   "start": 40.98,
+   "end": 42.39,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 40.98,
+     "end": 41.161
+    },
+    {
+     "w": "lo",
+     "start": 41.161,
+     "end": 41.281
+    },
+    {
+     "w": "que",
+     "start": 41.281,
+     "end": 41.391
+    },
+    {
+     "w": "me",
+     "start": 41.391,
+     "end": 41.511
+    },
+    {
+     "w": "escribió",
+     "start": 41.511,
+     "end": 41.991
+    },
+    {
+     "w": "alguien:",
+     "start": 41.991,
+     "end": 42.39
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "voice": "em_alex",
+   "start": 42.53,
+   "end": 44.46,
+   "words": [
+    {
+     "w": "Si",
+     "start": 42.53,
+     "end": 42.59
+    },
+    {
+     "w": "la",
+     "start": 42.59,
+     "end": 42.671
+    },
+    {
+     "w": "cerámica",
+     "start": 42.671,
+     "end": 42.951
+    },
+    {
+     "w": "es",
+     "start": 42.951,
+     "end": 43.191
+    },
+    {
+     "w": "más",
+     "start": 43.191,
+     "end": 43.441
+    },
+    {
+     "w": "dura,",
+     "start": 43.441,
+     "end": 43.751
+    },
+    {
+     "w": "¿cómo",
+     "start": 43.751,
+     "end": 43.901
+    },
+    {
+     "w": "la",
+     "start": 43.901,
+     "end": 44.011
+    },
+    {
+     "w": "atraviesa?",
+     "start": 44.011,
+     "end": 44.46
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "voice": "em_alex",
+   "start": 44.6,
+   "end": 46.2,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 44.6,
+     "end": 44.881
+    },
+    {
+     "w": "la",
+     "start": 44.881,
+     "end": 44.941
+    },
+    {
+     "w": "diferencia",
+     "start": 44.941,
+     "end": 45.461
+    },
+    {
+     "w": "entre",
+     "start": 45.461,
+     "end": 45.521
+    },
+    {
+     "w": "esto",
+     "start": 45.521,
+     "end": 45.881
+    },
+    {
+     "w": "y",
+     "start": 45.881,
+     "end": 45.961
+    },
+    {
+     "w": "esto:",
+     "start": 45.961,
+     "end": 46.2
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "voice": "em_alex",
+   "start": 46.34,
+   "end": 49.06,
+   "words": [
+    {
+     "w": "un",
+     "start": 46.34,
+     "end": 46.461
+    },
+    {
+     "w": "cuchillo",
+     "start": 46.461,
+     "end": 46.741
+    },
+    {
+     "w": "corta",
+     "start": 46.741,
+     "end": 46.971
+    },
+    {
+     "w": "por",
+     "start": 46.971,
+     "end": 47.081
+    },
+    {
+     "w": "el",
+     "start": 47.081,
+     "end": 47.171
+    },
+    {
+     "w": "filo;",
+     "start": 47.171,
+     "end": 47.581
+    },
+    {
+     "w": "esto",
+     "start": 47.581,
+     "end": 47.821
+    },
+    {
+     "w": "empuja",
+     "start": 47.821,
+     "end": 48.141
+    },
+    {
+     "w": "como",
+     "start": 48.141,
+     "end": 48.391
+    },
+    {
+     "w": "un",
+     "start": 48.391,
+     "end": 48.451
+    },
+    {
+     "w": "gato",
+     "start": 48.451,
+     "end": 48.661
+    },
+    {
+     "w": "hidráulico.",
+     "start": 48.661,
+     "end": 49.06
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "voice": "em_alex",
+   "start": 49.2,
+   "end": 51.5,
+   "words": [
+    {
+     "w": "Y",
+     "start": 49.2,
+     "end": 49.26
+    },
+    {
+     "w": "el",
+     "start": 49.26,
+     "end": 49.32
+    },
+    {
+     "w": "cuarto",
+     "start": 49.32,
+     "end": 49.551
+    },
+    {
+     "w": "dato",
+     "start": 49.551,
+     "end": 49.781
+    },
+    {
+     "w": "que",
+     "start": 49.781,
+     "end": 49.861
+    },
+    {
+     "w": "faltaba:",
+     "start": 49.861,
+     "end": 50.441
+    },
+    {
+     "w": "la",
+     "start": 50.441,
+     "end": 50.611
+    },
+    {
+     "w": "presión",
+     "start": 50.611,
+     "end": 50.911
+    },
+    {
+     "w": "de",
+     "start": 50.911,
+     "end": 51.001
+    },
+    {
+     "w": "apilamiento.",
+     "start": 51.001,
+     "end": 51.5
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "voice": "em_alex",
+   "start": 51.64,
+   "end": 53.72,
+   "words": [
+    {
+     "w": "Muy",
+     "start": 51.64,
+     "end": 51.791
+    },
+    {
+     "w": "poca",
+     "start": 51.791,
+     "end": 52.001
+    },
+    {
+     "w": "deja",
+     "start": 52.001,
+     "end": 52.211
+    },
+    {
+     "w": "huecos;",
+     "start": 52.211,
+     "end": 52.651
+    },
+    {
+     "w": "demasiada",
+     "start": 52.651,
+     "end": 53.051
+    },
+    {
+     "w": "acelera",
+     "start": 53.051,
+     "end": 53.331
+    },
+    {
+     "w": "la",
+     "start": 53.331,
+     "end": 53.421
+    },
+    {
+     "w": "grieta.",
+     "start": 53.421,
+     "end": 53.72
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "voice": "em_alex",
+   "start": 53.86,
+   "end": 56.02,
+   "words": [
+    {
+     "w": "Hay",
+     "start": 53.86,
+     "end": 53.941
+    },
+    {
+     "w": "que",
+     "start": 53.941,
+     "end": 54.041
+    },
+    {
+     "w": "acertar",
+     "start": 54.041,
+     "end": 54.351
+    },
+    {
+     "w": "en",
+     "start": 54.351,
+     "end": 54.431
+    },
+    {
+     "w": "una",
+     "start": 54.431,
+     "end": 54.631
+    },
+    {
+     "w": "ventana",
+     "start": 54.631,
+     "end": 54.851
+    },
+    {
+     "w": "estrecha,",
+     "start": 54.851,
+     "end": 55.361
+    },
+    {
+     "w": "no",
+     "start": 55.361,
+     "end": 55.561
+    },
+    {
+     "w": "apretar",
+     "start": 55.561,
+     "end": 55.791
+    },
+    {
+     "w": "más.",
+     "start": 55.791,
+     "end": 56.02
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "voice": "em_alex",
+   "start": 56.16,
+   "end": 57.75,
+   "words": [
+    {
+     "w": "Antes:",
+     "start": 56.16,
+     "end": 56.461
+    },
+    {
+     "w": "poro,",
+     "start": 56.461,
+     "end": 56.781
+    },
+    {
+     "w": "punto,",
+     "start": 56.781,
+     "end": 57.061
+    },
+    {
+     "w": "grieta,",
+     "start": 57.061,
+     "end": 57.411
+    },
+    {
+     "w": "corte.",
+     "start": 57.411,
+     "end": 57.75
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "voice": "em_alex",
+   "start": 57.89,
+   "end": 60.01,
+   "words": [
+    {
+     "w": "Ahora:",
+     "start": 57.89,
+     "end": 58.181
+    },
+    {
+     "w": "una",
+     "start": 58.181,
+     "end": 58.381
+    },
+    {
+     "w": "interfaz",
+     "start": 58.381,
+     "end": 58.731
+    },
+    {
+     "w": "limpia",
+     "start": 58.731,
+     "end": 59.011
+    },
+    {
+     "w": "deja",
+     "start": 59.011,
+     "end": 59.171
+    },
+    {
+     "w": "el",
+     "start": 59.171,
+     "end": 59.301
+    },
+    {
+     "w": "litio",
+     "start": 59.301,
+     "end": 59.591
+    },
+    {
+     "w": "en",
+     "start": 59.591,
+     "end": 59.651
+    },
+    {
+     "w": "capa",
+     "start": 59.651,
+     "end": 59.771
+    },
+    {
+     "w": "plana.",
+     "start": 59.771,
+     "end": 60.01
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "voice": "em_alex",
+   "start": 60.15,
+   "end": 61.88,
+   "words": [
+    {
+     "w": "Sólido",
+     "start": 60.15,
+     "end": 60.311
+    },
+    {
+     "w": "no",
+     "start": 60.311,
+     "end": 60.401
+    },
+    {
+     "w": "es",
+     "start": 60.401,
+     "end": 60.581
+    },
+    {
+     "w": "seguro:",
+     "start": 60.581,
+     "end": 61.031
+    },
+    {
+     "w": "el",
+     "start": 61.031,
+     "end": 61.171
+    },
+    {
+     "w": "fallo",
+     "start": 61.171,
+     "end": 61.391
+    },
+    {
+     "w": "se",
+     "start": 61.391,
+     "end": 61.461
+    },
+    {
+     "w": "esconde.",
+     "start": 61.461,
+     "end": 61.88
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "voice": "em_alex",
+   "start": 62.02,
+   "end": 63.99,
+   "words": [
+    {
+     "w": "Síguenos",
+     "start": 62.02,
+     "end": 62.321
+    },
+    {
+     "w": "para",
+     "start": 62.321,
+     "end": 62.451
+    },
+    {
+     "w": "ver",
+     "start": 62.451,
+     "end": 62.621
+    },
+    {
+     "w": "más",
+     "start": 62.621,
+     "end": 62.961
+    },
+    {
+     "w": "ingeniería",
+     "start": 62.961,
+     "end": 63.381
+    },
+    {
+     "w": "a",
+     "start": 63.381,
+     "end": 63.441
+    },
+    {
+     "w": "simple",
+     "start": 63.441,
+     "end": 63.721
+    },
+    {
+     "w": "vista.",
+     "start": 63.721,
+     "end": 63.99
+    }
+   ]
+  }
+ ]
+}

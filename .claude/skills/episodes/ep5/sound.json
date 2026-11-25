@@ -1,0 +1,40 @@
+{
+  "bpm": 104,
+  "key": "D",
+  "music": 0.13,
+  "amb": {
+    "1": "wind", "2": "wind", "3": "wind", "4": "wind", "5": "wind",
+    "6": "wind", "7": "wind", "8": "wind", "9": "wind",
+    "10": "room", "11": "room", "12": "room",
+    "13": "wind", "14": "wind", "15": "wind", "16": "wind", "17": "wind", "18": "wind",
+    "19": "room", "20": "room", "21": "room", "22": "desk", "23": "desk",
+    "24": "wind", "25": "wind", "26": "wind", "27": "wind", "28": "wind",
+    "29": "wind", "30": "wind"
+  },
+  "sfx": [
+    { "shot": 1, "at": 0.2, "type": "whoosh" },
+    { "shot": 2, "at": 0.5, "type": "tick" },
+    { "shot": 4, "at": 0.7, "type": "tick" },
+    { "shot": 5, "at": 1.0, "type": "thump" },
+    { "shot": 6, "at": 0, "type": "whoosh" },
+    { "shot": 7, "at": 0.2, "type": "whoosh" },
+    { "shot": 7, "at": 0.9, "type": "thump" },
+    { "shot": 8, "at": 0.4, "type": "thump" },
+    { "shot": 9, "at": 0.1, "type": "thump" },
+    { "shot": 13, "at": 0, "type": "thump" },
+    { "shot": 15, "at": 0.3, "type": "thump" },
+    { "shot": 16, "at": 0.4, "type": "tick" },
+    { "shot": 17, "at": 0.3, "type": "whoosh" },
+    { "shot": 18, "at": 0.2, "type": "thump" },
+    { "shot": 18, "at": 1.1, "type": "shimmer" },
+    { "shot": 20, "at": 0.2, "type": "chatter" },
+    { "shot": 22, "at": 0.3, "type": "thump" },
+    { "shot": 23, "at": 0.2, "type": "pop" },
+    { "shot": 24, "at": 0.2, "type": "shimmer" },
+    { "shot": 26, "at": 1.0, "type": "shimmer" },
+    { "shot": 27, "at": 0, "type": "whoosh" },
+    { "shot": 28, "at": 0.4, "type": "coin" },
+    { "shot": 29, "at": 0.3, "type": "shimmer" }
+  ],
+  "bedDb": 19
+}

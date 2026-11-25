@@ -1,0 +1,22 @@
+[
+  { "id": 1, "text": "Papá, tú que eres ingeniero…" },
+  { "id": 2, "text": "¿Cómo puedo empezar a crear mis propios inventos?" },
+  { "id": 3, "text": "Con el cerebro de miles de proyectos: una placa Arduino." },
+  { "id": 4, "text": "Para dar vida a tu primer circuito solo necesitas cuatro piezas." },
+  { "id": 5, "text": "Un Arduino para dar la energía." },
+  { "id": 6, "text": "Un botón para dar la orden." },
+  { "id": 7, "text": "Una resistencia para proteger el sistema." },
+  { "id": 8, "text": "Y un LED que nos mostrará el resultado.", "say": "Y un ele e de que nos mostrará el resultado." },
+  { "id": 9, "text": "Primero conectamos la salida de cinco voltios al botón." },
+  { "id": 10, "text": "Que actuará como un puente levadizo." },
+  { "id": 11, "text": "Al otro lado ponemos la resistencia de trescientos treinta ohmios.", "say": "Al otro lado ponemos la resistencia de trescientos treinta omios." },
+  { "id": 12, "text": "Para frenar el exceso de corriente y evitar que el LED se queme.", "say": "Para frenar el exceso de corriente y evitar que el ele e de se queme." },
+  { "id": 13, "text": "Por último, cerramos el camino llevando el cable de vuelta a tierra." },
+  { "id": 14, "text": "Ahora llega el momento de la verdad." },
+  { "id": 15, "text": "¡Pulsa el botón!" },
+  { "id": 16, "text": "Al presionarlo, el puente se cierra, la electricidad fluye sin peligro y…" },
+  { "id": 17, "text": "¡Magia!" },
+  { "id": 18, "text": "¡Guau! ¡Mira papá, se ha encendido!" },
+  { "id": 19, "text": "No es solo una luz encendiéndose;" },
+  { "id": 20, "text": "es la primera vez que controlas la tecnología con tus propias manos." }
+]

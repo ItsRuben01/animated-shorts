@@ -1,0 +1,124 @@
+{
+  "cardWidth": 1080,
+  "cardHeight": 1920,
+  "hooks": [
+    {
+      "index": 1,
+      "archetype": "The Impossible Paradox",
+      "theme": "cream",
+      "topPill": "SOLID-STATE BATTERY",
+      "headlineTop": "HARD CERAMIC",
+      "headlineSerif": "SPLIT OPEN",
+      "headlineBottom": "BY SOFT LITHIUM",
+      "highlightBox": true,
+      "slashDiagonal": true,
+      "bottomPill": "3860 mAh/g",
+      "refImage": "thumb_refs/ep6_en/short_ref_1.png"
+    },
+    {
+      "index": 2,
+      "archetype": "Big Number Centerpiece",
+      "theme": "cream",
+      "topPill": "GRAPHITE VS LITHIUM",
+      "bigMetric": "10?",
+      "headlineTop": "MORE CAPACITY",
+      "headlineSerif": "SAME SPACE",
+      "highlightBox": true,
+      "bottomPill": "372 vs 3860",
+      "refImage": "thumb_refs/ep6_en/short_ref_2.png"
+    },
+    {
+      "index": 3,
+      "archetype": "CAD Selection Box Mystery",
+      "theme": "dark",
+      "topPill": "INTERNAL FAILURE",
+      "headlineTop": "THE CRACK STARTS",
+      "headlineSerif": "BELOW THE SURFACE",
+      "highlightBox": true,
+      "stampText": "SHORT",
+      "bottomPill": "600 MPa",
+      "refImage": "thumb_refs/ep6_en/short_ref_1.png"
+    },
+    {
+      "index": 4,
+      "archetype": "Stop Paying / Stop Doing X",
+      "theme": "cream",
+      "topPill": "DESIGN MISTAKE",
+      "headlineTop": "DON'T SQUEEZE",
+      "headlineSerif": "THE CELL HARDER",
+      "highlightBox": true,
+      "stampText": "FAIL",
+      "bottomPill": "STACK PRESSURE",
+      "refImage": "thumb_refs/ep6_en/short_ref_3.png"
+    },
+    {
+      "index": 5,
+      "archetype": "Before vs. After / Myth vs. Reality",
+      "theme": "dark",
+      "topPill": "MYTH VS REALITY",
+      "headlineTop": "SOLID DOESN'T MEAN",
+      "headlineSerif": "SAFE",
+      "highlightBox": true,
+      "bottomPill": "BEFORE / AFTER",
+      "refImage": "thumb_refs/ep6_en/short_ref_3.png"
+    },
+    {
+      "index": 6,
+      "archetype": "1-Line / 1-Piece Secret",
+      "theme": "cream",
+      "topPill": "THE HIDDEN VARIABLE",
+      "bigMetric": "1",
+      "headlineTop": "FACTOR MISSING",
+      "headlineSerif": "THE PRESSURE",
+      "highlightBox": true,
+      "bottomPill": "NARROW WINDOW",
+      "refImage": "thumb_refs/ep6_en/short_ref_2.png"
+    },
+    {
+      "index": 7,
+      "archetype": "The Price / Scale Shock",
+      "theme": "dark",
+      "topPill": "INTERNAL PRESSURE",
+      "bigMetric": "600 MPa",
+      "headlineTop": "LITHIUM PUSHES",
+      "headlineSerif": "LIKE A JACK",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep6_en/short_ref_1.png"
+    },
+    {
+      "index": 8,
+      "archetype": "Time-Limit Challenge",
+      "theme": "dark",
+      "topPill": "DURING CHARGING",
+      "headlineTop": "ONE PORE",
+      "headlineSerif": "TRIGGERS THE SHORT",
+      "highlightBox": true,
+      "bottomPill": "PORE ? CRACK",
+      "refImage": "thumb_refs/ep6_en/short_ref_2.png"
+    },
+    {
+      "index": 9,
+      "archetype": "Hidden Error / What Went Wrong",
+      "theme": "cream",
+      "topPill": "REAL EXPERIMENT",
+      "headlineTop": "THE CERAMIC",
+      "headlineSerif": "CRACKS",
+      "headlineBottom": "FROM INSIDE",
+      "highlightBox": true,
+      "stampText": "SHORT CIRCUIT",
+      "refImage": "thumb_refs/ep6_en/short_ref_1.png"
+    },
+    {
+      "index": 10,
+      "archetype": "The 4th Missing Piece",
+      "theme": "dark",
+      "topPill": "THE 4TH FACTOR",
+      "headlineTop": "3 PERFECT FACTS",
+      "headlineSerif": "WHAT'S MISSING?",
+      "highlightBox": true,
+      "bigMetric": "?",
+      "bottomPill": "STACK PRESSURE",
+      "refImage": "thumb_refs/ep6_en/short_ref_3.png"
+    }
+  ]
+}

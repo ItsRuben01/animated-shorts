@@ -1,0 +1,1492 @@
+{
+ "voice": "David Martin",
+ "speed": 1.1,
+ "total": 99.402,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "David Martin",
+   "start": 0,
+   "end": 4.923,
+   "words": [
+    {
+     "w": "Ánodo",
+     "start": 0,
+     "end": 0.372
+    },
+    {
+     "w": "de",
+     "start": 0.43,
+     "end": 0.499
+    },
+    {
+     "w": "litio",
+     "start": 0.557,
+     "end": 0.894
+    },
+    {
+     "w": "metálico,",
+     "start": 0.952,
+     "end": 1.637
+    },
+    {
+     "w": "pared",
+     "start": 1.823,
+     "end": 2.148
+    },
+    {
+     "w": "cerámica,",
+     "start": 2.206,
+     "end": 2.902
+    },
+    {
+     "w": "cero",
+     "start": 3.158,
+     "end": 3.448
+    },
+    {
+     "w": "líquido",
+     "start": 3.506,
+     "end": 3.901
+    },
+    {
+     "w": "inflamable:",
+     "start": 3.936,
+     "end": 4.923
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "David Martin",
+   "start": 5.063,
+   "end": 7.988,
+   "words": [
+    {
+     "w": "tres",
+     "start": 5.063,
+     "end": 5.353
+    },
+    {
+     "w": "datos",
+     "start": 5.423,
+     "end": 5.771
+    },
+    {
+     "w": "que",
+     "start": 5.829,
+     "end": 5.945
+    },
+    {
+     "w": "hacen",
+     "start": 5.992,
+     "end": 6.224
+    },
+    {
+     "w": "imbatible",
+     "start": 6.282,
+     "end": 6.897
+    },
+    {
+     "w": "esta",
+     "start": 6.944,
+     "end": 7.164
+    },
+    {
+     "w": "batería.",
+     "start": 7.211,
+     "end": 7.988
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "David Martin",
+   "start": 8.128,
+   "end": 12.54,
+   "words": [
+    {
+     "w": "El",
+     "start": 8.128,
+     "end": 8.291
+    },
+    {
+     "w": "ánodo",
+     "start": 8.349,
+     "end": 8.592
+    },
+    {
+     "w": "guarda",
+     "start": 8.65,
+     "end": 8.976
+    },
+    {
+     "w": "tres",
+     "start": 9.022,
+     "end": 9.219
+    },
+    {
+     "w": "mil",
+     "start": 9.301,
+     "end": 9.475
+    },
+    {
+     "w": "ochocientos",
+     "start": 9.533,
+     "end": 10.113
+    },
+    {
+     "w": "sesenta",
+     "start": 10.137,
+     "end": 10.554
+    },
+    {
+     "w": "miliamperios",
+     "start": 10.613,
+     "end": 11.344
+    },
+    {
+     "w": "hora",
+     "start": 11.448,
+     "end": 11.646
+    },
+    {
+     "w": "por",
+     "start": 11.704,
+     "end": 11.843
+    },
+    {
+     "w": "gramo,",
+     "start": 11.901,
+     "end": 12.54
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "David Martin",
+   "start": 12.68,
+   "end": 16.395,
+   "words": [
+    {
+     "w": "diez",
+     "start": 12.68,
+     "end": 12.947
+    },
+    {
+     "w": "veces",
+     "start": 13.017,
+     "end": 13.353
+    },
+    {
+     "w": "el",
+     "start": 13.435,
+     "end": 13.493
+    },
+    {
+     "w": "grafito.",
+     "start": 13.551,
+     "end": 14.154
+    },
+    {
+     "w": "Pero",
+     "start": 14.503,
+     "end": 14.7
+    },
+    {
+     "w": "falta",
+     "start": 14.758,
+     "end": 15.072
+    },
+    {
+     "w": "un",
+     "start": 15.13,
+     "end": 15.199
+    },
+    {
+     "w": "cuarto",
+     "start": 15.257,
+     "end": 15.582
+    },
+    {
+     "w": "elemento,",
+     "start": 15.606,
+     "end": 16.395
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "David Martin",
+   "start": 16.535,
+   "end": 19.693,
+   "words": [
+    {
+     "w": "y",
+     "start": 16.535,
+     "end": 16.639
+    },
+    {
+     "w": "sin",
+     "start": 16.721,
+     "end": 16.907
+    },
+    {
+     "w": "él",
+     "start": 16.976,
+     "end": 17.069
+    },
+    {
+     "w": "la",
+     "start": 17.127,
+     "end": 17.22
+    },
+    {
+     "w": "celda",
+     "start": 17.278,
+     "end": 17.626
+    },
+    {
+     "w": "se",
+     "start": 17.684,
+     "end": 17.777
+    },
+    {
+     "w": "cortocircuita",
+     "start": 17.835,
+     "end": 18.683
+    },
+    {
+     "w": "por",
+     "start": 18.741,
+     "end": 18.903
+    },
+    {
+     "w": "dentro.",
+     "start": 18.973,
+     "end": 19.693
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "David Martin",
+   "start": 19.833,
+   "end": 22.016,
+   "words": [
+    {
+     "w": "¿Por",
+     "start": 19.833,
+     "end": 20.054
+    },
+    {
+     "w": "qué",
+     "start": 20.112,
+     "end": 20.205
+    },
+    {
+     "w": "falla",
+     "start": 20.263,
+     "end": 20.472
+    },
+    {
+     "w": "una",
+     "start": 20.518,
+     "end": 20.657
+    },
+    {
+     "w": "cerámica",
+     "start": 20.692,
+     "end": 21.145
+    },
+    {
+     "w": "tan",
+     "start": 21.203,
+     "end": 21.366
+    },
+    {
+     "w": "dura?",
+     "start": 21.424,
+     "end": 22.016
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "David Martin",
+   "start": 22.156,
+   "end": 25.546,
+   "words": [
+    {
+     "w": "Aquí",
+     "start": 22.156,
+     "end": 22.516
+    },
+    {
+     "w": "hay",
+     "start": 22.539,
+     "end": 22.655
+    },
+    {
+     "w": "un",
+     "start": 22.713,
+     "end": 22.76
+    },
+    {
+     "w": "problema:",
+     "start": 22.795,
+     "end": 23.271
+    },
+    {
+     "w": "el",
+     "start": 23.491,
+     "end": 23.619
+    },
+    {
+     "w": "litio",
+     "start": 23.677,
+     "end": 23.956
+    },
+    {
+     "w": "no",
+     "start": 24.002,
+     "end": 24.083
+    },
+    {
+     "w": "vuelve",
+     "start": 24.13,
+     "end": 24.42
+    },
+    {
+     "w": "en",
+     "start": 24.443,
+     "end": 24.501
+    },
+    {
+     "w": "capa",
+     "start": 24.559,
+     "end": 24.826
+    },
+    {
+     "w": "lisa.",
+     "start": 24.861,
+     "end": 25.546
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "David Martin",
+   "start": 25.686,
+   "end": 27.265,
+   "words": [
+    {
+     "w": "Se",
+     "start": 25.686,
+     "end": 25.86
+    },
+    {
+     "w": "deposita",
+     "start": 25.907,
+     "end": 26.336
+    },
+    {
+     "w": "en",
+     "start": 26.359,
+     "end": 26.417
+    },
+    {
+     "w": "puntitos.",
+     "start": 26.475,
+     "end": 27.265
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "David Martin",
+   "start": 27.405,
+   "end": 31.538,
+   "words": [
+    {
+     "w": "Cada",
+     "start": 27.405,
+     "end": 27.684
+    },
+    {
+     "w": "punto",
+     "start": 27.73,
+     "end": 28.009
+    },
+    {
+     "w": "concentra",
+     "start": 28.067,
+     "end": 28.554
+    },
+    {
+     "w": "la",
+     "start": 28.601,
+     "end": 28.67
+    },
+    {
+     "w": "corriente",
+     "start": 28.717,
+     "end": 29.158
+    },
+    {
+     "w": "como",
+     "start": 29.205,
+     "end": 29.39
+    },
+    {
+     "w": "el",
+     "start": 29.437,
+     "end": 29.495
+    },
+    {
+     "w": "agua",
+     "start": 29.599,
+     "end": 29.808
+    },
+    {
+     "w": "por",
+     "start": 29.855,
+     "end": 29.982
+    },
+    {
+     "w": "un",
+     "start": 30.04,
+     "end": 30.099
+    },
+    {
+     "w": "agujero",
+     "start": 30.145,
+     "end": 30.54
+    },
+    {
+     "w": "en",
+     "start": 30.575,
+     "end": 30.633
+    },
+    {
+     "w": "una",
+     "start": 30.702,
+     "end": 30.842
+    },
+    {
+     "w": "presa.",
+     "start": 30.888,
+     "end": 31.538
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "David Martin",
+   "start": 31.678,
+   "end": 33.722,
+   "words": [
+    {
+     "w": "Ahora,",
+     "start": 31.678,
+     "end": 32.119
+    },
+    {
+     "w": "aquí",
+     "start": 32.142,
+     "end": 32.34
+    },
+    {
+     "w": "viene",
+     "start": 32.386,
+     "end": 32.618
+    },
+    {
+     "w": "lo",
+     "start": 32.642,
+     "end": 32.711
+    },
+    {
+     "w": "interesante:",
+     "start": 32.746,
+     "end": 33.721
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "David Martin",
+   "start": 33.862,
+   "end": 37.159,
+   "words": [
+    {
+     "w": "en",
+     "start": 33.862,
+     "end": 34.036
+    },
+    {
+     "w": "cerámica",
+     "start": 34.094,
+     "end": 34.593
+    },
+    {
+     "w": "de",
+     "start": 34.64,
+     "end": 34.698
+    },
+    {
+     "w": "granate",
+     "start": 34.744,
+     "end": 35.255
+    },
+    {
+     "w": "no",
+     "start": 35.476,
+     "end": 35.615
+    },
+    {
+     "w": "hay",
+     "start": 35.662,
+     "end": 35.754
+    },
+    {
+     "w": "corrosión",
+     "start": 35.824,
+     "end": 36.312
+    },
+    {
+     "w": "química.",
+     "start": 36.393,
+     "end": 37.159
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "David Martin",
+   "start": 37.299,
+   "end": 39.899,
+   "words": [
+    {
+     "w": "Es",
+     "start": 37.299,
+     "end": 37.462
+    },
+    {
+     "w": "litio",
+     "start": 37.531,
+     "end": 37.856
+    },
+    {
+     "w": "blando",
+     "start": 37.891,
+     "end": 38.239
+    },
+    {
+     "w": "abriendo",
+     "start": 38.297,
+     "end": 38.715
+    },
+    {
+     "w": "cerámica",
+     "start": 38.762,
+     "end": 39.261
+    },
+    {
+     "w": "dura.",
+     "start": 39.284,
+     "end": 39.899
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "David Martin",
+   "start": 40.039,
+   "end": 42.594,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 40.039,
+     "end": 40.411
+    },
+    {
+     "w": "dentro",
+     "start": 40.457,
+     "end": 40.77
+    },
+    {
+     "w": "de",
+     "start": 40.817,
+     "end": 40.887
+    },
+    {
+     "w": "una",
+     "start": 40.956,
+     "end": 41.119
+    },
+    {
+     "w": "celda",
+     "start": 41.165,
+     "end": 41.432
+    },
+    {
+     "w": "al",
+     "start": 41.455,
+     "end": 41.513
+    },
+    {
+     "w": "microscopio:",
+     "start": 41.572,
+     "end": 42.593
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "David Martin",
+   "start": 42.734,
+   "end": 45.474,
+   "words": [
+    {
+     "w": "el",
+     "start": 42.734,
+     "end": 42.885
+    },
+    {
+     "w": "litio",
+     "start": 42.955,
+     "end": 43.291
+    },
+    {
+     "w": "entra",
+     "start": 43.349,
+     "end": 43.616
+    },
+    {
+     "w": "en",
+     "start": 43.64,
+     "end": 43.686
+    },
+    {
+     "w": "un",
+     "start": 43.756,
+     "end": 43.814
+    },
+    {
+     "w": "poro",
+     "start": 43.872,
+     "end": 44.092
+    },
+    {
+     "w": "bajo",
+     "start": 44.139,
+     "end": 44.394
+    },
+    {
+     "w": "la",
+     "start": 44.441,
+     "end": 44.499
+    },
+    {
+     "w": "superficie.",
+     "start": 44.545,
+     "end": 45.474
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "David Martin",
+   "start": 45.614,
+   "end": 49.468,
+   "words": [
+    {
+     "w": "Al",
+     "start": 45.614,
+     "end": 45.788
+    },
+    {
+     "w": "cargar",
+     "start": 45.846,
+     "end": 46.16
+    },
+    {
+     "w": "más,",
+     "start": 46.218,
+     "end": 46.543
+    },
+    {
+     "w": "la",
+     "start": 46.705,
+     "end": 46.798
+    },
+    {
+     "w": "presión",
+     "start": 46.845,
+     "end": 47.205
+    },
+    {
+     "w": "llega",
+     "start": 47.228,
+     "end": 47.46
+    },
+    {
+     "w": "a",
+     "start": 47.495,
+     "end": 47.525
+    },
+    {
+     "w": "seiscientos",
+     "start": 47.564,
+     "end": 48.168
+    },
+    {
+     "w": "megapascascales.",
+     "start": 48.238,
+     "end": 49.468
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "voice": "David Martin",
+   "start": 49.608,
+   "end": 53.556,
+   "words": [
+    {
+     "w": "La",
+     "start": 49.608,
+     "end": 49.782
+    },
+    {
+     "w": "cerámica",
+     "start": 49.817,
+     "end": 50.27
+    },
+    {
+     "w": "se",
+     "start": 50.328,
+     "end": 50.444
+    },
+    {
+     "w": "abre,",
+     "start": 50.502,
+     "end": 50.885
+    },
+    {
+     "w": "el",
+     "start": 51.071,
+     "end": 51.199
+    },
+    {
+     "w": "litio",
+     "start": 51.257,
+     "end": 51.582
+    },
+    {
+     "w": "la",
+     "start": 51.64,
+     "end": 51.709
+    },
+    {
+     "w": "rellena",
+     "start": 51.767,
+     "end": 52.174
+    },
+    {
+     "w": "y",
+     "start": 52.22,
+     "end": 52.255
+    },
+    {
+     "w": "la",
+     "start": 52.325,
+     "end": 52.406
+    },
+    {
+     "w": "grieta",
+     "start": 52.464,
+     "end": 52.824
+    },
+    {
+     "w": "sigue.",
+     "start": 52.894,
+     "end": 53.555
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "voice": "David Martin",
+   "start": 53.696,
+   "end": 55.553,
+   "words": [
+    {
+     "w": "Pero",
+     "start": 53.696,
+     "end": 53.963
+    },
+    {
+     "w": "pasó",
+     "start": 54.009,
+     "end": 54.323
+    },
+    {
+     "w": "algo",
+     "start": 54.381,
+     "end": 54.578
+    },
+    {
+     "w": "inesperado:",
+     "start": 54.613,
+     "end": 55.553
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "voice": "David Martin",
+   "start": 55.693,
+   "end": 58.34,
+   "words": [
+    {
+     "w": "la",
+     "start": 55.693,
+     "end": 55.844
+    },
+    {
+     "w": "cerámica",
+     "start": 55.89,
+     "end": 56.332
+    },
+    {
+     "w": "más",
+     "start": 56.378,
+     "end": 56.552
+    },
+    {
+     "w": "dura",
+     "start": 56.61,
+     "end": 56.866
+    },
+    {
+     "w": "no",
+     "start": 56.924,
+     "end": 57.028
+    },
+    {
+     "w": "era",
+     "start": 57.086,
+     "end": 57.237
+    },
+    {
+     "w": "la",
+     "start": 57.295,
+     "end": 57.365
+    },
+    {
+     "w": "más",
+     "start": 57.423,
+     "end": 57.632
+    },
+    {
+     "w": "segura.",
+     "start": 57.655,
+     "end": 58.34
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "voice": "David Martin",
+   "start": 58.48,
+   "end": 61.359,
+   "words": [
+    {
+     "w": "El",
+     "start": 58.48,
+     "end": 58.631
+    },
+    {
+     "w": "filamento",
+     "start": 58.689,
+     "end": 59.188
+    },
+    {
+     "w": "gana",
+     "start": 59.246,
+     "end": 59.444
+    },
+    {
+     "w": "empujando,",
+     "start": 59.467,
+     "end": 60.198
+    },
+    {
+     "w": "no",
+     "start": 60.268,
+     "end": 60.407
+    },
+    {
+     "w": "cortando.",
+     "start": 60.477,
+     "end": 61.359
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "voice": "David Martin",
+   "start": 61.499,
+   "end": 63.589,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 61.499,
+     "end": 61.859
+    },
+    {
+     "w": "lo",
+     "start": 61.905,
+     "end": 61.987
+    },
+    {
+     "w": "que",
+     "start": 62.033,
+     "end": 62.103
+    },
+    {
+     "w": "me",
+     "start": 62.161,
+     "end": 62.23
+    },
+    {
+     "w": "escribió",
+     "start": 62.254,
+     "end": 62.718
+    },
+    {
+     "w": "alguien:",
+     "start": 62.776,
+     "end": 63.589
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "voice": "David Martin",
+   "start": 63.729,
+   "end": 66.794,
+   "words": [
+    {
+     "w": "Si",
+     "start": 63.729,
+     "end": 63.892
+    },
+    {
+     "w": "la",
+     "start": 63.95,
+     "end": 64.042
+    },
+    {
+     "w": "cerámica",
+     "start": 64.089,
+     "end": 64.553
+    },
+    {
+     "w": "es",
+     "start": 64.588,
+     "end": 64.646
+    },
+    {
+     "w": "más",
+     "start": 64.716,
+     "end": 64.878
+    },
+    {
+     "w": "dura,",
+     "start": 64.948,
+     "end": 65.343
+    },
+    {
+     "w": "¿cómo",
+     "start": 65.389,
+     "end": 65.807
+    },
+    {
+     "w": "la",
+     "start": 65.854,
+     "end": 65.923
+    },
+    {
+     "w": "atraviesa?",
+     "start": 65.958,
+     "end": 66.794
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "voice": "David Martin",
+   "start": 66.934,
+   "end": 69.349,
+   "words": [
+    {
+     "w": "Mira",
+     "start": 66.934,
+     "end": 67.282
+    },
+    {
+     "w": "la",
+     "start": 67.329,
+     "end": 67.387
+    },
+    {
+     "w": "diferencia",
+     "start": 67.433,
+     "end": 67.932
+    },
+    {
+     "w": "entre",
+     "start": 67.956,
+     "end": 68.188
+    },
+    {
+     "w": "esto",
+     "start": 68.234,
+     "end": 68.467
+    },
+    {
+     "w": "y",
+     "start": 68.548,
+     "end": 68.578
+    },
+    {
+     "w": "esto:",
+     "start": 68.629,
+     "end": 69.349
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "voice": "David Martin",
+   "start": 69.489,
+   "end": 74.226,
+   "words": [
+    {
+     "w": "un",
+     "start": 69.489,
+     "end": 69.721
+    },
+    {
+     "w": "cuchillo",
+     "start": 69.779,
+     "end": 70.22
+    },
+    {
+     "w": "corta",
+     "start": 70.29,
+     "end": 70.58
+    },
+    {
+     "w": "por",
+     "start": 70.627,
+     "end": 70.754
+    },
+    {
+     "w": "el",
+     "start": 70.801,
+     "end": 70.871
+    },
+    {
+     "w": "filo;",
+     "start": 70.94,
+     "end": 71.347
+    },
+    {
+     "w": "esto",
+     "start": 71.695,
+     "end": 71.997
+    },
+    {
+     "w": "empuja",
+     "start": 72.043,
+     "end": 72.508
+    },
+    {
+     "w": "como",
+     "start": 72.566,
+     "end": 72.763
+    },
+    {
+     "w": "un",
+     "start": 72.821,
+     "end": 72.879
+    },
+    {
+     "w": "gato",
+     "start": 72.949,
+     "end": 73.216
+    },
+    {
+     "w": "hidráulico.",
+     "start": 73.239,
+     "end": 74.226
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "voice": "David Martin",
+   "start": 74.366,
+   "end": 78.221,
+   "words": [
+    {
+     "w": "Y",
+     "start": 74.366,
+     "end": 74.482
+    },
+    {
+     "w": "el",
+     "start": 74.54,
+     "end": 74.621
+    },
+    {
+     "w": "cuarto",
+     "start": 74.691,
+     "end": 75.028
+    },
+    {
+     "w": "dato",
+     "start": 75.074,
+     "end": 75.33
+    },
+    {
+     "w": "que",
+     "start": 75.388,
+     "end": 75.457
+    },
+    {
+     "w": "faltaba:",
+     "start": 75.504,
+     "end": 76.154
+    },
+    {
+     "w": "la",
+     "start": 76.444,
+     "end": 76.56
+    },
+    {
+     "w": "presión",
+     "start": 76.618,
+     "end": 77.036
+    },
+    {
+     "w": "de",
+     "start": 77.094,
+     "end": 77.164
+    },
+    {
+     "w": "apilamiento.",
+     "start": 77.21,
+     "end": 78.221
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "voice": "David Martin",
+   "start": 78.361,
+   "end": 81.797,
+   "words": [
+    {
+     "w": "Muy",
+     "start": 78.361,
+     "end": 78.582
+    },
+    {
+     "w": "poca",
+     "start": 78.64,
+     "end": 78.918
+    },
+    {
+     "w": "deja",
+     "start": 78.965,
+     "end": 79.22
+    },
+    {
+     "w": "huecos;",
+     "start": 79.243,
+     "end": 79.766
+    },
+    {
+     "w": "demasiada",
+     "start": 79.986,
+     "end": 80.486
+    },
+    {
+     "w": "acelera",
+     "start": 80.509,
+     "end": 80.904
+    },
+    {
+     "w": "la",
+     "start": 80.962,
+     "end": 81.031
+    },
+    {
+     "w": "grieta.",
+     "start": 81.078,
+     "end": 81.797
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "voice": "David Martin",
+   "start": 81.937,
+   "end": 85.559,
+   "words": [
+    {
+     "w": "Hay",
+     "start": 81.937,
+     "end": 82.123
+    },
+    {
+     "w": "que",
+     "start": 82.192,
+     "end": 82.297
+    },
+    {
+     "w": "acertar",
+     "start": 82.332,
+     "end": 82.773
+    },
+    {
+     "w": "en",
+     "start": 82.831,
+     "end": 82.877
+    },
+    {
+     "w": "una",
+     "start": 82.947,
+     "end": 83.075
+    },
+    {
+     "w": "ventana",
+     "start": 83.121,
+     "end": 83.504
+    },
+    {
+     "w": "estrecha,",
+     "start": 83.528,
+     "end": 84.131
+    },
+    {
+     "w": "no",
+     "start": 84.294,
+     "end": 84.422
+    },
+    {
+     "w": "apretar",
+     "start": 84.48,
+     "end": 84.851
+    },
+    {
+     "w": "más.",
+     "start": 84.932,
+     "end": 85.559
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "voice": "David Martin",
+   "start": 85.699,
+   "end": 88.904,
+   "words": [
+    {
+     "w": "Antes:",
+     "start": 85.699,
+     "end": 86.245
+    },
+    {
+     "w": "poro,",
+     "start": 86.465,
+     "end": 86.883
+    },
+    {
+     "w": "punto,",
+     "start": 86.941,
+     "end": 87.464
+    },
+    {
+     "w": "grieta,",
+     "start": 87.533,
+     "end": 88.056
+    },
+    {
+     "w": "corte.",
+     "start": 88.218,
+     "end": 88.903
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "voice": "David Martin",
+   "start": 89.044,
+   "end": 93.177,
+   "words": [
+    {
+     "w": "Ahora:",
+     "start": 89.044,
+     "end": 89.694
+    },
+    {
+     "w": "una",
+     "start": 90.101,
+     "end": 90.298
+    },
+    {
+     "w": "interfaz",
+     "start": 90.333,
+     "end": 90.797
+    },
+    {
+     "w": "limpia",
+     "start": 90.855,
+     "end": 91.203
+    },
+    {
+     "w": "deja",
+     "start": 91.262,
+     "end": 91.54
+    },
+    {
+     "w": "el",
+     "start": 91.575,
+     "end": 91.621
+    },
+    {
+     "w": "litio",
+     "start": 91.691,
+     "end": 92.005
+    },
+    {
+     "w": "en",
+     "start": 92.051,
+     "end": 92.121
+    },
+    {
+     "w": "capa",
+     "start": 92.19,
+     "end": 92.492
+    },
+    {
+     "w": "plana.",
+     "start": 92.527,
+     "end": 93.177
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "voice": "David Martin",
+   "start": 93.317,
+   "end": 96.15,
+   "words": [
+    {
+     "w": "Sólido",
+     "start": 93.317,
+     "end": 93.712
+    },
+    {
+     "w": "no",
+     "start": 93.781,
+     "end": 93.897
+    },
+    {
+     "w": "es",
+     "start": 93.956,
+     "end": 94.048
+    },
+    {
+     "w": "seguro:",
+     "start": 94.072,
+     "end": 94.536
+    },
+    {
+     "w": "el",
+     "start": 94.722,
+     "end": 94.838
+    },
+    {
+     "w": "fallo",
+     "start": 94.908,
+     "end": 95.198
+    },
+    {
+     "w": "se",
+     "start": 95.256,
+     "end": 95.337
+    },
+    {
+     "w": "esconde.",
+     "start": 95.36,
+     "end": 96.15
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "voice": "David Martin",
+   "start": 96.29,
+   "end": 99.262,
+   "words": [
+    {
+     "w": "Síguenos",
+     "start": 96.29,
+     "end": 96.754
+    },
+    {
+     "w": "para",
+     "start": 96.812,
+     "end": 96.998
+    },
+    {
+     "w": "ver",
+     "start": 97.045,
+     "end": 97.184
+    },
+    {
+     "w": "más",
+     "start": 97.254,
+     "end": 97.439
+    },
+    {
+     "w": "ingeniería",
+     "start": 97.509,
+     "end": 98.066
+    },
+    {
+     "w": "a",
+     "start": 98.101,
+     "end": 98.131
+    },
+    {
+     "w": "simple",
+     "start": 98.182,
+     "end": 98.531
+    },
+    {
+     "w": "vista.",
+     "start": 98.566,
+     "end": 99.262
+    }
+   ]
+  }
+ ]
+}

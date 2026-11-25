@@ -1,0 +1,26 @@
+{
+  "voice": "external-voice3",
+  "total": 76.73,
+  "shots": {
+    "1": {"ambience": "room", "sfx": []},
+    "2": {"ambience": "room", "sfx": []},
+    "3": {"ambience": "room", "sfx": ["sparkle"]},
+    "4": {"ambience": "room", "sfx": []},
+    "5": {"ambience": "room", "sfx": []},
+    "6": {"ambience": "room", "sfx": ["click"]},
+    "7": {"ambience": "room", "sfx": []},
+    "8": {"ambience": "room", "sfx": ["sparkle"]},
+    "9": {"ambience": "room", "sfx": ["click"]},
+    "10": {"ambience": "room", "sfx": []},
+    "11": {"ambience": "room", "sfx": []},
+    "12": {"ambience": "room", "sfx": []},
+    "13": {"ambience": "room", "sfx": ["click"]},
+    "14": {"ambience": "room", "sfx": []},
+    "15": {"ambience": "room", "sfx": ["click"]},
+    "16": {"ambience": "room", "sfx": ["sparkle"]},
+    "17": {"ambience": "room", "sfx": ["sparkle"]},
+    "18": {"ambience": "room", "sfx": ["sparkle"]},
+    "19": {"ambience": "room", "sfx": []},
+    "20": {"ambience": "room", "sfx": ["sting"]}
+  }
+}
