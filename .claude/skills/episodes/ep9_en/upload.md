@@ -11,6 +11,6 @@ Sources: https://en.wikipedia.org/wiki/Ball_(bearing) · https://www.phase-trans
 Tags: #bearings #howitsmade #factory #engineering #satisfying
 
 Recommended thumbnail: `episodes/ep9_en/out/thumbnail_short_1.png` (1080x1920, "THE SMOOTHEST BALLS ON EARTH ARE MADE BY SMASHING"). Alternative: #4 ("THE MORE YOU RUB, THE HARDER"). All 10: `out/shot_short.png`.
-Video: `episodes/ep9_en/out/episode_9_en.mp4` (9:16, ~73 s, ElevenLabs Brian).
+Video: `episodes/ep9_en/out/episode_9_en.mp4` (9:16, 84.2 s, ElevenLabs Brian, expressive v4 voice).
 
 Long video (4X): pending ("how a ball bearing is made"). Once it exists, switch shot 21 to outro Case A.

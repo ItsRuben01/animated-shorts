@@ -11,6 +11,6 @@ Fuentes: https://en.wikipedia.org/wiki/Ball_(bearing) · https://www.phase-trans
 Tags: #rodamientos #comosehace #fabrica #ingenieria #curiosidades
 
 Miniatura recomendada: `episodes/ep9_es/out/thumbnail_short_1.png` (1080x1920, «LAS BOLAS MÁS PERFECTAS SE HACEN A GOLPES»). Alternativa: la n.º 4 («CUANTO MÁS LAS FROTAN, MÁS DURAS»). Las 10 opciones: `out/shot_short.png`.
-Vídeo: `episodes/ep9_es/out/episode_9_es.mp4` (9:16, ~77 s, ElevenLabs David Martin).
+Vídeo: `episodes/ep9_es/out/episode_9_es.mp4` (9:16, 88,4 s, ElevenLabs David Martin, voz expresiva v4).
 
 Vídeo largo (4X): pendiente («cómo se fabrica un rodamiento de bolas»). Cuando exista, cambiar el plano 21 al Caso A del cierre.
