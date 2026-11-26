@@ -1,1459 +1,1459 @@
 {
  "voice": "David Martin",
- "model": "eleven_multilingual_v2",
- "speed": 1.15,
- "total": 76.407,
+ "model": "eleven_v4",
+ "speed": 1,
+ "tempo": 1.2,
+ "total": 87.73,
  "shots": [
   {
    "id": 1,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "intriguing",
-   "start": 0.0,
-   "end": 3.197,
+   "model": "eleven_v4",
+   "emotion": "intrigued",
+   "start": 0,
+   "end": 4.184,
    "words": [
     {
-     "w": "\u00bfSab\u00edas",
-     "start": 0.0,
-     "end": 0.34
+     "w": "¿Sabías",
+     "start": 0.03,
+     "end": 0.511
     },
     {
      "w": "que",
-     "start": 0.38,
-     "end": 0.441
+     "start": 0.58,
+     "end": 0.649
     },
     {
      "w": "las",
-     "start": 0.482,
-     "end": 0.583
+     "start": 0.717,
+     "end": 0.786
     },
     {
      "w": "bolas",
-     "start": 0.633,
-     "end": 0.855
+     "start": 0.855,
+     "end": 1.199
     },
     {
-     "w": "m\u00e1s",
-     "start": 0.905,
-     "end": 1.026
+     "w": "más",
+     "start": 1.267,
+     "end": 1.405
     },
     {
      "w": "perfectas",
-     "start": 1.077,
-     "end": 1.511
+     "start": 1.542,
+     "end": 2.092
     },
     {
      "w": "del",
-     "start": 1.562,
-     "end": 1.663
+     "start": 2.161,
+     "end": 2.229
     },
     {
      "w": "mundo",
-     "start": 1.713,
-     "end": 1.945
+     "start": 2.298,
+     "end": 2.985
     },
     {
      "w": "se",
-     "start": 1.996,
-     "end": 2.057
+     "start": 3.123,
+     "end": 3.192
     },
     {
      "w": "hacen",
-     "start": 2.087,
-     "end": 2.258
+     "start": 3.26,
+     "end": 3.535
     },
     {
      "w": "a",
-     "start": 2.298,
-     "end": 2.324
+     "start": 3.57,
+     "end": 3.604
     },
     {
      "w": "golpes?",
-     "start": 2.349,
-     "end": 3.197
+     "start": 3.638,
+     "end": 4.184
     }
    ]
   },
   {
    "id": 2,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "analytical",
-   "start": 3.545,
-   "end": 5.57,
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 4.584,
+   "end": 6.763,
    "words": [
     {
      "w": "No",
-     "start": 3.545,
-     "end": 3.657
+     "start": 4.678,
+     "end": 4.744
     },
     {
      "w": "te",
-     "start": 3.707,
-     "end": 3.767
+     "start": 4.809,
+     "end": 4.875
     },
     {
      "w": "preocupes:",
-     "start": 3.808,
-     "end": 4.383
+     "start": 4.94,
+     "end": 5.659
     },
     {
      "w": "hoy",
-     "start": 4.515,
-     "end": 4.666
+     "start": 5.691,
+     "end": 5.855
     },
     {
      "w": "te",
-     "start": 4.717,
-     "end": 4.787
+     "start": 5.92,
+     "end": 5.986
     },
     {
-     "w": "ense\u00f1o",
-     "start": 4.807,
-     "end": 5.211
+     "w": "enseño",
+     "start": 6.116,
+     "end": 6.378
     },
     {
-     "w": "c\u00f3mo.",
-     "start": 5.262,
-     "end": 5.57
+     "w": "cómo.",
+     "start": 6.443,
+     "end": 6.763
     }
    ]
   },
   {
    "id": 3,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "curious",
-   "start": 5.691,
-   "end": 11.072,
+   "start": 6.903,
+   "end": 13.29,
    "words": [
     {
      "w": "Un",
-     "start": 5.691,
-     "end": 5.83
+     "start": 6.969,
+     "end": 7.148
     },
     {
      "w": "golpe",
-     "start": 5.83,
-     "end": 6.21
+     "start": 7.148,
+     "end": 7.595
     },
     {
      "w": "de",
-     "start": 6.21,
-     "end": 6.363
+     "start": 7.595,
+     "end": 7.774
     },
     {
      "w": "20",
-     "start": 6.363,
-     "end": 6.514
+     "start": 7.774,
+     "end": 7.953
     },
     {
      "w": "toneladas,",
-     "start": 6.514,
-     "end": 7.274
+     "start": 7.953,
+     "end": 8.848
     },
     {
      "w": "un",
-     "start": 7.274,
-     "end": 7.426
+     "start": 8.848,
+     "end": 9.027
     },
     {
      "w": "horno",
-     "start": 7.426,
-     "end": 7.806
+     "start": 9.027,
+     "end": 9.474
     },
     {
      "w": "a",
-     "start": 7.806,
-     "end": 7.882
+     "start": 9.474,
+     "end": 9.564
     },
     {
      "w": "840",
-     "start": 7.882,
-     "end": 8.11
+     "start": 9.564,
+     "end": 9.832
     },
     {
-     "w": "grados\u2026",
-     "start": 8.11,
-     "end": 8.642
+     "w": "grados…",
+     "start": 9.832,
+     "end": 10.459
     },
     {
      "w": "y",
-     "start": 8.642,
-     "end": 8.717
+     "start": 10.459,
+     "end": 10.548
     },
     {
      "w": "un",
-     "start": 8.717,
-     "end": 8.87
+     "start": 10.548,
+     "end": 10.727
     },
     {
      "w": "cuarto",
-     "start": 8.87,
-     "end": 9.325
+     "start": 10.727,
+     "end": 11.264
     },
     {
      "w": "paso",
-     "start": 9.325,
-     "end": 9.63
+     "start": 11.264,
+     "end": 11.622
     },
     {
      "w": "que",
-     "start": 9.63,
-     "end": 9.857
+     "start": 11.622,
+     "end": 11.89
     },
     {
      "w": "las",
-     "start": 9.857,
-     "end": 10.085
+     "start": 11.89,
+     "end": 12.159
     },
     {
      "w": "deja",
-     "start": 10.085,
-     "end": 10.39
+     "start": 12.159,
+     "end": 12.517
     },
     {
      "w": "casi",
-     "start": 10.39,
-     "end": 10.693
+     "start": 12.517,
+     "end": 12.874
     },
     {
      "w": "perfectas.",
-     "start": 10.693,
-     "end": 11.072
+     "start": 12.874,
+     "end": 13.29
     }
    ]
   },
   {
    "id": 4,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "chuckles",
-   "start": 11.194,
-   "end": 16.764,
+   "start": 13.43,
+   "end": 20.456,
    "words": [
     {
      "w": "Una",
-     "start": 11.194,
-     "end": 11.396
+     "start": 13.763,
+     "end": 13.963
     },
     {
      "w": "bola",
-     "start": 11.436,
-     "end": 11.608
+     "start": 13.996,
+     "end": 14.163
     },
     {
      "w": "de",
-     "start": 11.648,
-     "end": 11.709
+     "start": 14.196,
+     "end": 14.23
     },
     {
      "w": "rodamiento",
-     "start": 11.749,
-     "end": 12.173
+     "start": 14.296,
+     "end": 14.83
     },
     {
      "w": "es",
-     "start": 12.213,
-     "end": 12.263
+     "start": 14.896,
+     "end": 14.963
     },
     {
      "w": "acero",
-     "start": 12.324,
-     "end": 12.547
+     "start": 15.063,
+     "end": 15.296
     },
     {
      "w": "duro,",
-     "start": 12.577,
-     "end": 12.95
+     "start": 15.363,
+     "end": 15.83
     },
     {
      "w": "redondo",
-     "start": 13.132,
-     "end": 13.536
+     "start": 15.896,
+     "end": 16.43
     },
     {
      "w": "y",
-     "start": 13.566,
-     "end": 13.597
+     "start": 16.496,
+     "end": 16.563
     },
     {
      "w": "brillante.",
-     "start": 13.637,
-     "end": 14.223
+     "start": 16.63,
+     "end": 17.396
     },
     {
      "w": "Y",
-     "start": 14.464,
-     "end": 14.536
+     "start": 17.63,
+     "end": 17.696
     },
     {
      "w": "todo",
-     "start": 14.626,
-     "end": 14.788
+     "start": 17.763,
+     "end": 17.896
     },
     {
      "w": "lo",
-     "start": 14.818,
-     "end": 14.878
+     "start": 17.963,
+     "end": 18.03
     },
     {
      "w": "que",
-     "start": 14.909,
-     "end": 14.98
+     "start": 18.063,
+     "end": 18.096
     },
     {
      "w": "gira",
-     "start": 15.01,
-     "end": 15.202
+     "start": 18.163,
+     "end": 18.363
     },
     {
      "w": "necesita",
-     "start": 15.232,
-     "end": 15.616
+     "start": 18.43,
+     "end": 18.83
     },
     {
      "w": "un",
-     "start": 15.646,
-     "end": 15.686
+     "start": 18.896,
+     "end": 18.963
     },
     {
-     "w": "par\u2026",
-     "start": 15.757,
-     "end": 16.07
+     "w": "par…",
+     "start": 19.096,
+     "end": 19.43
     },
     {
      "w": "o",
-     "start": 16.251,
-     "end": 16.343
+     "start": 19.93,
+     "end": 19.963
     },
     {
      "w": "cien.",
-     "start": 16.383,
-     "end": 16.764
+     "start": 20.096,
+     "end": 20.456
     }
    ]
   },
   {
    "id": 5,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "curious",
-   "start": 16.886,
-   "end": 18.843,
+   "start": 20.596,
+   "end": 22.602,
    "words": [
     {
      "w": "Pero,",
-     "start": 16.886,
-     "end": 17.242
+     "start": 20.649,
+     "end": 21.063
     },
     {
-     "w": "\u00bfc\u00f3mo",
-     "start": 17.282,
-     "end": 17.605
+     "w": "¿cómo",
+     "start": 21.096,
+     "end": 21.263
     },
     {
      "w": "las",
-     "start": 17.645,
-     "end": 17.747
+     "start": 21.329,
+     "end": 21.463
     },
     {
      "w": "dejan",
-     "start": 17.797,
-     "end": 18.05
+     "start": 21.529,
+     "end": 21.796
     },
     {
      "w": "tan",
-     "start": 18.11,
-     "end": 18.251
+     "start": 21.863,
+     "end": 21.929
     },
     {
      "w": "redondas?",
-     "start": 18.312,
-     "end": 18.843
+     "start": 21.996,
+     "end": 22.602
     }
    ]
   },
   {
    "id": 6,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 18.964,
-   "end": 22.588,
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 22.742,
+   "end": 26.63,
    "words": [
     {
      "w": "Paso",
-     "start": 18.964,
-     "end": 19.257
+     "start": 22.801,
+     "end": 23.026
     },
     {
      "w": "uno:",
-     "start": 19.349,
-     "end": 19.702
+     "start": 23.097,
+     "end": 23.664
     },
     {
      "w": "trocitos",
-     "start": 19.894,
-     "end": 20.409
+     "start": 23.735,
+     "end": 24.16
     },
     {
      "w": "de",
-     "start": 20.459,
-     "end": 20.53
+     "start": 24.231,
+     "end": 24.267
     },
     {
      "w": "alambre,",
-     "start": 20.56,
-     "end": 20.994
+     "start": 24.302,
+     "end": 24.87
     },
     {
      "w": "aplastados",
-     "start": 21.115,
-     "end": 21.66
+     "start": 24.941,
+     "end": 25.65
     },
     {
      "w": "entre",
-     "start": 21.721,
-     "end": 21.943
+     "start": 25.756,
+     "end": 25.863
     },
     {
      "w": "dos",
-     "start": 21.973,
-     "end": 22.135
+     "start": 25.933,
+     "end": 26.075
     },
     {
      "w": "copas.",
-     "start": 22.196,
-     "end": 22.588
+     "start": 26.146,
+     "end": 26.63
     }
    ]
   },
   {
    "id": 7,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "amazed",
-   "start": 22.71,
-   "end": 25.98,
+   "start": 26.77,
+   "end": 30.832,
    "words": [
     {
      "w": "Hasta",
-     "start": 22.71,
-     "end": 22.913
+     "start": 26.81,
+     "end": 27.079
     },
     {
      "w": "20",
-     "start": 22.943,
-     "end": 23.176
+     "start": 27.144,
+     "end": 27.403
     },
     {
      "w": "toneladas",
-     "start": 23.206,
-     "end": 23.61
+     "start": 27.468,
+     "end": 27.856
     },
     {
      "w": "por",
-     "start": 23.65,
-     "end": 23.751
+     "start": 27.921,
+     "end": 28.05
     },
     {
      "w": "golpe.",
-     "start": 23.792,
-     "end": 24.165
+     "start": 28.115,
+     "end": 28.665
     },
     {
      "w": "Y",
-     "start": 24.367,
-     "end": 24.428
+     "start": 28.891,
+     "end": 28.956
     },
     {
      "w": "sale",
-     "start": 24.509,
-     "end": 24.69
+     "start": 29.021,
+     "end": 29.215
     },
     {
      "w": "con",
-     "start": 24.721,
-     "end": 24.811
+     "start": 29.28,
+     "end": 29.345
     },
     {
      "w": "un",
-     "start": 24.852,
-     "end": 24.903
+     "start": 29.377,
+     "end": 29.409
     },
     {
      "w": "anillo,",
-     "start": 24.953,
-     "end": 25.326
+     "start": 29.474,
+     "end": 30.057
     },
     {
      "w": "como",
-     "start": 25.377,
-     "end": 25.528
+     "start": 30.154,
+     "end": 30.251
     },
     {
      "w": "Saturno.",
-     "start": 25.558,
-     "end": 25.98
+     "start": 30.315,
+     "end": 30.832
     }
    ]
   },
   {
    "id": 8,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 26.102,
-   "end": 29.94,
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 30.972,
+   "end": 35.585,
    "words": [
     {
      "w": "Paso",
-     "start": 26.102,
-     "end": 26.333
+     "start": 30.998,
+     "end": 31.282
     },
     {
      "w": "dos:",
-     "start": 26.374,
-     "end": 26.686
+     "start": 31.353,
+     "end": 32.062
     },
     {
      "w": "ruedan",
-     "start": 26.848,
-     "end": 27.13
+     "start": 32.133,
+     "end": 32.417
     },
     {
      "w": "entre",
-     "start": 27.181,
-     "end": 27.383
+     "start": 32.558,
+     "end": 32.7
     },
     {
      "w": "placas",
-     "start": 27.413,
-     "end": 27.696
+     "start": 32.736,
+     "end": 33.055
     },
     {
      "w": "con",
-     "start": 27.746,
-     "end": 27.868
+     "start": 33.161,
+     "end": 33.268
     },
     {
      "w": "surcos,",
-     "start": 27.918,
-     "end": 28.423
+     "start": 33.374,
+     "end": 33.906
     },
     {
      "w": "hasta",
-     "start": 28.514,
-     "end": 28.756
+     "start": 33.941,
+     "end": 34.19
     },
     {
      "w": "que",
-     "start": 28.807,
-     "end": 28.877
+     "start": 34.261,
+     "end": 34.331
     },
     {
      "w": "el",
-     "start": 28.917,
-     "end": 28.968
+     "start": 34.367,
+     "end": 34.402
     },
     {
      "w": "anillo",
-     "start": 29.018,
-     "end": 29.311
+     "start": 34.473,
+     "end": 34.828
     },
     {
      "w": "desaparece.",
-     "start": 29.362,
-     "end": 29.94
+     "start": 34.899,
+     "end": 35.585
     }
    ]
   },
   {
    "id": 9,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "chuckles",
-   "start": 30.062,
-   "end": 32.577,
+   "start": 35.725,
+   "end": 39.274,
    "words": [
     {
      "w": "Y",
-     "start": 30.062,
-     "end": 30.117
+     "start": 35.891,
+     "end": 35.991
     },
     {
-     "w": "s\u00ed:",
-     "start": 30.207,
-     "end": 30.459
+     "w": "sí:",
+     "start": 36.125,
+     "end": 36.725
     },
     {
      "w": "cuanto",
-     "start": 30.611,
-     "end": 30.843
+     "start": 36.791,
+     "end": 37.058
     },
     {
-     "w": "m\u00e1s",
-     "start": 30.883,
-     "end": 30.995
+     "w": "más",
+     "start": 37.125,
+     "end": 37.258
     },
     {
      "w": "las",
-     "start": 31.035,
-     "end": 31.126
+     "start": 37.325,
+     "end": 37.391
     },
     {
      "w": "frotan,",
-     "start": 31.166,
-     "end": 31.56
+     "start": 37.458,
+     "end": 38.258
     },
     {
-     "w": "m\u00e1s",
-     "start": 31.691,
-     "end": 31.873
+     "w": "más",
+     "start": 38.291,
+     "end": 38.458
     },
     {
      "w": "duras",
-     "start": 31.913,
-     "end": 32.156
+     "start": 38.525,
+     "end": 38.725
     },
     {
      "w": "se",
-     "start": 32.176,
-     "end": 32.246
+     "start": 38.791,
+     "end": 38.858
     },
     {
      "w": "ponen.",
-     "start": 32.277,
-     "end": 32.577
+     "start": 38.925,
+     "end": 39.274
     }
    ]
   },
   {
    "id": 10,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 32.698,
-   "end": 36.786,
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 39.414,
+   "end": 43.701,
    "words": [
     {
      "w": "Paso",
-     "start": 32.698,
-     "end": 33.124
+     "start": 39.435,
+     "end": 39.88
     },
     {
      "w": "tres:",
-     "start": 33.124,
-     "end": 33.704
+     "start": 39.88,
+     "end": 40.437
     },
     {
      "w": "horno",
-     "start": 33.704,
-     "end": 34.284
+     "start": 40.437,
+     "end": 40.993
     },
     {
      "w": "a",
-     "start": 34.284,
-     "end": 34.4
+     "start": 40.993,
+     "end": 41.104
     },
     {
      "w": "840",
-     "start": 34.4,
-     "end": 34.748
+     "start": 41.104,
+     "end": 41.438
     },
     {
      "w": "grados,",
-     "start": 34.748,
-     "end": 35.56
+     "start": 41.438,
+     "end": 42.216
     },
     {
      "w": "y",
-     "start": 35.56,
-     "end": 35.676
+     "start": 42.216,
+     "end": 42.327
     },
     {
-     "w": "ba\u00f1o",
-     "start": 35.676,
-     "end": 36.14
+     "w": "baño",
+     "start": 42.327,
+     "end": 42.772
     },
     {
      "w": "de",
-     "start": 36.14,
-     "end": 36.372
+     "start": 42.772,
+     "end": 42.995
     },
     {
      "w": "aceite.",
-     "start": 36.372,
-     "end": 36.786
+     "start": 42.995,
+     "end": 43.701
     }
    ]
   },
   {
    "id": 11,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 36.908,
-   "end": 40.52,
+   "model": "eleven_v4",
+   "emotion": "suspense",
+   "start": 43.841,
+   "end": 48.288,
    "words": [
     {
      "w": "Si",
-     "start": 36.908,
-     "end": 37.069
+     "start": 43.921,
+     "end": 43.993
     },
     {
      "w": "el",
-     "start": 37.11,
-     "end": 37.17
+     "start": 44.065,
+     "end": 44.137
     },
     {
      "w": "temple",
-     "start": 37.221,
-     "end": 37.493
+     "start": 44.208,
+     "end": 44.495
     },
     {
      "w": "falla,",
-     "start": 37.533,
-     "end": 37.897
+     "start": 44.638,
+     "end": 45.14
     },
     {
      "w": "queda",
-     "start": 38.038,
-     "end": 38.27
+     "start": 45.284,
+     "end": 45.499
     },
     {
      "w": "blanda,",
-     "start": 38.31,
-     "end": 38.765
+     "start": 45.57,
+     "end": 46.43
     },
     {
      "w": "y",
-     "start": 38.927,
-     "end": 38.977
+     "start": 46.466,
+     "end": 46.502
     },
     {
      "w": "el",
-     "start": 39.037,
-     "end": 39.088
+     "start": 46.538,
+     "end": 46.574
     },
     {
      "w": "rodamiento",
-     "start": 39.138,
-     "end": 39.613
+     "start": 46.646,
+     "end": 47.219
     },
     {
      "w": "se",
-     "start": 39.663,
-     "end": 39.744
+     "start": 47.291,
+     "end": 47.434
     },
     {
      "w": "gasta",
-     "start": 39.784,
-     "end": 40.057
+     "start": 47.53,
+     "end": 47.721
     },
     {
      "w": "en",
-     "start": 40.097,
-     "end": 40.148
+     "start": 47.792,
+     "end": 47.864
     },
     {
      "w": "nada.",
-     "start": 40.198,
-     "end": 40.52
+     "start": 47.9,
+     "end": 48.288
     }
    ]
   },
   {
    "id": 12,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "chuckles",
-   "start": 40.642,
-   "end": 41.901,
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 48.428,
+   "end": 49.881,
    "words": [
     {
      "w": "Mira",
-     "start": 40.642,
-     "end": 40.866
+     "start": 48.559,
+     "end": 48.755
     },
     {
      "w": "lo",
-     "start": 40.896,
-     "end": 40.957
+     "start": 48.821,
+     "end": 48.886
     },
     {
      "w": "que",
-     "start": 40.987,
-     "end": 41.048
+     "start": 48.919,
+     "end": 48.951
     },
     {
      "w": "me",
-     "start": 41.088,
-     "end": 41.138
+     "start": 48.984,
+     "end": 49.017
     },
     {
-     "w": "escribi\u00f3",
-     "start": 41.158,
-     "end": 41.522
+     "w": "escribió",
+     "start": 49.082,
+     "end": 49.409
     },
     {
      "w": "alguien:",
-     "start": 41.572,
-     "end": 41.901
+     "start": 49.474,
+     "end": 49.881
     }
    ]
   },
   {
    "id": 13,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "chuckles",
-   "start": 42.023,
-   "end": 44.209,
+   "model": "eleven_v4",
+   "emotion": "sarcastic",
+   "start": 50.021,
+   "end": 52.417,
    "words": [
     {
-     "w": "\u00bfY",
-     "start": 42.023,
-     "end": 42.117
+     "w": "¿Y",
+     "start": 50.098,
+     "end": 50.132
     },
     {
      "w": "para",
-     "start": 42.209,
-     "end": 42.35
+     "start": 50.2,
+     "end": 50.336
     },
     {
-     "w": "qu\u00e9",
-     "start": 42.39,
-     "end": 42.481
+     "w": "qué",
+     "start": 50.404,
+     "end": 50.54
     },
     {
      "w": "tan",
-     "start": 42.531,
-     "end": 42.643
+     "start": 50.642,
+     "end": 50.744
     },
     {
      "w": "perfectas,",
-     "start": 42.693,
-     "end": 43.309
+     "start": 50.983,
+     "end": 51.561
     },
     {
      "w": "si",
-     "start": 43.44,
-     "end": 43.562
+     "start": 51.629,
+     "end": 51.697
     },
     {
      "w": "nadie",
-     "start": 43.612,
-     "end": 43.854
+     "start": 51.765,
+     "end": 51.969
     },
     {
      "w": "las",
-     "start": 43.884,
-     "end": 43.996
+     "start": 52.037,
+     "end": 52.105
     },
     {
      "w": "ve?",
-     "start": 44.046,
-     "end": 44.209
+     "start": 52.173,
+     "end": 52.417
     }
    ]
   },
   {
    "id": 14,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "analytical",
-   "start": 44.33,
-   "end": 47.827,
+   "start": 52.557,
+   "end": 56.673,
    "words": [
     {
      "w": "Porque",
-     "start": 44.33,
-     "end": 44.573
+     "start": 52.683,
+     "end": 52.852
     },
     {
      "w": "giran",
-     "start": 44.613,
-     "end": 44.876
+     "start": 52.885,
+     "end": 53.121
     },
     {
      "w": "miles",
-     "start": 44.926,
-     "end": 45.178
+     "start": 53.256,
+     "end": 53.525
     },
     {
      "w": "de",
-     "start": 45.219,
-     "end": 45.27
+     "start": 53.593,
+     "end": 53.66
     },
     {
      "w": "veces",
-     "start": 45.31,
-     "end": 45.552
+     "start": 53.727,
+     "end": 53.929
     },
     {
      "w": "por",
-     "start": 45.592,
-     "end": 45.714
+     "start": 53.997,
+     "end": 54.064
     },
     {
      "w": "minuto:",
-     "start": 45.764,
-     "end": 46.218
+     "start": 54.131,
+     "end": 54.872
     },
     {
      "w": "un",
-     "start": 46.471,
-     "end": 46.572
+     "start": 54.939,
+     "end": 55.074
     },
     {
      "w": "bulto,",
-     "start": 46.612,
-     "end": 47.037
+     "start": 55.141,
+     "end": 55.815
     },
     {
      "w": "y",
-     "start": 47.097,
-     "end": 47.168
+     "start": 55.916,
+     "end": 56.017
     },
     {
      "w": "todo",
-     "start": 47.238,
-     "end": 47.46
+     "start": 56.118,
+     "end": 56.219
     },
     {
      "w": "vibra.",
-     "start": 47.501,
-     "end": 47.827
+     "start": 56.286,
+     "end": 56.673
     }
    ]
   },
   {
    "id": 15,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "amazed",
-   "start": 47.949,
-   "end": 52.908,
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 56.813,
+   "end": 60.84,
    "words": [
     {
      "w": "Por",
-     "start": 47.949,
-     "end": 48.077
+     "start": 56.918,
+     "end": 56.948
     },
     {
      "w": "eso,",
-     "start": 48.118,
-     "end": 48.491
+     "start": 57.065,
+     "end": 57.317
     },
     {
      "w": "el",
-     "start": 48.623,
-     "end": 48.734
+     "start": 57.411,
+     "end": 57.505
     },
     {
      "w": "cuarto",
-     "start": 48.795,
-     "end": 49.057
+     "start": 57.568,
+     "end": 57.82
     },
     {
      "w": "paso:",
-     "start": 49.097,
-     "end": 49.471
+     "start": 57.883,
+     "end": 58.323
     },
     {
      "w": "el",
-     "start": 49.844,
-     "end": 49.956
+     "start": 58.386,
+     "end": 58.449
     },
     {
      "w": "lapeado,",
-     "start": 50.016,
-     "end": 50.582
+     "start": 58.512,
+     "end": 59.078
     },
     {
      "w": "con",
-     "start": 50.713,
-     "end": 50.844
+     "start": 59.141,
+     "end": 59.203
     },
     {
      "w": "placas",
-     "start": 50.884,
-     "end": 51.167
+     "start": 59.266,
+     "end": 59.518
     },
     {
      "w": "blandas",
-     "start": 51.217,
-     "end": 51.651
+     "start": 59.581,
+     "end": 59.895
     },
     {
      "w": "y",
-     "start": 51.975,
-     "end": 52.056
+     "start": 59.958,
+     "end": 59.99
     },
     {
      "w": "pasta",
-     "start": 52.137,
-     "end": 52.398
+     "start": 60.021,
+     "end": 60.273
     },
     {
      "w": "abrasiva.",
-     "start": 52.429,
-     "end": 52.908
+     "start": 60.398,
+     "end": 60.84
     }
    ]
   },
   {
    "id": 16,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "amazed",
-   "start": 53.03,
-   "end": 56.839,
+   "start": 60.98,
+   "end": 65.311,
    "words": [
     {
      "w": "Al",
-     "start": 53.03,
-     "end": 53.13
+     "start": 61.087,
+     "end": 61.117
     },
     {
      "w": "final,",
-     "start": 53.161,
-     "end": 53.555
+     "start": 61.174,
+     "end": 61.627
     },
     {
      "w": "se",
-     "start": 53.706,
-     "end": 53.807
+     "start": 61.756,
+     "end": 61.821
     },
     {
-     "w": "desv\u00edan",
-     "start": 53.847,
-     "end": 54.231
+     "w": "desvían",
+     "start": 61.886,
+     "end": 62.209
     },
     {
      "w": "de",
-     "start": 54.261,
-     "end": 54.322
+     "start": 62.242,
+     "end": 62.274
     },
     {
      "w": "la",
-     "start": 54.352,
-     "end": 54.413
+     "start": 62.306,
+     "end": 62.339
     },
     {
      "w": "esfera",
-     "start": 54.433,
-     "end": 54.696
+     "start": 62.404,
+     "end": 62.662
     },
     {
      "w": "perfecta",
-     "start": 54.736,
-     "end": 55.21
+     "start": 62.727,
+     "end": 63.633
     },
     {
      "w": "solo",
-     "start": 55.362,
-     "end": 55.664
+     "start": 63.666,
+     "end": 63.892
     },
     {
      "w": "80",
-     "start": 55.745,
-     "end": 56.22
+     "start": 64.022,
+     "end": 64.345
     },
     {
-     "w": "nan\u00f3metros.",
-     "start": 56.26,
-     "end": 56.839
+     "w": "nanómetros.",
+     "start": 64.41,
+     "end": 65.311
     }
    ]
   },
   {
    "id": 17,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "amazed",
-   "start": 56.961,
-   "end": 61.373,
+   "model": "eleven_v4",
+   "emotion": "shocked",
+   "start": 65.451,
+   "end": 70.946,
    "words": [
     {
      "w": "Si",
-     "start": 56.961,
-     "end": 57.092
+     "start": 66.17,
+     "end": 66.236
     },
     {
      "w": "una",
-     "start": 57.153,
-     "end": 57.264
+     "start": 66.301,
+     "end": 66.432
     },
     {
      "w": "bola",
-     "start": 57.294,
-     "end": 57.476
+     "start": 66.465,
+     "end": 66.628
     },
     {
      "w": "de",
-     "start": 57.517,
-     "end": 57.567
+     "start": 66.661,
+     "end": 66.693
     },
     {
      "w": "un",
-     "start": 57.607,
-     "end": 57.657
+     "start": 66.759,
+     "end": 66.824
     },
     {
-     "w": "cent\u00edmetro",
-     "start": 57.688,
-     "end": 58.112
+     "w": "centímetro",
+     "start": 66.889,
+     "end": 67.347
     },
     {
      "w": "fuera",
-     "start": 58.163,
-     "end": 58.395
+     "start": 67.478,
+     "end": 67.674
     },
     {
      "w": "como",
-     "start": 58.435,
-     "end": 58.586
+     "start": 67.772,
+     "end": 67.87
     },
     {
      "w": "la",
-     "start": 58.617,
-     "end": 58.677
+     "start": 67.902,
+     "end": 67.935
     },
     {
      "w": "Tierra,",
-     "start": 58.708,
-     "end": 59.111
+     "start": 68,
+     "end": 68.654
     },
     {
      "w": "su",
-     "start": 59.293,
-     "end": 59.394
+     "start": 68.687,
+     "end": 68.785
     },
     {
-     "w": "monta\u00f1a",
-     "start": 59.444,
-     "end": 59.798
+     "w": "montaña",
+     "start": 68.85,
+     "end": 69.177
     },
     {
-     "w": "m\u00e1s",
-     "start": 59.828,
-     "end": 59.95
+     "w": "más",
+     "start": 69.242,
+     "end": 69.373
     },
     {
      "w": "alta",
-     "start": 60.01,
-     "end": 60.191
+     "start": 69.471,
+     "end": 69.569
     },
     {
-     "w": "medir\u00eda",
-     "start": 60.232,
-     "end": 60.565
+     "w": "mediría",
+     "start": 69.634,
+     "end": 70.092
     },
     {
      "w": "100",
-     "start": 60.605,
-     "end": 60.858
+     "start": 70.125,
+     "end": 70.353
     },
     {
      "w": "metros.",
-     "start": 60.929,
-     "end": 61.373
+     "start": 70.419,
+     "end": 70.946
     }
    ]
   },
   {
    "id": 18,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "analytical",
-   "start": 61.495,
-   "end": 64.96,
+   "start": 71.086,
+   "end": 74.785,
    "words": [
     {
      "w": "Luego",
-     "start": 61.495,
-     "end": 61.743
+     "start": 71.169,
+     "end": 71.438
     },
     {
      "w": "se",
-     "start": 61.784,
-     "end": 61.855
+     "start": 71.506,
+     "end": 71.573
     },
     {
      "w": "separan",
-     "start": 61.895,
-     "end": 62.198
+     "start": 71.641,
+     "end": 71.977
     },
     {
      "w": "por",
-     "start": 62.238,
-     "end": 62.339
+     "start": 72.045,
+     "end": 72.112
     },
     {
-     "w": "tama\u00f1o:",
-     "start": 62.39,
-     "end": 62.854
+     "w": "tamaño:",
+     "start": 72.247,
+     "end": 72.853
     },
     {
      "w": "en",
-     "start": 63.107,
-     "end": 63.217
+     "start": 72.92,
+     "end": 72.987
     },
     {
      "w": "un",
-     "start": 63.289,
-     "end": 63.349
+     "start": 73.021,
+     "end": 73.055
     },
     {
      "w": "rodamiento,",
-     "start": 63.399,
-     "end": 63.985
+     "start": 73.122,
+     "end": 73.863
     },
     {
      "w": "todas",
-     "start": 64.106,
-     "end": 64.45
+     "start": 73.964,
+     "end": 74.199
     },
     {
      "w": "gemelas.",
-     "start": 64.5,
-     "end": 64.96
+     "start": 74.267,
+     "end": 74.785
     }
    ]
   },
   {
    "id": 19,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "enthusiastic",
-   "start": 65.082,
-   "end": 68.766,
+   "start": 74.925,
+   "end": 79.084,
    "words": [
     {
      "w": "Antes,",
-     "start": 65.082,
-     "end": 65.436
+     "start": 74.989,
+     "end": 75.37
     },
     {
      "w": "un",
-     "start": 65.496,
-     "end": 65.577
+     "start": 75.433,
+     "end": 75.56
     },
     {
      "w": "trozo",
-     "start": 65.617,
-     "end": 65.809
+     "start": 75.656,
+     "end": 75.814
     },
     {
      "w": "de",
-     "start": 65.85,
-     "end": 65.91
+     "start": 75.846,
+     "end": 75.878
     },
     {
      "w": "alambre;",
-     "start": 65.93,
-     "end": 66.323
+     "start": 75.941,
+     "end": 76.449
     },
     {
      "w": "ahora,",
-     "start": 66.476,
-     "end": 66.839
+     "start": 76.576,
+     "end": 77.042
     },
     {
      "w": "una",
-     "start": 66.919,
-     "end": 67.081
+     "start": 77.063,
+     "end": 77.211
     },
     {
      "w": "bola",
-     "start": 67.111,
-     "end": 67.283
+     "start": 77.275,
+     "end": 77.465
     },
     {
      "w": "perfecta",
-     "start": 67.313,
-     "end": 67.727
+     "start": 77.687,
+     "end": 77.973
     },
     {
      "w": "con",
-     "start": 67.757,
-     "end": 67.869
+     "start": 78.036,
+     "end": 78.1
     },
     {
      "w": "el",
-     "start": 67.919,
-     "end": 67.97
+     "start": 78.163,
+     "end": 78.227
     },
     {
      "w": "nombre",
-     "start": 68.0,
-     "end": 68.242
+     "start": 78.29,
+     "end": 78.481
     },
     {
      "w": "de",
-     "start": 68.272,
-     "end": 68.333
+     "start": 78.544,
+     "end": 78.608
     },
     {
      "w": "tu",
-     "start": 68.363,
-     "end": 68.423
+     "start": 78.64,
+     "end": 78.671
     },
     {
      "w": "amigo.",
-     "start": 68.454,
-     "end": 68.766
+     "start": 78.735,
+     "end": 79.084
     }
    ]
   },
   {
    "id": 20,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
-   "emotion": "enthusiastic",
-   "start": 68.888,
-   "end": 72.204,
+   "model": "eleven_v4",
+   "emotion": "mischievous",
+   "start": 79.224,
+   "end": 83.853,
    "words": [
     {
      "w": "Etiqueta",
-     "start": 68.888,
-     "end": 69.312
+     "start": 79.259,
+     "end": 79.803
     },
     {
      "w": "o",
-     "start": 69.373,
-     "end": 69.403
+     "start": 80.007,
+     "end": 80.144
     },
     {
      "w": "pasa",
-     "start": 69.433,
-     "end": 69.636
+     "start": 80.212,
+     "end": 80.348
     },
     {
      "w": "este",
-     "start": 69.665,
-     "end": 69.817
+     "start": 80.416,
+     "end": 80.62
     },
     {
-     "w": "v\u00eddeo",
-     "start": 69.847,
-     "end": 70.079
+     "w": "vídeo",
+     "start": 80.688,
+     "end": 80.892
     },
     {
      "w": "a",
-     "start": 70.11,
-     "end": 70.14
+     "start": 80.926,
+     "end": 80.96
     },
     {
      "w": "tu",
-     "start": 70.17,
-     "end": 70.241
+     "start": 80.994,
+     "end": 81.028
     },
     {
      "w": "amigo",
-     "start": 70.271,
-     "end": 70.523
+     "start": 81.096,
+     "end": 81.436
     },
     {
      "w": "que",
-     "start": 70.564,
-     "end": 70.645
+     "start": 81.504,
+     "end": 81.572
     },
     {
      "w": "presume",
-     "start": 70.685,
-     "end": 70.998
+     "start": 81.708,
+     "end": 82.354
     },
     {
      "w": "de",
-     "start": 71.029,
-     "end": 71.089
+     "start": 82.388,
+     "end": 82.524
     },
     {
      "w": "tenerlas",
-     "start": 71.119,
-     "end": 71.523
+     "start": 82.695,
+     "end": 83.069
     },
     {
      "w": "perfectas.",
-     "start": 71.583,
-     "end": 72.204
+     "start": 83.307,
+     "end": 83.853
     }
    ]
   },
   {
    "id": 21,
    "voice": "David Martin",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "warm",
-   "start": 72.326,
-   "end": 76.285,
+   "start": 83.993,
+   "end": 87.59,
    "words": [
     {
-     "w": "\u00a1Hasta",
-     "start": 72.326,
-     "end": 72.665
+     "w": "¡Hasta",
+     "start": 84.041,
+     "end": 84.263
     },
     {
      "w": "luego!",
-     "start": 72.705,
-     "end": 73.18
+     "start": 84.33,
+     "end": 84.869
     },
     {
      "w": "Si",
-     "start": 73.432,
-     "end": 73.594
+     "start": 85.071,
+     "end": 85.138
     },
     {
      "w": "te",
-     "start": 73.644,
-     "end": 73.705
+     "start": 85.205,
+     "end": 85.273
     },
     {
      "w": "ha",
-     "start": 73.735,
-     "end": 73.776
+     "start": 85.306,
+     "end": 85.34
     },
     {
      "w": "gustado,",
-     "start": 73.816,
-     "end": 74.351
+     "start": 85.407,
+     "end": 85.946
     },
     {
      "w": "dale",
-     "start": 74.483,
-     "end": 74.744
+     "start": 86.013,
+     "end": 86.216
     },
     {
      "w": "a",
-     "start": 74.785,
-     "end": 74.811
+     "start": 86.238,
+     "end": 86.268
     },
     {
      "w": "me",
-     "start": 74.846,
-     "end": 74.917
+     "start": 86.283,
+     "end": 86.35
     },
     {
      "w": "gusta",
-     "start": 74.957,
-     "end": 75.33
+     "start": 86.418,
+     "end": 86.822
     },
     {
      "w": "y",
-     "start": 75.492,
-     "end": 75.583
+     "start": 86.855,
+     "end": 86.889
     },
     {
-     "w": "s\u00edguenos.",
-     "start": 75.703,
-     "end": 76.285
+     "w": "síguenos.",
+     "start": 86.956,
+     "end": 87.59
     }
    ]
   }
- ],
- "tempo": 1.15
+ ]
 }

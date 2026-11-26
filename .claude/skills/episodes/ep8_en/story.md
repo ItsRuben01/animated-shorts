@@ -3,7 +3,7 @@
 Vertical Short (1080x1920, 30 fps), 21 shots, one voice line per shot. Native English adaptation of `episodes/ep8_es` (not a translation); same 3D sets. Reference video, casting, retention map and fact table: see `episodes/ep8_es/story.md` (sources apply to both).
 
 - Reference video (step 10): "How It's Actually Made - Hot Dogs" — https://www.youtube.com/watch?v=Z-zR1SgrM-w (10.5M views).
-- Voice: Kokoro `am_michael` 1.27 (66.0 s, 3.55 w/s) draft; ElevenLabs master `Brian` (`nPczCjzI2devNBz1zQrb`, `eleven_multilingual_v2`, base speed 1.15 + per-emotion presets, silences trimmed: 73.8 s, 3.17 w/s); Kokoro backup in `public/ep8_en/voice_kokoro.wav`.
+- **Voice:** expressive, complicit narrator (updated 2026-11-26: the previous flat master was boring). ElevenLabs master `Brian` (`nPczCjzI2devNBz1zQrb`, `eleven_v4`, per-shot emotion tags in `sayTts`, local ×1.2 atempo: 79.3 s). Command: `node scripts/elevenlabs-voice.mjs ep8_en nPczCjzI2devNBz1zQrb Brian 1.0 --tempo=1.2`. Kokoro backup in `public/ep8_en/voice_kokoro.wav`.
 - Outro: Case B (no Long yet).
 
 ## Script

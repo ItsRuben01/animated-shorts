@@ -1,6 +1,6 @@
 [
   {"id": 1, "voice": "em_alex", "gap": 0.4, "emotion": "intriguing", "text": "¿Te encanta meterte pepinos de desconocidos en la boca?", "sayTts": "[mischievously] ¿Te encanta... meterte pepinos de desconocidos en la boca?"},
-  {"id": 2, "voice": "em_alex", "gap": 0.14, "emotion": "playful", "text": "No te preocupes: hoy te traigo la solución para disfrutarlos aún más.", "sayTts": "[playfully] Tranquilo, no te preocupes: hoy te traigo la solución para disfrutarlos... ¡aún más!"},
+  {"id": 2, "voice": "em_alex", "gap": 0.14, "emotion": "playful", "text": "No te preocupes: hoy te traigo la solución para disfrutarlos aún más.", "sayTts": "[playfully] No te preocupes: hoy te traigo la solución para disfrutarlos... ¡aún más!"},
   {"id": 3, "voice": "em_alex", "gap": 0.14, "emotion": "curious", "text": "Agua a presión, un 6 % de sal, semanas en un tanque… y un cuarto paso que evita que sea peligroso.", "say": "Agua a presión, un seis por ciento de sal, semanas en un tanque… y un cuarto paso que evita que sea peligroso."},
   {"id": 4, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Un pepino es un alimento muuuy largo y verde, que a la gente le encanta meterse entero en la boca.", "sayTts": "[chuckles] Un pepino es un alimento muuuy largo y verde... que a la gente le encanta meterse entero en la boca."},
   {"id": 5, "voice": "em_alex", "gap": 0.14, "emotion": "curious", "text": "Pero, ¿qué pasa de verdad hasta llegar a tu casa?"},

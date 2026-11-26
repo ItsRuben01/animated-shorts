@@ -10,7 +10,7 @@ Short vertical (1080x1920, 30 fps), 21 planos, una voz por plano. Short bilingü
 
 ## Reparto y dirección emocional
 
-- **Narrador documental serio, voz única.** ES: borrador Kokoro `em_alex` a `1.24` (64,4 s, 3,67 palabras/s); máster ElevenLabs `David Martin` (`y6WtESLj18d0diFRruBs`, `eleven_multilingual_v2`, velocidad base 1.15 + ajuste por emoción, silencios recortados y acelerado ×1,1 con ffmpeg: 75,1 s; tiempos sin acelerar en `timing_eleven_raw.json`). EN: Kokoro `am_michael` a `1.27` (66,0 s, 3,55 palabras/s); máster ElevenLabs `Brian` (73,8 s). Respaldo Kokoro en `public/ep8_*/voice_kokoro.wav`. El chiste es el contraste: el gancho nunca se lee con risa.
+- **Narrador cómplice y expresivo, voz única** (actualizado 2026-11-26: el máster plano anterior aburría). ES: máster ElevenLabs `David Martin` (`y6WtESLj18d0diFRruBs`, `eleven_v4`, etiquetas de emoción por plano en `sayTts`, atempo ×1,2 local: 82,7 s). EN: máster `Brian` (`nPczCjzI2devNBz1zQrb`, mismo método: 79.3 s). Comando: `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <label> 1.0 --tempo=1.2`. Respaldo Kokoro en `public/ep8_*/voice_kokoro.wav`. El narrador disfruta el doble sentido: sonrisa en el gancho, pausa antes del chiste y risa después.
 - Arco: `[intriguing]` gancho → `[analytical]` definición → `[serious]` pasos → `[chuckles]` guiños (presión, tamaño, móvil) → `[amazed]` peladora y Freund → `[enthusiastic]` etiqueta a tu amigo → `[warm]` despedida.
 - Pronunciación: «Freund» se dice «Froind»; «68» y «155» siempre en letra en `say`.
 - Prohibido: encadenar el gancho con el plano 2 sin la pausa de 0,4 s.

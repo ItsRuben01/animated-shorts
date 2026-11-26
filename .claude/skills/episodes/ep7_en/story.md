@@ -6,7 +6,7 @@ Topic check, reference video for thumbnails and the full fact-check table with s
 
 ## Casting + emotion direction
 
-- **Serious documentary narrator, single voice.** Kokoro draft `am_michael` at `1.31` (62.0 s, 3.53 words/s); ElevenLabs master `Brian` (`nPczCjzI2devNBz1zQrb`, `eleven_multilingual_v2`, base speed `1.15` + per-emotion presets, silences trimmed: 69.8 s, 3.14 words/s); Kokoro backup in `public/ep7_en/voice_kokoro.wav`. The deadpan read against the double entendre is the joke: never laugh on the hook.
+- **Voice:** expressive, complicit narrator (updated 2026-11-26: the previous flat master was boring). ElevenLabs master `Brian` (`nPczCjzI2devNBz1zQrb`, `eleven_v4`, per-shot emotion tags in `sayTts`, local ×1.2 atempo: 75.4 s). Command: `node scripts/elevenlabs-voice.mjs ep7_en nPczCjzI2devNBz1zQrb Brian 1.0 --tempo=1.2`. Kokoro backup in `public/ep7_en/voice_kokoro.wav`.
 - Arc: `[intriguing]` hook → `[analytical]` literal definition → `[serious]` industrial steps → `[chuckles]` winks → `[amazed]` proof and fourth step → `[enthusiastic]` friend-tag → `[warm]` sign-off.
 - Pronunciation: stretch "veeery" on purpose; "pH" = "P H".
 

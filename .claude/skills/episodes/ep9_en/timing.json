@@ -1,1464 +1,1464 @@
 {
  "voice": "Brian",
- "model": "eleven_multilingual_v2",
- "speed": 1.15,
- "total": 72.648,
+ "model": "eleven_v4",
+ "speed": 1,
+ "tempo": 1.2,
+ "total": 83.468,
  "shots": [
   {
    "id": 1,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "intriguing",
-   "start": 0.0,
-   "end": 2.575,
+   "model": "eleven_v4",
+   "emotion": "intrigued",
+   "start": 0,
+   "end": 4.31,
    "words": [
     {
      "w": "Did",
-     "start": 0.0,
-     "end": 0.125
+     "start": 0.015,
+     "end": 0.152
     },
     {
      "w": "you",
-     "start": 0.158,
-     "end": 0.235
+     "start": 0.221,
+     "end": 0.29
     },
     {
      "w": "know",
-     "start": 0.28,
-     "end": 0.401
+     "start": 0.427,
+     "end": 0.702
     },
     {
      "w": "the",
-     "start": 0.446,
-     "end": 0.511
+     "start": 0.977,
+     "end": 1.183
     },
     {
      "w": "smoothest",
-     "start": 0.568,
-     "end": 0.899
+     "start": 1.355,
+     "end": 1.664
     },
     {
      "w": "balls",
-     "start": 0.932,
-     "end": 1.12
+     "start": 1.733,
+     "end": 2.008
     },
     {
      "w": "on",
-     "start": 1.153,
-     "end": 1.22
+     "start": 2.111,
+     "end": 2.214
     },
     {
      "w": "Earth",
-     "start": 1.252,
-     "end": 1.396
+     "start": 2.283,
+     "end": 2.764
     },
     {
      "w": "are",
-     "start": 1.43,
-     "end": 1.518
+     "start": 2.901,
+     "end": 3.039
     },
     {
      "w": "made",
-     "start": 1.551,
-     "end": 1.684
+     "start": 3.108,
+     "end": 3.314
     },
     {
      "w": "by",
-     "start": 1.717,
-     "end": 1.794
+     "start": 3.382,
+     "end": 3.451
     },
     {
      "w": "smashing",
-     "start": 1.85,
-     "end": 2.281
+     "start": 3.589,
+     "end": 4.001
     },
     {
      "w": "them?",
-     "start": 2.326,
-     "end": 2.575
+     "start": 4.07,
+     "end": 4.31
     }
    ]
   },
   {
    "id": 2,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "analytical",
-   "start": 2.956,
-   "end": 4.77,
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 4.71,
+   "end": 6.912,
    "words": [
     {
      "w": "Relax.",
-     "start": 2.956,
-     "end": 3.565
+     "start": 4.762,
+     "end": 5.677
     },
     {
      "w": "Today",
-     "start": 3.841,
-     "end": 4.062
+     "start": 5.743,
+     "end": 6.004
     },
     {
      "w": "I'll",
-     "start": 4.095,
-     "end": 4.206
+     "start": 6.07,
+     "end": 6.2
     },
     {
      "w": "show",
-     "start": 4.239,
-     "end": 4.35
+     "start": 6.266,
+     "end": 6.396
     },
     {
      "w": "you",
-     "start": 4.393,
-     "end": 4.46
+     "start": 6.462,
+     "end": 6.527
     },
     {
      "w": "how.",
-     "start": 4.504,
-     "end": 4.77
+     "start": 6.593,
+     "end": 6.912
     }
    ]
   },
   {
    "id": 3,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "curious",
-   "start": 4.904,
-   "end": 9.906,
+   "start": 7.052,
+   "end": 12.717,
    "words": [
     {
      "w": "A",
-     "start": 4.904,
-     "end": 4.987
+     "start": 7.093,
+     "end": 7.159
     },
     {
      "w": "20-ton",
-     "start": 5.042,
-     "end": 5.429
+     "start": 7.226,
+     "end": 7.759
     },
     {
      "w": "punch,",
-     "start": 5.495,
-     "end": 5.838
+     "start": 7.826,
+     "end": 8.459
     },
     {
      "w": "an",
-     "start": 6.103,
-     "end": 6.225
+     "start": 8.493,
+     "end": 8.626
     },
     {
      "w": "840-degree",
-     "start": 6.302,
-     "end": 7.131
+     "start": 8.693,
+     "end": 9.626
     },
     {
-     "w": "oven\u2026",
-     "start": 7.165,
-     "end": 7.486
+     "w": "oven…",
+     "start": 9.693,
+     "end": 10.326
     },
     {
      "w": "and",
-     "start": 7.75,
-     "end": 7.872
+     "start": 10.359,
+     "end": 10.426
     },
     {
      "w": "a",
-     "start": 7.906,
-     "end": 7.939
+     "start": 10.626,
+     "end": 10.67
     },
     {
      "w": "fourth",
-     "start": 8.005,
-     "end": 8.226
+     "start": 10.715,
+     "end": 10.826
     },
     {
      "w": "step",
-     "start": 8.259,
-     "end": 8.491
+     "start": 10.893,
+     "end": 11.093
     },
     {
      "w": "that",
-     "start": 8.536,
-     "end": 8.657
+     "start": 11.159,
+     "end": 11.293
     },
     {
      "w": "makes",
-     "start": 8.69,
-     "end": 8.856
+     "start": 11.393,
+     "end": 11.493
     },
     {
      "w": "them",
-     "start": 8.89,
-     "end": 9.022
+     "start": 11.626,
+     "end": 11.759
     },
     {
      "w": "almost",
-     "start": 9.122,
-     "end": 9.465
+     "start": 11.826,
+     "end": 12.159
     },
     {
      "w": "perfect.",
-     "start": 9.509,
-     "end": 9.906
+     "start": 12.226,
+     "end": 12.717
     }
    ]
   },
   {
    "id": 4,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "chuckles",
-   "start": 10.039,
-   "end": 15.198,
+   "start": 12.857,
+   "end": 19.743,
    "words": [
     {
      "w": "A",
-     "start": 10.039,
-     "end": 10.11
+     "start": 13.457,
+     "end": 13.59
     },
     {
      "w": "bearing",
-     "start": 10.188,
-     "end": 10.431
+     "start": 13.757,
+     "end": 13.923
     },
     {
      "w": "ball",
-     "start": 10.465,
-     "end": 10.641
+     "start": 14.023,
+     "end": 14.123
     },
     {
      "w": "is",
-     "start": 10.686,
-     "end": 10.763
+     "start": 14.223,
+     "end": 14.323
     },
     {
      "w": "hard,",
-     "start": 10.83,
-     "end": 11.161
+     "start": 14.39,
+     "end": 14.923
     },
     {
      "w": "round,",
-     "start": 11.216,
-     "end": 11.548
+     "start": 14.99,
+     "end": 15.523
     },
     {
      "w": "shiny",
-     "start": 11.581,
-     "end": 11.869
+     "start": 15.59,
+     "end": 15.857
     },
     {
      "w": "steel.",
-     "start": 11.902,
-     "end": 12.3
+     "start": 15.99,
+     "end": 16.623
     },
     {
      "w": "And",
-     "start": 12.466,
-     "end": 12.588
+     "start": 16.657,
+     "end": 16.79
     },
     {
      "w": "everything",
-     "start": 12.631,
-     "end": 12.93
+     "start": 16.857,
+     "end": 17.19
     },
     {
      "w": "that",
-     "start": 12.963,
-     "end": 13.085
+     "start": 17.257,
+     "end": 17.323
     },
     {
      "w": "spins",
-     "start": 13.14,
-     "end": 13.45
+     "start": 17.457,
+     "end": 17.723
     },
     {
      "w": "needs",
-     "start": 13.505,
-     "end": 13.693
+     "start": 17.79,
+     "end": 17.923
     },
     {
      "w": "a",
-     "start": 13.749,
-     "end": 13.804
+     "start": 17.957,
+     "end": 17.99
     },
     {
-     "w": "pair\u2026",
-     "start": 13.87,
-     "end": 14.334
+     "w": "pair…",
+     "start": 18.057,
+     "end": 18.69
     },
     {
      "w": "or",
-     "start": 14.6,
-     "end": 14.744
+     "start": 19.057,
+     "end": 19.123
     },
     {
      "w": "a",
-     "start": 14.799,
-     "end": 14.828
+     "start": 19.19,
+     "end": 19.257
     },
     {
      "w": "hundred.",
-     "start": 14.888,
-     "end": 15.198
+     "start": 19.323,
+     "end": 19.743
     }
    ]
   },
   {
    "id": 5,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "curious",
-   "start": 15.331,
-   "end": 17.243,
+   "start": 19.883,
+   "end": 21.433,
    "words": [
     {
      "w": "But",
-     "start": 15.331,
-     "end": 15.44
+     "start": 19.968,
+     "end": 19.998
     },
     {
      "w": "how",
-     "start": 15.473,
-     "end": 15.572
+     "start": 20.061,
+     "end": 20.128
     },
     {
      "w": "do",
-     "start": 15.606,
-     "end": 15.661
+     "start": 20.194,
+     "end": 20.261
     },
     {
      "w": "they",
-     "start": 15.706,
-     "end": 15.805
+     "start": 20.328,
+     "end": 20.394
     },
     {
      "w": "get",
-     "start": 15.838,
-     "end": 15.937
+     "start": 20.461,
+     "end": 20.528
     },
     {
      "w": "them",
-     "start": 15.97,
-     "end": 16.081
+     "start": 20.594,
+     "end": 20.728
     },
     {
      "w": "so",
-     "start": 16.159,
-     "end": 16.313
+     "start": 20.828,
+     "end": 20.928
     },
     {
      "w": "round?",
-     "start": 16.39,
-     "end": 17.242
+     "start": 21.128,
+     "end": 21.433
     }
    ]
   },
   {
    "id": 6,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 17.376,
-   "end": 20.325,
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 21.573,
+   "end": 25.218,
    "words": [
     {
      "w": "Step",
-     "start": 17.376,
-     "end": 17.619
+     "start": 21.68,
+     "end": 21.893
     },
     {
      "w": "one:",
-     "start": 17.697,
-     "end": 17.985
+     "start": 22.034,
+     "end": 22.673
     },
     {
      "w": "chunks",
-     "start": 18.316,
-     "end": 18.604
+     "start": 22.744,
+     "end": 22.956
     },
     {
      "w": "of",
-     "start": 18.648,
-     "end": 18.703
+     "start": 23.027,
+     "end": 23.098
     },
     {
      "w": "wire,",
-     "start": 18.758,
-     "end": 19.068
+     "start": 23.169,
+     "end": 23.666
     },
     {
      "w": "slammed",
-     "start": 19.09,
-     "end": 19.367
+     "start": 23.807,
+     "end": 24.162
     },
     {
      "w": "between",
-     "start": 19.389,
-     "end": 19.676
+     "start": 24.304,
+     "end": 24.446
     },
     {
      "w": "two",
-     "start": 19.72,
-     "end": 19.864
+     "start": 24.517,
+     "end": 24.659
     },
     {
      "w": "cups.",
-     "start": 19.919,
-     "end": 20.325
+     "start": 24.729,
+     "end": 25.218
     }
    ]
   },
   {
    "id": 7,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "amazed",
-   "start": 20.458,
-   "end": 24.48,
+   "start": 25.358,
+   "end": 29.16,
    "words": [
     {
      "w": "Up",
-     "start": 20.458,
-     "end": 20.61
+     "start": 25.422,
+     "end": 25.487
     },
     {
      "w": "to",
-     "start": 20.654,
-     "end": 20.71
+     "start": 25.552,
+     "end": 25.681
     },
     {
      "w": "20",
-     "start": 20.776,
-     "end": 21.096
+     "start": 25.746,
+     "end": 26.069
     },
     {
      "w": "tons",
-     "start": 21.163,
-     "end": 21.406
+     "start": 26.134,
+     "end": 26.393
     },
     {
      "w": "per",
-     "start": 21.462,
-     "end": 21.561
+     "start": 26.49,
+     "end": 26.587
     },
     {
      "w": "hit.",
-     "start": 21.605,
-     "end": 21.892
+     "start": 26.878,
+     "end": 27.202
     },
     {
      "w": "It",
-     "start": 22.247,
-     "end": 22.346
+     "start": 27.234,
+     "end": 27.364
     },
     {
      "w": "comes",
-     "start": 22.379,
-     "end": 22.545
+     "start": 27.429,
+     "end": 27.558
     },
     {
      "w": "out",
-     "start": 22.578,
-     "end": 22.678
+     "start": 27.623,
+     "end": 27.687
     },
     {
      "w": "with",
-     "start": 22.71,
-     "end": 22.822
+     "start": 27.752,
+     "end": 27.817
     },
     {
      "w": "a",
-     "start": 22.854,
-     "end": 22.883
+     "start": 27.882,
+     "end": 27.946
     },
     {
      "w": "ring,",
-     "start": 22.943,
-     "end": 23.264
+     "start": 28.011,
+     "end": 28.432
     },
     {
      "w": "like",
-     "start": 23.352,
-     "end": 23.507
+     "start": 28.464,
+     "end": 28.658
     },
     {
      "w": "Saturn.",
-     "start": 23.54,
-     "end": 24.48
+     "start": 28.788,
+     "end": 29.16
     }
    ]
   },
   {
    "id": 8,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 24.613,
-   "end": 28.683,
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 29.3,
+   "end": 33.267,
    "words": [
     {
      "w": "Step",
-     "start": 24.613,
-     "end": 24.911
+     "start": 29.411,
+     "end": 29.624
     },
     {
      "w": "two:",
-     "start": 24.968,
-     "end": 25.376
+     "start": 29.766,
+     "end": 30.475
     },
     {
      "w": "they",
-     "start": 25.752,
-     "end": 25.907
+     "start": 30.546,
+     "end": 30.688
     },
     {
      "w": "roll",
-     "start": 25.985,
-     "end": 26.216
+     "start": 30.794,
+     "end": 30.9
     },
     {
      "w": "between",
-     "start": 26.283,
-     "end": 26.648
+     "start": 31.078,
+     "end": 31.255
     },
     {
      "w": "grooved",
-     "start": 26.748,
-     "end": 27.123
+     "start": 31.326,
+     "end": 31.681
     },
     {
      "w": "plates",
-     "start": 27.179,
-     "end": 27.51
+     "start": 31.893,
+     "end": 32.106
     },
     {
      "w": "until",
-     "start": 27.566,
-     "end": 27.787
+     "start": 32.177,
+     "end": 32.39
     },
     {
      "w": "the",
-     "start": 27.831,
-     "end": 27.897
+     "start": 32.461,
+     "end": 32.532
     },
     {
      "w": "ring",
-     "start": 27.952,
-     "end": 28.096
+     "start": 32.603,
+     "end": 32.673
     },
     {
      "w": "is",
-     "start": 28.141,
-     "end": 28.218
+     "start": 32.744,
+     "end": 32.815
     },
     {
      "w": "gone.",
-     "start": 28.273,
-     "end": 28.683
+     "start": 32.886,
+     "end": 33.267
     }
    ]
   },
   {
    "id": 9,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "chuckles",
-   "start": 28.816,
-   "end": 31.408,
+   "start": 33.407,
+   "end": 36.684,
    "words": [
     {
      "w": "And",
-     "start": 28.816,
-     "end": 28.93
+     "start": 33.674,
+     "end": 33.874
     },
     {
      "w": "yes:",
-     "start": 28.996,
-     "end": 29.229
+     "start": 33.941,
+     "end": 34.541
     },
     {
      "w": "the",
-     "start": 29.262,
-     "end": 29.339
+     "start": 34.607,
+     "end": 34.674
     },
     {
      "w": "more",
-     "start": 29.372,
-     "end": 29.505
+     "start": 34.741,
+     "end": 34.874
     },
     {
      "w": "they",
-     "start": 29.528,
-     "end": 29.627
+     "start": 34.941,
+     "end": 35.007
     },
     {
      "w": "rub",
-     "start": 29.671,
-     "end": 29.804
+     "start": 35.074,
+     "end": 35.207
     },
     {
      "w": "them,",
-     "start": 29.859,
-     "end": 30.058
+     "start": 35.274,
+     "end": 35.774
     },
     {
      "w": "the",
-     "start": 30.113,
-     "end": 30.202
+     "start": 35.807,
+     "end": 35.941
     },
     {
      "w": "harder",
-     "start": 30.246,
-     "end": 30.445
+     "start": 36.041,
+     "end": 36.207
     },
     {
      "w": "they",
-     "start": 30.478,
-     "end": 30.578
+     "start": 36.274,
+     "end": 36.407
     },
     {
      "w": "get.",
-     "start": 30.61,
-     "end": 31.407
+     "start": 36.684,
+     "end": 36.714
     }
    ]
   },
   {
    "id": 10,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 31.541,
-   "end": 35.433,
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 36.824,
+   "end": 40.872,
    "words": [
     {
      "w": "Step",
-     "start": 31.541,
-     "end": 31.807
+     "start": 36.959,
+     "end": 37.171
     },
     {
      "w": "three:",
-     "start": 31.862,
-     "end": 32.282
+     "start": 37.242,
+     "end": 37.952
     },
     {
      "w": "an",
-     "start": 32.658,
-     "end": 32.812
+     "start": 38.023,
+     "end": 38.164
     },
     {
      "w": "840-degree",
-     "start": 32.912,
-     "end": 33.985
+     "start": 38.235,
+     "end": 39.157
     },
     {
      "w": "oven,",
-     "start": 34.04,
-     "end": 34.405
+     "start": 39.228,
+     "end": 39.796
     },
     {
      "w": "then",
-     "start": 34.56,
-     "end": 34.726
+     "start": 39.867,
+     "end": 39.937
     },
     {
      "w": "an",
-     "start": 34.781,
-     "end": 34.836
+     "start": 40.044,
+     "end": 40.15
     },
     {
      "w": "oil",
-     "start": 34.891,
-     "end": 35.046
+     "start": 40.257,
+     "end": 40.363
     },
     {
      "w": "bath.",
-     "start": 35.101,
-     "end": 35.433
+     "start": 40.434,
+     "end": 40.872
     }
    ]
   },
   {
    "id": 11,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "serious",
-   "start": 35.567,
-   "end": 38.725,
+   "model": "eleven_v4",
+   "emotion": "suspense",
+   "start": 41.012,
+   "end": 45.383,
    "words": [
     {
      "w": "If",
-     "start": 35.567,
-     "end": 35.683
+     "start": 41.131,
+     "end": 41.161
     },
     {
      "w": "the",
-     "start": 35.728,
-     "end": 35.793
+     "start": 41.227,
+     "end": 41.299
     },
     {
      "w": "hardening",
-     "start": 35.849,
-     "end": 36.225
+     "start": 41.406,
+     "end": 41.729
     },
     {
      "w": "fails,",
-     "start": 36.28,
-     "end": 36.623
+     "start": 41.8,
+     "end": 42.446
     },
     {
      "w": "it",
-     "start": 36.656,
-     "end": 36.723
+     "start": 42.517,
+     "end": 42.661
     },
     {
      "w": "stays",
-     "start": 36.755,
-     "end": 37.01
+     "start": 42.732,
+     "end": 43.019
     },
     {
      "w": "soft,",
-     "start": 37.054,
-     "end": 37.419
+     "start": 43.091,
+     "end": 43.808
     },
     {
      "w": "and",
-     "start": 37.441,
-     "end": 37.508
+     "start": 43.843,
+     "end": 43.879
     },
     {
      "w": "the",
-     "start": 37.541,
-     "end": 37.607
+     "start": 43.951,
+     "end": 44.023
     },
     {
      "w": "bearing",
-     "start": 37.64,
-     "end": 37.884
+     "start": 44.202,
+     "end": 44.381
     },
     {
      "w": "wears",
-     "start": 37.917,
-     "end": 38.093
+     "start": 44.453,
+     "end": 44.596
     },
     {
      "w": "out",
-     "start": 38.138,
-     "end": 38.259
+     "start": 44.704,
+     "end": 44.811
     },
     {
      "w": "fast.",
-     "start": 38.314,
-     "end": 38.725
+     "start": 45.026,
+     "end": 45.383
     }
    ]
   },
   {
    "id": 12,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "chuckles",
-   "start": 38.858,
-   "end": 39.949,
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 45.523,
+   "end": 46.929,
    "words": [
     {
      "w": "Look",
-     "start": 38.858,
-     "end": 39.033
+     "start": 45.654,
+     "end": 45.719
     },
     {
      "w": "at",
-     "start": 39.067,
-     "end": 39.11
+     "start": 45.785,
+     "end": 45.85
     },
     {
      "w": "what",
-     "start": 39.144,
-     "end": 39.254
+     "start": 45.915,
+     "end": 45.981
     },
     {
      "w": "someone",
-     "start": 39.288,
-     "end": 39.509
+     "start": 46.046,
+     "end": 46.308
     },
     {
      "w": "commented:",
-     "start": 39.542,
-     "end": 39.949
+     "start": 46.373,
+     "end": 46.929
     }
    ]
   },
   {
    "id": 13,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "chuckles",
-   "start": 40.082,
-   "end": 42.499,
+   "model": "eleven_v4",
+   "emotion": "sarcastic",
+   "start": 47.069,
+   "end": 49.229,
    "words": [
     {
      "w": "Why",
-     "start": 40.082,
-     "end": 40.222
+     "start": 47.145,
+     "end": 47.281
     },
     {
      "w": "make",
-     "start": 40.289,
-     "end": 40.432
+     "start": 47.349,
+     "end": 47.485
     },
     {
      "w": "them",
-     "start": 40.465,
-     "end": 40.575
+     "start": 47.553,
+     "end": 47.621
     },
     {
      "w": "that",
-     "start": 40.631,
-     "end": 40.774
+     "start": 47.723,
+     "end": 47.825
     },
     {
      "w": "perfect",
-     "start": 40.852,
-     "end": 41.15
+     "start": 47.893,
+     "end": 48.233
     },
     {
      "w": "if",
-     "start": 41.184,
-     "end": 41.25
+     "start": 48.301,
+     "end": 48.369
     },
     {
      "w": "nobody",
-     "start": 41.328,
-     "end": 41.626
+     "start": 48.403,
+     "end": 48.709
     },
     {
      "w": "sees",
-     "start": 41.681,
-     "end": 41.891
+     "start": 48.777,
+     "end": 48.981
     },
     {
      "w": "them?",
-     "start": 41.925,
-     "end": 42.499
+     "start": 49.083,
+     "end": 49.229
     }
    ]
   },
   {
    "id": 14,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "analytical",
-   "start": 42.632,
-   "end": 47.08,
+   "start": 49.369,
+   "end": 53.817,
    "words": [
     {
      "w": "Because",
-     "start": 42.632,
-     "end": 42.91
+     "start": 49.399,
+     "end": 49.669
     },
     {
      "w": "they",
-     "start": 42.933,
-     "end": 43.044
+     "start": 49.736,
+     "end": 49.803
     },
     {
      "w": "spin",
-     "start": 43.099,
-     "end": 43.375
+     "start": 49.972,
+     "end": 50.14
     },
     {
      "w": "thousands",
-     "start": 43.475,
-     "end": 43.884
+     "start": 50.207,
+     "end": 50.612
     },
     {
      "w": "of",
-     "start": 43.917,
-     "end": 43.972
+     "start": 50.679,
+     "end": 50.746
     },
     {
      "w": "times",
-     "start": 44.016,
-     "end": 44.26
+     "start": 50.814,
+     "end": 51.016
     },
     {
      "w": "a",
-     "start": 44.304,
-     "end": 44.332
+     "start": 51.083,
+     "end": 51.15
     },
     {
      "w": "minute.",
-     "start": 44.37,
-     "end": 44.691
+     "start": 51.218,
+     "end": 51.958
     },
     {
      "w": "One",
-     "start": 45.067,
-     "end": 45.289
+     "start": 52.026,
+     "end": 52.16
     },
     {
      "w": "bump,",
-     "start": 45.332,
-     "end": 45.642
+     "start": 52.228,
+     "end": 52.766
     },
     {
      "w": "and",
-     "start": 45.675,
-     "end": 45.819
+     "start": 52.834,
+     "end": 52.901
     },
     {
      "w": "everything",
-     "start": 45.863,
-     "end": 46.206
+     "start": 52.968,
+     "end": 53.372
     },
     {
      "w": "shakes.",
-     "start": 46.261,
-     "end": 47.079
+     "start": 53.406,
+     "end": 53.817
     }
    ]
   },
   {
    "id": 15,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "amazed",
-   "start": 47.213,
-   "end": 50.887,
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 53.957,
+   "end": 58.328,
    "words": [
     {
      "w": "So,",
-     "start": 47.213,
-     "end": 47.401
+     "start": 54.083,
+     "end": 54.397
     },
     {
      "w": "step",
-     "start": 47.433,
-     "end": 47.655
+     "start": 54.523,
+     "end": 54.712
     },
     {
      "w": "four:",
-     "start": 47.721,
-     "end": 48.097
+     "start": 54.775,
+     "end": 55.341
     },
     {
      "w": "lapping,",
-     "start": 48.263,
-     "end": 48.793
+     "start": 55.403,
+     "end": 56.032
     },
     {
      "w": "with",
-     "start": 48.992,
-     "end": 49.126
+     "start": 56.127,
+     "end": 56.221
     },
     {
      "w": "softer",
-     "start": 49.159,
-     "end": 49.457
+     "start": 56.284,
+     "end": 56.536
     },
     {
      "w": "plates",
-     "start": 49.512,
-     "end": 49.789
+     "start": 56.598,
+     "end": 56.85
     },
     {
      "w": "and",
-     "start": 49.822,
-     "end": 49.899
+     "start": 56.913,
+     "end": 56.976
     },
     {
      "w": "a",
-     "start": 49.932,
-     "end": 49.961
+     "start": 57.039,
+     "end": 57.133
     },
     {
      "w": "fine",
-     "start": 49.988,
-     "end": 50.153
+     "start": 57.227,
+     "end": 57.416
     },
     {
      "w": "abrasive",
-     "start": 50.176,
-     "end": 50.496
+     "start": 57.573,
+     "end": 57.793
     },
     {
      "w": "paste.",
-     "start": 50.53,
-     "end": 50.887
+     "start": 57.856,
+     "end": 58.328
     }
    ]
   },
   {
    "id": 16,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "amazed",
-   "start": 51.02,
-   "end": 54.345,
+   "start": 58.468,
+   "end": 62.39,
    "words": [
     {
      "w": "In",
-     "start": 51.02,
-     "end": 51.152
+     "start": 58.533,
+     "end": 58.598
     },
     {
      "w": "the",
-     "start": 51.185,
-     "end": 51.263
+     "start": 58.662,
+     "end": 58.727
     },
     {
      "w": "end,",
-     "start": 51.329,
-     "end": 51.628
+     "start": 58.857,
+     "end": 59.31
     },
     {
      "w": "they're",
-     "start": 51.771,
-     "end": 51.992
+     "start": 59.374,
+     "end": 59.504
     },
     {
      "w": "off",
-     "start": 52.036,
-     "end": 52.191
+     "start": 59.601,
+     "end": 59.698
     },
     {
      "w": "a",
-     "start": 52.247,
-     "end": 52.28
+     "start": 59.763,
+     "end": 59.827
     },
     {
      "w": "perfect",
-     "start": 52.401,
-     "end": 52.767
+     "start": 59.892,
+     "end": 60.216
     },
     {
      "w": "sphere",
-     "start": 52.799,
-     "end": 53.098
+     "start": 60.28,
+     "end": 60.992
     },
     {
      "w": "by",
-     "start": 53.142,
-     "end": 53.23
+     "start": 61.057,
+     "end": 61.122
     },
     {
      "w": "just",
-     "start": 53.275,
-     "end": 53.419
+     "start": 61.251,
+     "end": 61.381
     },
     {
      "w": "80",
-     "start": 53.507,
-     "end": 53.717
+     "start": 61.478,
+     "end": 61.64
     },
     {
      "w": "nanometers.",
-     "start": 53.761,
-     "end": 54.345
+     "start": 61.704,
+     "end": 62.39
     }
    ]
   },
   {
    "id": 17,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "amazed",
-   "start": 54.478,
-   "end": 58.774,
+   "model": "eleven_v4",
+   "emotion": "shocked",
+   "start": 62.53,
+   "end": 67.917,
    "words": [
     {
      "w": "Blow",
-     "start": 54.478,
-     "end": 54.662
+     "start": 63.19,
+     "end": 63.298
     },
     {
      "w": "a",
-     "start": 54.706,
-     "end": 54.739
+     "start": 63.364,
+     "end": 63.495
     },
     {
      "w": "one-centimeter",
-     "start": 54.806,
-     "end": 55.358
+     "start": 63.56,
+     "end": 64.148
     },
     {
      "w": "ball",
-     "start": 55.403,
-     "end": 55.602
+     "start": 64.213,
+     "end": 64.41
     },
     {
      "w": "up",
-     "start": 55.646,
-     "end": 55.712
+     "start": 64.475,
+     "end": 64.54
     },
     {
      "w": "to",
-     "start": 55.746,
-     "end": 55.79
+     "start": 64.606,
+     "end": 64.671
     },
     {
      "w": "Earth",
-     "start": 55.856,
-     "end": 56.0
+     "start": 64.736,
+     "end": 64.867
     },
     {
      "w": "size,",
-     "start": 56.032,
-     "end": 56.42
+     "start": 64.932,
+     "end": 65.477
     },
     {
      "w": "and",
-     "start": 56.73,
-     "end": 56.84
+     "start": 65.499,
+     "end": 65.529
     },
     {
      "w": "its",
-     "start": 56.873,
-     "end": 56.972
+     "start": 65.586,
+     "end": 65.782
     },
     {
      "w": "tallest",
-     "start": 57.017,
-     "end": 57.315
+     "start": 65.847,
+     "end": 66.174
     },
     {
      "w": "mountain",
-     "start": 57.36,
-     "end": 57.625
+     "start": 66.24,
+     "end": 66.566
     },
     {
      "w": "is",
-     "start": 57.67,
-     "end": 57.747
+     "start": 66.599,
+     "end": 66.632
     },
     {
      "w": "a",
-     "start": 57.78,
-     "end": 57.813
+     "start": 66.828,
+     "end": 66.861
     },
     {
      "w": "30-story",
-     "start": 57.879,
-     "end": 58.377
+     "start": 66.893,
+     "end": 67.416
     },
     {
      "w": "building.",
-     "start": 58.421,
-     "end": 58.774
+     "start": 67.481,
+     "end": 67.917
     }
    ]
   },
   {
    "id": 18,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "analytical",
-   "start": 58.908,
-   "end": 62.177,
+   "start": 68.057,
+   "end": 71.627,
    "words": [
     {
      "w": "Then",
-     "start": 58.908,
-     "end": 59.037
+     "start": 68.152,
+     "end": 68.287
     },
     {
      "w": "they're",
-     "start": 59.07,
-     "end": 59.258
+     "start": 68.32,
+     "end": 68.489
     },
     {
      "w": "sorted",
-     "start": 59.291,
-     "end": 59.535
+     "start": 68.623,
+     "end": 68.758
     },
     {
      "w": "by",
-     "start": 59.568,
-     "end": 59.656
+     "start": 68.825,
+     "end": 68.96
     },
     {
      "w": "size:",
-     "start": 59.723,
-     "end": 60.22
+     "start": 69.027,
+     "end": 69.836
     },
     {
      "w": "every",
-     "start": 60.596,
-     "end": 60.862
+     "start": 69.903,
+     "end": 70.105
     },
     {
      "w": "ball",
-     "start": 60.906,
-     "end": 61.094
+     "start": 70.172,
+     "end": 70.374
     },
     {
      "w": "in",
-     "start": 61.138,
-     "end": 61.182
+     "start": 70.408,
+     "end": 70.442
     },
     {
      "w": "a",
-     "start": 61.227,
-     "end": 61.255
+     "start": 70.509,
+     "end": 70.576
     },
     {
      "w": "bearing",
-     "start": 61.304,
-     "end": 61.58
+     "start": 70.778,
+     "end": 70.98
     },
     {
      "w": "is",
-     "start": 61.625,
-     "end": 61.702
+     "start": 71.048,
+     "end": 71.115
     },
     {
      "w": "a",
-     "start": 61.747,
-     "end": 61.779
+     "start": 71.149,
+     "end": 71.182
     },
     {
      "w": "twin.",
-     "start": 61.812,
-     "end": 62.177
+     "start": 71.25,
+     "end": 71.627
     }
    ]
   },
   {
    "id": 19,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "enthusiastic",
-   "start": 62.31,
-   "end": 65.867,
+   "start": 71.767,
+   "end": 75.994,
    "words": [
     {
      "w": "Before:",
-     "start": 62.31,
-     "end": 62.737
+     "start": 71.83,
+     "end": 72.465
     },
     {
      "w": "a",
-     "start": 62.77,
-     "end": 62.814
+     "start": 72.507,
+     "end": 72.55
     },
     {
      "w": "scrap",
-     "start": 62.87,
-     "end": 63.091
+     "start": 72.592,
+     "end": 72.846
     },
     {
      "w": "of",
-     "start": 63.135,
-     "end": 63.19
+     "start": 72.91,
+     "end": 72.973
     },
     {
      "w": "wire.",
-     "start": 63.246,
-     "end": 63.61
+     "start": 73.037,
+     "end": 73.672
     },
     {
      "w": "Now:",
-     "start": 64.02,
-     "end": 64.308
+     "start": 73.83,
+     "end": 74.243
     },
     {
      "w": "a",
-     "start": 64.33,
-     "end": 64.363
+     "start": 74.307,
+     "end": 74.37
     },
     {
      "w": "perfect",
-     "start": 64.44,
-     "end": 64.694
+     "start": 74.434,
+     "end": 74.751
     },
     {
      "w": "ball",
-     "start": 64.728,
-     "end": 64.905
+     "start": 74.846,
+     "end": 74.942
     },
     {
      "w": "with",
-     "start": 64.938,
-     "end": 65.037
+     "start": 75.005,
+     "end": 75.069
     },
     {
      "w": "your",
-     "start": 65.07,
-     "end": 65.159
+     "start": 75.132,
+     "end": 75.195
     },
     {
      "w": "friend's",
-     "start": 65.181,
-     "end": 65.435
+     "start": 75.259,
+     "end": 75.513
     },
     {
      "w": "name",
-     "start": 65.469,
-     "end": 65.623
+     "start": 75.608,
+     "end": 75.703
     },
     {
      "w": "on",
-     "start": 65.656,
-     "end": 65.734
+     "start": 75.767,
+     "end": 75.83
     },
     {
      "w": "it.",
-     "start": 65.767,
-     "end": 65.867
+     "start": 75.894,
+     "end": 75.994
     }
    ]
   },
   {
    "id": 20,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
-   "emotion": "enthusiastic",
-   "start": 66.0,
-   "end": 69.053,
+   "model": "eleven_v4",
+   "emotion": "mischievous",
+   "start": 76.134,
+   "end": 79.764,
    "words": [
     {
      "w": "Tag",
-     "start": 66.0,
-     "end": 66.256
+     "start": 76.18,
+     "end": 76.452
     },
     {
      "w": "or",
-     "start": 66.29,
-     "end": 66.356
+     "start": 76.554,
+     "end": 76.656
     },
     {
      "w": "send",
-     "start": 66.433,
-     "end": 66.632
+     "start": 76.758,
+     "end": 76.86
     },
     {
      "w": "this",
-     "start": 66.666,
-     "end": 66.788
+     "start": 76.928,
+     "end": 76.996
     },
     {
      "w": "to",
-     "start": 66.831,
-     "end": 66.898
+     "start": 77.064,
+     "end": 77.132
     },
     {
      "w": "your",
-     "start": 66.965,
-     "end": 67.086
+     "start": 77.234,
+     "end": 77.336
     },
     {
      "w": "friend",
-     "start": 67.13,
-     "end": 67.395
+     "start": 77.438,
+     "end": 77.54
     },
     {
      "w": "who",
-     "start": 67.44,
-     "end": 67.572
+     "start": 77.608,
+     "end": 77.744
     },
     {
      "w": "brags",
-     "start": 67.616,
-     "end": 67.86
+     "start": 77.812,
+     "end": 78.561
     },
     {
      "w": "that",
-     "start": 67.882,
-     "end": 67.992
+     "start": 78.629,
+     "end": 78.697
     },
     {
      "w": "theirs",
-     "start": 68.026,
-     "end": 68.213
+     "start": 78.765,
+     "end": 79.037
     },
     {
      "w": "are",
-     "start": 68.247,
-     "end": 68.335
+     "start": 79.139,
+     "end": 79.241
     },
     {
      "w": "perfect.",
-     "start": 68.369,
-     "end": 69.053
+     "start": 79.445,
+     "end": 79.764
     }
    ]
   },
   {
    "id": 21,
    "voice": "Brian",
-   "model": "eleven_multilingual_v2",
+   "model": "eleven_v4",
    "emotion": "warm",
-   "start": 69.187,
-   "end": 72.514,
+   "start": 79.904,
+   "end": 83.328,
    "words": [
     {
      "w": "See",
-     "start": 69.187,
-     "end": 69.374
+     "start": 80.03,
+     "end": 80.098
     },
     {
      "w": "you",
-     "start": 69.397,
-     "end": 69.463
+     "start": 80.165,
+     "end": 80.232
     },
     {
      "w": "next",
-     "start": 69.508,
-     "end": 69.662
+     "start": 80.333,
+     "end": 80.434
     },
     {
      "w": "time!",
-     "start": 69.695,
-     "end": 69.994
+     "start": 80.737,
+     "end": 81.108
     },
     {
      "w": "Hit",
-     "start": 70.314,
-     "end": 70.513
+     "start": 81.175,
+     "end": 81.242
     },
     {
      "w": "like",
-     "start": 70.58,
-     "end": 70.768
+     "start": 81.31,
+     "end": 81.444
     },
     {
      "w": "and",
-     "start": 70.801,
-     "end": 70.868
+     "start": 81.545,
+     "end": 81.646
     },
     {
      "w": "follow",
-     "start": 70.923,
-     "end": 71.166
+     "start": 81.781,
+     "end": 81.916
     },
     {
      "w": "for",
-     "start": 71.21,
-     "end": 71.31
+     "start": 81.983,
+     "end": 82.118
     },
     {
      "w": "more",
-     "start": 71.354,
-     "end": 71.497
+     "start": 82.185,
+     "end": 82.32
     },
     {
      "w": "breakdowns",
-     "start": 71.53,
-     "end": 71.95
+     "start": 82.421,
+     "end": 82.724
     },
     {
      "w": "like",
-     "start": 71.995,
-     "end": 72.139
+     "start": 82.791,
+     "end": 82.926
     },
     {
      "w": "this.",
-     "start": 72.172,
-     "end": 72.514
+     "start": 82.993,
+     "end": 83.328
     }
    ]
   }
- ],
- "tempo": 1.05
+ ]
 }
