@@ -1,0 +1,23 @@
+[
+  {"id": 1, "voice": "am_michael", "gap": 0.4, "emotion": "intriguing", "text": "Did you know the smoothest balls on Earth are made by smashing them?"},
+  {"id": 2, "voice": "am_michael", "gap": 0.14, "emotion": "analytical", "text": "Relax. Today I'll show you how."},
+  {"id": 3, "voice": "am_michael", "gap": 0.14, "emotion": "curious", "text": "A 20-ton punch, an 840-degree oven… and a fourth step that makes them almost perfect.", "say": "A twenty-ton punch, an eight-hundred-forty-degree oven… and a fourth step that makes them almost perfect."},
+  {"id": 4, "voice": "am_michael", "gap": 0.14, "emotion": "chuckles", "text": "A bearing ball is hard, round, shiny steel. And everything that spins needs a pair… or a hundred."},
+  {"id": 5, "voice": "am_michael", "gap": 0.14, "emotion": "curious", "text": "But how do they get them so round?"},
+  {"id": 6, "voice": "am_michael", "gap": 0.14, "emotion": "serious", "text": "Step one: chunks of wire, slammed between two cups."},
+  {"id": 7, "voice": "am_michael", "gap": 0.14, "emotion": "amazed", "text": "Up to 20 tons per hit. It comes out with a ring, like Saturn.", "say": "Up to twenty tons per hit. It comes out with a ring, like Saturn."},
+  {"id": 8, "voice": "am_michael", "gap": 0.14, "emotion": "serious", "text": "Step two: they roll between grooved plates until the ring is gone."},
+  {"id": 9, "voice": "am_michael", "gap": 0.14, "emotion": "chuckles", "text": "And yes: the more they rub them, the harder they get."},
+  {"id": 10, "voice": "am_michael", "gap": 0.14, "emotion": "serious", "text": "Step three: an 840-degree oven, then an oil bath.", "say": "Step three: an eight-hundred-forty-degree oven, then an oil bath."},
+  {"id": 11, "voice": "am_michael", "gap": 0.14, "emotion": "serious", "text": "If the hardening fails, it stays soft, and the bearing wears out fast."},
+  {"id": 12, "voice": "am_michael", "gap": 0.14, "emotion": "chuckles", "text": "Look at what someone commented:", "comment": {"username": "lathe_lord", "avatarStyle": "mecha", "seed": 5, "question": "Why make them that perfect if nobody sees them?"}},
+  {"id": 13, "voice": "am_michael", "gap": 0.14, "emotion": "chuckles", "text": "Why make them that perfect if nobody sees them?", "comment": {"username": "lathe_lord", "avatarStyle": "mecha", "seed": 5, "question": "Why make them that perfect if nobody sees them?"}},
+  {"id": 14, "voice": "am_michael", "gap": 0.14, "emotion": "analytical", "text": "Because they spin thousands of times a minute. One bump, and everything shakes."},
+  {"id": 15, "voice": "am_michael", "gap": 0.14, "emotion": "amazed", "text": "So, step four: lapping, with softer plates and a fine abrasive paste."},
+  {"id": 16, "voice": "am_michael", "gap": 0.14, "emotion": "amazed", "text": "In the end, they're off a perfect sphere by just 80 nanometers.", "say": "In the end, they're off a perfect sphere by just eighty nanometers."},
+  {"id": 17, "voice": "am_michael", "gap": 0.14, "emotion": "amazed", "text": "Blow a one-centimeter ball up to Earth size, and its tallest mountain is a 30-story building.", "say": "Blow a one-centimeter ball up to Earth size, and its tallest mountain is a thirty-story building."},
+  {"id": 18, "voice": "am_michael", "gap": 0.14, "emotion": "analytical", "text": "Then they're sorted by size: every ball in a bearing is a twin."},
+  {"id": 19, "voice": "am_michael", "gap": 0.14, "emotion": "enthusiastic", "text": "Before: a scrap of wire. Now: a perfect ball with your friend's name on it."},
+  {"id": 20, "voice": "am_michael", "gap": 0.14, "emotion": "enthusiastic", "text": "Tag or send this to your friend who brags that theirs are perfect."},
+  {"id": 21, "voice": "am_michael", "gap": 0.14, "emotion": "warm", "text": "See you next time! Hit like and follow for more breakdowns like this."}
+]
