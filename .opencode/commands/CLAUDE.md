@@ -8,3 +8,4 @@ The workflow is the skill in `.claude/skills/animated-shorts/SKILL.md`. Read it 
 - Long version (16:9): composition `Long`.
 - Always check stills before rendering: `node scripts/stills.mjs <shot ids>`.
 - New video, new chat.
+- Voice master (ElevenLabs, expressive): `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <label> 1.0 --dry-run` first (free), then `--target=<s>`. Default model `eleven_v4` with audio tags from `emotion`/`sayTts`; re-take flat shots only with `--only=ids` (cache = 0 credits). Never a flat documentary read: see step 6 of the skill.

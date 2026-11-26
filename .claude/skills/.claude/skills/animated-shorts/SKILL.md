@@ -41,7 +41,7 @@ Create `.claude/skills/<channel>-style/SKILL.md` that says: use the animated-sho
 Ten true, strange, visual stories that fit the channel. For each one, **search YouTube** for the topic and write down the biggest Short and long video on it. If a Short already has millions of views on the same story, drop it (someone told it already). Pick one with a clear twist.
 - **Creative Angle Lock — Mischievous Double-Entendre Hook + Real Process ("Humor Travieso Filtrado"):**
   - Every Short MUST start with a cheeky, absurd, naughty-sounding, or dark-humor double-entendre hook about an everyday object, food, or industrial/mechanical process (e.g., cucumbers/pickles, sausages, nuts & bolts, lubrication, pressure valves, bananas, cream filling, bananas/melons) that grabs 100% attention in the first 3 seconds, **strictly filtered with clean, literal, platform-safe vocabulary** so it NEVER triggers TikTok/Reels/YouTube demonetization or community strikes.
-  - Immediately pivot with deadpan documentary seriousness into the **100% real, accurate industrial, mechanical, or scientific manufacturing process** behind that object, sneaking in subtle, family-friendly winks (e.g., *"aquí el tamaño no importa"*, *"entra a presión"*) and ending with a viral **"tag/send this to your friend who..."** CTA.
+  - Immediately pivot with a knowing, playful authority (the narrator enjoys the joke, never reads flat) into the **100% real, accurate industrial, mechanical, or scientific manufacturing process** behind that object, sneaking in subtle, family-friendly winks (e.g., *"aquí el tamaño no importa"*, *"entra a presión"*) and ending with a viral **"tag/send this to your friend who..."** CTA.
 - **YouTube Validation & 4X Feasibility:**
   1. Check search demand, existing views, and Tier-1 (US/UK/CA) high-RPM potential vs. Spanish-market competition. Explicitly confirm whether the topic works for **4X Production** (a specific Short + a broader generic 6–10 min Long video covering the underlying industrial/food/mechanical engineering process) or **Shorts only**. Record the top reference video URL/ID and its title in `episodes/epN/story.md` so Step 10 can audit its thumbnail.
   2. When pitching ideas, always provide: (a) the cheeky filtered double-entendre opening line, (b) the real industrial/technical steps, (c) the viral "tag your friend" angle, and (d) the broader 6–10 min Long video topic.
@@ -49,7 +49,7 @@ Ten true, strange, visual stories that fit the channel. For each one, **search Y
 ### 5. "Write the script"
 Write `episodes/epN/story.md` in the measured style:
 - **First line (Cheeky Double-Entendre Hook):** Open immediately (0:00–0:05) with an absurd, mischievous, or double-meaning question/statement using 100% innocent literal words (no explicit profanity, no banned words, completely safe for monetization).
-- **Deadpan Pivot & Escalation:** Transition immediately with serious documentary authority (*"No te preocupes, hoy te traigo la solución..."* / *"Don't worry, today I have the solution..."*), define the everyday object literally while keeping subtle wordplay, and break down the **real step-by-step industrial, chemical, or mechanical process** with concrete measurements.
+- **Playful Pivot & Escalation:** Transition immediately with playful, confident authority (a smile in the voice) (*"No te preocupes, hoy te traigo la solución..."* / *"Don't worry, today I have the solution..."*), define the everyday object literally while keeping subtle wordplay, and break down the **real step-by-step industrial, chemical, or mechanical process** with concrete measurements.
 - **Viral Friend-Tag & Loop Twist:** End the explanation by connecting the final packaged/finished product directly to **"your friend who is obsessed with [object]"** to trigger shares and comments, followed by a crisp sign-off asking for a like and follow.
 - Match the channel's measured pace (about 3.5–3.7 words per second, roughly 160–220 words for a 45–60 second Short). Set the voice speed so `timing.json` lands on it.
 - **Fact check every claim** about the industrial/technical process and put the sources in a table at the bottom of `story.md`.
@@ -67,17 +67,22 @@ Write `episodes/epN/story.md` in the measured style:
   11. **Step 10 — Dual-Mode Outro (Short vs. Long Bridge + Like & Follow CTA):** Keep it crisp (3–4 seconds max so retention never drops) and choose the exact ending based on whether a `Long` video exists for this episode:
     - **Case A — Short WITH a companion Long video (`4X` episode):** Deliver the friend-tag punchline, promote the full Long video on the YouTube channel, say goodbye, and ask for a like and follow/subscribe (*ES:* *"Si quieres ver cómo funciona toda esta industria por dentro, ya tienes el vídeo largo en mi canal de YouTube. ¡Hasta luego! Dale a me gusta y síguenos para más contenido así."* / *EN:* *"If you want to see the full industrial breakdown, watch the full video on my YouTube channel right now. See you there! Hit like and follow for more."*).
     - **Case B — Standalone Short (NO companion Long video):** Deliver the friend-tag punchline, say goodbye briefly, and ask for a like and follow/subscribe (*ES:* *"¡Hasta luego! Si te ha gustado, dale a me gusta y síguenos para descubrir más procesos así."* / *EN:* *"See you next time! Hit like and follow if you want more breakdowns like this."*).
-- **Character Voice Casting & Emotion Direction:** Include a casting header in `story.md` defining characters, Kokoro draft IDs, ElevenLabs master IDs, and per-shot emotional tags. Use a **serious documentary narrator** (`em_alex` / `David Martin` in ES; `am_michael` / `Brian` in EN) to maximize contrast with the absurd double-entendre humor:
-  - Arc: `[intriguing]` (cheeky hook) → `[analytical]` (deadpan literal definition) → `[curious]` / `[serious]` (industrial steps) → `[chuckles]` / `[amazed]` (wink & transformation) → `[enthusiastic]` / `[warm]` (friend-tag & outro).
-
+- **Character Voice Casting & Emotion Direction:** Include a casting header in `story.md` defining characters, Kokoro draft IDs, ElevenLabs master IDs, and per-shot emotional tags. The narrator is an **expressive, complicit storyteller** (`em_alex` / `David Martin` in ES; `am_michael` / `Brian` in EN), NOT a flat documentary voice: a flat read bores the viewer and kills retention. The humor comes from a narrator who *enjoys* the double meaning (a cheeky smile in the voice, a pause before the punchline, a little laugh after it), while the technical facts are told with drama and wonder:
+  - Arc: `[mischievously]` hook → `[playful]` / `[curious]` setup → `[dramatic]` / `[suspense]` industrial steps and risks → `[chuckles]` / `[laughs]` / `[sarcastic]` winks → `[amazed]` / `[shocked]` reveal → `[excited]` friend-tag → `[warm]` outro.
 Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `episodes/epN_es/shots.json` for bilingual runs): one line of voice per shot (`{"id", "text", "say"?, "speaker"?, "emotion"?, "comment"?: {"username", "avatarStyle"?, "seed"?, "question"}}`; `say` = how numbers are spoken, e.g. "eighteen_seventy-five" for "1875").
 
 ### 6. "Make the voice"
 
 **A. Voice bible + emotional arc (before generating audio)**
 - Add a casting header in `story.md`: character, age/attitude, pacing, allowed emotions, pronunciation notes, forbidden flat reads.
-- Mark every shot in `shots.json`: `{"id","text","say?","sayTts?","voice?","emotion?","model?","speed?","stability?","style?","gap?"}`. `text` stays clean for captions; `say` is phonetic display-safe; `sayTts` is TTS-only expressive text.
-- Require an arc, not a flat read: hook=`intrigued/curious`, setup=`analytical`, risk/process=`serious`, wink/reveal=`chuckles/amazed/enthusiastic`, close=`warm/proud`. If >3 consecutive shots share emotion+speed, rewrite direction.
+- Mark every shot in `shots.json`: `{"id","text","say?","sayTts?","emotion?","tag?","tempo?","model?","stability?","gap?"}`. `text` stays clean for captions; `say` is phonetic display-safe; `sayTts` is the TTS-only acting script (audio tags + expressive punctuation).
+- **No flat reads.** Never 3 shots in a row with the same emotion (the script warns). At least 60 % of shots carry an audio tag. Every joke gets a reaction: a pause (`...`) before the punchline and a `[chuckles]`/`[laughs]` on it or right after.
+- **Writing `sayTts` (this is where the feeling comes from):**
+  - Keep the **same words** as `text`/`say`; only add tags and punctuation. Extra words desync the captions.
+  - One tag at the start (`[excited]`), optionally one mid-line for a turn (`... [laughs] ¡Pues sí!`). Max 2 per shot.
+  - Punctuation is acting: `...` = held pause / suspense, `¡!` = energy, `¿...?` = real question intonation, a comma before the key number puts weight on it.
+  - Useful tags (English tags also work for Spanish text): `[mischievously] [playfully] [curious] [thoughtful] [dramatic] [whispers] [amazed] [gasps] [excited] [chuckles] [laughs] [sarcastic] [warmly] [proudly] [sighs]`.
+  - Example: `"text": "Pero también sueltan gas, y el pepinillo puede quedarse hueco por dentro."` → `"sayTts": "[whispers] Pero también sueltan gas... y el pepinillo puede quedarse hueco por dentro."`
 
 **B. Zero-cost Kokoro draft first**
 - `node scripts/voice.mjs epN <voice> <speed>` (EN `am_michael 1.05`, ES `em_alex 1.05-1.06`). Writes `public/epN/voice.wav` + `episodes/epN/timing.json`.
@@ -85,26 +90,36 @@ Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `epi
 
 **C. ElevenLabs master after visual validation**
 1. Generate Kokoro for `epN_en`/`epN_es` before visual iteration (zero credits).
-2. Only after step 7.2 `stills.mjs` passes 100%, check ElevenLabs credits/subscription.
-3. If credits are sufficient, render master with `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <voiceLabel> <baseSpeed> [modelId]`.
-  - `eleven_v3`: use audio tags in `sayTts`/emotion (`[whispers]`, `[chuckles]`, `[excited]`, `[serious]` as supported) for high acting range.
-  - `eleven_multilingual_v2`: no bracket tags; express emotion via punctuation, sentence shape, and per-shot settings.
-4. The script auto-applies emotion presets and sends `previous_text`/`next_text` for continuity; per-shot fields override presets.
+2. Only after step 7.2 `stills.mjs` passes 100%, run a **dry run** (free): it prints every line exactly as it will be sent, the direction warnings and the credit cost.
+   `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <voiceLabel> 1.0 --dry-run`
+3. Fix the warnings in `shots.json`, then render. Default model is **`eleven_v4`** (the most emotive: audio tags + previous/next context). The script checks the credits left before spending any.
+   `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <voiceLabel> 1.0 --target=<seconds>`
+   - `--target=70` sets the final length: the takes are sped up locally with ffmpeg `atempo` (pitch kept, free). Stay ≤ 1.2; if the script prints `atempo > 1.2`, **cut words from the script** instead of rushing the voice. Expressive reads are ~20 % slower than flat ones, so write ~15 % fewer words than for a Kokoro/v2 read (≈ 2.8–3.0 words/s final).
+   - `--out=<dir>` auditions a take without touching `public/<ep>` / `episodes/<ep>`.
+   - In the cloud, run Node with `NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt` (the key is injected by the proxy). Locally the key comes from `ELEVENLABS_API_KEY` or the key file.
+   - `eleven_v3`: tags too, but no previous/next context (the script skips it) and stability snaps to 0 / 0.5 / 1. `eleven_multilingual_v2`: tags are stripped, emotion only through settings: flat, use only as a fallback.
+4. Every take is cached in `tmp/elevenlabs-cache/<ep>/` (git-ignored). Re-running costs 0 credits unless a shot's text/tag/settings changed. Old takes stay in the cache under other hashes.
+5. v3/v4 ignore `voice_settings.speed`, so the per-emotion rhythm is applied locally (`tempo` per shot, defaults below); `stability` is the acting knob: lower = more range.
 
-| Emotion | stability | similarity_boost | style | speed x |
-|---|---:|---:|---:|---:|
-| intrigued/curious | 0.30-0.35 | 0.78 | 0.50-0.55 | 1.00-1.02 |
-| analytical | 0.55 | 0.82 | 0.25 | 0.98 |
-| serious | 0.50 | 0.85 | 0.30 | 0.96 |
-| amazed/enthusiastic | 0.25-0.28 | 0.75-0.76 | 0.60-0.65 | 1.03-1.04 |
-| warm/proud | 0.42-0.45 | 0.80-0.82 | 0.35-0.40 | 0.98-0.99 |
+| Emotion | tag | stability | tempo x |
+|---|---|---:|---:|
+| intrigued / mischievous | `[mischievously]` | 0.28-0.30 | 0.97-0.98 |
+| curious / playful | `[curious]` / `[playfully]` | 0.28-0.32 | 1.00-1.02 |
+| analytical | `[thoughtful]` | 0.45 | 0.99 |
+| serious / dramatic | `[dramatic]` | 0.35-0.40 | 0.94-0.95 |
+| suspense | `[whispers]` | 0.35 | 0.93 |
+| amazed / shocked | `[amazed]` / `[gasps]` | 0.22-0.25 | 1.02-1.03 |
+| enthusiastic / excited | `[excited]` | 0.22 | 1.05-1.06 |
+| chuckles / laughs / sarcastic | `[chuckles]` / `[laughs]` / `[sarcastic]` | 0.25-0.32 | 0.98-1.00 |
+| warm / proud | `[warmly]` / `[proudly]` | 0.35-0.38 | 0.99-1.00 |
 
-5. After ElevenLabs pass: overwrite `public/<ep>/voice.wav`, **re-run/keep new `timing.json`**, re-check shot durations/captions, then render. Never touch previous episode audio.
+6. After the ElevenLabs pass: `public/<ep>/voice.wav` and `episodes/<ep>/timing.json` are overwritten. Re-check shot durations/captions, then render. Never touch previous episode audio.
 
 **D. Voice QA gate**
-- Listen hook, reveal, outro; confirm audible energy/rhythm change.
+- The script prints per shot `w/s` and `dyn` (loudness movement in dB) and lists shots with `dyn < 9 dB` as **possibly flat**, with the exact `--only=` command to re-take them. Reference: the old flat v2 master of ep7_es averaged 15.6 dB, the v4 expressive one 17.6–18.4 dB.
+- Listen to the hook, the punchlines, the reveal and the outro: there must be an audible smile, laugh or pause on every joke, and energy changes between steps.
 - Check no clipping, no mispronounced numbers/names, captions aligned to new timing.
-- If one shot is flat, regenerate only that shot with adjusted `emotion/sayTts/speed/stability`, then rebuild timing/audio.
+- If a shot is flat: change its `emotion`/`tag`/`sayTts` (or lower `stability`) and re-take only it: `--only=7,12` (the other shots come from the cache, 0 credits).
 
 ### 7. "Build the video"
 1. Write `src/epN/sets.tsx` (the places), `src/epN/cast.ts` (the characters) and `src/epN/shots.tsx` (one entry per shot: look, camera from/to, focus distance, who stands where). Copy `src/ep1/` as the example. Use the kit in `src/engine/kit.tsx` (Box, Cyl, Roof, House, Window, Lamp, Cab, Cart, Fire, Sign, Snow…) and add new pieces there when a story needs them.
