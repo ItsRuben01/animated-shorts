@@ -1,0 +1,23 @@
+[
+  {"id": 1, "voice": "em_alex", "gap": 0.4, "emotion": "intriguing", "text": "¿Sabías que las bolas más perfectas del mundo se hacen a golpes?"},
+  {"id": 2, "voice": "em_alex", "gap": 0.14, "emotion": "analytical", "text": "No te preocupes: hoy te enseño cómo."},
+  {"id": 3, "voice": "em_alex", "gap": 0.14, "emotion": "curious", "text": "Un golpe de 20 toneladas, un horno a 840 grados… y un cuarto paso que las deja casi perfectas.", "say": "Un golpe de veinte toneladas, un horno a ochocientos cuarenta grados… y un cuarto paso que las deja casi perfectas."},
+  {"id": 4, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Una bola de rodamiento es acero duro, redondo y brillante. Y todo lo que gira necesita un par… o cien."},
+  {"id": 5, "voice": "em_alex", "gap": 0.14, "emotion": "curious", "text": "Pero, ¿cómo las dejan tan redondas?"},
+  {"id": 6, "voice": "em_alex", "gap": 0.14, "emotion": "serious", "text": "Paso uno: trocitos de alambre, aplastados entre dos copas."},
+  {"id": 7, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Hasta 20 toneladas por golpe. Y sale con un anillo, como Saturno.", "say": "Hasta veinte toneladas por golpe. Y sale con un anillo, como Saturno."},
+  {"id": 8, "voice": "em_alex", "gap": 0.14, "emotion": "serious", "text": "Paso dos: ruedan entre placas con surcos, hasta que el anillo desaparece."},
+  {"id": 9, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Y sí: cuanto más las frotan, más duras se ponen."},
+  {"id": 10, "voice": "em_alex", "gap": 0.14, "emotion": "serious", "text": "Paso tres: horno a 840 grados, y baño de aceite.", "say": "Paso tres: horno a ochocientos cuarenta grados, y baño de aceite."},
+  {"id": 11, "voice": "em_alex", "gap": 0.14, "emotion": "serious", "text": "Si el temple falla, queda blanda, y el rodamiento se gasta en nada."},
+  {"id": 12, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "Mira lo que me escribió alguien:", "comment": {"username": "torno_loco", "avatarStyle": "mecha", "seed": 5, "question": "¿Y para qué tan perfectas, si nadie las ve?"}},
+  {"id": 13, "voice": "em_alex", "gap": 0.14, "emotion": "chuckles", "text": "¿Y para qué tan perfectas, si nadie las ve?", "comment": {"username": "torno_loco", "avatarStyle": "mecha", "seed": 5, "question": "¿Y para qué tan perfectas, si nadie las ve?"}},
+  {"id": 14, "voice": "em_alex", "gap": 0.14, "emotion": "analytical", "text": "Porque giran miles de veces por minuto: un bulto, y todo vibra."},
+  {"id": 15, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Por eso, el cuarto paso: el lapeado, con placas blandas y pasta abrasiva."},
+  {"id": 16, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Al final, se desvían de la esfera perfecta solo 80 nanómetros.", "say": "Al final, se desvían de la esfera perfecta solo ochenta nanómetros."},
+  {"id": 17, "voice": "em_alex", "gap": 0.14, "emotion": "amazed", "text": "Si una bola de un centímetro fuera como la Tierra, su montaña más alta mediría 100 metros.", "say": "Si una bola de un centímetro fuera como la Tierra, su montaña más alta mediría cien metros."},
+  {"id": 18, "voice": "em_alex", "gap": 0.14, "emotion": "analytical", "text": "Luego se separan por tamaño: en un rodamiento, todas gemelas."},
+  {"id": 19, "voice": "em_alex", "gap": 0.14, "emotion": "enthusiastic", "text": "Antes, un trozo de alambre; ahora, una bola perfecta con el nombre de tu amigo."},
+  {"id": 20, "voice": "em_alex", "gap": 0.14, "emotion": "enthusiastic", "text": "Etiqueta o pasa este vídeo a tu amigo que presume de tenerlas perfectas."},
+  {"id": 21, "voice": "em_alex", "gap": 0.14, "emotion": "warm", "text": "¡Hasta luego! Si te ha gustado, dale a me gusta y síguenos."}
+]

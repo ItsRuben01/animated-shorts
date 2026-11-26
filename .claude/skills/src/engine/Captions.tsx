@@ -1,9 +1,7 @@
 // One-word captions (the measured style: one or two words at a time, heavy white type, dark outline, ~70% down).
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
-
-const { fontFamily } = loadFont("normal", { weights: ["800", "900"], subsets: ["latin"] });
+import { fontFamily } from "./font";
 
 export type Word = { w: string; start: number; end: number };
 

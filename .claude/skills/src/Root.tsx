@@ -6,6 +6,8 @@ import { LongEpisode, longFrames } from "./ep4/Long";
 import { EpisodeEN, EpisodeES, ShotStillEN, ShotStillES, totalFrames as ep6Frames } from "./ep6/Episode";
 import { LongEN, LongES, LongShotStillEN, LongShotStillES, longFrames as ep6LongFrames } from "./ep6/Long";
 import { Ep7EN, Ep7ES, Ep7ShotEN, Ep7ShotES, totalFrames as ep7Frames } from "./ep7/Episode";
+import { Ep8EN, Ep8ES, Ep8ShotEN, Ep8ShotES, totalFrames as ep8Frames } from "./ep8/Episode";
+import { Ep9EN, Ep9ES, Ep9ShotEN, Ep9ShotES, totalFrames as ep9Frames } from "./ep9/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
 import { CastSheet } from "./engine/CastSheet";
 
@@ -35,6 +37,18 @@ export const Root: React.FC = () => (
     <Composition id="Ep7Short-EN" component={Ep7EN} width={1080} height={1920} fps={30} durationInFrames={ep7Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
     <Composition id="Ep7Shot-ES" component={Ep7ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
     <Composition id="Ep7Shot-EN" component={Ep7ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* ep8 — la salchicha desnuda (Short bilingüe) */}
+    <Composition id="Ep8Short-ES" component={Ep8ES} width={1080} height={1920} fps={30} durationInFrames={ep8Frames(30, "es")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep8Short-EN" component={Ep8EN} width={1080} height={1920} fps={30} durationInFrames={ep8Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep8Shot-ES" component={Ep8ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+    <Composition id="Ep8Shot-EN" component={Ep8ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* ep9 — bolas de acero (Short bilingüe) */}
+    <Composition id="Ep9Short-ES" component={Ep9ES} width={1080} height={1920} fps={30} durationInFrames={ep9Frames(30, "es")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep9Short-EN" component={Ep9EN} width={1080} height={1920} fps={30} durationInFrames={ep9Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep9Shot-ES" component={Ep9ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+    <Composition id="Ep9Shot-EN" component={Ep9ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />
