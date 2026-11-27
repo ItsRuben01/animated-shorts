@@ -82,3 +82,9 @@ Short vertical (1080x1920, 30 fps), 23 planos, una voz por plano. Short bilingü
 | Tragarse un chicle no lo deja 7 años dentro: sale en pocos días, casi entero | Sí (mito) | [Mayo Clinic](https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-minute-does-gum-get-stuck-in-your-stomach/); [Duke Health](https://dukehealth.org/blog/myth-or-fact-it-takes-seven-years-digest-chewing-gum); [Scientific American](https://www.scientificamerican.com/article/fact-or-fiction-chewing-gum-takes-seven-years-to-digest/) |
 
 Nota: tragar muchos chicles a menudo puede obstruir el intestino en niños (casos raros); el guion dice «sale en pocos días», que es lo habitual, sin animar a tragarlos.
+
+## Auditoría de portada de referencia (paso 10)
+
+- «BUBBLEGUM | How It's Made» (2kttVyakHN4) y «How Bubblegum Is Made!» (8kWrN2bgvSA) usan la misma imagen: cintas de chicle rosa saturado saliendo de la extrusora, sin texto; la de 61,6 M añade una cara de sorpresa a la derecha.
+- Mantener: masa rosa saturada como protagonista y un personaje reaccionando (sorpresa).
+- Mejorar: ninguna dice nada. Las nuestras añaden el gancho escrito («MASCAS GOMA DE RUEDA»), una cifra (`33 %`, `50 °C`) y el contraste rueda + chicle, que no tiene nadie.
