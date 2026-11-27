@@ -1,162 +1,248 @@
-// ep8 — shots. Each shot = 3D Stage + optional HUD (Counter / ProgressCards / NativeComment) on top.
-// Pieces (styles/retention-rules.md): 1–2 hook · 3 promise · 4–6 body 1 · 7 loop · 8–10 body 2 · 11 loop · 12–14 body 3 · 15–16 CTA
 import React from "react";
+import { Toon } from "../engine/Toon";
 import { Stage } from "../engine/Stage";
-import { Counter, NativeComment, ProgressCards } from "../engine/Hud";
-import { BatteryPark, Bedroom, Card, Phone, Plug, Spark, TechFloor, useT } from "./sets";
-import { cam, closeLook, dangerLook, nightLook, ramp, smooth, techLook } from "./world";
-import shotsJson from "../../episodes/ep8/shots.json";
+import type { V3 } from "../engine/Stage";
+import type { Arm, Expression, Prop } from "../engine/draw";
+import { CommentCard, type AvatarStyle } from "../engine/CommentCard";
+import { Box } from "../engine/kit";
+import { fan, freund, guide } from "./cast";
+import {
+  Arrow, Bun, Calibres, Card, Chopper, Frame, Ice, Linker, Links, Oven, Pack, Peeler, Phone, Plant, Sausage, StepSign, Studio, Stuffer, Thermo, Tub, XSection, useT,
+} from "./sets";
+import { cam, closeLook, coldLook, ease, ovenLook, pastLook, plantLook, ramp, studioLook } from "./world";
+import esShots from "../../episodes/ep8_es/shots.json";
+import enShots from "../../episodes/ep8_en/shots.json";
 
+export type Lang = "en" | "es";
 type P = { dur: number };
-type Comment = { username: string; question: string; seed?: number };
-const comment = (shotsJson as Array<{ comment?: Comment }>).find((s) => s.comment)!.comment!;
+type Pose = { face?: Expression; armL?: Arm; armR?: Arm; look?: number; talk?: boolean; prop?: Prop };
 
-const PH: [number, number, number] = [0, 4.6, 0];          // standing phone in the tech world
-const NIGHT_PHONE = { pos: [0.2, 2.2, 0.25] as [number, number, number], rot: [-Math.PI / 2, 0, 0.35] as [number, number, number], scale: 0.3 };
-const S = (dur: number) => dur / 30;                         // shot length in seconds
+const Guide: React.FC<{ pos: V3; h?: number; pose?: Pose; seed?: number }> = ({ pos, h = 2.5, pose = {}, seed = 3 }) => (
+  <Toon spec={guide} pos={pos} h={h} seed={seed} pose={{ armL: "down", armR: "down", talk: true, ...pose }} />
+);
+const Fan: React.FC<{ pos: V3; h?: number; pose?: Pose; seed?: number }> = ({ pos, h = 2.4, pose = {}, seed = 9 }) => (
+  <Toon spec={fan} pos={pos} h={h} seed={seed} pose={{ armL: "down", armR: "down", ...pose }} />
+);
 
-export const SHOTS: Record<number, React.FC<P>> = {
-  // 1 HOOK — frame 0: the plug is already sliding into the port, big in frame; spark; 0 → 80 % races
-  1: ({ dur }) => <>
-    <Stage look={closeLook} dur={dur} cam={cam([0.7, 1.15, 2.7], [0, 1.15, 0], 40, [3.4, 5.6, 15.5], [0, 4.4, 0])}>
-      <TechFloor y={-3.2} />
-      <pointLight position={[0.8, 1.6, 2.0]} color="#ffe6c0" intensity={7} distance={6} decay={1.5} />
-      <Phone pos={PH} charge={(t) => ramp(t, 0.4, 2.7) * 0.8} />
-      <Plug phonePos={PH} insert={(t) => 0.72 + 0.28 * smooth(ramp(t, 0, 0.3))} />
-      <Spark pos={[0, PH[1] - 3.15, 0.3]} at={0.3} scale={1.2} />
-    </Stage>
-    <Counter from={0} to={80} start={0.4} end={2.7} appear={0.35} suffix=" %" y={0.74} size={150} />
-  </>,
-
-  // 2 HOOK — the last 20 %: the number crawls
-  2: ({ dur }) => <>
-    <Stage look={techLook} dur={dur} cam={cam([3.4, 5.6, 15.5], [0, 4.4, 0], 40, [2.6, 5.4, 13.0], [0, 4.5, 0])}>
-      <TechFloor y={-3.2} />
-      <Phone pos={PH} charge={(t) => 0.8 + ramp(t, 0.2, S(dur)) * 0.03} />
-      <Plug phonePos={PH} insert={1} />
-    </Stage>
-    <Counter from={80} to={83} start={0.2} end={S(dur)} appear={0} suffix=" %" y={0.74} size={150} curve={(k) => k} accent="#ffffff" />
-  </>,
-
-  // 3 PROMISE — two things you'll take away: two "?" cards; the camera dives toward the battery
-  3: ({ dur }) => <>
-    <Stage look={techLook} dur={dur} cam={cam([2.6, 5.4, 13.0], [0, 4.5, 0], 40, [0.8, 5.0, 8.0], [0, 4.8, 0])}>
-      <TechFloor y={-3.2} />
-      <Phone pos={PH} charge={0.83} />
-      <Plug phonePos={PH} insert={1} />
-    </Stage>
-    <ProgressCards total={2} appear={0.9} y={0.22} w={0.38} />
-  </>,
-
-  // 4 BODY 1 — inside: lithium ions travel across
-  4: ({ dur }) => <Stage look={techLook} dur={dur} cam={cam([-0.6, 3.4, 13.5], [0.3, 2.9, 0], 40, [0.3, 3.1, 12.0], [0.3, 2.9, 0])}>
-    <TechFloor />
-    <BatteryPark fill={(t) => ramp(t, 0.1, S(dur)) * 0.14} />
-  </Stage>,
-
-  // 5 BODY 1 — they park between graphite floors
-  5: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([2.8, 3.6, 10.0], [1.0, 2.9, 0], 40, [2.2, 3.3, 9.0], [1.0, 2.9, 0])}>
-    <TechFloor />
-    <BatteryPark fill={(t) => 0.14 + ramp(t, 0, S(dur)) * 0.26} />
-  </Stage>,
-
-  // 6 BODY 1 — empty garage: the charger pushes at full power; the charge races to 80 %
-  6: ({ dur }) => <>
-    <Stage look={techLook} dur={dur} cam={cam([0.4, 3.0, 12.8], [0.3, 2.9, 0], 40, [-0.3, 3.6, 13.6], [0.3, 2.9, 0])}>
-      <TechFloor />
-      <BatteryPark fill={(t) => 0.4 + ramp(t, 0.2, S(dur) - 0.2) * 0.4} />
-    </Stage>
-    <Counter from={40} to={80} start={0.2} end={S(dur) - 0.2} suffix=" %" y={0.76} size={130} curve={(k) => k} />
-  </>,
-
-  // 7 OPEN LOOP 1 — snap push onto the nearly full entrance
-  7: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0.2, 3.2, 12.0], [0.3, 2.9, 0], 40, [-0.6, 3.1, 8.6], [0.3, 2.9, 0])}>
-    <TechFloor />
-    <BatteryPark fill={0.8} />
-  </Stage>,
-
-  // 8 BODY 2 — nearly full: ions queue at the entrance, the % crawls
-  8: ({ dur }) => <>
-    <Stage look={closeLook} dur={dur} cam={cam([-0.6, 3.1, 8.6], [0.3, 2.9, 0], 40, [-1.0, 3.3, 9.3], [0.3, 2.9, 0])}>
-      <TechFloor />
-      <BatteryPark fill={(t) => 0.8 + ramp(t, 0, S(dur)) * 0.06} queue />
-    </Stage>
-    <Counter from={80} to={84} start={0} end={S(dur)} appear={0} suffix=" %" y={0.76} size={130} curve={(k) => k} accent="#ffffff" />
-  </>,
-
-  // 9 BODY 2 — what pushing harder would do: metallic lithium grows at the entrance
-  9: ({ dur }) => <Stage look={dangerLook} dur={dur} cam={cam([-1.4, 3.0, 8.0], [0.2, 2.9, 0], 40, [-1.0, 2.9, 6.8], [0.2, 2.9, 0])}>
-    <TechFloor />
-    <BatteryPark fill={0.86} queue plating={(t) => ramp(t, 1.0, S(dur) - 0.8)} />
-  </Stage>,
-
-  // 10 BODY 2 — so the charger lowers the current; card 1 of the promise turns into ✓
-  10: ({ dur }) => <>
-    <Stage look={techLook} dur={dur} cam={cam([0.6, 3.9, 13.0], [0.3, 3.7, 0], 40, [0.8, 3.6, 11.8], [0.3, 3.6, 0])}>
-      <TechFloor />
-      <BatteryPark fill={(t) => 0.86 + ramp(t, 0.5, S(dur)) * 0.1} labels={false} />
-    </Stage>
-    <Counter from={3} to={0.5} decimals={1} start={0.6} end={3.6} suffix=" A" y={0.76} size={130} label="corriente" accent="#7fb2ff" />
-    <ProgressCards total={2} flips={[S(dur) - 0.9]} active={0} y={0.22} w={0.38} />
-  </>,
-
-  // 11 OPEN LOOP 2 — cut to the bedroom at night, snap push on the phone
-  11: ({ dur }) => <Stage look={nightLook} dur={dur} cam={cam([1.2, 5.2, 11.5], [0.6, 3.0, -0.8], 40, [0.6, 4.6, 8.0], [0.3, 2.6, -0.3])}>
-    <Bedroom />
-    <Phone {...NIGHT_PHONE} charge={0.8} />
-  </Stage>,
-
-  // 12 BODY 3 — the phone learns your schedule: holds 80 % all night, finishes just before you wake up
-  12: ({ dur }) => {
-    const D = S(dur);
-    return <>
-      <Stage look={nightLook} dur={dur} cam={cam([0.6, 4.6, 8.0], [0.3, 2.6, -0.3], 40, [-0.1, 4.6, 5.8], [0.2, 2.5, 0])}>
-        <Bedroom />
-        <Phone {...NIGHT_PHONE} charge={(t) => 0.8 + ramp(t, D - 1.7, D - 0.4) * 0.2} />
-        <NightClock d={D} />
-      </Stage>
-      <Counter from={80} to={100} start={D - 1.7} end={D - 0.4} appear={0.3} suffix=" %" y={0.76} size={130} curve={(k) => k} />
-    </>;
-  },
-
-  // 13 BODY 3 — hours at 100 % wear it out; a viewer asks about Android
-  13: ({ dur }) => <>
-    <Stage look={nightLook} dur={dur} cam={cam([-0.1, 4.6, 5.8], [0.2, 2.5, 0], 40, [0.4, 4.2, 4.8], [0.2, 2.3, 0.1])}>
-      <Bedroom />
-      <Phone {...NIGHT_PHONE} charge={1} glow="#ff8a5c" />
-    </Stage>
-    <NativeComment username={comment.username} question={comment.question} seed={comment.seed} appear={S(dur) - 1.5} />
-  </>,
-
-  // 14 BODY 3 — answer: Android has its own; card 2 turns into ✓
-  14: ({ dur }) => <>
-    <Stage look={nightLook} dur={dur} cam={cam([0.4, 4.2, 4.8], [0.2, 2.3, 0.1], 40, [1.0, 4.6, 6.8], [0.3, 2.5, -0.2])}>
-      <Bedroom />
-      <Phone {...NIGHT_PHONE} charge={0.8} />
-    </Stage>
-    <ProgressCards total={2} flips={[-1, 1.0]} active={1} y={0.22} w={0.38} />
-  </>,
-
-  // 15 CTA — back in the phone's world: the whole metaphor, both cards done
-  15: ({ dur }) => <>
-    <Stage look={techLook} dur={dur} cam={cam([0.8, 3.6, 13.5], [0.2, 3.6, 0], 40, [-0.4, 3.8, 12.4], [0.2, 3.6, 0])}>
-      <TechFloor />
-      <Phone pos={[0.2, 4.1, -3.2]} scale={1.3} charge={0.8} />
-      <BatteryPark fill={0.8} labels={false} />
-    </Stage>
-    <ProgressCards total={2} flips={[-1, -1]} y={0.22} w={0.38} />
-  </>,
-
-  // 16 CTA — follow: pull out, the phone back on its cable
-  16: ({ dur }) => <Stage look={techLook} dur={dur} cam={cam([-0.4, 3.8, 12.4], [0.2, 3.6, 0], 40, [-1.2, 5.2, 17.5], [0.2, 4.0, 0])}>
-    <TechFloor />
-    <Phone pos={[0.2, 4.1, -3.2]} scale={1.3} charge={0.8} />
-    <BatteryPark fill={0.8} />
-  </Stage>,
+// shot 1: product-shot sausage spinning in the air; its casing slides off half-way through the line
+const SpinSausage: React.FC<{ dur: number }> = ({ dur }) => {
+  const t = useT();
+  const peel = ramp(t, dur / 30 * 0.55, dur / 30 * 0.85);
+  return (
+    <group position={[0, 1.9 + Math.sin(t * 2.2) * 0.06, 0]} rotation={[0, t * 1.2, 0]}>
+      <Sausage rot={[0.1, 0, 0.28]} len={2.6} r={0.3} casing={peel < 0.98} peel={peel} ink />
+    </group>
+  );
 };
 
-// small clock card above the nightstand: 23:00, then 06:55 just before the charge finishes
-const NightClock: React.FC<{ d: number }> = ({ d }) => {
+// shot 4: the long tender definition — sausage lowers itself into a bun
+const BunDrop: React.FC = () => {
   const t = useT();
-  return <Card pos={[-0.2, 3.9, 0.2]} lines={[t < d - 1.9 ? "23:00" : "06:55"]} w={1.2} h={0.5} bg="#0d1440" fg="#7dffb2" />;
+  const k = ease(ramp(t, 0.4, 1.8));
+  return (
+    <group>
+      <Box size={[1.9, 0.7, 1.1]} pos={[0, 0.35, 1.3]} color="#e3e8ee" rough={0.35} />
+      <Bun pos={[0, 0.88, 1.3]} scale={0.8} />
+      <Sausage pos={[0, 1.9 - k * 0.92, 1.3]} len={1.55} r={0.15} ink />
+    </group>
+  );
+};
+
+type Comment = { username: string; question: string; avatarStyle?: AvatarStyle; seed?: number };
+const commentFor = (lang: Lang): Comment => {
+  const list = (lang === "es" ? esShots : enShots) as Array<{ comment?: Comment }>;
+  return list.find((s) => s.comment)!.comment!;
+};
+
+const CommentPop: React.FC<{ c: Comment; pop?: boolean }> = ({ c, pop = true }) => {
+  const t = useT();
+  const k = pop ? 0.6 + 0.4 * (1 - Math.pow(1 - ramp(t, 0, 0.35), 3)) : 1;
+  return <CommentCard username={c.username} question={c.question} avatarStyle={c.avatarStyle} seed={c.seed} position={[0.35, 2.35, 1.4]} rotation={[0, -0.12, 0]} scale={0.9 * k} />;
+};
+
+export const makeShots = (lang: Lang): Record<number, React.FC<P>> => {
+  const c = commentFor(lang);
+  const dec = (s: string) => (lang === "es" ? s.replace(".", ",") : s);
+  return {
+    // 1 hook: studio close-up of a glossy sausage; its see-through sleeve flies off ("stripped naked")
+    1: ({ dur }) => <Stage look={studioLook} dur={dur} cam={cam([0.15, 2.0, 6.2], [0, 1.9, 0], 40, [0, 1.95, 5.3], [0, 1.9, 0])}>
+      <Studio />
+      <SpinSausage dur={dur} />
+    </Stage>,
+
+    // 2 "relax, today I'll show you why": the guide presents the plant
+    2: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0.2, 2.1, 7.6], [0, 1.4, 0], 44, [0, 1.9, 6.5], [0, 1.4, 0])}>
+      <Plant />
+      <Guide pos={[-0.8, 0, 0.5]} pose={{ armR: "point", face: "smirk", look: 0.7 }} />
+      <Pack pos={[0.95, 0.9, 0.6]} scale={0.7} rot={[0, -0.4, 0]} />
+      <Box size={[1.4, 0.9, 1.1]} pos={[0.95, 0.45, 0.6]} color="#3d7fb8" rough={0.6} />
+    </Stage>,
+
+    // 3 three facts + a locked fourth: ice, casing, 68 °C… and "4"
+    3: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([3.4, 7.2, 11.5], [0, 2.2, -1], 46, [2.4, 6.2, 9.6], [0, 2.2, -1])}>
+      <Plant />
+      <Chopper pos={[-2.2, 0, 1.6]} />
+      <Stuffer pos={[1.6, 0, 2.0]} out={0.7} />
+      <Oven pos={[0.2, 0, -3.6]} />
+      <StepSign n="4" pos={[-2.6, 3.9, -1.2]} size={1.6} />
+    </Stage>,
+
+    // 4 literal definition: long, tender, made for a bun
+    4: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0, 2.4, 10.0], [0, 1.3, 1.0], 44, [0, 2.2, 9.3], [0, 1.3, 1.0])}>
+      <Plant />
+      <Fan pos={[-1.4, 0, 1.4]} h={2.1} pose={{ face: "troll", look: 0.6 }} />
+      <Guide pos={[1.4, 0, 1.4]} h={2.1} pose={{ armL: "point", face: "poker", look: -0.6 }} />
+      <BunDrop />
+    </Stage>,
+
+    // 5 "what really happens before it reaches your home?"
+    5: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0, 2.3, 6.8], [0, 1.9, 0], 44, [0, 3.4, 10.2], [0, 2.2, -1])}>
+      <Plant />
+      <Chopper pos={[-2.2, 0, -3]} />
+      <Oven pos={[2.4, 0, -4.4]} />
+      <Guide pos={[0, 0, 0.8]} pose={{ armR: "point", face: "suspicious", look: 0.4 }} />
+    </Stage>,
+
+    // 6 step 1: meat + crushed ice spinning in the bowl chopper, 0 °C
+    6: ({ dur }) => <Stage look={coldLook} dur={dur} cam={cam([0.6, 5.4, 7.2], [0, 1.8, 0], 44, [0.2, 5.0, 6.4], [0, 1.8, 0])}>
+      <Plant />
+      <Chopper paste={(t) => ramp(t, 0.2, 2.5)} />
+      <StepSign n="1" pos={[-1.2, 3.9, -1.4]} size={1.1} />
+      <Card pos={[1.2, 3.6, -1.2]} lines={["0 °C"]} w={1.2} h={0.55} bg="#173846" fg="#ffe6ad" />
+    </Stage>,
+
+    // 7 fat goes in last and cold; if it warms, the sausage sweats fat
+    7: ({ dur }) => {
+      const half = dur / 30 * 0.5;
+      return <Stage look={coldLook} dur={dur} cam={cam([0.2, 3.6, 9.8], [0.2, 1.9, 0], 44, [0.3, 3.2, 9.0], [0.2, 1.9, 0])}>
+        <Plant />
+        <Chopper pos={[-0.9, 0, -0.4]} fat={(t) => ramp(t, 0.1, half)} ice={10} />
+        <Thermo pos={[1.25, 0, 0.4]} scale={0.85} level={(t) => 0.15 + ramp(t, half, half + 1.2) * 0.65} label={dec("> 12 °C")} hot />
+        <SweatSausage start={half} />
+      </Stage>;
+    },
+
+    // 8 step 2: stuffed under pressure into the cellulose sleeve
+    8: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0.6, 3.0, 9.6], [0.4, 1.6, 0], 44, [0.6, 2.8, 8.8], [0.6, 1.5, 0])}>
+      <Plant />
+      <Stuffer out={(t) => ramp(t, 0.2, dur / 30 - 0.2)} />
+      <StepSign n="2" pos={[-1.2, 4.3, -1.4]} size={1.2} />
+    </Stage>,
+
+    // 9 size does matter: three calibres, the casing decides
+    9: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0, 2.6, 8.0], [0, 1.6, 0], 44, [0, 2.5, 7.2], [0, 1.6, 0])}>
+      <Plant />
+      <Calibres grow={(t) => ramp(t, 0.2, 1.8)} />
+      <Card pos={[0, 3.0, -0.2]} lines={[dec("Ø 14.5–45 mm")]} w={2.3} h={0.6} bg="#173846" fg="#ffe6ad" />
+    </Stage>,
+
+    // 10 the linker twists the rope into links
+    10: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([-0.4, 3.0, 8.4], [0.0, 1.4, 0], 44, [0.4, 2.7, 7.6], [0.4, 1.4, 0])}>
+      <Plant />
+      <Linker />
+    </Stage>,
+
+    // 11 step 3: smokehouse to 68 °C inside, then a cold shower
+    11: ({ dur }) => {
+      const s = dur / 30;
+      return <Stage look={ovenLook} dur={dur} cam={cam([0.4, 2.6, 8.6], [0, 2.3, 0], 44, [0.2, 2.5, 7.6], [0, 2.3, 0])}>
+        <Plant />
+        <Oven glow={(t) => 1 - ramp(t, s * 0.6, s * 0.75)} shower={(t) => ramp(t, s * 0.62, s * 0.72)} cooked={(t) => ramp(t, 0.1, s * 0.55)} />
+        <StepSign n="3" pos={[-2.9, 3.9, 0.6]} size={1.1} />
+        <Card pos={[2.9, 4.4, 0.6]} lines={["68 °C · 155 °F"]} w={2.4} h={0.55} bg="#4a2430" fg="#ffe6ad" />
+      </Stage>;
+    },
+
+    // 12 viewer comment appears in the guide's world
+    12: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0, 2.0, 7.8], [0, 1.8, 0], 44, [0, 2.1, 7.0], [0, 1.9, 0])}>
+      <Plant />
+      <Guide pos={[-0.95, 0, 0.3]} pose={{ armR: "point", face: "smirk", look: 0.8 }} />
+      <CommentPop c={c} />
+    </Stage>,
+
+    // 13 read the comment
+    13: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0.35, 2.35, 5.2], [0.35, 2.35, 1.4], 46, [0.35, 2.35, 4.7], [0.35, 2.35, 1.4])}>
+      <Plant />
+      <Guide pos={[-0.95, 0, 0.3]} pose={{ armR: "point", face: "smirk", look: 0.8 }} />
+      <CommentPop c={c} pop={false} />
+    </Stage>,
+
+    // 14 answer: cellulose doesn't digest → step 4 sign
+    14: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0, 2.2, 7.8], [0, 1.9, 0], 44, [0, 2.1, 7.0], [0, 1.9, 0])}>
+      <Plant />
+      <Guide pos={[-1.0, 0, 0.3]} pose={{ face: "poker", armL: "cross", armR: "cross" }} />
+      <Sausage pos={[0.55, 1.5, 1.3]} rot={[0, -0.2, 0.25]} len={1.2} r={0.15} casing ink />
+      <StepSign n="4" pos={[0.7, 3.6, -0.8]} size={1.2} />
+    </Stage>,
+
+    // 15 the fourth step: steam, blade, air jet — casings fly off
+    15: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0.6, 3.0, 7.6], [0.2, 1.4, 0], 44, [0.2, 2.6, 6.4], [0.3, 1.4, 0])}>
+      <Plant />
+      <Peeler />
+      <StepSign n="4" pos={[-2.6, 3.6, -1.0]} size={1.1} />
+    </Stage>,
+
+    // 16 analogy: peeling the film off a brand-new phone
+    16: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0, 2.0, 5.0], [0, 1.4, 0.8], 44, [0, 1.9, 4.5], [0, 1.4, 0.8])}>
+      <Plant />
+      <Box size={[3.0, 1.0, 1.6]} pos={[0, 0.5, 0.4]} color="#e3e8ee" rough={0.35} />
+      <Phone pos={[-0.55, 1.55, 0.8]} peel={(t) => ramp(t, 0.3, 1.4)} scale={0.5} />
+      <PeelLater />
+    </Stage>,
+
+    // 17 proof: cross-section — the outer protein sets into its own skin
+    17: ({ dur }) => <Stage look={coldLook} dur={dur} cam={cam([0, 2.4, 7.4], [0, 2.3, 0], 44, [0, 2.3, 6.6], [0, 2.3, 0])}>
+      <Plant />
+      <XSection pos={[0, 2.3, 0]} scale={1.15} skin={(t) => ramp(t, 0.2, dur / 30 - 0.4)} casing={(t) => ramp(t, dur / 30 * 0.5, dur / 30 - 0.2)} />
+      <Card pos={[0, 4.15, 0.4]} lines={["°C ↑"]} w={1.3} h={0.55} bg="#4a2430" fg="#ffe6ad" />
+    </Stage>,
+
+    // 18 Erwin O. Freund, 1920s, laughing: the sausage held its shape
+    18: ({ dur }) => <Stage look={pastLook} dur={dur} cam={cam([0, 2.1, 7.4], [0, 1.9, 0], 44, [0, 2.0, 6.6], [0, 1.9, 0])}>
+      <Plant />
+      <Frame pos={[0, 3.2, -1.2]} />
+      <Toon spec={freund} pos={[-0.55, 0, -0.2]} h={2.5} seed={5} pose={{ face: "lol", armR: "show", armL: "down", talk: true }} />
+      <Sausage pos={[0.75, 1.55, 0.3]} rot={[0, 0, 1.2]} len={1.3} r={0.14} ink />
+      <Card pos={[0.9, 4.6, -1.0]} lines={["1920s"]} w={1.4} h={0.55} bg="#3a2a20" fg="#f3e7c4" />
+    </Stage>,
+
+    // 19 before / after: paste with ice → naked sausages packed with your friend's name
+    19: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0, 3.2, 8.2], [0, 1.2, 0.6], 44, [0, 3.0, 7.6], [0, 1.2, 0.6])}>
+      <Plant />
+      <Box size={[3.2, 0.9, 1.6]} pos={[0, 0.45, 0.6]} color="#e3e8ee" rough={0.35} />
+      <Tub pos={[-0.95, 0.9, 0.6]} scale={0.7} />
+      <Arrow pos={[0.0, 1.35, 0.9]} len={0.35} />
+      <Pack pos={[0.95, 0.92, 0.6]} scale={0.55} tag rot={[0, -0.2, 0]} />
+      <Ice pos={[-1.35, 0.98, 1.2]} />
+    </Stage>,
+
+    // 20 tag your friend: the fan with the tagged pack
+    20: ({ dur }) => <Stage look={closeLook} dur={dur} cam={cam([0.3, 2.1, 6.4], [0, 1.6, 0], 44, [0.1, 2.0, 5.6], [0, 1.6, 0])}>
+      <Plant />
+      <Fan pos={[-0.85, 0, 0.2]} pose={{ face: "laugh", armR: "up", look: 0.6 }} />
+      <Box size={[1.6, 0.9, 1.2]} pos={[0.8, 0.45, 0.9]} color="#3d7fb8" rough={0.6} />
+      <Pack pos={[0.8, 0.92, 0.9]} scale={0.7} tag rot={[0, -0.3, 0]} />
+    </Stage>,
+
+    // 21 goodbye, like and follow
+    21: ({ dur }) => <Stage look={plantLook} dur={dur} cam={cam([0, 2.2, 7.6], [0, 1.6, 0], 44, [0, 2.5, 8.6], [0, 1.7, 0])}>
+      <Plant />
+      <Guide pos={[-0.8, 0, 0.4]} pose={{ armR: "wave", face: "happy" }} />
+      <Fan pos={[0.85, 0, 0.1]} pose={{ face: "happy", armL: "wave" }} />
+      <Links pos={[0, 0.25, 1.5]} n={4} len={0.6} r={0.1} casing={false} ink />
+    </Stage>,
+  };
+};
+
+// shot 7 (second half): a cooked sausage that "sweats" fat beads
+const SweatSausage: React.FC<{ start: number }> = ({ start }) => {
+  const t = useT();
+  const k = ramp(t, start, start + 1.4);
+  return <Sausage pos={[0.2, 0.25, 2.0]} rot={[0, -0.2, 0]} len={1.3} r={0.17} sweat={k} ink />;
+};
+
+// shot 16: the sausage next to the phone peels a beat after the film
+const PeelLater: React.FC = () => {
+  const t = useT();
+  return <Sausage pos={[0.3, 1.18, 0.8]} rot={[0, 0, 0.1]} len={0.8} r={0.14} casing peel={ramp(t, 1.2, 2.2)} ink />;
 };

@@ -11,6 +11,6 @@ Sources: https://agresearchmag.ars.usda.gov/2014/jul/pickle · https://ars.usda.
 Tags: #pickles #howitsmade #engineering #factory #foodscience
 
 Recommended thumbnail: `episodes/ep7_en/out/thumbnail_short_1.png` (1080x1920, "STRANGERS' CUCUMBERS? HERE'S HOW"). Alternative: `thumbnail_short_4.png` ("HERE SIZE DOES MATTER", worker pointing). All 10 options: `out/shot_short.png`.
-Video: `episodes/ep7_en/out/episode_7_en.mp4` (9:16, 70.5 s, ElevenLabs Brian).
+Video: `episodes/ep7_en/out/episode_7_en.mp4` (9:16, 76.1 s, ElevenLabs Brian, expressive v4 voice).
 
 Before publishing: confirm in the MSU source that the small grade is paid more (shot 7).

@@ -1,0 +1,169 @@
+{
+  "cardWidth": 1080,
+  "cardHeight": 1920,
+  "hooks": [
+    {
+      "index": 1,
+      "archetype": "The Impossible Paradox",
+      "theme": "cream",
+      "topPill": "REAL PROCESS",
+      "headlineTop": "LOCKED IN",
+      "headlineSerif": "WITH GAS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_1.png",
+      "bottomPill": "GREEN BANANAS",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      },
+      "characterSide": "right",
+      "arrow": true
+    },
+    {
+      "index": 2,
+      "archetype": "Big Number Centerpiece",
+      "theme": "cream",
+      "topPill": "RIPENING ROOM",
+      "headlineTop": "ALL IT TAKES",
+      "headlineSerif": "IS A WHIFF",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_4.png",
+      "bigMetric": "150 ppm",
+      "bottomPill": "24–48 h"
+    },
+    {
+      "index": 3,
+      "archetype": "CAD Selection Box Mystery",
+      "theme": "dark",
+      "topPill": "THE SECRET GAS",
+      "headlineTop": "ETHYLENE",
+      "headlineSerif": "C₂H₄",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_4.png",
+      "bottomPill": "NATURAL HORMONE",
+      "stampText": "INVISIBLE"
+    },
+    {
+      "index": 4,
+      "archetype": "Stop Paying / Stop Doing X",
+      "theme": "cream",
+      "topPill": "STOP",
+      "headlineTop": "EATING THEM",
+      "headlineSerif": "GREEN",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_5.png",
+      "bottomPill": "BAG + APPLE",
+      "characterPose": "pointing",
+      "characterSpec": {
+        "hat": "cap",
+        "hatColor": "#f2c230",
+        "outfit": "hivis",
+        "coat": "#2f4e8a",
+        "face": "smirk",
+        "pants": "#2c3550",
+        "gloves": "#2a2a30"
+      }
+    },
+    {
+      "index": 5,
+      "archetype": "Before vs. After / Myth vs. Reality",
+      "theme": "dark",
+      "topPill": "BEFORE / AFTER",
+      "headlineTop": "GREEN",
+      "headlineSerif": "IN 48 HOURS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_2.png",
+      "bottomPill": "YELLOW"
+    },
+    {
+      "index": 6,
+      "archetype": "1-Line / 1-Piece Secret",
+      "theme": "cream",
+      "topPill": "KITCHEN TRICK",
+      "headlineTop": "ONE APPLE",
+      "headlineSerif": "ONE BAG",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_5.png",
+      "bigMetric": "🍎 + 🍌",
+      "bottomPill": "RIPE SOONER",
+      "characterPose": "amazed",
+      "characterSpec": {
+        "hat": "cap",
+        "hatColor": "#f2c230",
+        "outfit": "hivis",
+        "coat": "#2f4e8a",
+        "face": "smirk",
+        "pants": "#2c3550",
+        "gloves": "#2a2a30"
+      }
+    },
+    {
+      "index": 7,
+      "archetype": "The Price / Scale Shock",
+      "theme": "dark",
+      "topPill": "ON THE SHIP",
+      "headlineTop": "NOT ONE",
+      "headlineSerif": "DEGREE LOWER",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_3.png",
+      "bigMetric": "13 °C",
+      "bottomPill": "OR THEY GO GREY"
+    },
+    {
+      "index": 8,
+      "archetype": "Time-Limit Challenge",
+      "theme": "dark",
+      "topPill": "COUNTDOWN",
+      "headlineTop": "GREEN",
+      "headlineSerif": "TO YELLOW",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_2.png",
+      "bigMetric": "48 h",
+      "footerHandwritten": "with one gas!"
+    },
+    {
+      "index": 9,
+      "archetype": "Hidden Error / What Went Wrong",
+      "theme": "cream",
+      "topPill": "COLD MISTAKE",
+      "headlineTop": "BELOW",
+      "headlineSerif": "13 °C…",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_3.png",
+      "bottomPill": "GREY PEEL",
+      "stampText": "RUINED",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      }
+    },
+    {
+      "index": 10,
+      "archetype": "The 4th Missing Piece",
+      "theme": "dark",
+      "topPill": "3 + 1",
+      "headlineTop": "SHIP, ROOM",
+      "headlineSerif": "AND A GAS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_en/short_ref_1.png",
+      "bigMetric": "?",
+      "bottomPill": "BANANAS"
+    }
+  ]
+}

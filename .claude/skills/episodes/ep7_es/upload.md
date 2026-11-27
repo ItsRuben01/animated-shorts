@@ -11,6 +11,6 @@ Fuentes: https://agresearchmag.ars.usda.gov/2014/jul/pickle · https://ars.usda.
 Tags: #pepinillos #comosehace #ingenieria #fabrica #curiosidades
 
 Miniatura recomendada: `episodes/ep7_es/out/thumbnail_short_1.png` (1080x1920, «¿PEPINOS DE DESCONOCIDOS? ASÍ SE HACEN»). Alternativa: `thumbnail_short_4.png` («AQUÍ EL TAMAÑO SÍ IMPORTA», con el operario señalando). Las 10 opciones: `out/shot_short.png`.
-Vídeo: `episodes/ep7_es/out/episode_7_es.mp4` (9:16, 78,4 s, ElevenLabs David Martin).
+Vídeo: `episodes/ep7_es/out/episode_7_es.mp4` (9:16, 84,1 s, ElevenLabs David Martin, voz expresiva v4).
 
 Antes de publicar: confirmar en la fuente de MSU que el calibre pequeño se paga más (plano 7).

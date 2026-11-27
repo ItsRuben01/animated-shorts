@@ -1,0 +1,939 @@
+{
+ "voice": "Brian",
+ "model": "eleven_v4",
+ "speed": 1,
+ "tempo": 1.2,
+ "total": 47.868,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "intrigued",
+   "start": 0,
+   "end": 4.292,
+   "words": [
+    {
+     "w": "Your",
+     "start": 0.075,
+     "end": 0.281
+    },
+    {
+     "w": "soda",
+     "start": 0.419,
+     "end": 0.694
+    },
+    {
+     "w": "can",
+     "start": 0.797,
+     "end": 0.9
+    },
+    {
+     "w": "is",
+     "start": 0.969,
+     "end": 1.037
+    },
+    {
+     "w": "as",
+     "start": 1.106,
+     "end": 1.312
+    },
+    {
+     "w": "thin",
+     "start": 1.381,
+     "end": 1.519
+    },
+    {
+     "w": "as",
+     "start": 1.553,
+     "end": 1.587
+    },
+    {
+     "w": "a",
+     "start": 1.725,
+     "end": 1.759
+    },
+    {
+     "w": "sheet",
+     "start": 1.794,
+     "end": 1.931
+    },
+    {
+     "w": "of",
+     "start": 2.034,
+     "end": 2.137
+    },
+    {
+     "w": "paper…",
+     "start": 2.55,
+     "end": 3.007
+    },
+    {
+     "w": "and",
+     "start": 3.054,
+     "end": 3.099
+    },
+    {
+     "w": "it",
+     "start": 3.168,
+     "end": 3.237
+    },
+    {
+     "w": "still",
+     "start": 3.374,
+     "end": 3.58
+    },
+    {
+     "w": "doesn't",
+     "start": 3.649,
+     "end": 3.855
+    },
+    {
+     "w": "burst.",
+     "start": 4.233,
+     "end": 4.292
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 4.642,
+   "end": 7.112,
+   "words": [
+    {
+     "w": "Relax:",
+     "start": 4.681,
+     "end": 5.662
+    },
+    {
+     "w": "today",
+     "start": 5.825,
+     "end": 5.989
+    },
+    {
+     "w": "I'll",
+     "start": 6.021,
+     "end": 6.185
+    },
+    {
+     "w": "show",
+     "start": 6.25,
+     "end": 6.315
+    },
+    {
+     "w": "you",
+     "start": 6.381,
+     "end": 6.446
+    },
+    {
+     "w": "how",
+     "start": 6.511,
+     "end": 6.577
+    },
+    {
+     "w": "it's",
+     "start": 6.609,
+     "end": 6.707
+    },
+    {
+     "w": "made.",
+     "start": 6.773,
+     "end": 7.112
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "curious",
+   "start": 7.232,
+   "end": 12.906,
+   "words": [
+    {
+     "w": "A",
+     "start": 7.339,
+     "end": 7.42
+    },
+    {
+     "w": "disc,",
+     "start": 7.42,
+     "end": 7.828
+    },
+    {
+     "w": "a",
+     "start": 7.828,
+     "end": 7.909
+    },
+    {
+     "w": "big",
+     "start": 7.909,
+     "end": 8.153
+    },
+    {
+     "w": "stretch,",
+     "start": 8.153,
+     "end": 8.805
+    },
+    {
+     "w": "2,000",
+     "start": 8.805,
+     "end": 9.212
+    },
+    {
+     "w": "a",
+     "start": 9.212,
+     "end": 9.294
+    },
+    {
+     "w": "minute…",
+     "start": 9.294,
+     "end": 9.864
+    },
+    {
+     "w": "and",
+     "start": 9.864,
+     "end": 10.108
+    },
+    {
+     "w": "a",
+     "start": 10.108,
+     "end": 10.189
+    },
+    {
+     "w": "fourth",
+     "start": 10.189,
+     "end": 10.678
+    },
+    {
+     "w": "step",
+     "start": 10.678,
+     "end": 11.004
+    },
+    {
+     "w": "that",
+     "start": 11.004,
+     "end": 11.33
+    },
+    {
+     "w": "seals",
+     "start": 11.33,
+     "end": 11.737
+    },
+    {
+     "w": "it",
+     "start": 11.737,
+     "end": 11.9
+    },
+    {
+     "w": "with",
+     "start": 11.9,
+     "end": 12.225
+    },
+    {
+     "w": "the",
+     "start": 12.225,
+     "end": 12.47
+    },
+    {
+     "w": "soda",
+     "start": 12.47,
+     "end": 12.795
+    },
+    {
+     "w": "inside.",
+     "start": 12.795,
+     "end": 12.906
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "analytical",
+   "start": 13.026,
+   "end": 17.51,
+   "words": [
+    {
+     "w": "It",
+     "start": 13.138,
+     "end": 13.168
+    },
+    {
+     "w": "starts",
+     "start": 13.329,
+     "end": 13.498
+    },
+    {
+     "w": "as",
+     "start": 13.531,
+     "end": 13.565
+    },
+    {
+     "w": "a",
+     "start": 13.632,
+     "end": 13.7
+    },
+    {
+     "w": "flat",
+     "start": 13.767,
+     "end": 13.969
+    },
+    {
+     "w": "aluminum",
+     "start": 14.036,
+     "end": 14.44
+    },
+    {
+     "w": "disc:",
+     "start": 14.508,
+     "end": 15.248
+    },
+    {
+     "w": "one",
+     "start": 15.349,
+     "end": 15.45
+    },
+    {
+     "w": "press,",
+     "start": 15.652,
+     "end": 16.191
+    },
+    {
+     "w": "and",
+     "start": 16.292,
+     "end": 16.393
+    },
+    {
+     "w": "out",
+     "start": 16.461,
+     "end": 16.663
+    },
+    {
+     "w": "pops",
+     "start": 16.696,
+     "end": 16.865
+    },
+    {
+     "w": "a",
+     "start": 16.932,
+     "end": 16.966
+    },
+    {
+     "w": "little",
+     "start": 16.999,
+     "end": 17.201
+    },
+    {
+     "w": "cup.",
+     "start": 17.302,
+     "end": 17.51
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 17.63,
+   "end": 22.164,
+   "words": [
+    {
+     "w": "Then",
+     "start": 17.701,
+     "end": 17.843
+    },
+    {
+     "w": "it's",
+     "start": 17.878,
+     "end": 18.055
+    },
+    {
+     "w": "rammed",
+     "start": 18.126,
+     "end": 18.41
+    },
+    {
+     "w": "through",
+     "start": 18.552,
+     "end": 18.694
+    },
+    {
+     "w": "rings",
+     "start": 18.729,
+     "end": 18.977
+    },
+    {
+     "w": "that",
+     "start": 19.048,
+     "end": 19.19
+    },
+    {
+     "w": "stretch",
+     "start": 19.332,
+     "end": 19.545
+    },
+    {
+     "w": "it:",
+     "start": 19.616,
+     "end": 20.148
+    },
+    {
+     "w": "the",
+     "start": 20.183,
+     "end": 20.254
+    },
+    {
+     "w": "wall",
+     "start": 20.325,
+     "end": 20.538
+    },
+    {
+     "w": "ends",
+     "start": 20.609,
+     "end": 20.75
+    },
+    {
+     "w": "up",
+     "start": 20.821,
+     "end": 20.892
+    },
+    {
+     "w": "a",
+     "start": 21.105,
+     "end": 21.141
+    },
+    {
+     "w": "tenth",
+     "start": 21.176,
+     "end": 21.389
+    },
+    {
+     "w": "of",
+     "start": 21.424,
+     "end": 21.46
+    },
+    {
+     "w": "a",
+     "start": 21.602,
+     "end": 21.648
+    },
+    {
+     "w": "millimeter.",
+     "start": 21.696,
+     "end": 22.164
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "analytical",
+   "start": 22.284,
+   "end": 25.694,
+   "words": [
+    {
+     "w": "The",
+     "start": 22.335,
+     "end": 22.402
+    },
+    {
+     "w": "bottom",
+     "start": 22.47,
+     "end": 22.672
+    },
+    {
+     "w": "gets",
+     "start": 22.739,
+     "end": 22.874
+    },
+    {
+     "w": "a",
+     "start": 22.941,
+     "end": 23.008
+    },
+    {
+     "w": "dome:",
+     "start": 23.076,
+     "end": 23.749
+    },
+    {
+     "w": "it",
+     "start": 23.816,
+     "end": 23.884
+    },
+    {
+     "w": "holds",
+     "start": 23.985,
+     "end": 24.086
+    },
+    {
+     "w": "the",
+     "start": 24.153,
+     "end": 24.22
+    },
+    {
+     "w": "pressure",
+     "start": 24.288,
+     "end": 25.006
+    },
+    {
+     "w": "like",
+     "start": 25.051,
+     "end": 25.096
+    },
+    {
+     "w": "an",
+     "start": 25.163,
+     "end": 25.23
+    },
+    {
+     "w": "arch.",
+     "start": 25.298,
+     "end": 25.694
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "amazed",
+   "start": 25.814,
+   "end": 29.841,
+   "words": [
+    {
+     "w": "And",
+     "start": 25.922,
+     "end": 25.952
+    },
+    {
+     "w": "inside,",
+     "start": 26.073,
+     "end": 26.785
+    },
+    {
+     "w": "a",
+     "start": 26.85,
+     "end": 26.914
+    },
+    {
+     "w": "thin",
+     "start": 27.108,
+     "end": 27.303
+    },
+    {
+     "w": "lining:",
+     "start": 27.367,
+     "end": 28.144
+    },
+    {
+     "w": "your",
+     "start": 28.209,
+     "end": 28.273
+    },
+    {
+     "w": "soda",
+     "start": 28.338,
+     "end": 28.662
+    },
+    {
+     "w": "never",
+     "start": 28.727,
+     "end": 28.985
+    },
+    {
+     "w": "touches",
+     "start": 29.05,
+     "end": 29.244
+    },
+    {
+     "w": "the",
+     "start": 29.309,
+     "end": 29.341
+    },
+    {
+     "w": "aluminum.",
+     "start": 29.374,
+     "end": 29.841
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "sarcastic",
+   "start": 29.961,
+   "end": 33.26,
+   "words": [
+    {
+     "w": "Someone",
+     "start": 30.078,
+     "end": 30.35
+    },
+    {
+     "w": "asked:",
+     "start": 30.418,
+     "end": 30.963
+    },
+    {
+     "w": "how",
+     "start": 31.031,
+     "end": 31.099
+    },
+    {
+     "w": "do",
+     "start": 31.133,
+     "end": 31.167
+    },
+    {
+     "w": "they",
+     "start": 31.235,
+     "end": 31.303
+    },
+    {
+     "w": "get",
+     "start": 31.371,
+     "end": 31.439
+    },
+    {
+     "w": "the",
+     "start": 31.507,
+     "end": 31.575
+    },
+    {
+     "w": "soda",
+     "start": 31.643,
+     "end": 31.915
+    },
+    {
+     "w": "in",
+     "start": 31.983,
+     "end": 32.119
+    },
+    {
+     "w": "if",
+     "start": 32.187,
+     "end": 32.255
+    },
+    {
+     "w": "it's",
+     "start": 32.289,
+     "end": 32.391
+    },
+    {
+     "w": "already",
+     "start": 32.527,
+     "end": 32.663
+    },
+    {
+     "w": "closed?",
+     "start": 32.731,
+     "end": 33.26
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "chuckles",
+   "start": 33.38,
+   "end": 37.951,
+   "words": [
+    {
+     "w": "It",
+     "start": 33.914,
+     "end": 33.98
+    },
+    {
+     "w": "isn't:",
+     "start": 34.114,
+     "end": 34.714
+    },
+    {
+     "w": "they",
+     "start": 34.78,
+     "end": 34.914
+    },
+    {
+     "w": "fill",
+     "start": 34.98,
+     "end": 35.114
+    },
+    {
+     "w": "it",
+     "start": 35.18,
+     "end": 35.247
+    },
+    {
+     "w": "first,",
+     "start": 35.314,
+     "end": 36.069
+    },
+    {
+     "w": "then",
+     "start": 36.158,
+     "end": 36.247
+    },
+    {
+     "w": "seam",
+     "start": 36.314,
+     "end": 36.514
+    },
+    {
+     "w": "the",
+     "start": 36.58,
+     "end": 36.647
+    },
+    {
+     "w": "lid",
+     "start": 36.714,
+     "end": 36.78
+    },
+    {
+     "w": "on",
+     "start": 36.847,
+     "end": 36.98
+    },
+    {
+     "w": "in",
+     "start": 37.047,
+     "end": 37.114
+    },
+    {
+     "w": "a",
+     "start": 37.18,
+     "end": 37.247
+    },
+    {
+     "w": "split",
+     "start": 37.314,
+     "end": 37.58
+    },
+    {
+     "w": "second.",
+     "start": 37.914,
+     "end": 37.951
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 38.071,
+   "end": 42.057,
+   "words": [
+    {
+     "w": "That's",
+     "start": 38.134,
+     "end": 38.322
+    },
+    {
+     "w": "the",
+     "start": 38.417,
+     "end": 38.511
+    },
+    {
+     "w": "fourth",
+     "start": 38.574,
+     "end": 38.762
+    },
+    {
+     "w": "step:",
+     "start": 38.888,
+     "end": 39.266
+    },
+    {
+     "w": "the",
+     "start": 39.329,
+     "end": 39.391
+    },
+    {
+     "w": "gas",
+     "start": 39.454,
+     "end": 39.706
+    },
+    {
+     "w": "pushes",
+     "start": 39.769,
+     "end": 39.957
+    },
+    {
+     "w": "from",
+     "start": 40.052,
+     "end": 40.146
+    },
+    {
+     "w": "inside",
+     "start": 40.209,
+     "end": 40.901
+    },
+    {
+     "w": "and",
+     "start": 40.964,
+     "end": 41.027
+    },
+    {
+     "w": "makes",
+     "start": 41.121,
+     "end": 41.215
+    },
+    {
+     "w": "it",
+     "start": 41.31,
+     "end": 41.404
+    },
+    {
+     "w": "rock",
+     "start": 41.467,
+     "end": 41.656
+    },
+    {
+     "w": "hard.",
+     "start": 41.781,
+     "end": 42.057
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 42.177,
+   "end": 45.021,
+   "words": [
+    {
+     "w": "Tag",
+     "start": 42.334,
+     "end": 42.366
+    },
+    {
+     "w": "your",
+     "start": 42.429,
+     "end": 42.554
+    },
+    {
+     "w": "friend",
+     "start": 42.617,
+     "end": 42.743
+    },
+    {
+     "w": "who",
+     "start": 42.806,
+     "end": 42.932
+    },
+    {
+     "w": "always",
+     "start": 43.058,
+     "end": 43.309
+    },
+    {
+     "w": "shakes",
+     "start": 43.341,
+     "end": 43.498
+    },
+    {
+     "w": "the",
+     "start": 43.561,
+     "end": 43.624
+    },
+    {
+     "w": "can",
+     "start": 43.875,
+     "end": 44.211
+    },
+    {
+     "w": "before",
+     "start": 44.294,
+     "end": 44.378
+    },
+    {
+     "w": "handing",
+     "start": 44.441,
+     "end": 44.567
+    },
+    {
+     "w": "it",
+     "start": 44.63,
+     "end": 44.693
+    },
+    {
+     "w": "over.",
+     "start": 44.756,
+     "end": 45.021
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "Brian",
+   "model": "eleven_v4",
+   "emotion": "warm",
+   "start": 45.141,
+   "end": 47.748,
+   "words": [
+    {
+     "w": "See",
+     "start": 45.246,
+     "end": 45.313
+    },
+    {
+     "w": "you",
+     "start": 45.38,
+     "end": 45.448
+    },
+    {
+     "w": "next",
+     "start": 45.515,
+     "end": 45.65
+    },
+    {
+     "w": "time!",
+     "start": 45.717,
+     "end": 46.323
+    },
+    {
+     "w": "Hit",
+     "start": 46.39,
+     "end": 46.458
+    },
+    {
+     "w": "like",
+     "start": 46.592,
+     "end": 46.727
+    },
+    {
+     "w": "and",
+     "start": 46.828,
+     "end": 46.929
+    },
+    {
+     "w": "follow",
+     "start": 47.064,
+     "end": 47.199
+    },
+    {
+     "w": "for",
+     "start": 47.266,
+     "end": 47.333
+    },
+    {
+     "w": "more.",
+     "start": 47.401,
+     "end": 47.748
+    }
+   ]
+  }
+ ]
+}

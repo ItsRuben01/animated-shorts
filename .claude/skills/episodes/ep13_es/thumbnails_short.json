@@ -1,0 +1,169 @@
+{
+  "cardWidth": 1080,
+  "cardHeight": 1920,
+  "hooks": [
+    {
+      "index": 1,
+      "archetype": "The Impossible Paradox",
+      "theme": "cream",
+      "topPill": "PROCESO REAL",
+      "headlineTop": "LOS ENCIERRAN",
+      "headlineSerif": "CON GAS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_1.png",
+      "bottomPill": "PLÁTANOS VERDES",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      },
+      "characterSide": "right",
+      "arrow": true
+    },
+    {
+      "index": 2,
+      "archetype": "Big Number Centerpiece",
+      "theme": "cream",
+      "topPill": "CÁMARA DE MADURACIÓN",
+      "headlineTop": "SOLO HACE FALTA",
+      "headlineSerif": "UNA PIZCA",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_4.png",
+      "bigMetric": "150 ppm",
+      "bottomPill": "24–48 h"
+    },
+    {
+      "index": 3,
+      "archetype": "CAD Selection Box Mystery",
+      "theme": "dark",
+      "topPill": "EL GAS SECRETO",
+      "headlineTop": "ETILENO",
+      "headlineSerif": "C₂H₄",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_4.png",
+      "bottomPill": "HORMONA NATURAL",
+      "stampText": "INVISIBLE"
+    },
+    {
+      "index": 4,
+      "archetype": "Stop Paying / Stop Doing X",
+      "theme": "cream",
+      "topPill": "DEJA DE",
+      "headlineTop": "COMÉRTELOS",
+      "headlineSerif": "VERDES",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_5.png",
+      "bottomPill": "BOLSA + MANZANA",
+      "characterPose": "pointing",
+      "characterSpec": {
+        "hat": "cap",
+        "hatColor": "#f2c230",
+        "outfit": "hivis",
+        "coat": "#2f4e8a",
+        "face": "smirk",
+        "pants": "#2c3550",
+        "gloves": "#2a2a30"
+      }
+    },
+    {
+      "index": 5,
+      "archetype": "Before vs. After / Myth vs. Reality",
+      "theme": "dark",
+      "topPill": "ANTES / DESPUÉS",
+      "headlineTop": "VERDE",
+      "headlineSerif": "EN 48 HORAS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_2.png",
+      "bottomPill": "AMARILLO"
+    },
+    {
+      "index": 6,
+      "archetype": "1-Line / 1-Piece Secret",
+      "theme": "cream",
+      "topPill": "EL TRUCO DE CASA",
+      "headlineTop": "UNA MANZANA",
+      "headlineSerif": "Y UNA BOLSA",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_5.png",
+      "bigMetric": "🍎 + 🍌",
+      "bottomPill": "MADURAN ANTES",
+      "characterPose": "amazed",
+      "characterSpec": {
+        "hat": "cap",
+        "hatColor": "#f2c230",
+        "outfit": "hivis",
+        "coat": "#2f4e8a",
+        "face": "smirk",
+        "pants": "#2c3550",
+        "gloves": "#2a2a30"
+      }
+    },
+    {
+      "index": 7,
+      "archetype": "The Price / Scale Shock",
+      "theme": "dark",
+      "topPill": "EN EL BARCO",
+      "headlineTop": "NI UN GRADO",
+      "headlineSerif": "MENOS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_3.png",
+      "bigMetric": "13 °C",
+      "bottomPill": "O SE PONEN GRISES"
+    },
+    {
+      "index": 8,
+      "archetype": "Time-Limit Challenge",
+      "theme": "dark",
+      "topPill": "CUENTA ATRÁS",
+      "headlineTop": "DE VERDE",
+      "headlineSerif": "A AMARILLO",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_2.png",
+      "bigMetric": "48 h",
+      "footerHandwritten": "¡con un gas!"
+    },
+    {
+      "index": 9,
+      "archetype": "Hidden Error / What Went Wrong",
+      "theme": "cream",
+      "topPill": "ERROR DE FRÍO",
+      "headlineTop": "POR DEBAJO",
+      "headlineSerif": "DE 13 °C…",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_3.png",
+      "bottomPill": "PIEL GRIS",
+      "stampText": "ESTROPEADO",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      }
+    },
+    {
+      "index": 10,
+      "archetype": "The 4th Missing Piece",
+      "theme": "dark",
+      "topPill": "3 + 1",
+      "headlineTop": "BARCO, SALA",
+      "headlineSerif": "Y UN GAS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep13_es/short_ref_1.png",
+      "bigMetric": "?",
+      "bottomPill": "PLÁTANOS"
+    }
+  ]
+}

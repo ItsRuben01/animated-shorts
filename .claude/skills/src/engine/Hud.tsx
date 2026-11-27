@@ -6,9 +6,7 @@
 // All times are in seconds, local to the shot (the Sequence the HUD is placed in).
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig, Easing } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
-
-const { fontFamily } = loadFont("normal", { weights: ["600", "700", "800", "900"], subsets: ["latin"] });
+import { fontFamily } from "./font"; // local Montserrat (offline / cloud-safe)
 
 export const GOLD = "#f2c14e";
 const ease = Easing.bezier(0.22, 1, 0.36, 1);

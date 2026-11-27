@@ -4,9 +4,7 @@
 //   upcoming words dimmed, the current word boxed. The subject keeps the centre of the frame.
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
-
-const { fontFamily } = loadFont("normal", { weights: ["600", "800", "900"], subsets: ["latin"] });
+import { fontFamily } from "./font";
 
 export type Word = { w: string; start: number; end: number };
 
