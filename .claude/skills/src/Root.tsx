@@ -8,6 +8,7 @@ import { LongEN, LongES, LongShotStillEN, LongShotStillES, longFrames as ep6Long
 import { Ep7EN, Ep7ES, Ep7ShotEN, Ep7ShotES, totalFrames as ep7Frames } from "./ep7/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
 import { CastSheet } from "./engine/CastSheet";
+import { CtaPreview } from "./engine/CtaPreview";
 
 export const Root: React.FC = () => (
   <>
@@ -38,6 +39,9 @@ export const Root: React.FC = () => (
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />
+
+    {/* CTA "Comenta «PALABRA»" → respuesta automática por DM (comprobar antes de usarlo en un episodio) */}
+    <Composition id="CtaPreview" component={CtaPreview} width={1080} height={1920} fps={30} durationInFrames={150} defaultProps={{ keyword: "PEPINILLO", reply: "¡Aquí lo tienes: el pepinillo por dentro!", lang: "es" as const, channel: "content-os" }} />
 
     {/* Miniaturas y paneles comparativos (10 portadas en shot.png + exportación individual) */}
     <Composition id="ThumbnailSheet" component={ThumbnailSheet} width={5616} height={3948} fps={30} durationInFrames={1} defaultProps={{ hooks: [], cardWidth: 1080, cardHeight: 1920 }} />
