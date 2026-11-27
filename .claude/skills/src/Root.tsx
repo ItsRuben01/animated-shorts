@@ -9,6 +9,7 @@ import { Ep7EN, Ep7ES, Ep7ShotEN, Ep7ShotES, totalFrames as ep7Frames } from "./
 import { Ep8EN, Ep8ES, Ep8ShotEN, Ep8ShotES, totalFrames as ep8Frames } from "./ep8/Episode";
 import { Ep9EN, Ep9ES, Ep9ShotEN, Ep9ShotES, totalFrames as ep9Frames } from "./ep9/Episode";
 import { Ep10EN, Ep10ES, Ep10ShotEN, Ep10ShotES, totalFrames as ep10Frames } from "./ep10/Episode";
+import { Ep11EN, Ep11ES, Ep11ShotEN, Ep11ShotES, totalFrames as ep11Frames } from "./ep11/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
 import { CastSheet } from "./engine/CastSheet";
 
@@ -56,6 +57,12 @@ export const Root: React.FC = () => (
     <Composition id="Ep10Short-EN" component={Ep10EN} width={1080} height={1920} fps={30} durationInFrames={ep10Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
     <Composition id="Ep10Shot-ES" component={Ep10ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
     <Composition id="Ep10Shot-EN" component={Ep10ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* ep11 — ruedas de avión con nitrógeno (Short bilingüe) */}
+    <Composition id="Ep11Short-ES" component={Ep11ES} width={1080} height={1920} fps={30} durationInFrames={ep11Frames(30, "es")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep11Short-EN" component={Ep11EN} width={1080} height={1920} fps={30} durationInFrames={ep11Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep11Shot-ES" component={Ep11ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+    <Composition id="Ep11Shot-EN" component={Ep11ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />
