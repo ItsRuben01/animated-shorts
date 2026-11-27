@@ -10,7 +10,7 @@ Short vertical (1080x1920, 30 fps), 20 planos (recortado a ~60 s el 2026-11-25),
 
 ## Reparto y dirección emocional
 
-- **Narrador documental serio, voz única.** Borrador Kokoro `em_alex` a `1.30` (65,4 s, 3,61 palabras/s); máster ElevenLabs `David Martin` (`y6WtESLj18d0diFRruBs`, `eleven_multilingual_v2`, velocidad base `1.15` + ajuste por emoción, silencios recortados y acelerado ×1,1 con ffmpeg: 77,7 s, 3,04 palabras/s); respaldo Kokoro en `public/ep7_es/voice_kokoro.wav`. El contraste entre la voz seria y el doble sentido es el chiste: nunca leer el gancho con risa.
+- **Narrador cómplice y expresivo, voz única** (actualizado 2026-11-26: el máster plano anterior aburría). ES: máster ElevenLabs `David Martin` (`y6WtESLj18d0diFRruBs`, `eleven_v4`, etiquetas de emoción por plano en `sayTts`, atempo ×1,2 local: 83,4 s). EN: máster `Brian` (`nPczCjzI2devNBz1zQrb`, mismo método: 75.4 s). Comando: `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <label> 1.0 --tempo=1.2`. Respaldo Kokoro en `public/ep7_*/voice_kokoro.wav`. El narrador disfruta el doble sentido: sonrisa en el gancho, pausa antes del chiste y risa después.
 - Arco: `[intriguing]` gancho → `[analytical]` definición literal → `[serious]` pasos industriales → `[chuckles]` guiños → `[amazed]` prueba y cuarto paso → `[enthusiastic]` etiqueta a tu amigo → `[warm]` despedida.
 - Pronunciación: «muuuy» se alarga a propósito; «pH» se dice «pe hache»; «NaCl» no se dice nunca.
 - Prohibido: leer seguido sin pausas tras el gancho (plano 1 necesita un silencio de ~0,4 s antes del plano 2).

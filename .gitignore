@@ -15,3 +15,5 @@ ref/
 Thumbs.db
 *.log
 .env
+# Caché de tomas de ElevenLabs (audio en base64, se regenera)
+tmp/

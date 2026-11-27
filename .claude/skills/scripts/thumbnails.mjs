@@ -28,6 +28,12 @@ function resolveModes(modeArg) {
 }
 
 function sourceCompFor(mode) {
+  // Episode-specific compositions (e.g. Ep8Short-ES) win over the shared ep6 ones when Root registers them.
+  const m = ep.match(/^ep(\d+)/i);
+  const lang = isSpanish ? "ES" : "EN";
+  const own = m ? `Ep${m[1]}${mode === "long" ? "Long" : "Short"}-${lang}` : null;
+  const root = fs.readFileSync(path.join("src", "Root.tsx"), "utf8");
+  if (own && root.includes(`id="${own}"`)) return own;
   if (mode === "long") {
     return isSpanish ? "Long-ES" : "Long-EN";
   }
