@@ -1,6 +1,6 @@
 ---
 name: animated-shorts
-description: Make viral animated Shorts (2D cartoon characters in a 3D world) entirely in code with three.js + Remotion, a free Kokoro voice and code-made music. Clone the style of ANY animated channel by measuring it, write the story, voice it, build it, check stills, render a 9:16 Short and a 16:9 version, generate high-CTR thumbnails via thumbnails-hooks, and package it. Use when the user says "download their shorts", "measure the style", "turn this into a skill", "give me ideas", "write the script", "make the voice", "build the video", "make it yours", "make the long version", "make thumbnails", "package it", or "something looks off in shot N".
+description: Make viral animated Shorts (2D cartoon characters in a 3D world) entirely in code with three.js + Remotion, a free Kokoro voice and code-made music. Clone the style of ANY animated channel by measuring it, write the story, voice it, build it, check stills, render a 9:16 Short and a 16:9 version, generate high-CTR thumbnails via thumbnails-hooks, and package it. ALWAYS run the performance-review skill (Step 0) first for any new video. Use when the user says "new video", "nuevo vídeo", "download their shorts", "measure the style", "turn this into a skill", "give me ideas", "write the script", "make the voice", "build the video", "make it yours", "make the long version", "make thumbnails", "package it", or "something looks off in shot N".
 ---
 
 # Animated Shorts (free skill)
@@ -16,6 +16,12 @@ Everything is made on this computer: no AI video generator, no paid voice, no st
 Always work inside this project folder. One episode = `episodes/epN/` + `src/epN/` (or `episodes/epN_en/` + `episodes/epN_es/` sharing `src/epN/` when producing bilingual versions). Start a **new chat for every new video** (one video fills a lot of memory).
 
 ## The commands
+
+### 0. "Performance check" — MANDATORY before every new episode
+Before ideas (Step 4) or script (Step 5) of any new video, **read and execute `.claude/skills/performance-review/SKILL.md`**: it pulls the real stats of the previous videos from Instagram, TikTok and YouTube (Windsor.ai connector), updates `insights/playbook.md` and writes a `## Performance brief` at the top of `episodes/epN/story.md`.
+- The brief **overrides** the generic numbers in this skill when they conflict (duration, hook, CTA, topic choice). Example: if the playbook says "45–55 s, max 60 s", cut script steps until `timing.json` lands there; never speed up the voice to fit.
+- Each episode tests **one** experiment from `Hipótesis en prueba`; write it in the brief.
+- If the connector is unavailable, read the existing `insights/playbook.md`, apply it, and tell the user the stats could not be refreshed.
 
 ### 1. "Download their 20 most popular Shorts from <channel link>"
 `yt-dlp --flat-playlist -I 1:60 --print "%(view_count)s %(id)s" "<link>/shorts"`, sort by views, take the top 20, then
@@ -38,7 +44,7 @@ Write it all into `styles/<channel>.md` with the numbers. Every rule must be a n
 Create `.claude/skills/<channel>-style/SKILL.md` that says: use the animated-shorts workflow, with the look in `styles/<channel>.md`, and lists the exact engine settings that produce it (the `Look` values: sun, hemi, fog, exposure, aperture, ink, warm/cool, saturation; caption size and position; voice speed; shot length). Test it by building one still of a sample shot and comparing it with a frame from the channel side by side. Fix the numbers until they match.
 
 ### 4. "Give me 10 ideas" (or use the master prompt in claude.ai)
-Ten true, strange, visual stories that fit the channel. For each one, **search YouTube** for the topic and write down the biggest Short and long video on it. If a Short already has millions of views on the same story, drop it (someone told it already). Pick one with a clear twist.
+Ten true, strange, visual stories that fit the channel, **ranked against the active rules in `insights/playbook.md`** (say for each idea which rule it satisfies and which topic family it belongs to). For each one, **search YouTube** for the topic and write down the biggest Short and long video on it. If a Short already has millions of views on the same story, drop it (someone told it already). Pick one with a clear twist.
 - **Creative Angle Lock — Mischievous Double-Entendre Hook + Real Process ("Humor Travieso Filtrado"):**
   - Every Short MUST start with a cheeky, absurd, naughty-sounding, or dark-humor double-entendre hook about an everyday object, food, or industrial/mechanical process (e.g., cucumbers/pickles, sausages, nuts & bolts, lubrication, pressure valves, bananas, cream filling, bananas/melons) that grabs 100% attention in the first 3 seconds, **strictly filtered with clean, literal, platform-safe vocabulary** so it NEVER triggers TikTok/Reels/YouTube demonetization or community strikes.
   - Immediately pivot with a knowing, playful authority (the narrator enjoys the joke, never reads flat) into the **100% real, accurate industrial, mechanical, or scientific manufacturing process** behind that object, sneaking in subtle, family-friendly winks (e.g., *"aquí el tamaño no importa"*, *"entra a presión"*) and ending with a viral **"tag/send this to your friend who..."** CTA.
@@ -51,6 +57,7 @@ Write `episodes/epN/story.md` in the measured style:
 - **First line (Cheeky Double-Entendre Hook):** Open immediately (0:00–0:05) with an absurd, mischievous, or double-meaning question/statement using 100% innocent literal words (no explicit profanity, no banned words, completely safe for monetization).
 - **Playful Pivot & Escalation:** Transition immediately with playful, confident authority (a smile in the voice) (*"No te preocupes, hoy te traigo la solución..."* / *"Don't worry, today I have the solution..."*), define the everyday object literally while keeping subtle wordplay, and break down the **real step-by-step industrial, chemical, or mechanical process** with concrete measurements.
 - **Viral Friend-Tag & Loop Twist:** End the explanation by connecting the final packaged/finished product directly to **"your friend who is obsessed with [object]"** to trigger shares and comments, followed by a crisp sign-off asking for a like and follow.
+- **Respect the Performance brief** at the top of `story.md` (Step 0): target duration, hook pattern, CTA and the episode experiment. If the 10-step blueprint below does not fit the target duration, merge or drop steps (keep hook, proof, friend-tag CTA).
 - Match the channel's measured pace (about 3.5–3.7 words per second, roughly 160–220 words for a 45–60 second Short). Set the voice speed so `timing.json` lands on it.
 - **Fact check every claim** about the industrial/technical process and put the sources in a table at the bottom of `story.md`.
 - **Bilingual 4X Scripting & High-Retention Blueprint:** When producing bilingual versions, write **native adaptations** (never literal translations, adapting local idioms and double-entendres naturally) for both **English (`epN_en`)** and **Spanish (`epN_es`)** using this retention structure:
@@ -155,6 +162,7 @@ Right after the script, voice, and video (`Short` and/or `Long`) are rendered, *
 - Follow every step inside `.claude/skills/thumbnails-hooks/SKILL.md` to audit the reference video's thumbnail & title (what to keep vs. improve), combine it with 10 current niche trends and your dual visual style (`cream` Editorial + `dark` CAD), generate `shot_short.png` / `shot_long.png`, and export the winning cover (`thumbnail_<mode>_<N>.png`) before moving to Step 11.
 
 ### 11. "Package it"
+In `upload.md`, write the exact title/first caption line used on every platform (the Step 0 review matches published videos to episodes by it) and the Performance-brief experiment being tested.
 Write `episodes/epN/upload.md`: a curiosity title under 60 characters (no clickbait the video doesn't pay off), a two-line description with the sources, 5 tags, and the winning exported thumbnail (`thumbnail_short_<N>.png` and/or `thumbnail_long_<N>.png`) generated by `.claude/skills/thumbnails-hooks/SKILL.md` in Step 10.
 - **Bilingual Channel Separation Rule:** When packaging `epN_en` and `epN_es` (4X deliverables: `Short_EN`, `Short_ES`, `Long_EN`, `Long_ES`), generate separate metadata blocks for **two dedicated language channels** (`EN` and `ES`). Never upload the exact same visual video in two different languages on the same channel on the same day (it tanks CTR/retention and triggers duplicate-content suppression); if using a single YouTube channel, upload only one video file and attach the second language via YouTube's native Multi-Language Audio track.
 
