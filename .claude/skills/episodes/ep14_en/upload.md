@@ -11,7 +11,7 @@ Sources: https://www.thefabricator.com/thefabricator/article/metalsmaterials/she
 
 Tags: #sodacan #howitsmade #engineering #factory #manufacturing
 
-Recommended thumbnail: PENDING
+Recommended thumbnail: `episodes/ep14_en/out/thumbnail_short_1.png` (1080x1920, "THIN AS A SHEET OF PAPER", can next to the paper + shocked friend). Alternative: `thumbnail_short_3.png` ("THE HIDDEN LINING", cutaway can). All 10 options: `out/shot_short.png`.
 Video: `episodes/ep14_en/out/episode_14_en.mp4` (9:16, 47.9 s + 0.7 s tail, ElevenLabs Brian, tempo 1.2).
 
 Experiment: none (control). Baseline to compare with ep11 (H2), ep12 (H3) and ep13 (H1).

@@ -11,7 +11,7 @@ Fuentes: https://www.thefabricator.com/thefabricator/article/metalsmaterials/she
 
 Tags: #latas #comosehace #ingenieria #fabrica #curiosidades
 
-Miniatura recomendada: PENDIENTE
+Miniatura recomendada: `episodes/ep14_es/out/thumbnail_short_1.png` (1080x1920, «TAN FINA COMO UN FOLIO», la lata junto al folio + amigo sorprendido). Alternativa: `thumbnail_short_3.png` («EL BARNIZ INVISIBLE», lata en corte). Las 10 opciones: `out/shot_short.png` (la #6 tiene la etiqueta inferior cortada: no usar).
 Vídeo: `episodes/ep14_es/out/episode_14_es.mp4` (9:16, 49,1 s + 0,7 s de cola, ElevenLabs Nebu, tempo 1,2).
 
 Experimento: ninguno (control). Sirve de referencia para comparar con ep11 (H2), ep12 (H3) y ep13 (H1).
