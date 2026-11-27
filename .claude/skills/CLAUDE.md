@@ -2,6 +2,7 @@
 
 This folder makes animated Shorts entirely on this computer: three.js worlds + drawn characters (Remotion), a free Kokoro voice, music made in code.
 The workflow is the skill in `.claude/skills/animated-shorts/SKILL.md`. Read it before doing anything.
+**Every new video starts with Step 0:** run `.claude/skills/performance-review/SKILL.md` (real Instagram/TikTok/YouTube stats via the Windsor.ai connector) and follow the rules in `insights/playbook.md`.
 
 - Example episode: `episodes/ep1` + `src/ep1` (London's green taxi huts). Copy it for new episodes.
 - Short (9:16): `npx remotion render src/index.ts Short episodes/ep1/out/episode_1.mp4 --codec=h264 --crf=18`
