@@ -1,0 +1,864 @@
+{
+ "voice": "Nebu",
+ "model": "eleven_v4",
+ "speed": 1,
+ "tempo": 1.2,
+ "total": 48.292,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "intrigued",
+   "start": 0,
+   "end": 4.019,
+   "words": [
+    {
+     "w": "Tus",
+     "start": 0.045,
+     "end": 0.19
+    },
+    {
+     "w": "plátanos",
+     "start": 0.259,
+     "end": 0.671
+    },
+    {
+     "w": "llegan",
+     "start": 0.74,
+     "end": 1.084
+    },
+    {
+     "w": "verdes…",
+     "start": 1.187,
+     "end": 2.011
+    },
+    {
+     "w": "y",
+     "start": 2.046,
+     "end": 2.08
+    },
+    {
+     "w": "los",
+     "start": 2.115,
+     "end": 2.252
+    },
+    {
+     "w": "encierran",
+     "start": 2.389,
+     "end": 2.733
+    },
+    {
+     "w": "en",
+     "start": 2.802,
+     "end": 2.871
+    },
+    {
+     "w": "una",
+     "start": 2.939,
+     "end": 3.077
+    },
+    {
+     "w": "sala",
+     "start": 3.146,
+     "end": 3.352
+    },
+    {
+     "w": "con",
+     "start": 3.42,
+     "end": 3.558
+    },
+    {
+     "w": "gas.",
+     "start": 3.73,
+     "end": 4.019
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 4.369,
+   "end": 6.712,
+   "words": [
+    {
+     "w": "Tranquilo:",
+     "start": 4.457,
+     "end": 5.198
+    },
+    {
+     "w": "es",
+     "start": 5.328,
+     "end": 5.459
+    },
+    {
+     "w": "para",
+     "start": 5.524,
+     "end": 5.59
+    },
+    {
+     "w": "que",
+     "start": 5.655,
+     "end": 5.72
+    },
+    {
+     "w": "se",
+     "start": 5.786,
+     "end": 5.851
+    },
+    {
+     "w": "pongan",
+     "start": 5.917,
+     "end": 6.113
+    },
+    {
+     "w": "amarillos.",
+     "start": 6.211,
+     "end": 6.712
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "curious",
+   "start": 6.832,
+   "end": 12.186,
+   "words": [
+    {
+     "w": "Un",
+     "start": 6.992,
+     "end": 7.032
+    },
+    {
+     "w": "barco",
+     "start": 7.132,
+     "end": 7.298
+    },
+    {
+     "w": "a",
+     "start": 7.332,
+     "end": 7.365
+    },
+    {
+     "w": "13",
+     "start": 7.432,
+     "end": 7.632
+    },
+    {
+     "w": "grados,",
+     "start": 7.698,
+     "end": 8.365
+    },
+    {
+     "w": "una",
+     "start": 8.465,
+     "end": 8.565
+    },
+    {
+     "w": "sala",
+     "start": 8.632,
+     "end": 8.832
+    },
+    {
+     "w": "sellada,",
+     "start": 8.965,
+     "end": 9.632
+    },
+    {
+     "w": "un",
+     "start": 9.698,
+     "end": 9.765
+    },
+    {
+     "w": "gas",
+     "start": 9.832,
+     "end": 9.965
+    },
+    {
+     "w": "invisible…",
+     "start": 10.032,
+     "end": 11.032
+    },
+    {
+     "w": "y",
+     "start": 11.065,
+     "end": 11.098
+    },
+    {
+     "w": "un",
+     "start": 11.165,
+     "end": 11.232
+    },
+    {
+     "w": "truco",
+     "start": 11.298,
+     "end": 11.565
+    },
+    {
+     "w": "para",
+     "start": 11.632,
+     "end": 11.698
+    },
+    {
+     "w": "tu",
+     "start": 11.765,
+     "end": 11.832
+    },
+    {
+     "w": "casa.",
+     "start": 11.921,
+     "end": 12.186
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "analytical",
+   "start": 12.306,
+   "end": 16.403,
+   "words": [
+    {
+     "w": "Se",
+     "start": 12.373,
+     "end": 12.441
+    },
+    {
+     "w": "cortan",
+     "start": 12.508,
+     "end": 12.845
+    },
+    {
+     "w": "verdes",
+     "start": 12.912,
+     "end": 13.384
+    },
+    {
+     "w": "y",
+     "start": 13.451,
+     "end": 13.518
+    },
+    {
+     "w": "cruzan",
+     "start": 13.586,
+     "end": 13.855
+    },
+    {
+     "w": "el",
+     "start": 13.889,
+     "end": 13.922
+    },
+    {
+     "w": "océano",
+     "start": 13.99,
+     "end": 14.259
+    },
+    {
+     "w": "en",
+     "start": 14.326,
+     "end": 14.394
+    },
+    {
+     "w": "barco,",
+     "start": 14.495,
+     "end": 15
+    },
+    {
+     "w": "a",
+     "start": 15.067,
+     "end": 15.134
+    },
+    {
+     "w": "unos",
+     "start": 15.202,
+     "end": 15.606
+    },
+    {
+     "w": "13",
+     "start": 15.673,
+     "end": 15.875
+    },
+    {
+     "w": "grados.",
+     "start": 15.942,
+     "end": 16.403
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 16.523,
+   "end": 21.618,
+   "words": [
+    {
+     "w": "Ni",
+     "start": 16.665,
+     "end": 16.736
+    },
+    {
+     "w": "uno",
+     "start": 16.807,
+     "end": 17.019
+    },
+    {
+     "w": "menos:",
+     "start": 17.126,
+     "end": 17.87
+    },
+    {
+     "w": "por",
+     "start": 17.941,
+     "end": 18.012
+    },
+    {
+     "w": "debajo,",
+     "start": 18.083,
+     "end": 18.792
+    },
+    {
+     "w": "la",
+     "start": 18.863,
+     "end": 18.934
+    },
+    {
+     "w": "piel",
+     "start": 19.005,
+     "end": 19.218
+    },
+    {
+     "w": "se",
+     "start": 19.289,
+     "end": 19.36
+    },
+    {
+     "w": "pone",
+     "start": 19.431,
+     "end": 19.572
+    },
+    {
+     "w": "gris",
+     "start": 19.643,
+     "end": 20.424
+    },
+    {
+     "w": "y",
+     "start": 20.459,
+     "end": 20.494
+    },
+    {
+     "w": "ya",
+     "start": 20.565,
+     "end": 20.707
+    },
+    {
+     "w": "no",
+     "start": 20.778,
+     "end": 20.849
+    },
+    {
+     "w": "maduran",
+     "start": 20.92,
+     "end": 21.204
+    },
+    {
+     "w": "bien.",
+     "start": 21.239,
+     "end": 21.618
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 21.738,
+   "end": 25.444,
+   "words": [
+    {
+     "w": "Al",
+     "start": 21.843,
+     "end": 21.873
+    },
+    {
+     "w": "llegar,",
+     "start": 21.927,
+     "end": 22.388
+    },
+    {
+     "w": "a",
+     "start": 22.409,
+     "end": 22.439
+    },
+    {
+     "w": "la",
+     "start": 22.493,
+     "end": 22.556
+    },
+    {
+     "w": "sala",
+     "start": 22.587,
+     "end": 22.682
+    },
+    {
+     "w": "de",
+     "start": 22.745,
+     "end": 22.807
+    },
+    {
+     "w": "maduración:",
+     "start": 22.87,
+     "end": 23.594
+    },
+    {
+     "w": "cierran",
+     "start": 23.625,
+     "end": 23.877
+    },
+    {
+     "w": "la",
+     "start": 23.94,
+     "end": 24.002
+    },
+    {
+     "w": "puerta",
+     "start": 24.034,
+     "end": 24.547
+    },
+    {
+     "w": "y",
+     "start": 24.59,
+     "end": 24.631
+    },
+    {
+     "w": "sueltan",
+     "start": 24.694,
+     "end": 25.009
+    },
+    {
+     "w": "etileno.",
+     "start": 25.072,
+     "end": 25.444
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "amazed",
+   "start": 25.564,
+   "end": 30.656,
+   "words": [
+    {
+     "w": "Muy",
+     "start": 25.657,
+     "end": 25.985
+    },
+    {
+     "w": "poquito:",
+     "start": 25.985,
+     "end": 26.858
+    },
+    {
+     "w": "de",
+     "start": 26.858,
+     "end": 27.077
+    },
+    {
+     "w": "100",
+     "start": 27.077,
+     "end": 27.405
+    },
+    {
+     "w": "a",
+     "start": 27.405,
+     "end": 27.514
+    },
+    {
+     "w": "150",
+     "start": 27.514,
+     "end": 27.841
+    },
+    {
+     "w": "partes",
+     "start": 27.841,
+     "end": 28.497
+    },
+    {
+     "w": "por",
+     "start": 28.497,
+     "end": 28.825
+    },
+    {
+     "w": "millón,",
+     "start": 28.825,
+     "end": 29.589
+    },
+    {
+     "w": "uno",
+     "start": 29.589,
+     "end": 29.917
+    },
+    {
+     "w": "o",
+     "start": 29.917,
+     "end": 30.026
+    },
+    {
+     "w": "dos",
+     "start": 30.026,
+     "end": 30.354
+    },
+    {
+     "w": "días.",
+     "start": 30.354,
+     "end": 30.656
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "sarcastic",
+   "start": 30.776,
+   "end": 34.24,
+   "words": [
+    {
+     "w": "Alguien",
+     "start": 30.893,
+     "end": 31.048
+    },
+    {
+     "w": "me",
+     "start": 31.116,
+     "end": 31.184
+    },
+    {
+     "w": "preguntó:",
+     "start": 31.252,
+     "end": 31.661
+    },
+    {
+     "w": "¿gas",
+     "start": 32.001,
+     "end": 32.205
+    },
+    {
+     "w": "en",
+     "start": 32.239,
+     "end": 32.273
+    },
+    {
+     "w": "la",
+     "start": 32.341,
+     "end": 32.409
+    },
+    {
+     "w": "fruta?",
+     "start": 32.477,
+     "end": 32.919
+    },
+    {
+     "w": "¿Eso",
+     "start": 33.089,
+     "end": 33.293
+    },
+    {
+     "w": "no",
+     "start": 33.361,
+     "end": 33.429
+    },
+    {
+     "w": "es",
+     "start": 33.463,
+     "end": 33.497
+    },
+    {
+     "w": "química",
+     "start": 33.565,
+     "end": 33.837
+    },
+    {
+     "w": "rara?",
+     "start": 33.906,
+     "end": 34.24
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "chuckles",
+   "start": 34.36,
+   "end": 39.611,
+   "words": [
+    {
+     "w": "Es",
+     "start": 34.96,
+     "end": 35.16
+    },
+    {
+     "w": "la",
+     "start": 35.227,
+     "end": 35.293
+    },
+    {
+     "w": "misma",
+     "start": 35.36,
+     "end": 35.493
+    },
+    {
+     "w": "hormona",
+     "start": 35.56,
+     "end": 35.827
+    },
+    {
+     "w": "que",
+     "start": 35.893,
+     "end": 35.96
+    },
+    {
+     "w": "fabrica",
+     "start": 36.093,
+     "end": 36.271
+    },
+    {
+     "w": "el",
+     "start": 36.316,
+     "end": 36.36
+    },
+    {
+     "w": "plátano",
+     "start": 36.393,
+     "end": 36.693
+    },
+    {
+     "w": "para",
+     "start": 36.76,
+     "end": 36.827
+    },
+    {
+     "w": "madurar.",
+     "start": 36.893,
+     "end": 37.76
+    },
+    {
+     "w": "Solo",
+     "start": 37.827,
+     "end": 37.96
+    },
+    {
+     "w": "le",
+     "start": 38.027,
+     "end": 38.093
+    },
+    {
+     "w": "dan",
+     "start": 38.46,
+     "end": 38.849
+    },
+    {
+     "w": "un",
+     "start": 38.871,
+     "end": 38.901
+    },
+    {
+     "w": "empujoncito.",
+     "start": 38.96,
+     "end": 39.611
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "curious",
+   "start": 39.732,
+   "end": 42.86,
+   "words": [
+    {
+     "w": "El",
+     "start": 39.838,
+     "end": 39.868
+    },
+    {
+     "w": "truco",
+     "start": 39.932,
+     "end": 40.065
+    },
+    {
+     "w": "de",
+     "start": 40.132,
+     "end": 40.198
+    },
+    {
+     "w": "casa:",
+     "start": 40.287,
+     "end": 40.798
+    },
+    {
+     "w": "en",
+     "start": 40.865,
+     "end": 40.932
+    },
+    {
+     "w": "una",
+     "start": 40.998,
+     "end": 41.065
+    },
+    {
+     "w": "bolsa",
+     "start": 41.098,
+     "end": 41.332
+    },
+    {
+     "w": "de",
+     "start": 41.365,
+     "end": 41.398
+    },
+    {
+     "w": "papel,",
+     "start": 41.465,
+     "end": 42.109
+    },
+    {
+     "w": "con",
+     "start": 42.154,
+     "end": 42.198
+    },
+    {
+     "w": "una",
+     "start": 42.265,
+     "end": 42.332
+    },
+    {
+     "w": "manzana.",
+     "start": 42.398,
+     "end": 42.86
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 42.98,
+   "end": 45.561,
+   "words": [
+    {
+     "w": "Etiqueta",
+     "start": 43.137,
+     "end": 43.42
+    },
+    {
+     "w": "a",
+     "start": 43.436,
+     "end": 43.466
+    },
+    {
+     "w": "tu",
+     "start": 43.467,
+     "end": 43.497
+    },
+    {
+     "w": "amigo",
+     "start": 43.546,
+     "end": 43.735
+    },
+    {
+     "w": "que",
+     "start": 43.829,
+     "end": 43.923
+    },
+    {
+     "w": "siempre",
+     "start": 43.986,
+     "end": 44.301
+    },
+    {
+     "w": "se",
+     "start": 44.332,
+     "end": 44.363
+    },
+    {
+     "w": "los",
+     "start": 44.426,
+     "end": 44.552
+    },
+    {
+     "w": "come",
+     "start": 44.615,
+     "end": 45.118
+    },
+    {
+     "w": "verdes.",
+     "start": 45.181,
+     "end": 45.561
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "warm",
+   "start": 45.681,
+   "end": 48.172,
+   "words": [
+    {
+     "w": "¡Hasta",
+     "start": 45.729,
+     "end": 45.95
+    },
+    {
+     "w": "luego!",
+     "start": 46.018,
+     "end": 46.557
+    },
+    {
+     "w": "Dale",
+     "start": 46.759,
+     "end": 46.893
+    },
+    {
+     "w": "a",
+     "start": 46.927,
+     "end": 46.961
+    },
+    {
+     "w": "me",
+     "start": 46.994,
+     "end": 47.028
+    },
+    {
+     "w": "gusta",
+     "start": 47.095,
+     "end": 47.499
+    },
+    {
+     "w": "y",
+     "start": 47.533,
+     "end": 47.567
+    },
+    {
+     "w": "síguenos.",
+     "start": 47.634,
+     "end": 48.172
+    }
+   ]
+  }
+ ]
+}

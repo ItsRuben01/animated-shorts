@@ -1,6 +1,6 @@
 ---
 name: animated-shorts
-description: Make viral animated Shorts (2D cartoon characters in a 3D world) entirely in code with three.js + Remotion, a free Kokoro voice and code-made music. Clone the style of ANY animated channel by measuring it, write the story, voice it, build it, check stills, render a 9:16 Short and a 16:9 version, generate high-CTR thumbnails via thumbnails-hooks, and package it. Use when the user says "download their shorts", "measure the style", "turn this into a skill", "give me ideas", "write the script", "make the voice", "build the video", "make it yours", "make the long version", "make thumbnails", "package it", or "something looks off in shot N".
+description: Make viral animated Shorts (2D cartoon characters in a 3D world) entirely in code with three.js + Remotion, a free Kokoro voice and code-made music. Clone the style of ANY animated channel by measuring it, write the story, voice it, build it, check stills, render a 9:16 Short and a 16:9 version, generate high-CTR thumbnails via thumbnails-hooks, and package it. ALWAYS run the performance-review skill (Step 0) first for any new video. Use when the user says "new video", "nuevo vídeo", "download their shorts", "measure the style", "turn this into a skill", "give me ideas", "write the script", "make the voice", "build the video", "make it yours", "make the long version", "make thumbnails", "package it", or "something looks off in shot N".
 ---
 
 # Animated Shorts (free skill)
@@ -16,6 +16,12 @@ Everything is made on this computer: no AI video generator, no paid voice, no st
 Always work inside this project folder. One episode = `episodes/epN/` + `src/epN/` (or `episodes/epN_en/` + `episodes/epN_es/` sharing `src/epN/` when producing bilingual versions). Start a **new chat for every new video** (one video fills a lot of memory).
 
 ## The commands
+
+### 0. "Performance check" — MANDATORY before every new episode
+Before ideas (Step 4) or script (Step 5) of any new video, **read and execute `.claude/skills/performance-review/SKILL.md`**: it pulls the real stats of the previous videos from Instagram, TikTok and YouTube (Windsor.ai connector), updates `insights/playbook.md` and writes a `## Performance brief` at the top of `episodes/epN/story.md`.
+- The brief **overrides** the generic numbers in this skill when they conflict (duration, hook, CTA, topic choice). Example: if the playbook says "45–55 s, max 60 s", cut script steps until `timing.json` lands there; never speed up the voice to fit.
+- Each episode tests **one** experiment from `Hipótesis en prueba`; write it in the brief.
+- If the connector is unavailable, read the existing `insights/playbook.md`, apply it, and tell the user the stats could not be refreshed.
 
 ### 1. "Download their 20 most popular Shorts from <channel link>"
 `yt-dlp --flat-playlist -I 1:60 --print "%(view_count)s %(id)s" "<link>/shorts"`, sort by views, take the top 20, then
@@ -38,10 +44,16 @@ Write it all into `styles/<channel>.md` with the numbers. Every rule must be a n
 Create `.claude/skills/<channel>-style/SKILL.md` that says: use the animated-shorts workflow, with the look in `styles/<channel>.md`, and lists the exact engine settings that produce it (the `Look` values: sun, hemi, fog, exposure, aperture, ink, warm/cool, saturation; caption size and position; voice speed; shot length). Test it by building one still of a sample shot and comparing it with a frame from the channel side by side. Fix the numbers until they match.
 
 ### 4. "Give me 10 ideas" (or use the master prompt in claude.ai)
-Ten true, strange, visual stories that fit the channel. For each one, **search YouTube** for the topic and write down the biggest Short and long video on it. If a Short already has millions of views on the same story, drop it (someone told it already). Pick one with a clear twist.
+Ten true, strange, visual stories that fit the channel, **ranked against the active rules in `insights/playbook.md`** (say for each idea which rule it satisfies and which topic family it belongs to). For each one, **search YouTube** for the topic and write down the biggest Short and long video on it. If a Short already has millions of views on the same story, drop it (someone told it already). Pick one with a clear twist.
 - **Creative Angle Lock — Mischievous Double-Entendre Hook + Real Process ("Humor Travieso Filtrado"):**
   - Every Short MUST start with a cheeky, absurd, naughty-sounding, or dark-humor double-entendre hook about an everyday object, food, or industrial/mechanical process (e.g., cucumbers/pickles, sausages, nuts & bolts, lubrication, pressure valves, bananas, cream filling, bananas/melons) that grabs 100% attention in the first 3 seconds, **strictly filtered with clean, literal, platform-safe vocabulary** so it NEVER triggers TikTok/Reels/YouTube demonetization or community strikes.
-  - Immediately pivot with deadpan documentary seriousness into the **100% real, accurate industrial, mechanical, or scientific manufacturing process** behind that object, sneaking in subtle, family-friendly winks (e.g., *"aquí el tamaño no importa"*, *"entra a presión"*) and ending with a viral **"tag/send this to your friend who..."** CTA.
+  - Immediately pivot with a knowing, playful authority (the narrator enjoys the joke, never reads flat) into the **100% real, accurate industrial, mechanical, or scientific manufacturing process** behind that object, sneaking in subtle, family-friendly winks (e.g., *"aquí el tamaño no importa"*, *"entra a presión"*) and ending with a viral **"tag/send this to your friend who..."** CTA.
+- **Short-form demand check (MANDATORY before choosing the topic — added 2026-11-27 after ep11):** a topic can have millions of views in long videos and none in Shorts (ep11: long videos 5.5 M / 3.7 M, best Short on the same story 678 views). Before writing the script:
+  1. **YouTube Shorts:** `yt-dlp --flat-playlist --print "%(view_count)s|%(duration)s|%(id)s|%(title)s" "ytsearch25:<topic> shorts"` in EN and ES (2–3 phrasings each). Keep only rows with duration ≤ 70 s, sort by views, write the top 3 in `story.md`.
+  2. **Adjacent angle:** also search the most visual version of the topic (e.g. "tire explodes" for airplane tires). If the adjacent angle has the views and the explainer doesn't, build the hook on that angle.
+  3. **TikTok + Instagram:** they cannot be measured from here (no public search with views; Windsor only reads our own accounts). Ask the user to search the topic in both apps and report the top views, or say clearly in `story.md` that they were not checked. Never claim a topic is "trending" without these numbers.
+  4. **Threshold:** if no Short/Reel/TikTok on the topic or its adjacent angle passes **100 K views**, flag it to the user as "demanda corta sin probar" and propose an alternative before writing; only continue if they confirm.
+  5. Write the result in `story.md` under `## Validación del tema` (Shorts top 3, adjacent angle top 3, TikTok/IG status, verdict).
 - **YouTube Validation & 4X Feasibility:**
   1. Check search demand, existing views, and Tier-1 (US/UK/CA) high-RPM potential vs. Spanish-market competition. Explicitly confirm whether the topic works for **4X Production** (a specific Short + a broader generic 6–10 min Long video covering the underlying industrial/food/mechanical engineering process) or **Shorts only**. Record the top reference video URL/ID and its title in `episodes/epN/story.md` so Step 10 can audit its thumbnail.
   2. When pitching ideas, always provide: (a) the cheeky filtered double-entendre opening line, (b) the real industrial/technical steps, (c) the viral "tag your friend" angle, (d) the broader 6–10 min Long video topic, and (e) the **comment keyword** + what the viewer gets by DM (see "Comment-Keyword CTA" below).
@@ -49,8 +61,9 @@ Ten true, strange, visual stories that fit the channel. For each one, **search Y
 ### 5. "Write the script"
 Write `episodes/epN/story.md` in the measured style:
 - **First line (Cheeky Double-Entendre Hook):** Open immediately (0:00–0:05) with an absurd, mischievous, or double-meaning question/statement using 100% innocent literal words (no explicit profanity, no banned words, completely safe for monetization).
-- **Deadpan Pivot & Escalation:** Transition immediately with serious documentary authority (*"No te preocupes, hoy te traigo la solución..."* / *"Don't worry, today I have the solution..."*), define the everyday object literally while keeping subtle wordplay, and break down the **real step-by-step industrial, chemical, or mechanical process** with concrete measurements.
+- **Playful Pivot & Escalation:** Transition immediately with playful, confident authority (a smile in the voice) (*"No te preocupes, hoy te traigo la solución..."* / *"Don't worry, today I have the solution..."*), define the everyday object literally while keeping subtle wordplay, and break down the **real step-by-step industrial, chemical, or mechanical process** with concrete measurements.
 - **Viral Friend-Tag & Loop Twist:** End the explanation by connecting the final packaged/finished product directly to **"your friend who is obsessed with [object]"** to trigger shares and comments, followed by a crisp sign-off asking for a like and follow.
+- **Respect the Performance brief** at the top of `story.md` (Step 0): target duration, hook pattern, CTA and the episode experiment. If the 10-step blueprint below does not fit the target duration, merge or drop steps (keep hook, proof, friend-tag CTA).
 - Match the channel's measured pace (about 3.5–3.7 words per second, roughly 160–220 words for a 45–60 second Short). Set the voice speed so `timing.json` lands on it.
 - **Fact check every claim** about the industrial/technical process and put the sources in a table at the bottom of `story.md`.
 - **Bilingual 4X Scripting & High-Retention Blueprint:** When producing bilingual versions, write **native adaptations** (never literal translations, adapting local idioms and double-entendres naturally) for both **English (`epN_en`)** and **Spanish (`epN_es`)** using this retention structure:
@@ -73,23 +86,28 @@ Write `episodes/epN/story.md` in the measured style:
 Every video asks viewers to **comment one keyword** and promises an automatic reply by DM (references: `styles/cta/ref_comenta_palabra.png`, `styles/cta/ref_respuesta_dm.png`; engine check: `styles/cta/check_typed.png`, `styles/cta/check_reply.png` — a phone in the set: comments sheet, the keyword typed on the keyboard with the key lighting up orange, send, then a DM notification "*<channel> · mensaje* — ¡Aquí lo tienes: …!" with a video preview). Comments are the strongest ranking signal on Shorts/Reels/TikTok and the DM moves the viewer to the Long video.
 - **Keyword:** ONE word, UPPERCASE, tied to the episode's object or process (`PEPINILLO`, `AUTOMÁTICO`, `SALMUERA`; EN `PICKLE`, `AUTOMATIC`). Max 12 letters so it fits the input field. Use a native word per language — never translate literally if the EN word is weak.
 - **Promise (must be real):** what arrives by DM is the Long video (Case A) or a concrete extra (the full process "por dentro", the source table, the next part). Never promise something that doesn't exist; `upload.md` must say what the auto-reply sends.
-- **Voice line (2.5–4 s, emotion `enthusiastic`), placed right after the friend-tag and before the goodbye:**
+- **Voice line (2.5–4 s, emotion `excited`), placed right after the friend-tag and before the goodbye:**
   - *ES:* *"Comenta «PEPINILLO» y te mando por privado cómo funciona toda la fábrica por dentro."* / short form *"Comenta «PEPINILLO» y te lo enseño por dentro todo."*
   - *EN:* *"Comment «PICKLE» and I'll DM you the whole factory, step by step."*
   - The hook may tease it too (*"…y al final te digo qué comentar para verlo entero"*) — optional, only if it doesn't slow the first 3 s.
-- **`shots.json`:** add a `cta` object to that shot: `{"id": 19, "text": "Comenta «PEPINILLO» y te lo enseño todo por dentro.", "emotion": "enthusiastic", "cta": {"keyword": "PEPINILLO", "reply": "¡Aquí lo tienes: el pepinillo por dentro!", "channel": "nebuu3d", "mode": "both"}}`. `mode`: `"both"` (type + send + DM reply in one shot, ≥ 2.8 s), or split over two shots: `"type"` on the "Comenta «X»" line and `"reply"` on the following line (as in the two references). `reply` ≤ 45 characters (2 lines). Optional `headline` overrides "Comenta"/"Comment".
+- **`shots.json`:** add a `cta` object to that shot: `{"id": 19, "text": "Comenta «PEPINILLO» y te lo enseño todo por dentro.", "emotion": "excited", "cta": {"keyword": "PEPINILLO", "reply": "¡Aquí lo tienes: el pepinillo por dentro!", "channel": "nebuu3d", "mode": "both"}}`. `mode`: `"both"` (type + send + DM reply in one shot, ≥ 2.8 s), or split over two shots: `"type"` on the "Comenta «X»" line and `"reply"` on the following line (as in the two references). `reply` ≤ 45 characters (2 lines). Optional `headline` overrides "Comenta"/"Comment".
 - **Captions:** the caption for the keyword must show it with the guillemets (`«PEPINILLO»`) so the word is readable on screen even with sound off.
-- **Character Voice Casting & Emotion Direction:** Include a casting header in `story.md` defining characters, Kokoro draft IDs, ElevenLabs master IDs, and per-shot emotional tags. Use a **serious documentary narrator** (`em_alex` / `David Martin` in ES; `am_michael` / `Brian` in EN) to maximize contrast with the absurd double-entendre humor:
-  - Arc: `[intriguing]` (cheeky hook) → `[analytical]` (deadpan literal definition) → `[curious]` / `[serious]` (industrial steps) → `[chuckles]` / `[amazed]` (wink & transformation) → `[enthusiastic]` / `[warm]` (friend-tag & outro).
-
+- **Character Voice Casting & Emotion Direction:** Include a casting header in `story.md` defining characters, Kokoro draft IDs, ElevenLabs master IDs, and per-shot emotional tags. The narrator is an **expressive, complicit storyteller** (`em_alex` draft / **`Nebu`** master in ES — the channel owner's cloned voice, ElevenLabs id `rHTtFjgYAGnQOQw7Alsk`, used for every ES episode from ep12 on; `am_michael` / `Brian` in EN), NOT a flat documentary voice: a flat read bores the viewer and kills retention. The humor comes from a narrator who *enjoys* the double meaning (a cheeky smile in the voice, a pause before the punchline, a little laugh after it), while the technical facts are told with drama and wonder:
+  - Arc: `[mischievously]` hook → `[playful]` / `[curious]` setup → `[dramatic]` / `[suspense]` industrial steps and risks → `[chuckles]` / `[laughs]` / `[sarcastic]` winks → `[amazed]` / `[shocked]` reveal → `[excited]` friend-tag → `[warm]` outro.
 Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `episodes/epN_es/shots.json` for bilingual runs): one line of voice per shot (`{"id", "text", "say"?, "speaker"?, "emotion"?, "comment"?: {"username", "avatarStyle"?, "seed"?, "question"}, "cta"?: {"keyword", "reply", "channel"?, "mode"?, "headline"?}}`; `say` = how numbers are spoken, e.g. "eighteen_seventy-five" for "1875").
 
 ### 6. "Make the voice"
 
 **A. Voice bible + emotional arc (before generating audio)**
 - Add a casting header in `story.md`: character, age/attitude, pacing, allowed emotions, pronunciation notes, forbidden flat reads.
-- Mark every shot in `shots.json`: `{"id","text","say?","sayTts?","voice?","emotion?","model?","speed?","stability?","style?","gap?"}`. `text` stays clean for captions; `say` is phonetic display-safe; `sayTts` is TTS-only expressive text.
-- Require an arc, not a flat read: hook=`intrigued/curious`, setup=`analytical`, risk/process=`serious`, wink/reveal=`chuckles/amazed/enthusiastic`, close=`warm/proud`. If >3 consecutive shots share emotion+speed, rewrite direction.
+- Mark every shot in `shots.json`: `{"id","text","say?","sayTts?","emotion?","tag?","tempo?","model?","stability?","gap?"}`. `text` stays clean for captions; `say` is phonetic display-safe; `sayTts` is the TTS-only acting script (audio tags + expressive punctuation).
+- **No flat reads.** Never 3 shots in a row with the same emotion (the script warns). At least 60 % of shots carry an audio tag. Every joke gets a reaction: a pause (`...`) before the punchline and a `[chuckles]`/`[laughs]` on it or right after.
+- **Writing `sayTts` (this is where the feeling comes from):**
+  - Keep the **same words** as `text`/`say`; only add tags and punctuation. Extra words desync the captions.
+  - One tag at the start (`[excited]`), optionally one mid-line for a turn (`... [laughs] ¡Pues sí!`). Max 2 per shot.
+  - Punctuation is acting: `...` = held pause / suspense, `¡!` = energy, `¿...?` = real question intonation, a comma before the key number puts weight on it.
+  - Useful tags (English tags also work for Spanish text): `[mischievously] [playfully] [curious] [thoughtful] [dramatic] [whispers] [amazed] [gasps] [excited] [chuckles] [laughs] [sarcastic] [warmly] [proudly] [sighs]`.
+  - Example: `"text": "Pero también sueltan gas, y el pepinillo puede quedarse hueco por dentro."` → `"sayTts": "[whispers] Pero también sueltan gas... y el pepinillo puede quedarse hueco por dentro."`
 
 **B. Zero-cost Kokoro draft first**
 - `node scripts/voice.mjs epN <voice> <speed>` (EN `am_michael 1.05`, ES `em_alex 1.05-1.06`). Writes `public/epN/voice.wav` + `episodes/epN/timing.json`.
@@ -97,26 +115,36 @@ Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `epi
 
 **C. ElevenLabs master after visual validation**
 1. Generate Kokoro for `epN_en`/`epN_es` before visual iteration (zero credits).
-2. Only after step 7.2 `stills.mjs` passes 100%, check ElevenLabs credits/subscription.
-3. If credits are sufficient, render master with `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <voiceLabel> <baseSpeed> [modelId]`.
-  - `eleven_v3`: use audio tags in `sayTts`/emotion (`[whispers]`, `[chuckles]`, `[excited]`, `[serious]` as supported) for high acting range.
-  - `eleven_multilingual_v2`: no bracket tags; express emotion via punctuation, sentence shape, and per-shot settings.
-4. The script auto-applies emotion presets and sends `previous_text`/`next_text` for continuity; per-shot fields override presets.
+2. Only after step 7.2 `stills.mjs` passes 100%, run a **dry run** (free): it prints every line exactly as it will be sent, the direction warnings and the credit cost.
+   `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <voiceLabel> 1.0 --dry-run`
+3. Fix the warnings in `shots.json`, then render. Default model is **`eleven_v4`** (the most emotive: audio tags + previous/next context). The script checks the credits left before spending any.
+   `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <voiceLabel> 1.0 --target=<seconds>`
+   - `--target=70` sets the final length: the takes are sped up locally with ffmpeg `atempo` (pitch kept, free). Stay ≤ 1.2; if the script prints `atempo > 1.2`, **cut words from the script** instead of rushing the voice. Expressive reads are ~20 % slower than flat ones, so write ~15 % fewer words than for a Kokoro/v2 read (≈ 2.8–3.0 words/s final).
+   - `--out=<dir>` auditions a take without touching `public/<ep>` / `episodes/<ep>`.
+   - In the cloud, run Node with `NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=/root/.ccr/ca-bundle.crt` (the key is injected by the proxy). Locally the key comes from `ELEVENLABS_API_KEY` or the key file.
+   - `eleven_v3`: tags too, but no previous/next context (the script skips it) and stability snaps to 0 / 0.5 / 1. `eleven_multilingual_v2`: tags are stripped, emotion only through settings: flat, use only as a fallback.
+4. Every take is cached in `tmp/elevenlabs-cache/<ep>/` (git-ignored). Re-running costs 0 credits unless a shot's text/tag/settings changed. Old takes stay in the cache under other hashes.
+5. v3/v4 ignore `voice_settings.speed`, so the per-emotion rhythm is applied locally (`tempo` per shot, defaults below); `stability` is the acting knob: lower = more range.
 
-| Emotion | stability | similarity_boost | style | speed x |
-|---|---:|---:|---:|---:|
-| intrigued/curious | 0.30-0.35 | 0.78 | 0.50-0.55 | 1.00-1.02 |
-| analytical | 0.55 | 0.82 | 0.25 | 0.98 |
-| serious | 0.50 | 0.85 | 0.30 | 0.96 |
-| amazed/enthusiastic | 0.25-0.28 | 0.75-0.76 | 0.60-0.65 | 1.03-1.04 |
-| warm/proud | 0.42-0.45 | 0.80-0.82 | 0.35-0.40 | 0.98-0.99 |
+| Emotion | tag | stability | tempo x |
+|---|---|---:|---:|
+| intrigued / mischievous | `[mischievously]` | 0.28-0.30 | 0.97-0.98 |
+| curious / playful | `[curious]` / `[playfully]` | 0.28-0.32 | 1.00-1.02 |
+| analytical | `[thoughtful]` | 0.45 | 0.99 |
+| serious / dramatic | `[dramatic]` | 0.35-0.40 | 0.94-0.95 |
+| suspense | `[whispers]` | 0.35 | 0.93 |
+| amazed / shocked | `[amazed]` / `[gasps]` | 0.22-0.25 | 1.02-1.03 |
+| enthusiastic / excited | `[excited]` | 0.22 | 1.05-1.06 |
+| chuckles / laughs / sarcastic | `[chuckles]` / `[laughs]` / `[sarcastic]` | 0.25-0.32 | 0.98-1.00 |
+| warm / proud | `[warmly]` / `[proudly]` | 0.35-0.38 | 0.99-1.00 |
 
-5. After ElevenLabs pass: overwrite `public/<ep>/voice.wav`, **re-run/keep new `timing.json`**, re-check shot durations/captions, then render. Never touch previous episode audio.
+6. After the ElevenLabs pass: `public/<ep>/voice.wav` and `episodes/<ep>/timing.json` are overwritten. Re-check shot durations/captions, then render. Never touch previous episode audio.
 
 **D. Voice QA gate**
-- Listen hook, reveal, outro; confirm audible energy/rhythm change.
+- The script prints per shot `w/s` and `dyn` (loudness movement in dB) and lists shots with `dyn < 9 dB` as **possibly flat**, with the exact `--only=` command to re-take them. Reference: the old flat v2 master of ep7_es averaged 15.6 dB, the v4 expressive one 17.6–18.4 dB.
+- Listen to the hook, the punchlines, the reveal and the outro: there must be an audible smile, laugh or pause on every joke, and energy changes between steps.
 - Check no clipping, no mispronounced numbers/names, captions aligned to new timing.
-- If one shot is flat, regenerate only that shot with adjusted `emotion/sayTts/speed/stability`, then rebuild timing/audio.
+- If a shot is flat: change its `emotion`/`tag`/`sayTts` (or lower `stability`) and re-take only it: `--only=7,12` (the other shots come from the cache, 0 credits).
 
 ### 7. "Build the video"
 1. Write `src/epN/sets.tsx` (the places), `src/epN/cast.ts` (the characters) and `src/epN/shots.tsx` (one entry per shot: look, camera from/to, focus distance, who stands where). Copy `src/ep1/` as the example. Use the kit in `src/engine/kit.tsx` (Box, Cyl, Roof, House, Window, Lamp, Cab, Cart, Fire, Sign, Snow…) and add new pieces there when a story needs them.
@@ -154,6 +182,7 @@ Right after the script, voice, and video (`Short` and/or `Long`) are rendered, *
 - Follow every step inside `.claude/skills/thumbnails-hooks/SKILL.md` to audit the reference video's thumbnail & title (what to keep vs. improve), combine it with 10 current niche trends and your dual visual style (`cream` Editorial + `dark` CAD), generate `shot_short.png` / `shot_long.png`, and export the winning cover (`thumbnail_<mode>_<N>.png`) before moving to Step 11.
 
 ### 11. "Package it"
+In `upload.md`, write the exact title/first caption line used on every platform (the Step 0 review matches published videos to episodes by it) and the Performance-brief experiment being tested.
 Write `episodes/epN/upload.md`: a curiosity title under 60 characters (no clickbait the video doesn't pay off), a two-line description with the sources, 5 tags, a **"Comment-keyword automation" block** (keyword per language, the exact auto-reply DM text with the link it sends, and the pinned comment, e.g. *"Comenta PEPINILLO 👇 y te llega el vídeo completo por privado"*), and the winning exported thumbnail (`thumbnail_short_<N>.png` and/or `thumbnail_long_<N>.png`) generated by `.claude/skills/thumbnails-hooks/SKILL.md` in Step 10.
 - **Bilingual Channel Separation Rule:** When packaging `epN_en` and `epN_es` (4X deliverables: `Short_EN`, `Short_ES`, `Long_EN`, `Long_ES`), generate separate metadata blocks for **two dedicated language channels** (`EN` and `ES`). Never upload the exact same visual video in two different languages on the same channel on the same day (it tanks CTR/retention and triggers duplicate-content suppression); if using a single YouTube channel, upload only one video file and attach the second language via YouTube's native Multi-Language Audio track.
 

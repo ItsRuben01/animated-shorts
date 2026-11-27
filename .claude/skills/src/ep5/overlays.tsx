@@ -1,8 +1,6 @@
 import React from "react";
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
-
-const { fontFamily } = loadFont("normal", { weights: ["700", "900"], subsets: ["latin"] });
+import { fontFamily } from "../engine/font";
 
 export const CommentBubble: React.FC<{ text?: string }> = ({ text = "¿Pero qué tiene que ver una bola colgando con que no se caiga un edificio? 😂" }) => {
   const frame = useCurrentFrame();

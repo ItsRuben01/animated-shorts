@@ -1,0 +1,171 @@
+{
+  "cardWidth": 1080,
+  "cardHeight": 1920,
+  "hooks": [
+    {
+      "index": 1,
+      "archetype": "The Impossible Paradox",
+      "theme": "cream",
+      "topPill": "AVIACIÓN REAL",
+      "headlineTop": "SUS RUEDAS",
+      "headlineSerif": "NO LLEVAN AIRE",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_1.png",
+      "bottomPill": "N₂",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      },
+      "characterSide": "right",
+      "arrow": true
+    },
+    {
+      "index": 2,
+      "archetype": "Big Number Centerpiece",
+      "theme": "cream",
+      "topPill": "PRESIÓN",
+      "headlineTop": "6 VECES",
+      "headlineSerif": "TU COCHE",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_2.png",
+      "bigMetric": "14 bar",
+      "bottomPill": "NITRÓGENO"
+    },
+    {
+      "index": 3,
+      "archetype": "CAD Selection Box Mystery",
+      "theme": "dark",
+      "topPill": "POR DENTRO",
+      "headlineTop": "EL GAS",
+      "headlineSerif": "PROHIBIDO",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_4.png",
+      "bottomPill": "21 % O₂",
+      "stampText": "OXÍGENO"
+    },
+    {
+      "index": 4,
+      "archetype": "Stop Paying / Stop Doing X",
+      "theme": "cream",
+      "topPill": "NI SE TE OCURRA",
+      "headlineTop": "NO LA INFLES",
+      "headlineSerif": "A PULMÓN",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_5.png",
+      "bottomPill": "N₂",
+      "characterPose": "pointing",
+      "characterSpec": {
+        "hat": "cap",
+        "hatColor": "#2f4e8a",
+        "outfit": "hivis",
+        "coat": "#3f6f9a",
+        "headphones": true,
+        "face": "smirk",
+        "pants": "#2c3550",
+        "toolbelt": true
+      }
+    },
+    {
+      "index": 5,
+      "archetype": "Before vs. After / Myth vs. Reality",
+      "theme": "dark",
+      "topPill": "MITO / REALIDAD",
+      "headlineTop": "¿AIRE",
+      "headlineSerif": "O NITRÓGENO?",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_4.png",
+      "bottomPill": "78 % N₂"
+    },
+    {
+      "index": 6,
+      "archetype": "1-Line / 1-Piece Secret",
+      "theme": "cream",
+      "topPill": "LA NORMA",
+      "headlineTop": "MENOS DE",
+      "headlineSerif": "UN 5 %",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_1.png",
+      "bigMetric": "< 5 %",
+      "bottomPill": "DE OXÍGENO",
+      "characterPose": "amazed",
+      "characterSpec": {
+        "hat": "cap",
+        "hatColor": "#2f4e8a",
+        "outfit": "hivis",
+        "coat": "#3f6f9a",
+        "headphones": true,
+        "face": "smirk",
+        "pants": "#2c3550",
+        "toolbelt": true
+      }
+    },
+    {
+      "index": 7,
+      "archetype": "The Price / Scale Shock",
+      "theme": "dark",
+      "topPill": "AL ATERRIZAR",
+      "headlineTop": "60 TONELADAS",
+      "headlineSerif": "SOBRE GOMA",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_1.png",
+      "bigMetric": "> 60 t",
+      "bottomPill": "FRENOS ARDIENDO"
+    },
+    {
+      "index": 8,
+      "archetype": "Time-Limit Challenge",
+      "theme": "dark",
+      "topPill": "EN UN FRENAZO",
+      "headlineTop": "LA GOMA",
+      "headlineSerif": "SUELTA GASES",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_3.png",
+      "bigMetric": "🔥",
+      "footerHandwritten": "¡y con oxígeno, pum!"
+    },
+    {
+      "index": 9,
+      "archetype": "Hidden Error / What Went Wrong",
+      "theme": "cream",
+      "topPill": "CASO REAL · 1986",
+      "headlineTop": "UNA RUEDA",
+      "headlineSerif": "CON AIRE…",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_3.png",
+      "bottomPill": "EXPLOTÓ EN VUELO",
+      "stampText": "ERROR",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      }
+    },
+    {
+      "index": 10,
+      "archetype": "The 4th Missing Piece",
+      "theme": "dark",
+      "topPill": "3 + 1",
+      "headlineTop": "60 t, 14 bar",
+      "headlineSerif": "Y UN GAS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep11_es/short_ref_2.png",
+      "bigMetric": "?",
+      "bottomPill": "RUEDAS DE AVIÓN"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "cardWidth": 1080,
+  "cardHeight": 1920,
+  "hooks": [
+    {
+      "index": 1,
+      "archetype": "The Impossible Paradox",
+      "theme": "cream",
+      "topPill": "REAL PROCESS",
+      "headlineTop": "NOBODY CUTS",
+      "headlineSerif": "THIS THREAD",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_1.png",
+      "bottomPill": "IT'S PRESSED IN",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      },
+      "characterSide": "right",
+      "arrow": true
+    },
+    {
+      "index": 2,
+      "archetype": "Big Number Centerpiece",
+      "theme": "cream",
+      "topPill": "NO BLADE",
+      "headlineTop": "SCREWS",
+      "headlineSerif": "PER MINUTE",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_3.png",
+      "bigMetric": "500",
+      "bottomPill": "ONE PASS"
+    },
+    {
+      "index": 3,
+      "archetype": "CAD Selection Box Mystery",
+      "theme": "dark",
+      "topPill": "INSIDE",
+      "headlineTop": "THE STEEL'S",
+      "headlineSerif": "FIBERS",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_4.png",
+      "bottomPill": "+30 %",
+      "stampText": "SLICED"
+    },
+    {
+      "index": 4,
+      "archetype": "Stop Paying / Stop Doing X",
+      "theme": "cream",
+      "topPill": "STOP",
+      "headlineTop": "OVER-TIGHTENING",
+      "headlineSerif": "EVERYTHING",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_5.png",
+      "bottomPill": "@ YOUR FRIEND",
+      "characterPose": "pointing",
+      "characterSpec": {
+        "hat": "hardhat",
+        "hatColor": "#4fa86a",
+        "goggles": true,
+        "outfit": "overalls",
+        "denim": "#2f5a8a",
+        "coat": "#d8dce2",
+        "face": "smirk",
+        "pants": "#2f5a8a",
+        "gloves": "#2a2a30"
+      }
+    },
+    {
+      "index": 5,
+      "archetype": "Before vs. After / Myth vs. Reality",
+      "theme": "dark",
+      "topPill": "BEFORE / AFTER",
+      "headlineTop": "GOES IN SMOOTH",
+      "headlineSerif": "COMES OUT THREADED",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_2.png",
+      "bottomPill": "0 g LOST"
+    },
+    {
+      "index": 6,
+      "archetype": "1-Line / 1-Piece Secret",
+      "theme": "cream",
+      "topPill": "THE 4TH DETAIL",
+      "headlineTop": "STRONGER",
+      "headlineSerif": "WITHOUT CUTTING",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_4.png",
+      "bigMetric": "+30 %",
+      "bottomPill": "ROLLED THREAD",
+      "characterPose": "amazed",
+      "characterSpec": {
+        "hat": "hardhat",
+        "hatColor": "#4fa86a",
+        "goggles": true,
+        "outfit": "overalls",
+        "denim": "#2f5a8a",
+        "coat": "#d8dce2",
+        "face": "smirk",
+        "pants": "#2f5a8a",
+        "gloves": "#2a2a30"
+      }
+    },
+    {
+      "index": 7,
+      "archetype": "The Price / Scale Shock",
+      "theme": "dark",
+      "topPill": "PRESSED",
+      "headlineTop": "TWO STEEL",
+      "headlineSerif": "DIES",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_1.png",
+      "bigMetric": "500/min",
+      "bottomPill": "ZERO CHIPS"
+    },
+    {
+      "index": 8,
+      "archetype": "Time-Limit Challenge",
+      "theme": "dark",
+      "topPill": "ONE PASS",
+      "headlineTop": "THREAD DONE",
+      "headlineSerif": "IN A SECOND",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_1.png",
+      "bigMetric": "< 1 s",
+      "footerHandwritten": "and no blade!"
+    },
+    {
+      "index": 9,
+      "archetype": "Hidden Error / What Went Wrong",
+      "theme": "cream",
+      "topPill": "COMMON MISTAKE",
+      "headlineTop": "CUTTING THREADS",
+      "headlineSerif": "WEAKENS THEM",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_4.png",
+      "bottomPill": "SLICED FIBERS",
+      "stampText": "ERROR",
+      "characterPose": "shocked",
+      "characterSpec": {
+        "hat": "none",
+        "outfit": "plaid",
+        "coat": "#d45a4a",
+        "plaid": "#7a2a22",
+        "hair": "#4a2e1e",
+        "hairline": "mop",
+        "face": "troll",
+        "pants": "#2f4e8a",
+        "freckles": true
+      }
+    },
+    {
+      "index": 10,
+      "archetype": "The 4th Missing Piece",
+      "theme": "dark",
+      "topPill": "3 + 1",
+      "headlineTop": "WIRE, BLOWS",
+      "headlineSerif": "AND PRESSURE",
+      "highlightBox": true,
+      "refImage": "thumb_refs/ep12_en/short_ref_3.png",
+      "bigMetric": "?",
+      "bottomPill": "SCREWS"
+    }
+  ]
+}

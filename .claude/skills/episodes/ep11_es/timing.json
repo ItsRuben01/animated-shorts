@@ -1,0 +1,779 @@
+{
+ "voice": "David Martin",
+ "model": "eleven_v4",
+ "speed": 1,
+ "tempo": 1.2,
+ "total": 46.666,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "intrigued",
+   "start": 0,
+   "end": 3.371,
+   "words": [
+    {
+     "w": "¿Por",
+     "start": 0.017,
+     "end": 0.162
+    },
+    {
+     "w": "qué",
+     "start": 0.231,
+     "end": 0.3
+    },
+    {
+     "w": "las",
+     "start": 0.368,
+     "end": 0.506
+    },
+    {
+     "w": "ruedas",
+     "start": 0.575,
+     "end": 0.918
+    },
+    {
+     "w": "de",
+     "start": 0.953,
+     "end": 0.987
+    },
+    {
+     "w": "un",
+     "start": 1.056,
+     "end": 1.124
+    },
+    {
+     "w": "avión",
+     "start": 1.193,
+     "end": 2.052
+    },
+    {
+     "w": "NO",
+     "start": 2.155,
+     "end": 2.224
+    },
+    {
+     "w": "se",
+     "start": 2.293,
+     "end": 2.43
+    },
+    {
+     "w": "inflan",
+     "start": 2.499,
+     "end": 2.774
+    },
+    {
+     "w": "con",
+     "start": 2.843,
+     "end": 2.98
+    },
+    {
+     "w": "aire?",
+     "start": 3.118,
+     "end": 3.371
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "curious",
+   "start": 3.721,
+   "end": 7.983,
+   "words": [
+    {
+     "w": "Más",
+     "start": 3.835,
+     "end": 3.968
+    },
+    {
+     "w": "de",
+     "start": 4.002,
+     "end": 4.035
+    },
+    {
+     "w": "60",
+     "start": 4.102,
+     "end": 4.502
+    },
+    {
+     "w": "toneladas,",
+     "start": 4.568,
+     "end": 5.302
+    },
+    {
+     "w": "frenos",
+     "start": 5.368,
+     "end": 5.635
+    },
+    {
+     "w": "ardiendo…",
+     "start": 5.702,
+     "end": 6.502
+    },
+    {
+     "w": "y",
+     "start": 6.568,
+     "end": 6.635
+    },
+    {
+     "w": "un",
+     "start": 6.702,
+     "end": 6.768
+    },
+    {
+     "w": "gas",
+     "start": 6.835,
+     "end": 7.035
+    },
+    {
+     "w": "que",
+     "start": 7.102,
+     "end": 7.168
+    },
+    {
+     "w": "lo",
+     "start": 7.235,
+     "end": 7.302
+    },
+    {
+     "w": "cambia",
+     "start": 7.335,
+     "end": 7.635
+    },
+    {
+     "w": "todo.",
+     "start": 7.702,
+     "end": 7.983
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "analytical",
+   "start": 8.103,
+   "end": 11.223,
+   "words": [
+    {
+     "w": "Cada",
+     "start": 8.16,
+     "end": 8.305
+    },
+    {
+     "w": "rueda",
+     "start": 8.373,
+     "end": 8.575
+    },
+    {
+     "w": "va",
+     "start": 8.642,
+     "end": 8.709
+    },
+    {
+     "w": "a",
+     "start": 8.743,
+     "end": 8.777
+    },
+    {
+     "w": "14",
+     "start": 8.844,
+     "end": 9.181
+    },
+    {
+     "w": "bares:",
+     "start": 9.248,
+     "end": 9.921
+    },
+    {
+     "w": "seis",
+     "start": 9.989,
+     "end": 10.191
+    },
+    {
+     "w": "veces",
+     "start": 10.325,
+     "end": 10.595
+    },
+    {
+     "w": "tu",
+     "start": 10.662,
+     "end": 10.797
+    },
+    {
+     "w": "coche.",
+     "start": 10.864,
+     "end": 11.223
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "chuckles",
+   "start": 11.343,
+   "end": 14.557,
+   "words": [
+    {
+     "w": "Y",
+     "start": 11.543,
+     "end": 11.61
+    },
+    {
+     "w": "aquí",
+     "start": 11.743,
+     "end": 11.977
+    },
+    {
+     "w": "no",
+     "start": 12.01,
+     "end": 12.077
+    },
+    {
+     "w": "vale",
+     "start": 12.143,
+     "end": 12.343
+    },
+    {
+     "w": "soplar:",
+     "start": 12.377,
+     "end": 13.077
+    },
+    {
+     "w": "le",
+     "start": 13.143,
+     "end": 13.21
+    },
+    {
+     "w": "meten",
+     "start": 13.277,
+     "end": 13.477
+    },
+    {
+     "w": "nitrógeno",
+     "start": 13.51,
+     "end": 13.977
+    },
+    {
+     "w": "a",
+     "start": 14.01,
+     "end": 14.077
+    },
+    {
+     "w": "presión.",
+     "start": 14.277,
+     "end": 14.557
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "sarcastic",
+   "start": 14.677,
+   "end": 17.679,
+   "words": [
+    {
+     "w": "Alguien",
+     "start": 14.703,
+     "end": 14.976
+    },
+    {
+     "w": "me",
+     "start": 15.044,
+     "end": 15.078
+    },
+    {
+     "w": "escribió:",
+     "start": 15.112,
+     "end": 15.758
+    },
+    {
+     "w": "¿el",
+     "start": 15.928,
+     "end": 16.064
+    },
+    {
+     "w": "aire",
+     "start": 16.166,
+     "end": 16.268
+    },
+    {
+     "w": "no",
+     "start": 16.336,
+     "end": 16.404
+    },
+    {
+     "w": "es",
+     "start": 16.472,
+     "end": 16.54
+    },
+    {
+     "w": "casi",
+     "start": 16.574,
+     "end": 16.812
+    },
+    {
+     "w": "todo",
+     "start": 16.88,
+     "end": 17.084
+    },
+    {
+     "w": "nitrógeno?",
+     "start": 17.118,
+     "end": 17.679
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "analytical",
+   "start": 17.799,
+   "end": 22.764,
+   "words": [
+    {
+     "w": "Sí:",
+     "start": 17.867,
+     "end": 18.261
+    },
+    {
+     "w": "un",
+     "start": 18.261,
+     "end": 18.523
+    },
+    {
+     "w": "78",
+     "start": 18.523,
+     "end": 18.786
+    },
+    {
+     "w": "%.",
+     "start": 18.786,
+     "end": 19.049
+    },
+    {
+     "w": "El",
+     "start": 19.049,
+     "end": 19.311
+    },
+    {
+     "w": "problema",
+     "start": 19.311,
+     "end": 20.362
+    },
+    {
+     "w": "es",
+     "start": 20.362,
+     "end": 20.624
+    },
+    {
+     "w": "el",
+     "start": 20.624,
+     "end": 20.887
+    },
+    {
+     "w": "otro",
+     "start": 20.887,
+     "end": 21.412
+    },
+    {
+     "w": "21:",
+     "start": 21.412,
+     "end": 21.806
+    },
+    {
+     "w": "el",
+     "start": 21.806,
+     "end": 22.069
+    },
+    {
+     "w": "oxígeno.",
+     "start": 22.069,
+     "end": 22.764
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "serious",
+   "start": 22.884,
+   "end": 26.341,
+   "words": [
+    {
+     "w": "Al",
+     "start": 23,
+     "end": 23.03
+    },
+    {
+     "w": "frenar,",
+     "start": 23.094,
+     "end": 23.726
+    },
+    {
+     "w": "la",
+     "start": 23.796,
+     "end": 23.866
+    },
+    {
+     "w": "goma",
+     "start": 23.936,
+     "end": 24.147
+    },
+    {
+     "w": "se",
+     "start": 24.217,
+     "end": 24.287
+    },
+    {
+     "w": "calienta",
+     "start": 24.357,
+     "end": 25.199
+    },
+    {
+     "w": "y",
+     "start": 25.234,
+     "end": 25.27
+    },
+    {
+     "w": "suelta",
+     "start": 25.34,
+     "end": 25.761
+    },
+    {
+     "w": "gases.",
+     "start": 25.796,
+     "end": 26.341
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "shocked",
+   "start": 26.461,
+   "end": 31.057,
+   "words": [
+    {
+     "w": "Con",
+     "start": 27.115,
+     "end": 27.18
+    },
+    {
+     "w": "oxígeno,",
+     "start": 27.278,
+     "end": 27.932
+    },
+    {
+     "w": "esos",
+     "start": 27.965,
+     "end": 28.161
+    },
+    {
+     "w": "gases",
+     "start": 28.226,
+     "end": 28.553
+    },
+    {
+     "w": "pueden",
+     "start": 28.586,
+     "end": 28.814
+    },
+    {
+     "w": "arder…",
+     "start": 28.912,
+     "end": 29.566
+    },
+    {
+     "w": "y",
+     "start": 29.599,
+     "end": 29.631
+    },
+    {
+     "w": "la",
+     "start": 29.664,
+     "end": 29.729
+    },
+    {
+     "w": "rueda,",
+     "start": 29.795,
+     "end": 30.416
+    },
+    {
+     "w": "explotar.",
+     "start": 30.448,
+     "end": 31.057
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "suspense",
+   "start": 31.177,
+   "end": 36.987,
+   "words": [
+    {
+     "w": "En",
+     "start": 31.207,
+     "end": 31.446
+    },
+    {
+     "w": "1986,",
+     "start": 31.446,
+     "end": 32.043
+    },
+    {
+     "w": "en",
+     "start": 32.043,
+     "end": 32.282
+    },
+    {
+     "w": "México,",
+     "start": 32.282,
+     "end": 33.119
+    },
+    {
+     "w": "una",
+     "start": 33.119,
+     "end": 33.477
+    },
+    {
+     "w": "rueda",
+     "start": 33.477,
+     "end": 34.074
+    },
+    {
+     "w": "con",
+     "start": 34.074,
+     "end": 34.433
+    },
+    {
+     "w": "aire",
+     "start": 34.433,
+     "end": 34.911
+    },
+    {
+     "w": "explotó",
+     "start": 34.911,
+     "end": 35.747
+    },
+    {
+     "w": "en",
+     "start": 35.747,
+     "end": 35.986
+    },
+    {
+     "w": "pleno",
+     "start": 35.986,
+     "end": 36.583
+    },
+    {
+     "w": "vuelo.",
+     "start": 36.583,
+     "end": 36.987
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "serious",
+   "start": 37.107,
+   "end": 40.851,
+   "words": [
+    {
+     "w": "Por",
+     "start": 37.223,
+     "end": 37.522
+    },
+    {
+     "w": "eso",
+     "start": 37.522,
+     "end": 37.821
+    },
+    {
+     "w": "hoy",
+     "start": 37.821,
+     "end": 38.12
+    },
+    {
+     "w": "la",
+     "start": 38.12,
+     "end": 38.319
+    },
+    {
+     "w": "norma",
+     "start": 38.319,
+     "end": 38.817
+    },
+    {
+     "w": "es",
+     "start": 38.817,
+     "end": 39.016
+    },
+    {
+     "w": "menos",
+     "start": 39.016,
+     "end": 39.514
+    },
+    {
+     "w": "de",
+     "start": 39.514,
+     "end": 39.713
+    },
+    {
+     "w": "un",
+     "start": 39.713,
+     "end": 39.912
+    },
+    {
+     "w": "5",
+     "start": 39.912,
+     "end": 40.011
+    },
+    {
+     "w": "%",
+     "start": 40.011,
+     "end": 40.111
+    },
+    {
+     "w": "de",
+     "start": 40.111,
+     "end": 40.31
+    },
+    {
+     "w": "oxígeno.",
+     "start": 40.31,
+     "end": 40.851
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 40.971,
+   "end": 43.875,
+   "words": [
+    {
+     "w": "Etiqueta",
+     "start": 41.124,
+     "end": 41.407
+    },
+    {
+     "w": "a",
+     "start": 41.428,
+     "end": 41.458
+    },
+    {
+     "w": "tu",
+     "start": 41.47,
+     "end": 41.533
+    },
+    {
+     "w": "amigo",
+     "start": 41.596,
+     "end": 41.785
+    },
+    {
+     "w": "que",
+     "start": 41.848,
+     "end": 41.91
+    },
+    {
+     "w": "todavía",
+     "start": 41.973,
+     "end": 42.225
+    },
+    {
+     "w": "infla",
+     "start": 42.288,
+     "end": 42.476
+    },
+    {
+     "w": "las",
+     "start": 42.539,
+     "end": 42.602
+    },
+    {
+     "w": "ruedas",
+     "start": 42.634,
+     "end": 43.168
+    },
+    {
+     "w": "a",
+     "start": 43.231,
+     "end": 43.294
+    },
+    {
+     "w": "pulmón.",
+     "start": 43.357,
+     "end": 43.875
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "David Martin",
+   "model": "eleven_v4",
+   "emotion": "warm",
+   "start": 43.995,
+   "end": 46.546,
+   "words": [
+    {
+     "w": "¡Hasta",
+     "start": 44.037,
+     "end": 44.25
+    },
+    {
+     "w": "luego!",
+     "start": 44.284,
+     "end": 44.923
+    },
+    {
+     "w": "Dale",
+     "start": 45.058,
+     "end": 45.193
+    },
+    {
+     "w": "a",
+     "start": 45.26,
+     "end": 45.305
+    },
+    {
+     "w": "me",
+     "start": 45.35,
+     "end": 45.395
+    },
+    {
+     "w": "gusta",
+     "start": 45.428,
+     "end": 45.731
+    },
+    {
+     "w": "y",
+     "start": 45.866,
+     "end": 45.933
+    },
+    {
+     "w": "síguenos.",
+     "start": 46.001,
+     "end": 46.546
+    }
+   ]
+  }
+ ]
+}
