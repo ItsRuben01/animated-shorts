@@ -16,8 +16,8 @@
    Ganan: "Un brazo de media tonelada vs. un huevo crudo" (IG 1.803), "¿Por qué NO se sueldan los aviones…?" (YT 75 % retención), "Así detecta un choque tu airbag…" (YT 890 engaged), "¿Pepinos de desconocidos?" (IG 23 % de saltos, el mejor).
    Pierden: "Un micro-poro puede matar una batería sólida" (IG 57 % de saltos, 141 vistas), "El mayor ERROR de ingeniería de 1940" (IG 40 % de saltos).
 
-3. **Cerrar con "etiqueta a tu amigo que…" o con una pregunta directa.** — confianza **media**
-   El pepinillo es el único vídeo con conversación: 11 comentarios y 8 compartidos en IG, 10 compartidos en TikTok. El resto tiene 0–3 comentarios.
+3. **Cerrar con "etiqueta a tu amigo que…" o con una pregunta directa.** — confianza **baja**
+   El pepinillo tuvo 8 compartidos en IG y 10 en TikTok (el resto: 0–2). Pero de sus 11 comentarios en IG, 8 son de una sola cuenta (komkommer._.f3) y 2 son respuestas propias: no cuenta como conversación real. Los compartidos sí apuntan a que el CTA funciona.
 
 4. **Temas tangibles (vehículos, fábricas, objetos de casa) por delante de los temas de materiales o laboratorio.** — confianza **baja**
    Las baterías fracasaron en las 3 plataformas. Falta probar más temas de materiales para confirmarlo.
@@ -46,5 +46,5 @@
 ## Acciones pendientes (necesitan tu OK)
 - YouTube: *Un micro-poro puede matar una batería sólida* se subió como vídeo largo (2 vistas ES, 15 EN). Si se reutiliza, que sea como Short de ≤60 s.
 - YouTube: *Submarinos* (25 nov) tiene 4 vistas. Comprobar en Studio si está procesado, si es público y si tiene restricciones.
-- Instagram: responder los 11 comentarios del pepinillo. Claude redacta las respuestas y se publican cuando des el OK.
+- Instagram: respuestas a los comentarios del pepinillo redactadas el 2026-11-27 y pendientes de tu OK (son 8 comentarios de una sola cuenta; responder solo a 4 y fijar un comentario con pregunta).
 - Instagram: nueva portada o primer fotograma para Condensador y Tacoma (skill `thumbnails-hooks`).
