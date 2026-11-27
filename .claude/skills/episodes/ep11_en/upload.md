@@ -11,7 +11,7 @@ Sources: https://www.law.cornell.edu/cfr/text/14/25.733 · https://www.faa.gov/d
 
 Tags: #airplanes #engineering #aviation #nitrogen #howitworks
 
-Recommended thumbnail: see `out/shot_short.png` (10 options) and the exported `out/thumbnail_short_<N>.png`.
+Recommended thumbnail: `episodes/ep11_en/out/thumbnail_short_1.png` (1080x1920, "THESE TIRES HAVE NO AIR", shocked friend + crossed-out air puff). Alternative: `thumbnail_short_9.png` ("ONE TIRE FULL OF AIR… BLEW UP MID-FLIGHT", the real 1986 case). All 10 options: `out/shot_short.png`.
 Video: `episodes/ep11_en/out/episode_11_en.mp4` (9:16, 47.2 s + 0.7 s tail, ElevenLabs Brian, expressive v4 voice, tempo 1.2).
 
 Experiment (Performance brief): **H2 — ~45 s duration**, with the "Why NOT…?" hook and vehicle topic held fixed. Measure on TikTok whether it breaks ~740 views and the full-watch rate (target > 7 %).
