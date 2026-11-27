@@ -1,0 +1,18 @@
+[
+  {"id": 1, "piece": 1, "voice": "em_alex", "gap": 0.1, "emotion": "intriguing", "text": "Tu móvil carga del 0 al 80 % volando…", "say": "Tu móvil carga del cero al ochenta por ciento volando…"},
+  {"id": 2, "piece": 1, "voice": "em_alex", "gap": 0.35, "emotion": "intriguing", "text": "y el último 20 % parece no acabar nunca.", "say": "y el último veinte por ciento parece no acabar nunca."},
+  {"id": 3, "piece": 2, "voice": "em_alex", "gap": 0.08, "emotion": "analytical", "text": "En un minuto sabrás por qué, y qué hace tu móvil a escondidas para cuidar la batería."},
+  {"id": 4, "piece": 3, "voice": "em_alex", "gap": 0.08, "emotion": "curious", "text": "Dentro de la batería viajan iones de litio…"},
+  {"id": 5, "piece": 3, "voice": "em_alex", "gap": 0.08, "emotion": "curious", "text": "y se aparcan entre capas de grafito, como coches en un parking."},
+  {"id": 6, "piece": 3, "voice": "em_alex", "gap": 0.08, "emotion": "serious", "text": "Con el parking vacío, el cargador empuja a tope."},
+  {"id": 7, "piece": 4, "voice": "em_alex", "gap": 0.08, "emotion": "amazed", "text": "Pero eso no es lo más curioso."},
+  {"id": 8, "piece": 5, "voice": "em_alex", "gap": 0.08, "emotion": "serious", "text": "Cuanto más lleno está, más le cuesta a cada ion encontrar sitio."},
+  {"id": 9, "piece": 5, "voice": "em_alex", "gap": 0.08, "emotion": "serious", "text": "Si siguiera empujando igual, el litio se pegaría a la entrada como metal y la batería perdería capacidad."},
+  {"id": 10, "piece": 5, "voice": "em_alex", "gap": 0.08, "emotion": "analytical", "text": "Por eso, hacia el 80 %, el cargador baja la corriente. Por eso va lento.", "say": "Por eso, hacia el ochenta por ciento, el cargador baja la corriente. Por eso va lento."},
+  {"id": 11, "piece": 6, "voice": "em_alex", "gap": 0.08, "emotion": "amazed", "text": "Y aquí viene el truco."},
+  {"id": 12, "piece": 7, "voice": "em_alex", "gap": 0.08, "emotion": "curious", "text": "Si lo cargas de noche, aprende tu horario: se para en el 80 % y acaba justo antes de que despiertes.", "say": "Si lo cargas de noche, aprende tu horario: se para en el ochenta por ciento y acaba justo antes de que despiertes."},
+  {"id": 13, "piece": 7, "voice": "em_alex", "gap": 0.08, "emotion": "analytical", "text": "Pasar horas al 100 % desgasta la batería. En iPhone se llama carga optimizada.", "say": "Pasar horas al cien por cien desgasta la batería. En iPhone se llama carga optimizada.", "comment": {"username": "lau.techh", "seed": 3, "native": true, "question": "¿Y en Android? 👀"}},
+  {"id": 14, "piece": 7, "voice": "em_alex", "gap": 0.08, "emotion": "warm", "text": "En Android, carga adaptativa o protección de batería."},
+  {"id": 15, "piece": 8, "voice": "em_alex", "gap": 0.08, "emotion": "warm", "text": "¿Te diste cuenta? Tu móvil está ahora en algún porcentaje. Guárdalo y mira esta noche si la tienes activada."},
+  {"id": 16, "piece": 8, "voice": "em_alex", "gap": 0.08, "emotion": "warm", "text": "Sígueme para entender lo que tienes en la mano."}
+]

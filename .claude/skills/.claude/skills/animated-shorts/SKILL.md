@@ -39,45 +39,66 @@ Create `.claude/skills/<channel>-style/SKILL.md` that says: use the animated-sho
 
 ### 4. "Give me 10 ideas" (or use the master prompt in claude.ai)
 Ten true, strange, visual stories that fit the channel. For each one, **search YouTube** for the topic and write down the biggest Short and long video on it. If a Short already has millions of views on the same story, drop it (someone told it already). Pick one with a clear twist.
-- **Creative Angle Lock — Mischievous Double-Entendre Hook + Real Process ("Humor Travieso Filtrado"):**
-  - Every Short MUST start with a cheeky, absurd, naughty-sounding, or dark-humor double-entendre hook about an everyday object, food, or industrial/mechanical process (e.g., cucumbers/pickles, sausages, nuts & bolts, lubrication, pressure valves, bananas, cream filling, bananas/melons) that grabs 100% attention in the first 3 seconds, **strictly filtered with clean, literal, platform-safe vocabulary** so it NEVER triggers TikTok/Reels/YouTube demonetization or community strikes.
-  - Immediately pivot with deadpan documentary seriousness into the **100% real, accurate industrial, mechanical, or scientific manufacturing process** behind that object, sneaking in subtle, family-friendly winks (e.g., *"aquí el tamaño no importa"*, *"entra a presión"*) and ending with a viral **"tag/send this to your friend who..."** CTA.
-- **YouTube Validation & 4X Feasibility:**
-  1. Check search demand, existing views, and Tier-1 (US/UK/CA) high-RPM potential vs. Spanish-market competition. Explicitly confirm whether the topic works for **4X Production** (a specific Short + a broader generic 6–10 min Long video covering the underlying industrial/food/mechanical engineering process) or **Shorts only**. Record the top reference video URL/ID and its title in `episodes/epN/story.md` so Step 10 can audit its thumbnail.
-  2. When pitching ideas, always provide: (a) the cheeky filtered double-entendre opening line, (b) the real industrial/technical steps, (c) the viral "tag your friend" angle, and (d) the broader 6–10 min Long video topic.
+
+**Score every idea before pitching it** (measured on two reference Shorts, 60 k vs 10.5 M views, same account and voice; see `styles/retention-rules.md`). An idea needs **3 of 3** to be pitched:
+1. **In your hand right now (proximity).** Does the viewer own, touch or use the object *today*? (phone screen, charger, keys, coffee, fridge, toilet, sneakers → yes; AirTag, a factory machine they never see → weaker). Write `proximity: hand | home | street | far`. Only `hand` and `home` pass for a Short.
+2. **Frame-0 action.** Can the first frame show the object *already doing something*, big and close (a giant finger hitting the glass, a cable plugging in with a spark, salt hitting water)? Write the frame-0 image in one sentence. A static establishing shot ("a pocket", "a factory") fails.
+3. **Visible mechanism.** Can the key fact be *shown* as a physical change plus a number that moves on screen (finger steals the charge and a number drops `100 → 62`)? If the explanation needs a metaphor the viewer has to imagine ("a detective in your pocket"), it fails.
+
+**Hook angle (choose one; humour is optional, not mandatory):**
+- **Useful curiosity (default):** a surprising, true observation about the object the viewer is holding ("Your phone charges 0→80 % in half an hour… and then the last 20 % takes forever").
+- **Mischievous double-entendre ("Humor Travieso Filtrado")**, only when it fits the object: a cheeky, platform-safe double meaning with 100 % clean literal words, then a deadpan pivot into the real process. Never let it be the only reason to watch: the frame-0 image and the promise must work without it. If a line could be limited by TikTok/Reels, write the softer alternative in `story.md`.
+
+**YouTube Validation & 4X Feasibility:**
+1. Check search demand, existing views, and Tier-1 (US/UK/CA) high-RPM potential vs. Spanish-market competition. Explicitly confirm whether the topic works for **4X Production** (a specific Short + a broader generic 6–10 min Long video) or **Shorts only**. Record the top reference video URL/ID and its title in `episodes/epN/story.md` so Step 10 can audit its thumbnail.
+2. When pitching ideas, always provide: (a) the hook line, (b) the frame-0 image, (c) the visible mechanism + the number that moves, (d) the proximity score, (e) the one-world visual metaphor that will carry the whole Short (see step 5), and (f) the broader 6–10 min Long video topic.
 
 ### 5. "Write the script"
-Write `episodes/epN/story.md` in the measured style:
-- **First line (Cheeky Double-Entendre Hook):** Open immediately (0:00–0:05) with an absurd, mischievous, or double-meaning question/statement using 100% innocent literal words (no explicit profanity, no banned words, completely safe for monetization).
-- **Deadpan Pivot & Escalation:** Transition immediately with serious documentary authority (*"No te preocupes, hoy te traigo la solución..."* / *"Don't worry, today I have the solution..."*), define the everyday object literally while keeping subtle wordplay, and break down the **real step-by-step industrial, chemical, or mechanical process** with concrete measurements.
-- **Viral Friend-Tag & Loop Twist:** End the explanation by connecting the final packaged/finished product directly to **"your friend who is obsessed with [object]"** to trigger shares and comments, followed by a crisp sign-off asking for a like and follow.
-- Match the channel's measured pace (about 3.5–3.7 words per second, roughly 160–220 words for a 45–60 second Short). Set the voice speed so `timing.json` lands on it.
-- **Fact check every claim** about the industrial/technical process and put the sources in a table at the bottom of `story.md`.
-- **Bilingual 4X Scripting & High-Retention Blueprint:** When producing bilingual versions, write **native adaptations** (never literal translations, adapting local idioms and double-entendres naturally) for both **English (`epN_en`)** and **Spanish (`epN_es`)** using this retention structure:
-  1. **Cheeky Double-Entendre Hook + 3+1 Open Loop (0:00–0:07):** Deliver the mischievous double-meaning opener plus **3 concrete technical/process facts** (or 3 industrial stages) teasing a **4th final step/detail** at the end.
-  2. **Step 1 — Deadpan Definition & Question:** Define the object literally with straight-faced humor and ask how it is really made/processed (*"Pero realmente, ¿qué proceso pasa hasta llegar a tu casa?"* / *"But what process does it actually go through before reaching your home?"*).
-  3. **Step 2 — Industrial Step 1 (Preparation / Extreme Condition):** Show the raw object undergoing high-pressure washing, extreme heat, or mechanical sorting (`bar`, `°C`, `rpm`).
-  4. **Step 3 — Open a New Curiosity & Chemical/Mechanical Transformation:** Introduce the core transformation (e.g., brine curing, extrusion, high-pressure injection) with a subtle, clean wink (*"aquí el tamaño no importa"* / *"size doesn't matter here"*).
-  5. **Step 4 — Show the Proof (3D X-Ray / Cutaway):** Show the internal physical/chemical change happening in real time.
-  6. **Step 5 — Add a Twist / Precision Step:** Show what would ruin the batch if uncontrolled (e.g., wrong concentration, blade speed, pressure seal).
-  7. **Step 6 — Show a Viewer Comment:** Never replace the viewer comment with a bare `?` sign. Define a physical in-world viewer comment card raising a cheeky or skeptical question (*"Mira lo que me escribió alguien..."* / *"Look at what someone commented..."*) by adding a `comment` object (`{"username": "orgalus_", "avatarStyle": "mecha", "seed": 2, "question": "¿Seguro que con ese tamaño basta?"}`) to that shot in `shots.json` (`avatarStyle`: `"person" | "mecha" | "pet" | "tech"`). Do NOT generate a standalone image in Step 5; `<CommentCard />` renders it inside the 3D scene in Step 7.
-  8. **Step 7 — Make a Comparison:** Everyday physical analogy comparing the industrial process to something familiar at home.
-  9. **Step 8 — Reveal the 4th Final Step / Packaging:** Reveal the final cutting, sealing, or assembly stage and stamp/label the finished product.
-  10. **Step 9 — Show Before & After + Viral Friend-Tag Trigger:** Contrast the raw starting object with the sealed final product labeled for **"that friend who is obsessed with [object]"** (*"etiqueta o pasa este vídeo a tu amigo que está obsesionado con..."* / *"tag or send this video to your friend who is obsessed with..."*).
-  11. **Step 10 — Dual-Mode Outro (Short vs. Long Bridge + Like & Follow CTA):** Keep it crisp (3–4 seconds max so retention never drops) and choose the exact ending based on whether a `Long` video exists for this episode:
-    - **Case A — Short WITH a companion Long video (`4X` episode):** Deliver the friend-tag punchline, promote the full Long video on the YouTube channel, say goodbye, and ask for a like and follow/subscribe (*ES:* *"Si quieres ver cómo funciona toda esta industria por dentro, ya tienes el vídeo largo en mi canal de YouTube. ¡Hasta luego! Dale a me gusta y síguenos para más contenido así."* / *EN:* *"If you want to see the full industrial breakdown, watch the full video on my YouTube channel right now. See you there! Hit like and follow for more."*).
-    - **Case B — Standalone Short (NO companion Long video):** Deliver the friend-tag punchline, say goodbye briefly, and ask for a like and follow/subscribe (*ES:* *"¡Hasta luego! Si te ha gustado, dale a me gusta y síguenos para descubrir más procesos así."* / *EN:* *"See you next time! Hit like and follow if you want more breakdowns like this."*).
-- **Character Voice Casting & Emotion Direction:** Include a casting header in `story.md` defining characters, Kokoro draft IDs, ElevenLabs master IDs, and per-shot emotional tags. Use a **serious documentary narrator** (`em_alex` / `David Martin` in ES; `am_michael` / `Brian` in EN) to maximize contrast with the absurd double-entendre humor:
-  - Arc: `[intriguing]` (cheeky hook) → `[analytical]` (deadpan literal definition) → `[curious]` / `[serious]` (industrial steps) → `[chuckles]` / `[amazed]` (wink & transformation) → `[enthusiastic]` / `[warm]` (friend-tag & outro).
+Write `episodes/epN/story.md` in the measured style, using the **8-piece retention structure** (always in this order). The reference Shorts that reach 10 M views follow it exactly:
 
-Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `episodes/epN_es/shots.json` for bilingual runs): one line of voice per shot (`{"id", "text", "say"?, "speaker"?, "emotion"?, "comment"?: {"username", "avatarStyle"?, "seed"?, "question"}}`; `say` = how numbers are spoken, e.g. "eighteen_seventy-five" for "1875").
+| # | Piece | Share of the Short | What it does |
+|---|---|---|---|
+| 1 | **Hook** | 0–3 s | Breaks the pattern of what they were watching and makes them stop. Frame 0 shows the action, the line names the surprise. No greeting, no "today I'll tell you". |
+| 2 | **Intro / promise** | 3–8 s | Tells them in one sentence **what they take away if they stay** ("In 50 seconds you'll know why, and the trick your phone already uses"). Never a literal definition of the object. |
+| 3 | **Body 1** | ~8–22 s | Something useful they didn't know. One idea, shown, with one number that moves. |
+| 4 | **Open loop 1** | 1 line | A sentence that leaves a question in the air *("Pero eso no es lo más loco." / "But that's not the crazy part.")*. Never the same wording twice in one Short. |
+| 5 | **Body 2** | ~24–36 s | The deeper mechanism (the "why"). Pays off loop 1. |
+| 6 | **Open loop 2** | 1 line | A second, different loop *("Y aquí viene el truco." / "And here's the trick.")*. |
+| 7 | **Body 3** | ~38–50 s | The twist or the practical payoff the promise in piece 2 announced. |
+| 8 | **Call to action** | last 5–8 s | Closes the loop with the viewer (*"¿Te diste cuenta? …"*) and asks for **one concrete next step with a reason**: save it for when they need it, comment a keyword, check something on their own phone tonight, or send it to the friend it applies to. "Like and follow" may follow it, never replace it. |
+
+**Hard limits (gate before the voice step):**
+- **Length:** ≤ 60 s for a Short (references: 58–60 s). Script 170–205 words (ES) / 160–190 words (EN). If the voice comes out longer, **cut words**, do not speed the voice past `1.15`.
+- **Pace:** 3.3–3.6 words/s (references: 3.25 and 3.45). Measure it in `timing.json` (`words / total`).
+- **Shots:** 10–16 shots, one voice line each, average 3.5–5 s. The picture must change (cut, camera move or a new element appearing) at least every 2 s.
+- **Frame 0:** shot 1 starts *in motion*: the subject is already big in frame and doing the action of the hook on frame 0 (no fade-in, no establishing glide). Check it with `node scripts/stills.mjs 1 --frame=0`.
+- **Show, don't tell:** every claim in bodies 1–3 has (a) a visible physical change on screen and (b) a number that animates (`<Counter>`, see step 7). If a line asks the viewer to imagine something, rewrite it or show it.
+- **One world, one metaphor:** pick one visual metaphor that carries the whole Short (the reference builds a tower floor by floor, one floor per piece). Every shot happens in that world, and the last shot shows the whole metaphor finished.
+- **Visible progress:** when the hook promises N things (3 reasons, 3+1 steps…), show the tracker on screen (`<ProgressCards>`: `?` cards that turn into ✓ as each one is told). When it doesn't, the metaphor itself is the tracker (the battery fills, the tower grows).
+- **Pattern interrupt in the hook:** something changes state in the first 3 s (grey → colour, still → moving, full → empty).
+- **Fact check every claim** and put the sources in a table at the bottom of `story.md`.
+
+**`story.md` must contain:** the 8-piece map (shot → piece → what is on screen → number that moves), the proximity score, the frame-0 image, the metaphor, the hook alternative if the hook is risky, the casting header (below) and the fact-check table.
+
+**Viewer comment (optional, inside body 2 or 3):** if a real or plausible viewer question helps (*"Mira lo que me escribió alguien…"*), add a `comment` object to that shot in `shots.json` (`{"username", "avatarStyle"?, "seed"?, "question", "native"?}`). `native: true` renders it as the flat social-app comment sheet (`<NativeComment>`, recognisable at a glance as "someone commented this"); otherwise it is the physical paper `<CommentCard />` in the 3D scene. Never replace the comment with a bare `?`.
+
+**Bilingual scripting:** when producing `epN_en` + `epN_es`, write **native adaptations** (never literal translations, adapting idioms and open-loop phrases) with the same 8 pieces and the same shot count, so both languages share `sets.tsx`, `cast.ts` and `shots.tsx`.
+
+**Outro rule (piece 8) — Short vs. Long:**
+- **Case A — Short WITH a companion Long video (`4X`):** close the loop, then send them to the Long with a reason (*ES:* *"Si quieres ver la fábrica entera por dentro, el vídeo largo está en mi canal."* / *EN:* *"The full factory tour is the long video on my channel."*).
+- **Case B — Standalone Short:** close the loop and give one concrete action (*ES:* *"Guárdalo para la próxima vez que lo cargues, y sígueme para entender lo que tienes en la mano."* / *EN:* *"Save this for the next time you plug it in, and follow for more things you're holding right now."*).
+
+**Character Voice Casting & Emotion Direction:** include a casting header in `story.md` defining characters, Kokoro draft IDs, ElevenLabs master IDs, and per-shot emotional tags. Default narrator: one clear, confident documentary voice (`em_alex` / `David Martin` in ES; `am_michael` / `Brian` in EN).
+- Arc: `[intriguing]` (hook) → `[confident]`/`[analytical]` (promise) → `[curious]`/`[serious]` (bodies) → `[amazed]` (each open loop, a little faster) → `[warm]` (CTA).
+
+Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `episodes/epN_es/shots.json` for bilingual runs): one line of voice per shot (`{"id", "piece", "text", "say"?, "speaker"?, "emotion"?, "comment"?: {...}}`; `piece` = 1–8 from the table above; `say` = how numbers are spoken, e.g. "eighteen_seventy-five" for "1875").
 
 ### 6. "Make the voice"
 
 **A. Voice bible + emotional arc (before generating audio)**
 - Add a casting header in `story.md`: character, age/attitude, pacing, allowed emotions, pronunciation notes, forbidden flat reads.
 - Mark every shot in `shots.json`: `{"id","text","say?","sayTts?","voice?","emotion?","model?","speed?","stability?","style?","gap?"}`. `text` stays clean for captions; `say` is phonetic display-safe; `sayTts` is TTS-only expressive text.
-- Require an arc, not a flat read: hook=`intrigued/curious`, setup=`analytical`, risk/process=`serious`, wink/reveal=`chuckles/amazed/enthusiastic`, close=`warm/proud`. If >3 consecutive shots share emotion+speed, rewrite direction.
+- Require an arc, not a flat read: hook=`intrigued/curious`, promise=`confident/analytical`, bodies=`serious/curious`, open loops=`amazed` (slightly faster), CTA=`warm`. If >3 consecutive shots share emotion+speed, rewrite direction.
 
 **B. Zero-cost Kokoro draft first**
 - `node scripts/voice.mjs epN <voice> <speed>` (EN `am_michael 1.05`, ES `em_alex 1.05-1.06`). Writes `public/epN/voice.wav` + `episodes/epN/timing.json`.
@@ -104,11 +125,18 @@ Split it into `episodes/epN/shots.json` (and `episodes/epN_en/shots.json` + `epi
 **D. Voice QA gate**
 - Listen hook, reveal, outro; confirm audible energy/rhythm change.
 - Check no clipping, no mispronounced numbers/names, captions aligned to new timing.
+- **Length gate:** `timing.json` `total` ≤ 60 s and 3.3–3.6 words/s (step 5 limits). ElevenLabs is usually slower than Kokoro (ep7_es went from 65 s to 78 s): if the master is over 60 s, in this order: (1) trim gaps (`gap` 0.08 s, 0.3–0.4 s only after the hook); (2) cut words in the longest lines; (3) only then speed the finished narration with `node scripts/tempo.mjs <ep> <factor>` (pitch-safe ffmpeg `atempo`, rewrites `timing.json`; max `1.10`). Never push the ElevenLabs base speed above `1.15`. Keep the Kokoro draft as `public/<ep>/voice_kokoro.wav` + `timing_kokoro.json`. (ep8: Kokoro 59.9 s → ElevenLabs 68.4 s → speed 1.15 66.8 s → gaps + 9 words cut 62.6 s → `tempo.mjs 1.05` 59.7 s.)
 - If one shot is flat, regenerate only that shot with adjusted `emotion/sayTts/speed/stability`, then rebuild timing/audio.
 
 ### 7. "Build the video"
 1. Write `src/epN/sets.tsx` (the places), `src/epN/cast.ts` (the characters) and `src/epN/shots.tsx` (one entry per shot: look, camera from/to, focus distance, who stands where). Copy `src/ep1/` as the example. Use the kit in `src/engine/kit.tsx` (Box, Cyl, Roof, House, Window, Lamp, Cab, Cart, Fire, Sign, Snow…) and add new pieces there when a story needs them.
   - **3D Physical Viewer Comment Card (`src/engine/CommentCard.tsx`):** Whenever a shot in `shots.json` contains a `comment` object, render `<CommentCard username={shot.comment.username} question={shot.comment.question} avatarStyle={shot.comment.avatarStyle} seed={shot.comment.seed} />` as a physical off-white paper card (`#F4EFEA`) inside the 3D scene (held by a character or angled naturally in front of the camera so it receives scene lighting, soft shadow tinting, and `InkPass` edges — never flat 2D screen text). If `src/engine/CommentCard.tsx` does not exist yet, create it with procedural circular canvas avatars (`person`, `mecha`, `pet`, `tech`), lowercase username, and dark left-aligned sans-serif question text.
+  - **Screen HUD (`src/engine/Hud.tsx`, the only things allowed flat on top of the picture):**
+    - `<Counter from to start end format? prefix? suffix? pos? size? accent?>`: an animated number pill (▶ `10,5 M`, `100 → 62`, `0 % → 80 %`). Use one in every body shot whose line contains a number (step 5 "show, don't tell"). Format decimals per language (`fmt: "es" | "en"`).
+    - `<ProgressCards total done active? pos?>`: the `1 ? 2 ? 3 ?` cards that flip to ✓ as each promised item is told. Use it whenever the hook promises N items.
+    - `<NativeComment username question avatarStyle? seed? lang?>`: the flat social-app comment sheet, for shots whose `comment.native` is `true`.
+    - Captions: new episodes use `<Captions words={words} mode="karaoke" />` (phrase of up to ~5 words at ~10 % from the top, spoken words bright, the current word boxed). Old episodes keep the default one-word mode, so they re-render unchanged.
+  - **Frame 0 check:** `node scripts/stills.mjs 1 --frame=0` must already show the hook's action (big subject, in motion).
   - **Bilingual 3D Reusability:** Keep all other in-world 3D labels strictly numerical/universal (`25 cm`, `4 bar`, `5 mm`, `-40 %`, `1,000 °C`) so the exact same `sets.tsx`, `cast.ts`, and `shots.tsx` render both the English (`epN_en`) and Spanish (`epN_es`) videos without duplicating 3D geometry (only passing `shots.json`'s localized `comment` text when a comment card shot is active).
 2. **Check stills before rendering:** `node scripts/stills.mjs <ids>` and look at every still. Check: is the subject in frame, is a face covered, is the camera inside a wall, is anyone hidden behind someone else, does the shot show what the line says, is it too dark or too yellow. Fix and check again. *(Complete this check before triggering the ElevenLabs audio upgrade in step 6).*
 3. Make the sound: write `episodes/epN/sound.json` (ambience per shot + sound effects at the moments things happen), then `node scripts/sound.mjs epN`.
@@ -131,7 +159,7 @@ Every new episode uses the meme-fusion characters (`style` defaults to `"meme"` 
 
 ### 9. "Make the long version"
 Same characters and sets, 16:9 (`Long` composition). A long video needs a longer story: write a 6–10 minute script with the same formula (several mini-stories or one deeper story), more shots, then render `Long`. Shorts bring people in, long videos earn more per view.
-- **Generic Broad-Topic Expansion & Long-Video Dual Outro (Bilingual `Long_EN` + `Long_ES`):** While the Short focuses on one cheeky hook and specific process, the `Long` version must cover the underlying industrial, food, or mechanical engineering technology **broadly and generically** across 5 structured chapters (1. Cheeky 3+1 Hook & Global Industrial Scale, 2. Core Physics & Chemistry from First Principles with everyday analogies, 3. Historical Failures & Evolution, 4. Step-by-Step Factory Mechanics + 4th Master Fact reveal, 5. Real-World Applications & Future) to maximize Watch Time and mid-roll ad revenue in both English and Spanish.
+- **Generic Broad-Topic Expansion & Long-Video Dual Outro (Bilingual `Long_EN` + `Long_ES`):** While the Short focuses on one cheeky hook and specific process, the `Long` version must cover the underlying industrial, food, or mechanical engineering technology **broadly and generically** across 5 structured chapters (1. Hook + promise & Global Industrial Scale, 2. Core Physics & Chemistry from First Principles with everyday analogies, 3. Historical Failures & Evolution, 4. Step-by-Step Factory Mechanics + 4th Master Fact reveal, 5. Real-World Applications & Future) to maximize Watch Time and mid-roll ad revenue in both English and Spanish.
 - **Long-Video Closing CTA:** End every `Long` episode with an explicit, warm sign-off asking viewers to **hit like**, **subscribe/follow** for more breakdowns, and watch the next recommended video on the channel (*ES:* *"Si este vídeo te ha ayudado a entender cómo funciona esta industria por dentro, dale a me gusta, suscríbete para no perderte los próximos episodios y mira este otro vídeo del canal. ¡Hasta luego!"* / *EN:* *"If this breakdown helped you see how this industry works from the inside, hit like, subscribe for more episodes like this, and check out this next video on the channel. See you in the next one!"*).
 
 ### 10. "Generate high-CTR thumbnails" (Execute `.claude/skills/thumbnails-hooks/SKILL.md`)
@@ -144,7 +172,7 @@ Write `episodes/epN/upload.md`: a curiosity title under 60 characters (no clickb
 - **Bilingual Channel Separation Rule:** When packaging `epN_en` and `epN_es` (4X deliverables: `Short_EN`, `Short_ES`, `Long_EN`, `Long_ES`), generate separate metadata blocks for **two dedicated language channels** (`EN` and `ES`). Never upload the exact same visual video in two different languages on the same channel on the same day (it tanks CTR/retention and triggers duplicate-content suppression); if using a single YouTube channel, upload only one video file and attach the second language via YouTube's native Multi-Language Audio track.
 
 ## Six things that make it look premium (check every shot)
-1. **Signs, labels, and viewer comments live in the world** (signs, posters, maps, stamps, and physical `<CommentCard />` boards in the 3D scene — using universal numbers/units like `25 cm` or `4 bar` on set props so 3D sets work in both languages), never flat on top. Ink outlines only where the channel has them: the world is always NOINK; `Look.ink` controls the character/prop silhouette pass (Ricks Clips: characters only, world `ink: 0`).
+1. **Signs, labels, and viewer comments live in the world** (signs, posters, maps, stamps, and physical `<CommentCard />` boards in the 3D scene — using universal numbers/units like `25 cm` or `4 bar` on set props so 3D sets work in both languages), never flat on top. **Only exceptions:** the HUD in `src/engine/Hud.tsx` (`<Counter>`, `<ProgressCards>`, `<NativeComment>`) and the captions, which read as the channel's interface, not as part of the world. Ink outlines only where the channel has them: the world is always NOINK; `Look.ink` controls the character/prop silhouette pass (Ricks Clips: characters only, world `ink: 0`).
 2. **Shadows are never black.** Tinted to the measured colour (Ricks Clips: blue-violet), from the hemisphere light's ground colour and the grade (`cool`).
 3. **The camera never jumps.** Every shot glides from one pose to another (`cam.from` → `cam.to`), with a little sway.
 4. **Big round heads, meme-fusion faces:** the head is ≈ 42% of the height, arms are thick black lines, legs are filled trousers, hands are black mittens (see "Character style: Meme-Fusion"). Classic episodes keep their small-head look.

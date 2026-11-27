@@ -6,6 +6,7 @@ import { LongEpisode, longFrames } from "./ep4/Long";
 import { EpisodeEN, EpisodeES, ShotStillEN, ShotStillES, totalFrames as ep6Frames } from "./ep6/Episode";
 import { LongEN, LongES, LongShotStillEN, LongShotStillES, longFrames as ep6LongFrames } from "./ep6/Long";
 import { Ep7EN, Ep7ES, Ep7ShotEN, Ep7ShotES, totalFrames as ep7Frames } from "./ep7/Episode";
+import { Ep8, Ep8Shot, totalFrames as ep8Frames } from "./ep8/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
 import { CastSheet } from "./engine/CastSheet";
 
@@ -35,6 +36,10 @@ export const Root: React.FC = () => (
     <Composition id="Ep7Short-EN" component={Ep7EN} width={1080} height={1920} fps={30} durationInFrames={ep7Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
     <Composition id="Ep7Shot-ES" component={Ep7ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
     <Composition id="Ep7Shot-EN" component={Ep7ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* ep8 — por qué el último 20 % carga lento (primer episodio con las 8 piezas, HUD y subtítulos karaoke) */}
+    <Composition id="Ep8Short" component={Ep8} width={1080} height={1920} fps={30} durationInFrames={ep8Frames(30)} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep8Shot" component={Ep8Shot} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />

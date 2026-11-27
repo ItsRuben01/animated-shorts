@@ -15,3 +15,7 @@ ref/
 Thumbs.db
 *.log
 .env
+# Perfil de Chrome y fotogramas sueltos del render (se regeneran solos; eran ~280 MB en git)
+**/.chrome-render-profile/
+**/render-frames*/
+tmp/

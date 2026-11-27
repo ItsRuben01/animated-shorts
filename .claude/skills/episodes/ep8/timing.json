@@ -1,0 +1,1129 @@
+{
+  "voice": "David Martin",
+  "model": "eleven_multilingual_v2",
+  "speed": 1.15,
+  "total": 59.665,
+  "shots": [
+    {
+      "id": 1,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "intriguing",
+      "start": 0,
+      "end": 2.785,
+      "words": [
+        {
+          "w": "Tu",
+          "start": 0,
+          "end": 0.175
+        },
+        {
+          "w": "móvil",
+          "start": 0.175,
+          "end": 0.748
+        },
+        {
+          "w": "carga",
+          "start": 0.748,
+          "end": 1.319
+        },
+        {
+          "w": "del",
+          "start": 1.319,
+          "end": 1.662
+        },
+        {
+          "w": "0",
+          "start": 1.662,
+          "end": 1.776
+        },
+        {
+          "w": "al",
+          "start": 1.776,
+          "end": 2.006
+        },
+        {
+          "w": "80",
+          "start": 2.006,
+          "end": 2.234
+        },
+        {
+          "w": "%",
+          "start": 2.234,
+          "end": 2.349
+        },
+        {
+          "w": "volando…",
+          "start": 2.349,
+          "end": 2.785
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "intriguing",
+      "start": 2.88,
+      "end": 5.701,
+      "words": [
+        {
+          "w": "y",
+          "start": 2.88,
+          "end": 2.982
+        },
+        {
+          "w": "el",
+          "start": 2.982,
+          "end": 3.187
+        },
+        {
+          "w": "último",
+          "start": 3.187,
+          "end": 3.801
+        },
+        {
+          "w": "20",
+          "start": 3.801,
+          "end": 4.005
+        },
+        {
+          "w": "%",
+          "start": 4.005,
+          "end": 4.108
+        },
+        {
+          "w": "parece",
+          "start": 4.108,
+          "end": 4.721
+        },
+        {
+          "w": "no",
+          "start": 4.721,
+          "end": 4.926
+        },
+        {
+          "w": "acabar",
+          "start": 4.926,
+          "end": 5.539
+        },
+        {
+          "w": "nunca.",
+          "start": 5.539,
+          "end": 5.701
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "analytical",
+      "start": 6.034,
+      "end": 10.074,
+      "words": [
+        {
+          "w": "En",
+          "start": 6.034,
+          "end": 6.144
+        },
+        {
+          "w": "un",
+          "start": 6.21,
+          "end": 6.254
+        },
+        {
+          "w": "minuto",
+          "start": 6.288,
+          "end": 6.586
+        },
+        {
+          "w": "sabrás",
+          "start": 6.63,
+          "end": 6.895
+        },
+        {
+          "w": "por",
+          "start": 6.95,
+          "end": 7.061
+        },
+        {
+          "w": "qué,",
+          "start": 7.116,
+          "end": 7.37
+        },
+        {
+          "w": "y",
+          "start": 7.514,
+          "end": 7.57
+        },
+        {
+          "w": "qué",
+          "start": 7.67,
+          "end": 7.769
+        },
+        {
+          "w": "hace",
+          "start": 7.802,
+          "end": 7.968
+        },
+        {
+          "w": "tu",
+          "start": 8.012,
+          "end": 8.09
+        },
+        {
+          "w": "móvil",
+          "start": 8.134,
+          "end": 8.366
+        },
+        {
+          "w": "a",
+          "start": 8.41,
+          "end": 8.439
+        },
+        {
+          "w": "escondidas",
+          "start": 8.466,
+          "end": 8.952
+        },
+        {
+          "w": "para",
+          "start": 9.008,
+          "end": 9.162
+        },
+        {
+          "w": "cuidar",
+          "start": 9.207,
+          "end": 9.471
+        },
+        {
+          "w": "la",
+          "start": 9.527,
+          "end": 9.593
+        },
+        {
+          "w": "batería.",
+          "start": 9.637,
+          "end": 10.074
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "curious",
+      "start": 10.15,
+      "end": 12.702,
+      "words": [
+        {
+          "w": "Dentro",
+          "start": 10.15,
+          "end": 10.482
+        },
+        {
+          "w": "de",
+          "start": 10.515,
+          "end": 10.57
+        },
+        {
+          "w": "la",
+          "start": 10.604,
+          "end": 10.659
+        },
+        {
+          "w": "batería",
+          "start": 10.692,
+          "end": 11.146
+        },
+        {
+          "w": "viajan",
+          "start": 11.29,
+          "end": 11.721
+        },
+        {
+          "w": "iones",
+          "start": 11.776,
+          "end": 12.174
+        },
+        {
+          "w": "de",
+          "start": 12.218,
+          "end": 12.285
+        },
+        {
+          "w": "litio…",
+          "start": 12.329,
+          "end": 12.702
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "curious",
+      "start": 12.778,
+      "end": 16.114,
+      "words": [
+        {
+          "w": "y",
+          "start": 12.778,
+          "end": 12.832
+        },
+        {
+          "w": "se",
+          "start": 12.91,
+          "end": 12.976
+        },
+        {
+          "w": "aparcan",
+          "start": 13.01,
+          "end": 13.385
+        },
+        {
+          "w": "entre",
+          "start": 13.43,
+          "end": 13.639
+        },
+        {
+          "w": "capas",
+          "start": 13.672,
+          "end": 13.971
+        },
+        {
+          "w": "de",
+          "start": 14.027,
+          "end": 14.082
+        },
+        {
+          "w": "grafito,",
+          "start": 14.115,
+          "end": 14.657
+        },
+        {
+          "w": "como",
+          "start": 14.756,
+          "end": 14.967
+        },
+        {
+          "w": "coches",
+          "start": 15.01,
+          "end": 15.365
+        },
+        {
+          "w": "en",
+          "start": 15.43,
+          "end": 15.486
+        },
+        {
+          "w": "un",
+          "start": 15.552,
+          "end": 15.608
+        },
+        {
+          "w": "parking.",
+          "start": 15.663,
+          "end": 16.114
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "serious",
+      "start": 16.19,
+      "end": 19.092,
+      "words": [
+        {
+          "w": "Con",
+          "start": 16.19,
+          "end": 16.323
+        },
+        {
+          "w": "el",
+          "start": 16.378,
+          "end": 16.445
+        },
+        {
+          "w": "parking",
+          "start": 16.511,
+          "end": 16.821
+        },
+        {
+          "w": "vacío,",
+          "start": 16.865,
+          "end": 17.34
+        },
+        {
+          "w": "el",
+          "start": 17.473,
+          "end": 17.617
+        },
+        {
+          "w": "cargador",
+          "start": 17.672,
+          "end": 18.126
+        },
+        {
+          "w": "empuja",
+          "start": 18.181,
+          "end": 18.601
+        },
+        {
+          "w": "a",
+          "start": 18.634,
+          "end": 18.663
+        },
+        {
+          "w": "tope.",
+          "start": 18.711,
+          "end": 19.092
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "amazed",
+      "start": 19.169,
+      "end": 20.533,
+      "words": [
+        {
+          "w": "Pero",
+          "start": 19.169,
+          "end": 19.376
+        },
+        {
+          "w": "eso",
+          "start": 19.421,
+          "end": 19.565
+        },
+        {
+          "w": "no",
+          "start": 19.609,
+          "end": 19.675
+        },
+        {
+          "w": "es",
+          "start": 19.719,
+          "end": 19.786
+        },
+        {
+          "w": "lo",
+          "start": 19.83,
+          "end": 19.896
+        },
+        {
+          "w": "más",
+          "start": 19.94,
+          "end": 20.073
+        },
+        {
+          "w": "curioso.",
+          "start": 20.117,
+          "end": 20.533
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "serious",
+      "start": 20.61,
+      "end": 24.331,
+      "words": [
+        {
+          "w": "Cuanto",
+          "start": 20.61,
+          "end": 20.935
+        },
+        {
+          "w": "más",
+          "start": 20.99,
+          "end": 21.19
+        },
+        {
+          "w": "lleno",
+          "start": 21.211,
+          "end": 21.454
+        },
+        {
+          "w": "está,",
+          "start": 21.476,
+          "end": 21.886
+        },
+        {
+          "w": "más",
+          "start": 22.063,
+          "end": 22.272
+        },
+        {
+          "w": "le",
+          "start": 22.328,
+          "end": 22.406
+        },
+        {
+          "w": "cuesta",
+          "start": 22.438,
+          "end": 22.726
+        },
+        {
+          "w": "a",
+          "start": 22.749,
+          "end": 22.777
+        },
+        {
+          "w": "cada",
+          "start": 22.826,
+          "end": 23.08
+        },
+        {
+          "w": "ion",
+          "start": 23.179,
+          "end": 23.368
+        },
+        {
+          "w": "encontrar",
+          "start": 23.423,
+          "end": 23.91
+        },
+        {
+          "w": "sitio.",
+          "start": 23.965,
+          "end": 24.331
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "serious",
+      "start": 24.408,
+      "end": 30.196,
+      "words": [
+        {
+          "w": "Si",
+          "start": 24.408,
+          "end": 24.562
+        },
+        {
+          "w": "siguiera",
+          "start": 24.617,
+          "end": 24.982
+        },
+        {
+          "w": "empujando",
+          "start": 25.004,
+          "end": 25.512
+        },
+        {
+          "w": "igual,",
+          "start": 25.546,
+          "end": 25.9
+        },
+        {
+          "w": "el",
+          "start": 26.076,
+          "end": 26.198
+        },
+        {
+          "w": "litio",
+          "start": 26.253,
+          "end": 26.53
+        },
+        {
+          "w": "se",
+          "start": 26.585,
+          "end": 26.663
+        },
+        {
+          "w": "pegaría",
+          "start": 26.707,
+          "end": 27.105
+        },
+        {
+          "w": "a",
+          "start": 27.127,
+          "end": 27.155
+        },
+        {
+          "w": "la",
+          "start": 27.205,
+          "end": 27.249
+        },
+        {
+          "w": "entrada",
+          "start": 27.27,
+          "end": 27.613
+        },
+        {
+          "w": "como",
+          "start": 27.669,
+          "end": 27.857
+        },
+        {
+          "w": "metal",
+          "start": 27.89,
+          "end": 28.222
+        },
+        {
+          "w": "y",
+          "start": 28.431,
+          "end": 28.498
+        },
+        {
+          "w": "la",
+          "start": 28.565,
+          "end": 28.62
+        },
+        {
+          "w": "batería",
+          "start": 28.675,
+          "end": 29.073
+        },
+        {
+          "w": "perdería",
+          "start": 29.129,
+          "end": 29.615
+        },
+        {
+          "w": "capacidad.",
+          "start": 29.67,
+          "end": 30.196
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "analytical",
+      "start": 30.272,
+      "end": 35.46,
+      "words": [
+        {
+          "w": "Por",
+          "start": 30.272,
+          "end": 30.51
+        },
+        {
+          "w": "eso,",
+          "start": 30.51,
+          "end": 30.87
+        },
+        {
+          "w": "hacia",
+          "start": 30.87,
+          "end": 31.321
+        },
+        {
+          "w": "el",
+          "start": 31.321,
+          "end": 31.501
+        },
+        {
+          "w": "80",
+          "start": 31.501,
+          "end": 31.681
+        },
+        {
+          "w": "%,",
+          "start": 31.681,
+          "end": 31.861
+        },
+        {
+          "w": "el",
+          "start": 31.861,
+          "end": 32.041
+        },
+        {
+          "w": "cargador",
+          "start": 32.041,
+          "end": 32.76
+        },
+        {
+          "w": "baja",
+          "start": 32.76,
+          "end": 33.12
+        },
+        {
+          "w": "la",
+          "start": 33.12,
+          "end": 33.3
+        },
+        {
+          "w": "corriente.",
+          "start": 33.3,
+          "end": 34.2
+        },
+        {
+          "w": "Por",
+          "start": 34.2,
+          "end": 34.47
+        },
+        {
+          "w": "eso",
+          "start": 34.47,
+          "end": 34.74
+        },
+        {
+          "w": "va",
+          "start": 34.74,
+          "end": 34.92
+        },
+        {
+          "w": "lento.",
+          "start": 34.92,
+          "end": 35.46
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "amazed",
+      "start": 35.536,
+      "end": 36.572,
+      "words": [
+        {
+          "w": "Y",
+          "start": 35.536,
+          "end": 35.602
+        },
+        {
+          "w": "aquí",
+          "start": 35.669,
+          "end": 35.846
+        },
+        {
+          "w": "viene",
+          "start": 35.89,
+          "end": 36.1
+        },
+        {
+          "w": "el",
+          "start": 36.122,
+          "end": 36.177
+        },
+        {
+          "w": "truco.",
+          "start": 36.222,
+          "end": 36.572
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "curious",
+      "start": 36.649,
+      "end": 42.28,
+      "words": [
+        {
+          "w": "Si",
+          "start": 36.649,
+          "end": 36.784
+        },
+        {
+          "w": "lo",
+          "start": 36.784,
+          "end": 36.933
+        },
+        {
+          "w": "cargas",
+          "start": 36.933,
+          "end": 37.381
+        },
+        {
+          "w": "de",
+          "start": 37.381,
+          "end": 37.53
+        },
+        {
+          "w": "noche,",
+          "start": 37.53,
+          "end": 37.978
+        },
+        {
+          "w": "aprende",
+          "start": 37.978,
+          "end": 38.5
+        },
+        {
+          "w": "tu",
+          "start": 38.5,
+          "end": 38.65
+        },
+        {
+          "w": "horario:",
+          "start": 38.65,
+          "end": 39.247
+        },
+        {
+          "w": "se",
+          "start": 39.247,
+          "end": 39.396
+        },
+        {
+          "w": "para",
+          "start": 39.396,
+          "end": 39.694
+        },
+        {
+          "w": "en",
+          "start": 39.694,
+          "end": 39.844
+        },
+        {
+          "w": "el",
+          "start": 39.844,
+          "end": 39.993
+        },
+        {
+          "w": "80",
+          "start": 39.993,
+          "end": 40.143
+        },
+        {
+          "w": "%",
+          "start": 40.143,
+          "end": 40.217
+        },
+        {
+          "w": "y",
+          "start": 40.217,
+          "end": 40.291
+        },
+        {
+          "w": "acaba",
+          "start": 40.291,
+          "end": 40.665
+        },
+        {
+          "w": "justo",
+          "start": 40.665,
+          "end": 41.038
+        },
+        {
+          "w": "antes",
+          "start": 41.038,
+          "end": 41.411
+        },
+        {
+          "w": "de",
+          "start": 41.411,
+          "end": 41.56
+        },
+        {
+          "w": "que",
+          "start": 41.56,
+          "end": 41.785
+        },
+        {
+          "w": "despiertes.",
+          "start": 41.785,
+          "end": 42.28
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "analytical",
+      "start": 42.356,
+      "end": 47.186,
+      "words": [
+        {
+          "w": "Pasar",
+          "start": 42.356,
+          "end": 42.73
+        },
+        {
+          "w": "horas",
+          "start": 42.73,
+          "end": 43.139
+        },
+        {
+          "w": "al",
+          "start": 43.139,
+          "end": 43.302
+        },
+        {
+          "w": "100",
+          "start": 43.302,
+          "end": 43.548
+        },
+        {
+          "w": "%",
+          "start": 43.548,
+          "end": 43.629
+        },
+        {
+          "w": "desgasta",
+          "start": 43.629,
+          "end": 44.282
+        },
+        {
+          "w": "la",
+          "start": 44.282,
+          "end": 44.446
+        },
+        {
+          "w": "batería.",
+          "start": 44.446,
+          "end": 45.099
+        },
+        {
+          "w": "En",
+          "start": 45.099,
+          "end": 45.262
+        },
+        {
+          "w": "iPhone",
+          "start": 45.262,
+          "end": 45.751
+        },
+        {
+          "w": "se",
+          "start": 45.751,
+          "end": 45.915
+        },
+        {
+          "w": "llama",
+          "start": 45.915,
+          "end": 46.324
+        },
+        {
+          "w": "carga",
+          "start": 46.324,
+          "end": 46.731
+        },
+        {
+          "w": "optimizada.",
+          "start": 46.731,
+          "end": 47.186
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "warm",
+      "start": 47.262,
+      "end": 50.727,
+      "words": [
+        {
+          "w": "En",
+          "start": 47.262,
+          "end": 47.434
+        },
+        {
+          "w": "Android,",
+          "start": 47.478,
+          "end": 47.943
+        },
+        {
+          "w": "carga",
+          "start": 48.119,
+          "end": 48.451
+        },
+        {
+          "w": "adaptativa",
+          "start": 48.473,
+          "end": 49.081
+        },
+        {
+          "w": "o",
+          "start": 49.358,
+          "end": 49.457
+        },
+        {
+          "w": "protección",
+          "start": 49.502,
+          "end": 50.044
+        },
+        {
+          "w": "de",
+          "start": 50.099,
+          "end": 50.165
+        },
+        {
+          "w": "batería.",
+          "start": 50.21,
+          "end": 50.727
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "warm",
+      "start": 50.803,
+      "end": 57.184,
+      "words": [
+        {
+          "w": "¿Te",
+          "start": 50.803,
+          "end": 50.903
+        },
+        {
+          "w": "diste",
+          "start": 50.948,
+          "end": 51.179
+        },
+        {
+          "w": "cuenta?",
+          "start": 51.224,
+          "end": 51.689
+        },
+        {
+          "w": "Tu",
+          "start": 51.831,
+          "end": 51.965
+        },
+        {
+          "w": "móvil",
+          "start": 52.02,
+          "end": 52.285
+        },
+        {
+          "w": "está",
+          "start": 52.33,
+          "end": 52.507
+        },
+        {
+          "w": "ahora",
+          "start": 52.539,
+          "end": 52.783
+        },
+        {
+          "w": "en",
+          "start": 52.827,
+          "end": 52.893
+        },
+        {
+          "w": "algún",
+          "start": 52.96,
+          "end": 53.203
+        },
+        {
+          "w": "porcentaje.",
+          "start": 53.248,
+          "end": 53.988
+        },
+        {
+          "w": "Guárdalo",
+          "start": 54.265,
+          "end": 54.685
+        },
+        {
+          "w": "y",
+          "start": 54.829,
+          "end": 54.906
+        },
+        {
+          "w": "mira",
+          "start": 54.983,
+          "end": 55.182
+        },
+        {
+          "w": "esta",
+          "start": 55.215,
+          "end": 55.392
+        },
+        {
+          "w": "noche",
+          "start": 55.436,
+          "end": 55.669
+        },
+        {
+          "w": "si",
+          "start": 55.724,
+          "end": 55.812
+        },
+        {
+          "w": "la",
+          "start": 55.856,
+          "end": 55.923
+        },
+        {
+          "w": "tienes",
+          "start": 55.968,
+          "end": 56.266
+        },
+        {
+          "w": "activada.",
+          "start": 56.332,
+          "end": 57.184
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "voice": "David Martin",
+      "model": "eleven_multilingual_v2",
+      "emotion": "warm",
+      "start": 57.26,
+      "end": 59.589,
+      "words": [
+        {
+          "w": "Sígueme",
+          "start": 57.26,
+          "end": 57.702
+        },
+        {
+          "w": "para",
+          "start": 57.747,
+          "end": 57.912
+        },
+        {
+          "w": "entender",
+          "start": 57.934,
+          "end": 58.332
+        },
+        {
+          "w": "lo",
+          "start": 58.399,
+          "end": 58.488
+        },
+        {
+          "w": "que",
+          "start": 58.531,
+          "end": 58.609
+        },
+        {
+          "w": "tienes",
+          "start": 58.653,
+          "end": 58.941
+        },
+        {
+          "w": "en",
+          "start": 59.018,
+          "end": 59.062
+        },
+        {
+          "w": "la",
+          "start": 59.107,
+          "end": 59.195
+        },
+        {
+          "w": "mano.",
+          "start": 59.239,
+          "end": 59.589
+        }
+      ]
+    }
+  ],
+  "tempo": 1.05
+}
