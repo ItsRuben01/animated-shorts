@@ -203,7 +203,7 @@ function drawHeadline(ctx: CanvasRenderingContext2D, small: string, keyword: str
 }
 
 export const CommentCTA: React.FC<CommentCTAProps> = ({
-  keyword, reply, channel = "content-os", lang = "es", headline, mode = "both", start = 0.35, cps = 9,
+  keyword, reply, channel = "nebuu3d", lang = "es", headline, mode = "both", start = 0.35, cps = 9,
   position = [0, 1.9, 1.2], rotation = [0, 0, 0], scale = 1, showHeadline = true, accent = "#ff6a2b",
 }) => {
   const frame = useCurrentFrame();

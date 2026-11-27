@@ -6,7 +6,7 @@ import { CommentCTA, type CtaLang } from "./CommentCTA";
 import { studioLook } from "../ep7/world";
 
 export const CtaPreview: React.FC<{ keyword?: string; reply?: string; lang?: CtaLang; channel?: string }> = ({
-  keyword = "PEPINILLO", reply = "¡Aquí lo tienes: el pepinillo por dentro!", lang = "es", channel = "content-os",
+  keyword = "PEPINILLO", reply = "¡Aquí lo tienes: el pepinillo por dentro!", lang = "es", channel = "nebuu3d",
 }) => (
   <Stage look={{ ...studioLook, aperture: 0.4 }} dur={150}
     cam={{ from: [0, 2.5, 6.4], to: [0, 2.45, 5.9], lookFrom: [0, 2.4, 0.8], lookTo: [0, 2.4, 0.8], fov: 40 }}>
