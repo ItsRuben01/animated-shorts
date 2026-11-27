@@ -11,7 +11,7 @@ Sources: https://productionmachining.com/articles/5-facts-about-thread-rolling- 
 
 Tags: #screws #howitsmade #engineering #factory #manufacturing
 
-Recommended thumbnail: PENDING
+Recommended thumbnail: `episodes/ep12_en/out/thumbnail_short_5.png` (1080x1920, "GOES IN SMOOTH / COMES OUT THREADED", before/after with the H3 wink). Alternative: `thumbnail_short_2.png` ("500 SCREWS PER MINUTE"). All 10 options: `out/shot_short.png`.
 Video: `episodes/ep12_en/out/episode_12_en.mp4` (9:16, 45.8 s + 0.7 s tail, ElevenLabs Brian, expressive v4 voice, tempo 1.2).
 
 Experiment (Performance brief): **H3 — double meaning with another object** (screws), duration and CTA held fixed. Compare IG skip rate and shares with the pickle (23 %, 8 shares).

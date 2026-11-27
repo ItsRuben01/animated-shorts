@@ -11,7 +11,7 @@ Fuentes: https://productionmachining.com/articles/5-facts-about-thread-rolling- 
 
 Tags: #tornillos #comosehace #ingenieria #fabrica #curiosidades
 
-Miniatura recomendada: PENDIENTE
+Miniatura recomendada: `episodes/ep12_es/out/thumbnail_short_5.png` (1080x1920, «ENTRA LISO / SALE CON ROSCA», antes y después con el guiño de H3). Alternativa: `thumbnail_short_2.png` («500 TORNILLOS POR MINUTO»). Las 10 opciones: `out/shot_short.png` (la #1 tiene la etiqueta inferior cortada: no usar).
 Vídeo: `episodes/ep12_es/out/episode_12_es.mp4` (9:16, 47,7 s + 0,7 s de cola, ElevenLabs Nebu, voz expresiva v4, tempo 1,2).
 
 Experimento (Performance brief): **H3 — doble sentido con otro objeto** (tornillos), duración y CTA fijos. Comparar % de saltos en IG y compartidos con el pepinillo (23 %, 8 compartidos).
