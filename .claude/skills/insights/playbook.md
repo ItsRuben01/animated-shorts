@@ -46,5 +46,6 @@
 ## Acciones pendientes (necesitan tu OK)
 - YouTube: *Un micro-poro puede matar una batería sólida* se subió como vídeo largo (2 vistas ES, 15 EN). Si se reutiliza, que sea como Short de ≤60 s.
 - YouTube: *Submarinos* (25 nov) tiene 4 vistas. Comprobar en Studio si está procesado, si es público y si tiene restricciones.
-- Instagram: respuestas a los comentarios del pepinillo redactadas el 2026-11-27 y pendientes de tu OK (son 8 comentarios de una sola cuenta; responder solo a 4 y fijar un comentario con pregunta).
+- Instagram: fijar en la app el comentario propio del pepinillo ("¿Qué proceso de fábrica quieres ver explicado después?…", publicado el 2026-11-27). El conector no permite fijar.
+- Próximo Paso 0: leer las respuestas a ese comentario y añadir los temas pedidos como ideas validadas por la audiencia.
 - Instagram: nueva portada o primer fotograma para Condensador y Tacoma (skill `thumbnails-hooks`).
