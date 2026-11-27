@@ -10,3 +10,5 @@ The workflow is the skill in `.claude/skills/animated-shorts/SKILL.md`. Read it 
 - Always check stills before rendering: `node scripts/stills.mjs <shot ids>`.
 - New video, new chat.
 - Voice master (ElevenLabs, expressive): `node scripts/elevenlabs-voice.mjs <ep> <voiceId> <label> 1.0 --dry-run` first (free), then `--target=<s>`. Default model `eleven_v4` with audio tags from `emotion`/`sayTts`; re-take flat shots only with `--only=ids` (cache = 0 credits). Never a flat documentary read: see step 6 of the skill.
+- Spanish narrator (from ep12 on): the owner's cloned voice **Nebu** (`rHTtFjgYAGnQOQw7Alsk`, ElevenLabs "mis voces", es-andalusian). English stays Brian (`nPczCjzI2devNBz1zQrb`). Never use David Martin for new ES episodes.
+- Before writing any script: run the short-form demand check in step 4 of the skill (Shorts ≤ 70 s + adjacent angle + TikTok/IG reported by the user; flag topics under 100 K).

@@ -14,6 +14,7 @@ Short vertical (1080x1920, 30 fps), 12 planos, una voz por plano. Short bilingü
 ## Validación del tema (2026-11-27, yt-dlp)
 - Referencia (paso 10): **«Why Plane Tires Don't Explode On Landing»** (Tech Insider) — https://www.youtube.com/watch?v=_CyXMNHYl70 (5,5 M). ES: «¿Por qué las Ruedas de los Aviones NO Se Inflan con Aire?» — https://www.youtube.com/watch?v=G1i6iEZceCw (3,7 M).
 - Shorts: el mayor sobre nitrógeno en ruedas tiene 74 K y habla de coches. Hueco libre en Shorts con demanda probada en largo.
+- **Comprobación de demanda en formato corto (hecha después de producir, 2026-11-27):** Shorts sobre nitrógeno en ruedas de avión: máximo 678 visitas (EN) y 47 (ES); ángulo cercano «rueda de avión que explota»: 361 K, 64 K, 50 K (clips reales). TikTok/IG: no medidos. Veredicto: demanda corta sin probar; se apoya la portada en la explosión (#9).
 - Formato: Short solo (Caso B). Posible largo genérico futuro: «cómo se fabrica y se cuida una rueda de avión».
 
 ## Reparto y dirección emocional

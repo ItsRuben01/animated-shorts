@@ -11,7 +11,7 @@ Fuentes: https://www.law.cornell.edu/cfr/text/14/25.733 · https://www.faa.gov/d
 
 Tags: #aviones #ingenieria #aviacion #nitrogeno #curiosidades
 
-Miniatura recomendada: `episodes/ep11_es/out/thumbnail_short_1.png` (1080x1920, «SUS RUEDAS NO LLEVAN AIRE», el amigo sorprendido y la nube de aire tachada). Alternativa: `thumbnail_short_9.png` («UNA RUEDA CON AIRE… EXPLOTÓ EN VUELO», caso real de 1986). Las 10 opciones: `out/shot_short.png`.
+Miniatura recomendada: `episodes/ep11_es/out/thumbnail_short_9.png` (1080x1920, «UNA RUEDA CON AIRE… EXPLOTÓ EN VUELO», caso real de 1986: el ángulo de la explosión es el que tiene visitas en formato corto). Alternativa: `thumbnail_short_1.png` («SUS RUEDAS NO LLEVAN AIRE»). Las 10 opciones: `out/shot_short.png`.
 Vídeo: `episodes/ep11_es/out/episode_11_es.mp4` (9:16, 46,7 s + 0,7 s de cola, ElevenLabs David Martin, voz expresiva v4, tempo 1,2).
 
 Experimento (Performance brief): **H2 — duración ~45 s** con el gancho «¿Por qué NO…?» y tema de vehículos fijos. Medir en TikTok si pasa de ~740 vistas y el % de vistos enteros (objetivo > 7 %).
