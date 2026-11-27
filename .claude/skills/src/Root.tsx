@@ -13,6 +13,8 @@ import { Ep11EN, Ep11ES, Ep11ShotEN, Ep11ShotES, totalFrames as ep11Frames } fro
 import { Ep12EN, Ep12ES, Ep12ShotEN, Ep12ShotES, totalFrames as ep12Frames } from "./ep12/Episode";
 import { Ep13EN, Ep13ES, Ep13ShotEN, Ep13ShotES, totalFrames as ep13Frames } from "./ep13/Episode";
 import { Ep14EN, Ep14ES, Ep14ShotEN, Ep14ShotES, totalFrames as ep14Frames } from "./ep14/Episode";
+
+import { Ep8 as RetDemo, Ep8Shot as RetDemoShot, totalFrames as retDemoFrames } from "./retdemo/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
 import { CastSheet } from "./engine/CastSheet";
 import { CtaPreview } from "./engine/CtaPreview";
@@ -85,6 +87,10 @@ export const Root: React.FC = () => (
     <Composition id="Ep14Short-EN" component={Ep14EN} width={1080} height={1920} fps={30} durationInFrames={ep14Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
     <Composition id="Ep14Shot-ES" component={Ep14ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
     <Composition id="Ep14Shot-EN" component={Ep14ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* retdemo (antes "ep8" de la rama de retención) — por qué el último 20 % carga lento (primer episodio con las 8 piezas, HUD y subtítulos karaoke) */}
+    <Composition id="RetDemoShort" component={RetDemo} width={1080} height={1920} fps={30} durationInFrames={retDemoFrames(30)} defaultProps={{ captions: true, music: true }} />
+    <Composition id="RetDemoShot" component={RetDemoShot} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />
