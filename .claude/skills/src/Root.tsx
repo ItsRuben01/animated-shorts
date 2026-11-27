@@ -8,6 +8,7 @@ import { LongEN, LongES, LongShotStillEN, LongShotStillES, longFrames as ep6Long
 import { Ep7EN, Ep7ES, Ep7ShotEN, Ep7ShotES, totalFrames as ep7Frames } from "./ep7/Episode";
 import { Ep8EN, Ep8ES, Ep8ShotEN, Ep8ShotES, totalFrames as ep8Frames } from "./ep8/Episode";
 import { Ep9EN, Ep9ES, Ep9ShotEN, Ep9ShotES, totalFrames as ep9Frames } from "./ep9/Episode";
+import { Ep10EN, Ep10ES, Ep10ShotEN, Ep10ShotES, totalFrames as ep10Frames } from "./ep10/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
 import { CastSheet } from "./engine/CastSheet";
 
@@ -49,6 +50,12 @@ export const Root: React.FC = () => (
     <Composition id="Ep9Short-EN" component={Ep9EN} width={1080} height={1920} fps={30} durationInFrames={ep9Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
     <Composition id="Ep9Shot-ES" component={Ep9ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
     <Composition id="Ep9Shot-EN" component={Ep9ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* ep10 — el chicle (Short bilingüe) */}
+    <Composition id="Ep10Short-ES" component={Ep10ES} width={1080} height={1920} fps={30} durationInFrames={ep10Frames(30, "es")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep10Short-EN" component={Ep10EN} width={1080} height={1920} fps={30} durationInFrames={ep10Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep10Shot-ES" component={Ep10ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+    <Composition id="Ep10Shot-EN" component={Ep10ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />

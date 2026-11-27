@@ -1,0 +1,186 @@
+{
+ "bpm": 112,
+ "key": "E",
+ "music": 0.12,
+ "amb": {
+  "1": "desk",
+  "2": "room",
+  "3": "room",
+  "4": "room",
+  "5": "room",
+  "6": "wind",
+  "7": "room",
+  "8": "desk",
+  "9": "room",
+  "10": "room",
+  "11": "room",
+  "12": "room",
+  "13": "room",
+  "14": "room",
+  "15": "room",
+  "16": "room",
+  "17": "room",
+  "18": "room",
+  "19": "room",
+  "20": "room",
+  "21": "room",
+  "22": "room",
+  "23": "room"
+ },
+ "sfx": [
+  {
+   "shot": 1,
+   "at": 2.58,
+   "type": "pop"
+  },
+  {
+   "shot": 1,
+   "at": 2.63,
+   "type": "shimmer"
+  },
+  {
+   "shot": 2,
+   "at": 0.4,
+   "type": "tick"
+  },
+  {
+   "shot": 3,
+   "at": 0.2,
+   "type": "whoosh"
+  },
+  {
+   "shot": 3,
+   "at": 4.67,
+   "type": "thump"
+  },
+  {
+   "shot": 4,
+   "at": 0.4,
+   "type": "bite",
+   "repeat": 3,
+   "every": 0.5
+  },
+  {
+   "shot": 5,
+   "at": 0.2,
+   "type": "whoosh"
+  },
+  {
+   "shot": 6,
+   "at": 0.5,
+   "type": "pop",
+   "repeat": 4,
+   "every": 0.7
+  },
+  {
+   "shot": 7,
+   "at": 0.2,
+   "type": "knock"
+  },
+  {
+   "shot": 8,
+   "at": 0.2,
+   "type": "whoosh"
+  },
+  {
+   "shot": 8,
+   "at": 1.82,
+   "type": "shimmer"
+  },
+  {
+   "shot": 9,
+   "at": 0.3,
+   "type": "thump"
+  },
+  {
+   "shot": 9,
+   "at": 1.0,
+   "type": "chatter"
+  },
+  {
+   "shot": 10,
+   "at": 0.3,
+   "type": "pop",
+   "repeat": 6,
+   "every": 0.35
+  },
+  {
+   "shot": 11,
+   "at": 2.08,
+   "type": "pop"
+  },
+  {
+   "shot": 12,
+   "at": 0.2,
+   "type": "whoosh"
+  },
+  {
+   "shot": 12,
+   "at": 0.6,
+   "type": "tick",
+   "repeat": 6,
+   "every": 0.45
+  },
+  {
+   "shot": 13,
+   "at": 0.3,
+   "type": "knock",
+   "repeat": 5,
+   "every": 0.8
+  },
+  {
+   "shot": 14,
+   "at": 0.05,
+   "type": "pop"
+  },
+  {
+   "shot": 16,
+   "at": 1.07,
+   "type": "thump"
+  },
+  {
+   "shot": 17,
+   "at": 0.2,
+   "type": "whoosh"
+  },
+  {
+   "shot": 17,
+   "at": 0.6,
+   "type": "tick",
+   "repeat": 8,
+   "every": 0.4
+  },
+  {
+   "shot": 18,
+   "at": 0.4,
+   "type": "bite",
+   "repeat": 4,
+   "every": 0.7
+  },
+  {
+   "shot": 19,
+   "at": 2.64,
+   "type": "knock"
+  },
+  {
+   "shot": 20,
+   "at": 0.4,
+   "type": "shimmer"
+  },
+  {
+   "shot": 21,
+   "at": 2.0,
+   "type": "whoosh"
+  },
+  {
+   "shot": 22,
+   "at": 0.5,
+   "type": "coin"
+  },
+  {
+   "shot": 23,
+   "at": 0.2,
+   "type": "pop"
+  }
+ ]
+}
