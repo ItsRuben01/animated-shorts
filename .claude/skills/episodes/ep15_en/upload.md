@@ -17,7 +17,7 @@ Tags: #howitsmade #baking #donuts #foodscience #didyouknow
 - **To do (you):** set up the automation on IG/TikTok with that text (plus the long-video link once it exists).
 - Pinned comment: "Comment CREAM 👇 and I'll DM you how to fill them at home"
 
-Recommended thumbnail: PENDING
+Recommended thumbnail: `episodes/ep15_en/out/thumbnail_short_1.png` (1080x1920, "NO CUT / FULL OF CREAM", cut bun with the needle + shocked friend). Alternative: `thumbnail_short_4.png` ("NEVER FILLED BEFORE BAKING"). All 10 options: `out/shot_short.png`.
 Video: `episodes/ep15_en/out/episode_15_en.mp4` (9:16, 59.5 s + 0.7 s tail, ElevenLabs Brian).
 
 Experiment: **8-piece retention flow + comment-keyword CTA** (first episode). Measure comments per 1,000 views, % watched and DMs sent.

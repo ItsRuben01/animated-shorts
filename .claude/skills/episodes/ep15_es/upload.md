@@ -17,7 +17,7 @@ Tags: #bollos #comosehace #reposteria #curiosidades #fabrica
 - **Pendiente tuyo:** configurar la automatización en IG/TikTok con ese texto (y el enlace al vídeo largo cuando exista).
 - Comentario fijado: «Comenta CREMA 👇 y te llega por privado cómo rellenarlos en casa».
 
-Miniatura recomendada: PENDIENTE
+Miniatura recomendada: `episodes/ep15_es/out/thumbnail_short_1.png` (1080x1920, «NI UN CORTE / Y LLENO DE CREMA», bollo en corte con la aguja + amigo sorprendido). Alternativa: `thumbnail_short_4.png` («NO LO RELLENAN ANTES DEL HORNO»). Las 10 opciones: `out/shot_short.png` (la #6 tiene la etiqueta inferior cortada: no usar).
 Vídeo: `episodes/ep15_es/out/episode_15_es.mp4` (9:16, 58,3 s + 0,7 s de cola, ElevenLabs Nebu).
 
 Experimento: **flujo de retención de 8 piezas + CTA de palabra clave** (primer episodio). Medir comentarios por 1.000 vistas, % visto y DMs enviados.
