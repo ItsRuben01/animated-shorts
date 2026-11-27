@@ -207,3 +207,4 @@ These are engine defaults, not per-episode hacks. Do not flatten the 3D set, do 
 - The skill isn't found: you opened Claude Code in the wrong folder.
 - A shot looks wrong: say exactly what's wrong ("the tree covers his face in shot 7") and fix only that shot, check its still, render again.
 - Red text in the terminal: read it, fix the cause, don't just retry.
+- The video has frames where the picture repeats as a mosaic (tiles of the same frame): the render ran several WebGL tabs at once on a software GPU. Render again with `--concurrency=1` (the default in `remotion.config.ts`) and check the file: extract a few frames with ffmpeg before calling it done. (ep8, 2026-11-27: 555 of 1,808 frames tiled with `--concurrency=3` on `--gl=swangle`; 0 with `--concurrency=1`.)
