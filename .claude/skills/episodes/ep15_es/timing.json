@@ -1,0 +1,1044 @@
+{
+ "voice": "Nebu",
+ "model": "eleven_v4",
+ "speed": 1,
+ "tempo": 1.125,
+ "total": 58.328,
+ "shots": [
+  {
+   "id": 1,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "intrigued",
+   "start": 0,
+   "end": 3.986,
+   "words": [
+    {
+     "w": "Este",
+     "start": 0.073,
+     "end": 0.367
+    },
+    {
+     "w": "bollo",
+     "start": 0.44,
+     "end": 0.733
+    },
+    {
+     "w": "no",
+     "start": 0.77,
+     "end": 0.807
+    },
+    {
+     "w": "tiene",
+     "start": 0.953,
+     "end": 1.173
+    },
+    {
+     "w": "ni",
+     "start": 1.247,
+     "end": 1.32
+    },
+    {
+     "w": "un",
+     "start": 1.393,
+     "end": 1.613
+    },
+    {
+     "w": "corte…",
+     "start": 1.65,
+     "end": 2.2
+    },
+    {
+     "w": "¿y",
+     "start": 2.566,
+     "end": 2.64
+    },
+    {
+     "w": "cómo",
+     "start": 2.86,
+     "end": 3.006
+    },
+    {
+     "w": "le",
+     "start": 3.08,
+     "end": 3.153
+    },
+    {
+     "w": "meten",
+     "start": 3.226,
+     "end": 3.373
+    },
+    {
+     "w": "la",
+     "start": 3.446,
+     "end": 3.52
+    },
+    {
+     "w": "crema?",
+     "start": 3.593,
+     "end": 3.986
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "chuckles",
+   "start": 4.066,
+   "end": 6.574,
+   "words": [
+    {
+     "w": "Se",
+     "start": 4.777,
+     "end": 4.848
+    },
+    {
+     "w": "la",
+     "start": 4.919,
+     "end": 4.955
+    },
+    {
+     "w": "inyectan.",
+     "start": 4.99,
+     "end": 5.701
+    },
+    {
+     "w": "Literal.",
+     "start": 5.844,
+     "end": 6.574
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "playful",
+   "start": 6.924,
+   "end": 12.254,
+   "words": [
+    {
+     "w": "En",
+     "start": 7.04,
+     "end": 7.07
+    },
+    {
+     "w": "un",
+     "start": 7.133,
+     "end": 7.203
+    },
+    {
+     "w": "minuto",
+     "start": 7.272,
+     "end": 7.621
+    },
+    {
+     "w": "sabrás",
+     "start": 7.656,
+     "end": 8.04
+    },
+    {
+     "w": "cómo,",
+     "start": 8.109,
+     "end": 8.598
+    },
+    {
+     "w": "por",
+     "start": 8.702,
+     "end": 8.807
+    },
+    {
+     "w": "qué",
+     "start": 8.877,
+     "end": 8.946
+    },
+    {
+     "w": "no",
+     "start": 8.981,
+     "end": 9.016
+    },
+    {
+     "w": "lo",
+     "start": 9.086,
+     "end": 9.156
+    },
+    {
+     "w": "rellenan",
+     "start": 9.26,
+     "end": 9.504
+    },
+    {
+     "w": "antes",
+     "start": 9.644,
+     "end": 9.783
+    },
+    {
+     "w": "del",
+     "start": 9.853,
+     "end": 9.923
+    },
+    {
+     "w": "horno",
+     "start": 10.016,
+     "end": 10.62
+    },
+    {
+     "w": "y",
+     "start": 10.655,
+     "end": 10.69
+    },
+    {
+     "w": "cómo",
+     "start": 10.899,
+     "end": 11.108
+    },
+    {
+     "w": "pillarlo",
+     "start": 11.178,
+     "end": 11.597
+    },
+    {
+     "w": "en",
+     "start": 11.666,
+     "end": 11.736
+    },
+    {
+     "w": "tu",
+     "start": 11.771,
+     "end": 11.806
+    },
+    {
+     "w": "bollo.",
+     "start": 11.876,
+     "end": 12.254
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "curious",
+   "start": 12.334,
+   "end": 16.598,
+   "words": [
+    {
+     "w": "Al",
+     "start": 12.448,
+     "end": 12.478
+    },
+    {
+     "w": "hornearse,",
+     "start": 12.583,
+     "end": 13.258
+    },
+    {
+     "w": "la",
+     "start": 13.33,
+     "end": 13.401
+    },
+    {
+     "w": "masa",
+     "start": 13.472,
+     "end": 13.756
+    },
+    {
+     "w": "sube",
+     "start": 13.863,
+     "end": 14.467
+    },
+    {
+     "w": "y",
+     "start": 14.538,
+     "end": 14.61
+    },
+    {
+     "w": "por",
+     "start": 14.681,
+     "end": 14.752
+    },
+    {
+     "w": "dentro",
+     "start": 14.858,
+     "end": 15.107
+    },
+    {
+     "w": "queda",
+     "start": 15.178,
+     "end": 15.392
+    },
+    {
+     "w": "llena",
+     "start": 15.463,
+     "end": 15.747
+    },
+    {
+     "w": "de",
+     "start": 15.783,
+     "end": 15.818
+    },
+    {
+     "w": "huecos",
+     "start": 15.89,
+     "end": 16.174
+    },
+    {
+     "w": "de",
+     "start": 16.21,
+     "end": 16.245
+    },
+    {
+     "w": "aire.",
+     "start": 16.316,
+     "end": 16.598
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 16.678,
+   "end": 21.621,
+   "words": [
+    {
+     "w": "Ahí",
+     "start": 16.867,
+     "end": 16.981
+    },
+    {
+     "w": "entra",
+     "start": 17.057,
+     "end": 17.359
+    },
+    {
+     "w": "la",
+     "start": 17.397,
+     "end": 17.435
+    },
+    {
+     "w": "aguja:",
+     "start": 17.549,
+     "end": 18.268
+    },
+    {
+     "w": "un",
+     "start": 18.343,
+     "end": 18.495
+    },
+    {
+     "w": "tubo",
+     "start": 18.57,
+     "end": 18.797
+    },
+    {
+     "w": "de",
+     "start": 18.835,
+     "end": 18.873
+    },
+    {
+     "w": "acero",
+     "start": 18.949,
+     "end": 19.176
+    },
+    {
+     "w": "que",
+     "start": 19.289,
+     "end": 19.403
+    },
+    {
+     "w": "pincha",
+     "start": 19.516,
+     "end": 19.781
+    },
+    {
+     "w": "el",
+     "start": 19.857,
+     "end": 19.933
+    },
+    {
+     "w": "bollo",
+     "start": 19.971,
+     "end": 20.69
+    },
+    {
+     "w": "sin",
+     "start": 20.803,
+     "end": 20.917
+    },
+    {
+     "w": "romperlo.",
+     "start": 20.992,
+     "end": 21.621
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "amazed",
+   "start": 21.701,
+   "end": 26.57,
+   "words": [
+    {
+     "w": "Detrás,",
+     "start": 21.771,
+     "end": 22.426
+    },
+    {
+     "w": "un",
+     "start": 22.599,
+     "end": 22.737
+    },
+    {
+     "w": "pistón",
+     "start": 22.806,
+     "end": 23.082
+    },
+    {
+     "w": "mide",
+     "start": 23.151,
+     "end": 23.358
+    },
+    {
+     "w": "cada",
+     "start": 23.427,
+     "end": 23.634
+    },
+    {
+     "w": "chorro",
+     "start": 23.703,
+     "end": 23.91
+    },
+    {
+     "w": "al",
+     "start": 23.979,
+     "end": 24.048
+    },
+    {
+     "w": "gramo:",
+     "start": 24.186,
+     "end": 24.739
+    },
+    {
+     "w": "15",
+     "start": 24.762,
+     "end": 25.015
+    },
+    {
+     "w": "gramos,",
+     "start": 25.084,
+     "end": 25.636
+    },
+    {
+     "w": "siempre",
+     "start": 25.705,
+     "end": 25.981
+    },
+    {
+     "w": "iguales.",
+     "start": 26.085,
+     "end": 26.57
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 26.65,
+   "end": 28.393,
+   "words": [
+    {
+     "w": "Pero",
+     "start": 26.706,
+     "end": 26.784
+    },
+    {
+     "w": "eso",
+     "start": 26.851,
+     "end": 27.354
+    },
+    {
+     "w": "no",
+     "start": 27.455,
+     "end": 27.522
+    },
+    {
+     "w": "es",
+     "start": 27.589,
+     "end": 27.656
+    },
+    {
+     "w": "lo",
+     "start": 27.723,
+     "end": 27.79
+    },
+    {
+     "w": "más",
+     "start": 27.823,
+     "end": 27.924
+    },
+    {
+     "w": "curioso.",
+     "start": 27.991,
+     "end": 28.393
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "analytical",
+   "start": 28.473,
+   "end": 34.337,
+   "words": [
+    {
+     "w": "¿Por",
+     "start": 28.515,
+     "end": 28.598
+    },
+    {
+     "w": "qué",
+     "start": 28.67,
+     "end": 28.742
+    },
+    {
+     "w": "no",
+     "start": 28.814,
+     "end": 28.886
+    },
+    {
+     "w": "la",
+     "start": 28.921,
+     "end": 28.957
+    },
+    {
+     "w": "meten",
+     "start": 29.029,
+     "end": 29.245
+    },
+    {
+     "w": "antes?",
+     "start": 29.46,
+     "end": 29.963
+    },
+    {
+     "w": "Porque",
+     "start": 30.25,
+     "end": 30.465
+    },
+    {
+     "w": "la",
+     "start": 30.501,
+     "end": 30.537
+    },
+    {
+     "w": "crema",
+     "start": 30.609,
+     "end": 30.896
+    },
+    {
+     "w": "no",
+     "start": 31.04,
+     "end": 31.112
+    },
+    {
+     "w": "sobrevive",
+     "start": 31.184,
+     "end": 31.614
+    },
+    {
+     "w": "al",
+     "start": 31.65,
+     "end": 31.686
+    },
+    {
+     "w": "horno:",
+     "start": 31.758,
+     "end": 32.404
+    },
+    {
+     "w": "se",
+     "start": 32.476,
+     "end": 32.548
+    },
+    {
+     "w": "derretiría",
+     "start": 32.62,
+     "end": 33.553
+    },
+    {
+     "w": "y",
+     "start": 33.589,
+     "end": 33.625
+    },
+    {
+     "w": "se",
+     "start": 33.697,
+     "end": 33.769
+    },
+    {
+     "w": "quemaría.",
+     "start": 33.841,
+     "end": 34.337
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "dramatic",
+   "start": 34.417,
+   "end": 39.082,
+   "words": [
+    {
+     "w": "Por",
+     "start": 34.543,
+     "end": 34.573
+    },
+    {
+     "w": "eso",
+     "start": 34.682,
+     "end": 34.795
+    },
+    {
+     "w": "esperan",
+     "start": 34.947,
+     "end": 35.249
+    },
+    {
+     "w": "a",
+     "start": 35.287,
+     "end": 35.325
+    },
+    {
+     "w": "que",
+     "start": 35.363,
+     "end": 35.401
+    },
+    {
+     "w": "el",
+     "start": 35.439,
+     "end": 35.477
+    },
+    {
+     "w": "bollo",
+     "start": 35.552,
+     "end": 35.855
+    },
+    {
+     "w": "se",
+     "start": 35.893,
+     "end": 35.931
+    },
+    {
+     "w": "enfríe…",
+     "start": 36.044,
+     "end": 36.877
+    },
+    {
+     "w": "y",
+     "start": 36.915,
+     "end": 37.066
+    },
+    {
+     "w": "solo",
+     "start": 37.104,
+     "end": 37.293
+    },
+    {
+     "w": "entonces",
+     "start": 37.444,
+     "end": 38.39
+    },
+    {
+     "w": "lo",
+     "start": 38.428,
+     "end": 38.58
+    },
+    {
+     "w": "pinchan.",
+     "start": 38.693,
+     "end": 39.082
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "amazed",
+   "start": 39.162,
+   "end": 41.162,
+   "words": [
+    {
+     "w": "Y",
+     "start": 39.228,
+     "end": 39.297
+    },
+    {
+     "w": "aquí",
+     "start": 39.435,
+     "end": 39.607
+    },
+    {
+     "w": "viene",
+     "start": 39.642,
+     "end": 40.263
+    },
+    {
+     "w": "el",
+     "start": 40.332,
+     "end": 40.539
+    },
+    {
+     "w": "truco.",
+     "start": 40.608,
+     "end": 41.16
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "curious",
+   "start": 41.242,
+   "end": 44.958,
+   "words": [
+    {
+     "w": "Coge",
+     "start": 41.356,
+     "end": 41.455
+    },
+    {
+     "w": "tu",
+     "start": 41.526,
+     "end": 41.597
+    },
+    {
+     "w": "bollo",
+     "start": 41.633,
+     "end": 41.953
+    },
+    {
+     "w": "y",
+     "start": 42.095,
+     "end": 42.166
+    },
+    {
+     "w": "búscale",
+     "start": 42.202,
+     "end": 42.593
+    },
+    {
+     "w": "un",
+     "start": 42.664,
+     "end": 42.735
+    },
+    {
+     "w": "puntito:",
+     "start": 42.771,
+     "end": 43.588
+    },
+    {
+     "w": "es",
+     "start": 43.695,
+     "end": 43.802
+    },
+    {
+     "w": "por",
+     "start": 43.873,
+     "end": 43.944
+    },
+    {
+     "w": "donde",
+     "start": 44.015,
+     "end": 44.157
+    },
+    {
+     "w": "entró",
+     "start": 44.264,
+     "end": 44.442
+    },
+    {
+     "w": "la",
+     "start": 44.477,
+     "end": 44.513
+    },
+    {
+     "w": "aguja.",
+     "start": 44.62,
+     "end": 44.958
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "chuckles",
+   "start": 45.038,
+   "end": 49.71,
+   "words": [
+    {
+     "w": "Si",
+     "start": 45.82,
+     "end": 45.891
+    },
+    {
+     "w": "ves",
+     "start": 45.963,
+     "end": 46.105
+    },
+    {
+     "w": "varios,",
+     "start": 46.211,
+     "end": 46.674
+    },
+    {
+     "w": "lo",
+     "start": 46.745,
+     "end": 46.816
+    },
+    {
+     "w": "pincharon",
+     "start": 46.887,
+     "end": 47.314
+    },
+    {
+     "w": "varias",
+     "start": 47.385,
+     "end": 47.669
+    },
+    {
+     "w": "veces",
+     "start": 47.705,
+     "end": 48.451
+    },
+    {
+     "w": "para",
+     "start": 48.523,
+     "end": 48.594
+    },
+    {
+     "w": "que",
+     "start": 48.629,
+     "end": 48.665
+    },
+    {
+     "w": "la",
+     "start": 48.736,
+     "end": 48.807
+    },
+    {
+     "w": "crema",
+     "start": 48.878,
+     "end": 49.091
+    },
+    {
+     "w": "llegue",
+     "start": 49.127,
+     "end": 49.305
+    },
+    {
+     "w": "a",
+     "start": 49.34,
+     "end": 49.376
+    },
+    {
+     "w": "todo.",
+     "start": 49.447,
+     "end": 49.71
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "warm",
+   "start": 49.79,
+   "end": 52.854,
+   "words": [
+    {
+     "w": "¿Te",
+     "start": 49.815,
+     "end": 49.899
+    },
+    {
+     "w": "diste",
+     "start": 50.007,
+     "end": 50.186
+    },
+    {
+     "w": "cuenta?",
+     "start": 50.258,
+     "end": 50.832
+    },
+    {
+     "w": "Ya",
+     "start": 51.048,
+     "end": 51.192
+    },
+    {
+     "w": "nunca",
+     "start": 51.335,
+     "end": 51.622
+    },
+    {
+     "w": "vas",
+     "start": 51.694,
+     "end": 51.838
+    },
+    {
+     "w": "a",
+     "start": 51.874,
+     "end": 51.91
+    },
+    {
+     "w": "mirar",
+     "start": 51.982,
+     "end": 52.125
+    },
+    {
+     "w": "un",
+     "start": 52.197,
+     "end": 52.269
+    },
+    {
+     "w": "bollo",
+     "start": 52.305,
+     "end": 52.484
+    },
+    {
+     "w": "igual.",
+     "start": 52.556,
+     "end": 52.854
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "excited",
+   "start": 52.934,
+   "end": 56.071,
+   "words": [
+    {
+     "w": "Comenta",
+     "start": 53.094,
+     "end": 53.329
+    },
+    {
+     "w": "«CREMA»",
+     "start": 53.396,
+     "end": 53.999
+    },
+    {
+     "w": "y",
+     "start": 54.033,
+     "end": 54.066
+    },
+    {
+     "w": "te",
+     "start": 54.133,
+     "end": 54.2
+    },
+    {
+     "w": "mando",
+     "start": 54.301,
+     "end": 54.402
+    },
+    {
+     "w": "por",
+     "start": 54.469,
+     "end": 54.536
+    },
+    {
+     "w": "privado",
+     "start": 54.603,
+     "end": 54.871
+    },
+    {
+     "w": "cómo",
+     "start": 54.904,
+     "end": 55.072
+    },
+    {
+     "w": "rellenarlos",
+     "start": 55.139,
+     "end": 55.609
+    },
+    {
+     "w": "en",
+     "start": 55.642,
+     "end": 55.676
+    },
+    {
+     "w": "casa.",
+     "start": 55.743,
+     "end": 56.071
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "voice": "Nebu",
+   "model": "eleven_v4",
+   "emotion": "warm",
+   "start": 56.151,
+   "end": 58.248,
+   "words": [
+    {
+     "w": "Y",
+     "start": 56.27,
+     "end": 56.3
+    },
+    {
+     "w": "síguenos",
+     "start": 56.33,
+     "end": 56.797
+    },
+    {
+     "w": "para",
+     "start": 56.869,
+     "end": 56.941
+    },
+    {
+     "w": "entender",
+     "start": 57.012,
+     "end": 57.443
+    },
+    {
+     "w": "lo",
+     "start": 57.479,
+     "end": 57.515
+    },
+    {
+     "w": "que",
+     "start": 57.587,
+     "end": 57.623
+    },
+    {
+     "w": "te",
+     "start": 57.659,
+     "end": 57.73
+    },
+    {
+     "w": "comes.",
+     "start": 57.802,
+     "end": 58.248
+    }
+   ]
+  }
+ ]
+}

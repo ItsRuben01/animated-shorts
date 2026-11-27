@@ -13,6 +13,7 @@ import { Ep11EN, Ep11ES, Ep11ShotEN, Ep11ShotES, totalFrames as ep11Frames } fro
 import { Ep12EN, Ep12ES, Ep12ShotEN, Ep12ShotES, totalFrames as ep12Frames } from "./ep12/Episode";
 import { Ep13EN, Ep13ES, Ep13ShotEN, Ep13ShotES, totalFrames as ep13Frames } from "./ep13/Episode";
 import { Ep14EN, Ep14ES, Ep14ShotEN, Ep14ShotES, totalFrames as ep14Frames } from "./ep14/Episode";
+import { Ep15EN, Ep15ES, Ep15ShotEN, Ep15ShotES, totalFrames as ep15Frames } from "./ep15/Episode";
 
 import { Ep8 as RetDemo, Ep8Shot as RetDemoShot, totalFrames as retDemoFrames } from "./retdemo/Episode";
 import { ThumbnailSheet, ThumbCard } from "./thumbnails/ThumbnailSheet";
@@ -91,6 +92,12 @@ export const Root: React.FC = () => (
     {/* retdemo (antes "ep8" de la rama de retención) — por qué el último 20 % carga lento (primer episodio con las 8 piezas, HUD y subtítulos karaoke) */}
     <Composition id="RetDemoShort" component={RetDemo} width={1080} height={1920} fps={30} durationInFrames={retDemoFrames(30)} defaultProps={{ captions: true, music: true }} />
     <Composition id="RetDemoShot" component={RetDemoShot} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+
+    {/* ep15 — crema inyectada en el bollo (Short bilingüe, flujo de retención de 8 piezas) */}
+    <Composition id="Ep15Short-ES" component={Ep15ES} width={1080} height={1920} fps={30} durationInFrames={ep15Frames(30, "es")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep15Short-EN" component={Ep15EN} width={1080} height={1920} fps={30} durationInFrames={ep15Frames(30, "en")} defaultProps={{ captions: true, music: true }} />
+    <Composition id="Ep15Shot-ES" component={Ep15ShotES} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
+    <Composition id="Ep15Shot-EN" component={Ep15ShotEN} width={1080} height={1920} fps={30} durationInFrames={300} defaultProps={{ id: 1 }} />
 
     {/* Hoja de modelo de personajes meme-fusión (comparar con ref/personajes_meme.jpg) */}
     <Composition id="CastSheet" component={CastSheet} width={2688} height={1100} fps={30} durationInFrames={30} defaultProps={{ sheet: "cast" as const }} />
