@@ -11,7 +11,7 @@ Fuentes: https://postharvest.ucdavis.edu/node/5196 · https://www.gcca.org/commo
 
 Tags: #platanos #comosehace #ciencia #fruta #curiosidades
 
-Miniatura recomendada: PENDIENTE
+Miniatura recomendada: `episodes/ep13_es/out/thumbnail_short_1.png` (1080x1920, «LOS ENCIERRAN CON GAS», racimo verde + amigo sorprendido: refuerza la prueba H1 del primer fotograma). Alternativa: `thumbnail_short_6.png` («UNA MANZANA Y UNA BOLSA», el truco de casa). Las 10 opciones: `out/shot_short.png`.
 Vídeo: `episodes/ep13_es/out/episode_13_es.mp4` (9:16, 48,3 s + 0,7 s de cola, ElevenLabs Nebu, tempo 1,2).
 
 Experimento (Performance brief): **H1 — primer fotograma con el objeto en primer plano** (racimo verde llenando la pantalla). Medir el % de saltos en IG (objetivo: < 25 %).

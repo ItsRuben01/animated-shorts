@@ -11,7 +11,7 @@ Sources: https://postharvest.ucdavis.edu/node/5196 · https://www.gcca.org/commo
 
 Tags: #bananas #howitsmade #science #food #didyouknow
 
-Recommended thumbnail: PENDING
+Recommended thumbnail: `episodes/ep13_en/out/thumbnail_short_1.png` (1080x1920, "LOCKED IN WITH GAS", green bunch + shocked friend: backs the H1 first-frame test). Alternative: `thumbnail_short_6.png` ("ONE APPLE, ONE BAG", the kitchen trick). All 10 options: `out/shot_short.png`.
 Video: `episodes/ep13_en/out/episode_13_en.mp4` (9:16, 46.4 s + 0.7 s tail, ElevenLabs Brian, tempo 1.2).
 
 Experiment (Performance brief): **H1 — first frame with the object in close-up** (green bunch filling the screen). Measure IG skip rate (target < 25 %).
