@@ -1,0 +1,114 @@
+{
+ "episode": "ep12_es",
+ "elevenlabs_tempo": 1.2,
+ "shots": [
+  {
+   "id": 1,
+   "tag": "mischievously",
+   "text": "A este tornillo no le cortan la rosca… se la hacen a presión.",
+   "sayTts": "[mischievously] A este tornillo no le cortan la rosca... se la hacen a presión.",
+   "cb_exaggeration": 0.65,
+   "cb_cfg_weight": 0.4,
+   "emo_vector": [
+    0.4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.3,
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "tag": "dramatic",
+   "text": "Luego, a golpes y en frío, le aplastan la punta hasta formar la cabeza.",
+   "sayTts": "[dramatic] Luego, a golpes y en frío, le aplastan la punta... hasta formar la cabeza.",
+   "cb_exaggeration": 0.9,
+   "cb_cfg_weight": 0.3,
+   "emo_vector": [
+    0,
+    0.3,
+    0,
+    0.2,
+    0,
+    0,
+    0.3,
+    0
+   ]
+  },
+  {
+   "id": 6,
+   "tag": "excited",
+   "text": "Y ahora la rosca: lo hacen rodar entre dos peines de acero que lo aprietan.",
+   "sayTts": "[excited] Y ahora la rosca: lo hacen rodar entre dos peines de acero que lo aprietan.",
+   "cb_exaggeration": 0.85,
+   "cb_cfg_weight": 0.3,
+   "emo_vector": [
+    0.7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.4,
+    0
+   ]
+  },
+  {
+   "id": 7,
+   "tag": "chuckles",
+   "text": "Una sola pasada… y hasta 500 por minuto. Aquí nadie se cansa.",
+   "sayTts": "[chuckles] Una sola pasada... y hasta quinientos por minuto. Aquí nadie se cansa.",
+   "cb_exaggeration": 0.7,
+   "cb_cfg_weight": 0.35,
+   "emo_vector": [
+    0.8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.1,
+    0.1
+   ]
+  },
+  {
+   "id": 8,
+   "tag": "sarcastic",
+   "text": "Alguien me preguntó: ¿y por qué no la cortan, como siempre?",
+   "sayTts": "[sarcastic] Alguien me preguntó: ¿y por qué no la cortan, como siempre?",
+   "cb_exaggeration": 0.6,
+   "cb_cfg_weight": 0.4,
+   "emo_vector": [
+    0.2,
+    0.1,
+    0,
+    0,
+    0.3,
+    0,
+    0,
+    0.3
+   ]
+  },
+  {
+   "id": 10,
+   "tag": "amazed",
+   "text": "Ese es el cuarto detalle: hasta un 30 % más resistente, sin perder ni un gramo.",
+   "sayTts": "[amazed] Ese es el cuarto detalle: hasta un treinta por ciento más resistente... sin perder ni un gramo.",
+   "cb_exaggeration": 0.8,
+   "cb_cfg_weight": 0.3,
+   "emo_vector": [
+    0.3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0.8,
+    0
+   ]
+  }
+ ]
+}
